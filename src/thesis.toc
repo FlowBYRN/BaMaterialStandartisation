@@ -1,0 +1,8 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{2}% 
+\contentsline {subsection}{\numberline {1.1}Ein Abschnitt der Einleitung}{2}% 
+\contentsline {section}{\numberline {2}Neuer Abschnitt}{2}% 
+\contentsline {subsection}{\numberline {2.1}Ein Unterabschnitt des neuen Abschnitts}{4}% 
+\contentsline {section}{\numberline {A}Erster Abschnitt des Anhangs}{5}% 
