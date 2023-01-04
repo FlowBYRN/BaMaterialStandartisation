@@ -1,9 +1,9 @@
-# IfcFirstBachelor
+# BaMaterialStandartisation
 
 ## Definition
 ### Titel
 
-Erstellen einer Material-Kostengliederung für die Bausoftware ORCA AVA durch das Auslesen und Standardisierung der Baustoff-Materialien einer IFC-Datei 
+Erstellen einer standardisierten Material-Kostengliederung für Projekte einer Bausoftware mittels Natural Language Processing
 
 ### Erklärung
 
