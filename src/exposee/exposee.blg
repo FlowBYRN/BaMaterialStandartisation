@@ -8,11 +8,11 @@ A level-1 auxiliary file: append.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
-I found no \citation commands---while reading file exposee.aux
 Database file #1: thesis.bib
+Warning--I didn't find a database entry for "security-model"
 You've used 0 entries,
             2811 wiz_defined-function locations,
-            597 strings with 4788 characters,
+            598 strings with 4802 characters,
 and the built_in function-call counts, 24 in all, are:
 = -- 0
 > -- 0
@@ -51,4 +51,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There was 1 error message)
+(There was 1 warning)

@@ -4,9 +4,7 @@
 \contentsline {section}{\numberline {1}Motivation}{3}{}%
 \contentsline {subsection}{\numberline {1.1}Problemstellung}{3}{}%
 \contentsline {subsection}{\numberline {1.2}Ziel}{3}{}%
-\contentsline {section}{\numberline {2}Forschungsstand}{3}{}%
-\contentsline {section}{\numberline {3}Vorläufige Gliederung}{3}{}%
-\contentsline {section}{\numberline {4}Zeitplan}{6}{}%
-\contentsline {section}{\numberline {5}Erste Literatur}{6}{}%
-\contentsline {section}{\numberline {A}Anhang}{7}{}%
+\contentsline {section}{\numberline {2}Ausgangslage}{4}{}%
+\contentsline {section}{\numberline {3}Vorläufige Gliederung}{4}{}%
+\contentsline {section}{\numberline {4}Zeitplan}{7}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
