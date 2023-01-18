@@ -5,5 +5,6 @@
 \contentsline {subsection}{\numberline {1.1}Problemstellung}{3}%
 \contentsline {subsection}{\numberline {1.2}Ziel}{3}%
 \contentsline {section}{\numberline {2}Ausgangslage}{4}%
-\contentsline {section}{\numberline {3}Vorläufige Gliederung}{4}%
-\contentsline {section}{\numberline {4}Zeitplan}{7}%
+\contentsline {section}{\numberline {3}Kriterien der Messbarkeit}{4}%
+\contentsline {section}{\numberline {4}Vorläufige Gliederung}{5}%
+\contentsline {section}{\numberline {5}Zeitplan}{8}%

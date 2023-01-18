@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  13 JAN 2023 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.4.30)  18 JAN 2023 10:08
 entering extended mode
 **./exposee.tex
 (exposee.tex
@@ -811,7 +811,7 @@ sion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/inhaltsverzeichnis.pdf, id=23, 597.50829pt x 693.57416pt>
 File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
 <use figures/inhaltsverzeichnis.pdf>
-Package pdftex.def Info: figures/inhaltsverzeichnis.pdf  used on input line 27.
+Package pdftex.def Info: figures/inhaltsverzeichnis.pdf  used on input line 41.
 
 (pdftex.def)             Requested size: 597.50682pt x 693.57246pt.
 
@@ -820,7 +820,7 @@ pdfTeX warning: pdflatex.exe (file ./figures/inhaltsverzeichnis.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
 <use figures/inhaltsverzeichnis.pdf>
-Package pdftex.def Info: figures/inhaltsverzeichnis.pdf  used on input line 27.
+Package pdftex.def Info: figures/inhaltsverzeichnis.pdf  used on input line 41.
 
 (pdftex.def)             Requested size: 597.50682pt x 693.57246pt.
 
@@ -835,68 +835,80 @@ sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
 <use figures/inhaltsverzeichnis.pdf, page 1>
 Package pdftex.def Info: figures/inhaltsverzeichnis.pdf , page1 used on input l
-ine 27.
+ine 41.
 (pdftex.def)             Requested size: 597.50682pt x 693.57246pt.
 File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
 <use figures/inhaltsverzeichnis.pdf, page 1>
 Package pdftex.def Info: figures/inhaltsverzeichnis.pdf , page1 used on input l
-ine 27.
+ine 41.
 (pdftex.def)             Requested size: 598.00826pt x 694.15453pt.
-[4]
+[4] [5]
 File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
 <use figures/inhaltsverzeichnis.pdf, page 1>
 Package pdftex.def Info: figures/inhaltsverzeichnis.pdf , page1 used on input l
-ine 27.
-(pdftex.def)             Requested size: 598.00826pt x 694.15453pt.
-File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
-<use figures/inhaltsverzeichnis.pdf, page 1>
-Package pdftex.def Info: figures/inhaltsverzeichnis.pdf , page1 used on input l
-ine 27.
+ine 41.
 (pdftex.def)             Requested size: 598.00826pt x 694.15453pt.
 File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
 <use figures/inhaltsverzeichnis.pdf, page 1>
 Package pdftex.def Info: figures/inhaltsverzeichnis.pdf , page1 used on input l
-ine 27.
+ine 41.
 (pdftex.def)             Requested size: 598.00826pt x 694.15453pt.
- [5 <./figures/inhaltsverzeichnis.pdf>]
+File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
+<use figures/inhaltsverzeichnis.pdf, page 1>
+Package pdftex.def Info: figures/inhaltsverzeichnis.pdf , page1 used on input l
+ine 41.
+(pdftex.def)             Requested size: 598.00826pt x 694.15453pt.
+ [6 <./figures/inhaltsverzeichnis.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figures/inhaltsverzeichnis.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/inhaltsverzeichnis.pdf, id=48, page=2, 597.50829pt x 693.57416pt>
+<figures/inhaltsverzeichnis.pdf, id=51, page=2, 597.50829pt x 693.57416pt>
 File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
 <use figures/inhaltsverzeichnis.pdf, page 2>
 Package pdftex.def Info: figures/inhaltsverzeichnis.pdf , page2 used on input l
-ine 27.
+ine 41.
 (pdftex.def)             Requested size: 598.00826pt x 694.15453pt.
 File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
 <use figures/inhaltsverzeichnis.pdf, page 2>
 Package pdftex.def Info: figures/inhaltsverzeichnis.pdf , page2 used on input l
-ine 27.
+ine 41.
 (pdftex.def)             Requested size: 598.00826pt x 694.15453pt.
 File: figures/inhaltsverzeichnis.pdf Graphic file (type pdf)
 <use figures/inhaltsverzeichnis.pdf, page 2>
 Package pdftex.def Info: figures/inhaltsverzeichnis.pdf , page2 used on input l
-ine 27.
+ine 41.
 (pdftex.def)             Requested size: 598.00826pt x 694.15453pt.
-[6 <./figures/inhaltsverzeichnis.pdf>]) [7] (exposee.aux (chapters.aux)) ) 
+[7 <./figures/inhaltsverzeichnis.pdf>]) [8] (exposee.bbl
+! Undefined control sequence.
+l.7   \url
+          {https://learn.microsoft.com/de-de/azure/machine-learning/how-to-s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [9
+
+] (exposee.aux (chapters.aux)) ) 
 Here is how much of TeX's memory you used:
- 12654 strings out of 481556
- 255353 string characters out of 2909189
+ 12664 strings out of 481556
+ 255529 string characters out of 2909189
  653324 words of memory out of 3000000
- 27534 multiletter control sequences out of 15000+200000
- 597300 words of font info for 137 fonts, out of 3000000 for 9000
+ 27537 multiletter control sequences out of 15000+200000
+ 597482 words of font info for 139 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,20n,84p,10104b,638s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/U
-sers/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
-.enc}{C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
-s/base/8r.enc}<C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmr12.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Florian.Weidner/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on exposee.pdf (7 pages, 202144 bytes).
+ 59i,20n,84p,10104b,644s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Florian.Weidner/AppData/Local/Program
+s/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Florian.Weidner/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Florian.Weidner/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Flori
+an.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C
+:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helve
+tic/uhvb8a.pfb>
+Output written on exposee.pdf (9 pages, 205226 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  45087 words of extra memory for PDF output out of 51595 (max. 10000000)
 

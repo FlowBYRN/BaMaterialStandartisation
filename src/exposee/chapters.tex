@@ -22,6 +22,20 @@ Innerhalb der Firma gibt es noch fast kein Wissen über dieses Themengebiet. Das
 Für das Auslesen von IFC-Dateien wird das Open Source Framework XBim verwendet. Über diese Schnittstelle können die einzelnen Positionen der möglichen Materialangabe ausgelesen und dann zusammengeführt werden. Auf der anderen Seite sind die Abbildungen einer Kostengliederung schon vorhanden. Diese ist eine simple Baumstruktur, die die Oberfläche anzeigen und anpassen kann.
 Technisch ist gewünscht, dass das Projekt in CSharp zu implementieren ist. Es dürfen zusätzlich auch Python-Skripte verwendet werden.
 
+\section{Kriterien der Messbarkeit}
+
+Um verschiedene Methoden vergleichen zu können, sind Kriterien notwendig an welchen die Methoden verglichen werden. Beim Verleich verschiedener Maschine Learning Algorithmen sind vorallem folgende Kriterien wichtig:
+\begin{description}
+	\item[-] Genauigkeit des Algorithmus durch Testdaten
+	\item[-] Interpretierbarkeit des Algorithmus
+	\item[-] Skalierbarkeit des Algorithmus
+	\item[-] Robustheit des Algorithmus \cite{mic-ml-comparison}
+\end{description}
+
+
+Aspekte wie Geschwindigkeit und Ressourcenbedarf spielen eine sekundäre Rolle. Da die Anwendung eine Desktop-Applikation ist, sollte Performance kein Problem geben. Wenn der analysierte Algorithmus den Anwendungsfluss sehr beeinträchtigt und verlangsamt, scheidet er als Option allerdings aus.
+Das Endergebnis der Material-Kostengliederungen aus verschiedenen Projekten, werden fachlich vom Produktmanagement bewertet. Diese habe das fachliche Wissen, um das Ergebnis bewerten zu können.
+
 \section{Vorläufige Gliederung}
 Siehe Seite 5 und 6.
 \includepdf[pages=-]{figures/inhaltsverzeichnis.pdf}

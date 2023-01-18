@@ -1,3 +1,10 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{mic}
+
+\bibitem[mic]{mic-ml-comparison}
+Ausw{\"a}hlen eines Algorithmus f{\"u}r maschinelles Lernen - Azure Machine
+  Learning.
+\newblock
+  \url{https://learn.microsoft.com/de-de/azure/machine-learning/how-to-select-algorithms}.
+\newblock Accessed: 2023-1-18.
 
 \end{thebibliography}
