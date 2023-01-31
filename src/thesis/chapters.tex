@@ -17,10 +17,28 @@ Hier kommt die Einleitung.
 \subsubsection{DevOps}
 
 \subsection{IFC Format}
-\subsubsection{Geschichte}
-\subsubsection{Dateiformat}
+
+Die Daten für die Material-Kostengliederung werden aus einem digitalem Gebäudemodel entnommen. Der öffentliche internationale Standard für Gebäudemodelle ist \ac{ifc}. \cite{IFC4_doc} Dieser wird auch in der bestehenden Bausoftware benutzt um den Ausschreibungsprozess zu unterstützen. IFC Dateien können geöffnet, angeschaut und Informationen über das Modell in die Hauptsoftware übernommen werden.
+
 \subsubsection{Verwendung}
+
+Die Bausoftware kann \ac{ifc}-Dateien einlesen und das 3D-Modell in einem Viewer anzeigen. Hierzu wird die open-source Bibliothek xbim-toolkit verwendet. Die .NET Bibliothek kann IFC Dateien lesen, schreiben und anzeigen. Außerdem unterstützt es bei der Berechnung von komplexer Geometrie, um die Daten für Analysen nutzbar zu machen. Seit 2009 wird das Projekt in Zusammenarbeit mit der Norhumbria Untiversity weiterentwickelt. Mittlerweile bildet es \ac{ifc2x3} und \ac{ifc4} zu 100\% ab. Außerdem bietet es an, \ac{ifc2x3} Modelle über das IFC4 Interface anzuprogrammieren. Somit können mit einer Codebasis beide Formate abgebildet werden. \cite{xbim}
+
+
+
+\subsubsection{Geschichte}
+
+1994 startete die Entwicklung an dem offenen Datenmodellstandard \ac{ifc}. Dieser sollte die Anforderungen der Industrie an Interoperabilität gerecht werden. So sollte eine gemeinsame Basis zum Austausch von Informationen durch verschiedenen Anwendungen geschaffen werden. Mit \ac{bim} sollten Daten lesbar, editierbar für verschiedene Systeme durch den Bauprozess und kompletten Lebenszyklus eines Gebäudes geteilt werden. \cite{Laakso2012-oi}
+
+\subsubsection{Dateiformat}
+
+IFC ist ein Implementierungs-Unabhängiges Datenmodell, welches in verschiedenen Umgebungen benutzt werden kann. Es kann beispielsweise in eine relationales Datenbankschema gegossen werden oder auch als Dateiformat implementiert werden. \cite{Laakso2012-oi}
+
+
+
 \subsubsection{Baustoffe in IFC-Dateien}
+Das \ac{ifc} Modell bietet auch Materialangaben zu verschiedenen Bauteilen an. \cite{IFC4_doc}
+
 \subsection{Möglichkeiten für die  Materialangabe eines Bauteils}
 %\subsubsection{Material über LayerSet}
 %\subsubsection{Material über MaterialList}

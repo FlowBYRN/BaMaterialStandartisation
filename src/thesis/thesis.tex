@@ -32,9 +32,9 @@
 \usepackage[ngerman]{babel}
 \usepackage{ellipsis}  % Korrigiert den Weißraum um Auslassungspunkte
 \usepackage{microtype}  % optischer Randausgleich etc.
+\usepackage{acronym}
+\usepackage[onehalfspacing]{setspace}
 
-
-\usepackage{lipsum} % kann weg, nur zur Generierung von etwas Text im Beispieldokument
 
 
 \selectlanguage{ngerman}
@@ -56,14 +56,14 @@
 
 \title{
 \vspace*{0cm}
-Erstellen einer Material-Kostengliederung für die Bausoftware ORCA AVA durch das Auslesen und Standardisierung der Baustoff-Materialien einer IFC-Datei
+Erstellen einer standardisierten Material-Kostengliederung für Projekte einer Bausoftware mittels Natural Language Processing
 }
 
 \author{
 Florian Weidner\\
 Fakultät für Informatik}
 
-\date{WS 2019/20}
+\date{WS 2022/23}
 
 \maketitle
 
@@ -83,6 +83,7 @@ IFC ist ein öffentlicher Standard im Bauwesen zur digitalen Beschreibung von Ge
 \include{chapters}
 
 
+\include{acronyms}
 
 \appendix
 \include{append}

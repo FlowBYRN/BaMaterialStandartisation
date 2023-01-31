@@ -1,3 +1,16 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{{bui}17}
+
+\bibitem[{bui}17]{IFC4_doc}
+{buildingSMART International Ltd.}
+\newblock {IFC4} documentation.
+\newblock http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML,
+  M\^^b{a}rz 2017.
+\newblock Accessed: 2023-1-31.
+
+\bibitem[Laa12]{Laakso2012-oi}
+M.~Laakso und A.~O. Kiviniemi.
+\newblock The {IFC} standard: A review of History, development, and
+  standardization, Information Technology.
+\newblock \emph{J. Inf. Technol. Constr.}, 17(9):134--161, 2012.
 
 \end{thebibliography}
