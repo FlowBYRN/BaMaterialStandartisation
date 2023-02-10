@@ -1,16 +1,40 @@
-\begin{thebibliography}{{bui}17}
+\begin{thebibliography}{xx}
 
-\bibitem[{bui}17]{IFC4_doc}
-{buildingSMART International Ltd.}
-\newblock {IFC4} documentation.
-\newblock http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML,
-  M\^^b{a}rz 2017.
+\harvarditem{{\em Ausw{\"a}hlen eines Algorithmus f{\"u}r maschinelles Lernen -
+  Azure Machine Learning}}{n.d.}{noauthor_undated-bx}
+{\em Ausw{\"a}hlen eines Algorithmus f{\"u}r maschinelles Lernen - Azure
+  Machine Learning}  \harvardyearleft n.d.\harvardyearright .
+\newblock Accessed: 2023-1-18.
+\newline\harvardurl{https://learn.microsoft.com/de-de/azure/machine-learning/how-to-select-algorithms}
+
+\harvarditem{Beetz \harvardand\ Harrer}{2021}{devops_2021}
+Beetz, F. \harvardand\ Harrer, S.  \harvardyearleft 2021\harvardyearright ,
+  `Gitops: The evolution of devops?', {\em IEEE Software} {\bf 39}.
+
+\harvarditem{{buildingSMART International
+  Ltd.}}{2017}{BuildingSMART_International_Ltd2017-gs}
+{buildingSMART International Ltd.}  \harvardyearleft 2017\harvardyearright ,
+  `{IFC4} documentation'.
 \newblock Accessed: 2023-1-31.
+\newline\harvardurl{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/}
 
-\bibitem[Laa12]{Laakso2012-oi}
-M.~Laakso und A.~O. Kiviniemi.
-\newblock The {IFC} standard: A review of History, development, and
-  standardization, Information Technology.
-\newblock \emph{J. Inf. Technol. Constr.}, 17(9):134--161, 2012.
+\harvarditem{Laakso \harvardand\ Kiviniemi}{2012}{Laakso2012-oi}
+Laakso, M. \harvardand\ Kiviniemi, A.~O.  \harvardyearleft
+  2012\harvardyearright , `The {IFC} standard: A review of history,
+  development, and standardization, information technology', {\em J. Inf.
+  Technol. Constr.} {\bf 17}(9),~134--161.
+
+\harvarditem{{Microsoft}}{2022}{Microsoft_2022}
+{Microsoft}  \harvardyearleft 2022\harvardyearright , `Windows presentation
+  foundation ({WPF})'.
+\newblock Accessed: 2023-2-10.
+\newline\harvardurl{https://github.com/dotnet/wpf}
+
+\harvarditem{{Thomas Baumanns, Dr. Philipp-Stephan Freber, Dr. Kai-Stefan
+  Schober, Dr. Florian
+  Kirchner}}{2016}{Thomas_Baumanns_Dr_Philipp-Stephan_Freber_Dr_Kai-Stefan_Schober_Dr_Florian_Kirchner2016-gu}
+{Thomas Baumanns, Dr. Philipp-Stephan Freber, Dr. Kai-Stefan Schober, Dr.
+  Florian Kirchner}  \harvardyearleft 2016\harvardyearright , Bauwirtschaft im
+  wandel - trends und potenziale bis 2020, Technical report.
 
 \end{thebibliography}

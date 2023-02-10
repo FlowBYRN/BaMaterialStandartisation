@@ -14,7 +14,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage{makeidx}
 \usepackage{amsfonts}
-%\usepackage[slantedGreek,sc]{mathpazo}  % Schriftart Palatino
 \usepackage{lmodern}    % statt mathpazo, falls CM fonts verwendet werden sollen
 \usepackage[scaled=.95]{helvet}
 \usepackage{courier}
@@ -34,15 +33,22 @@
 \usepackage{microtype}  % optischer Randausgleich etc.
 \usepackage{acronym}
 \usepackage[onehalfspacing]{setspace}
+\usepackage{natbib}
+\usepackage{graphicx}
+\graphicspath{ {./figures/} }
 
-
-
+\newtheorem{definition}{Definition}
 \selectlanguage{ngerman}
 
 \deffootnote{1em}{1em}{%
  \makebox[1em][l]{\thefootnotemark}}
 
 \newcommand{\real}{\mathord{\mathrm{I\!R}}}
+
+
+
+% benötigt da \bf nicht mehr unterstützt
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
 
 \begin{document}
 \selectlanguage{ngerman}
@@ -89,7 +95,7 @@ IFC ist ein öffentlicher Standard im Bauwesen zur digitalen Beschreibung von Ge
 \include{append}
 
 
-\bibliographystyle{natger}
+\bibliographystyle{agsm}
 \bibliography{thesis}
 
 
