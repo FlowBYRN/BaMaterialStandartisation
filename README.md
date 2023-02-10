@@ -12,8 +12,15 @@ Erstellen einer standardisierten Material-Kostengliederung für Projekte einer B
 
 IFC ist ein öffentlicher Standard im Bauwesen zur digitalen Beschreibung von Gebäudemodellen. In diesen Modellen können auch die Materialein der einzelnen Bauteile spezifiziert werden. Materialen können hier an verschiedenen Stellen an einem Bauteil im Modell angegeben werden. Ziel ist es eine Kostengliederungsstruktur in der Bausoftware ORCA AVA aus den Materialieninformationen einer IFC-Datei zu generieren. Ein Algorithmus soll diese Möglichkeiten in ein Interface zusammenführen. Außerdem handelt es sich bei der Materialangabe um ein Freitextfeld. Hier soll mit Hilfe von Natural Language Processing und Artificial Inteligence eine Lösung entwickelt werden, um eine klassifizierte und standartisierte Liste der Materialen zu erschafffen. 
 
-## mögliche Quellen:
-GermanNet: https://uni-tuebingen.de/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/seminar-fuer-sprachwissenschaft/arbeitsbereiche/allg-sprachwissenschaft-computerlinguistik/ressourcen/lexica/germanet-1/anwendungen-tools/
-https://archive.illc.uva.nl//EuroWordNet/
+# Zeitplan
+Übersicht:
+![Übersicht](https://github.com/FlowBYRN/BaMaterialStandartisation/blob/main/timetable-overview.png)
 
-https://link.springer.com/book/10.1007/978-3-658-32216-8
+
+Detailiert:
+![feb](https://github.com/FlowBYRN/BaMaterialStandartisation/blob/main/timetable-feb.png)
+![mar](https://github.com/FlowBYRN/BaMaterialStandartisation/blob/main/timetable-mar.png)
+![apr](https://github.com/FlowBYRN/BaMaterialStandartisation/blob/main/timetable-apr.png)
+# mögliche Quellen:
+
+[-->Hier<--](https://github.com/FlowBYRN/BaMaterialStandartisation/blob/main/sources.md)
