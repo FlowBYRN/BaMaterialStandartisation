@@ -11,12 +11,35 @@
 Beetz, F. \harvardand\ Harrer, S.  \harvardyearleft 2021\harvardyearright ,
   `Gitops: The evolution of devops?', {\em IEEE Software} {\bf 39}.
 
-\harvarditem{{buildingSMART International
-  Ltd.}}{2017}{BuildingSMART_International_Ltd2017-gs}
-{buildingSMART International Ltd.}  \harvardyearleft 2017\harvardyearright ,
-  `{IFC4} documentation'.
+\harvarditem{{buildingSMART International Ltd.}}{2017{\em a}}{ifc_material}
+{buildingSMART International Ltd.}  \harvardyearleft 2017{\em
+  a}\harvardyearright , `Industry foundation classes - ifcmaterial'.
 \newblock Accessed: 2023-1-31.
-\newline\harvardurl{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/}
+\newline\harvardurl{\url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/ifcmaterial.htm}}
+
+\harvarditem{{buildingSMART International Ltd.}}{2017{\em
+  b}}{ifc_material_association}
+{buildingSMART International Ltd.}  \harvardyearleft 2017{\em
+  b}\harvardyearright , `Industry foundation classes 4x1 - material
+  association'.
+\newblock Accessed: 2023-1-31.
+\newline\harvardurl{\url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/material-association.htm}}
+
+\harvarditem{{buildingSMART International Ltd.}}{2017{\em c}}{ifc_property_set}
+{buildingSMART International Ltd.}  \harvardyearleft 2017{\em
+  c}\harvardyearright , `Industry foundation classes 4x3- ifcpropertyset'.
+\newblock Accessed: 2023-1-31.
+\newline\harvardurl{\url{https://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/HTML/schema/ifckernel/lexical/ifcpropertyset.htm}}
+
+\harvarditem{Grutters}{n.d.}{BuildingSMART_IFC}
+Grutters, B.  \harvardyearleft n.d.\harvardyearright , `Industry foundation
+  classes (ifc) – an introduction'.
+\newblock Accessed: 2023-2-22.
+\newline\harvardurl{https://technical.buildingsmart.org/standards/ifc/}
+
+\harvarditem{Hölzing}{2008}{Hölzing_2008}
+Hölzing, J.~A.  \harvardyearleft 2008\harvardyearright , {\em Die Kano-Theorie
+  der Kundenzufriedenheitsmessung}, Gabler Verlag Wiesbaden.
 
 \harvarditem{Laakso \harvardand\ Kiviniemi}{2012}{Laakso2012-oi}
 Laakso, M. \harvardand\ Kiviniemi, A.~O.  \harvardyearleft
@@ -36,5 +59,25 @@ Laakso, M. \harvardand\ Kiviniemi, A.~O.  \harvardyearleft
 {Thomas Baumanns, Dr. Philipp-Stephan Freber, Dr. Kai-Stefan Schober, Dr.
   Florian Kirchner}  \harvardyearleft 2016\harvardyearright , Bauwirtschaft im
   wandel - trends und potenziale bis 2020, Technical report.
+
+\harvarditem[Thomas et~al.]{Thomas, Yoshinobu, James, Juha, Kari, Kent, Stefan
+  \harvardand\ {buildingSMART International
+  Ltd.}}{2007}{Thomas2007_MaterialList}
+Thomas, L., Yoshinobu, A., James, F., Juha, H., Kari, K., Kent, R., Stefan, R.
+  \harvardand\ {buildingSMART International Ltd.}  \harvardyearleft
+  2007\harvardyearright , `Ifcmateriallist'.
+\newblock Accessed: 2023-1-31.
+\newline\harvardurl{https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcmaterialresource/lexical/ifcmateriallist.htm}
+
+\harvarditem{van Berlo}{2022}{BuildingSMART_history_2022}
+van Berlo, L.  \harvardyearleft 2022\harvardyearright , `Ifc specifications
+  database'.
+\newblock Accessed: 2023-2-22.
+\newline\harvardurl{https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/}
+
+\harvarditem{{Xbim Ltd.}}{n.d.}{Xbim_ltd_undated-wm}
+{Xbim Ltd.}  \harvardyearleft n.d.\harvardyearright , `Xbim toolkit'.
+\newblock Accessed: 2023-1-31.
+\newline\harvardurl{https://docs.xbim.net/}
 
 \end{thebibliography}

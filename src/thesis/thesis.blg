@@ -11,48 +11,47 @@ Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: agsm.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
-Warning--I didn't find a database entry for "xbim"
-Warning--I didn't find a database entry for "IFC4_doc"
+Warning--I didn't find a database entry for "BuildingSMART_International_Ltd2017-gs"
 Warning--empty institution in Thomas_Baumanns_Dr_Philipp-Stephan_Freber_Dr_Kai-Stefan_Schober_Dr_Florian_Kirchner2016-gu
-You've used 6 entries,
+You've used 13 entries,
             2909 wiz_defined-function locations,
-            684 strings with 5980 characters,
-and the built_in function-call counts, 34201 in all, are:
-= -- 5905
-> -- 166
+            716 strings with 7250 characters,
+and the built_in function-call counts, 67705 in all, are:
+= -- 11507
+> -- 485
 < -- 0
-+ -- 2822
-- -- 49
-* -- 2969
-:= -- 6625
-add.period$ -- 9
-call.type$ -- 6
-change.case$ -- 79
-chr.to.int$ -- 6
-cite$ -- 7
-duplicate$ -- 77
-empty$ -- 161
-format.name$ -- 67
-if$ -- 6175
-int.to.chr$ -- 5
++ -- 5526
+- -- 147
+* -- 5840
+:= -- 13286
+add.period$ -- 22
+call.type$ -- 13
+change.case$ -- 176
+chr.to.int$ -- 11
+cite$ -- 14
+duplicate$ -- 159
+empty$ -- 346
+format.name$ -- 180
+if$ -- 12175
+int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 27
-num.names$ -- 50
-pop$ -- 40
+missing$ -- 4
+newline$ -- 60
+num.names$ -- 121
+pop$ -- 103
 preamble$ -- 1
-purify$ -- 85
+purify$ -- 190
 quote$ -- 0
-skip$ -- 64
+skip$ -- 127
 stack$ -- 0
-substring$ -- 8500
-swap$ -- 15
-text.length$ -- 74
+substring$ -- 16522
+swap$ -- 25
+text.length$ -- 172
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 50
 warning$ -- 1
-while$ -- 111
+while$ -- 258
 width$ -- 0
-write$ -- 79
-(There were 3 warnings)
+write$ -- 177
+(There were 2 warnings)
