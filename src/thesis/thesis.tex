@@ -68,7 +68,6 @@
 \newcommand{\real}{\mathord{\mathrm{I\!R}}}
 \newcommand*{\quelle}[1]{\tiny\par\raggedleft\footnotesize Quelle:~#1}
 \newcommand*{\paragraphheader}[1]{\vspace{5mm}\noindent{\large\textbf{#1}}\\}
-\newcommand*\emptyPage{\newpage\null\thispagestyle{empty}\newpage}
 
 % benötigt da \bf nicht mehr unterstützt
 \DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
@@ -84,7 +83,7 @@
 \frontmatter
 
 \pagestyle{scrplain}
-\pagestyle{empty}
+
 
 \include{title}
 \cleardoubleemptypage
@@ -112,14 +111,13 @@
 \include{acronyms}
 \cleardoublepage
 
-\stepcounter{chapter} %increment counter
-\addcontentsline{toc}{chapter}{\Alph{chapter}~~ Definitionsverzeichnis}
-\listoftheorems[ignore={goal,problem,requirement},show={definition},title={Definitionsverzeichnis}]
+\include{dicts}
 \cleardoublepage
 
 \addcontentsline{toc}{chapter}{Literaturverzeichnis}
 \bibliographystyle{agsm}
 \bibliography{thesis}
 
+\printindex
 
 \end{document}

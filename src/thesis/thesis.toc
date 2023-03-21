@@ -22,35 +22,35 @@
 \contentsline {subsection}{\numberline {3.2.1}Funktionale Anforderungen}{14}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Weitere Anforderungen}{16}{subsection.3.2.2}%
 \contentsline {chapter}{\numberline {4}Theoretische Konzeption}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Architekturzusammenfassung}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Implementierung als Web-Service}{17}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.1}Grundlegende Architektur und Vorgehensweise}{17}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Implementierung als Web-Service}{18}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Stufen der Textklassifizierung}{19}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Konzept der Materialstrukturierung}{20}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Algorithmen für die Klassifizierung}{20}{section.4.2}%
-\contentsline {section}{\numberline {4.3}\dots }{20}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Gegenüberstellung der möglichen Konzepte}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Messkriterien}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Vergleich der Konzepte}{21}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Festsetzten eines Algorithmus}{21}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Praktische Umsetzung}{23}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Zusammenfassen der Materialschnittstelle einer \ac {ifc} Datei}{23}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Entwurf des Algorithmus?}{23}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Implementieren des Algorithmus}{23}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}Standardisierung der Materialnamen}{23}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Nutzen von Artificial Inteligence}{23}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Erstellen einer Datengrundlage}{23}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Implementierung der Standardisierung}{23}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Integration in die ORCA AVA}{23}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{25}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Clean Code}{25}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Technische Hilfsmittel}{25}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Tests und Abnahme}{25}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Abschluss}{27}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Bewertung der praktischen Umsetzung}{27}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Fazit}{27}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Ausblick}{27}{section.8.3}%
-\contentsline {chapter}{\numberline {A}Anhang}{29}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{35}{appendix.B}%
-\contentsline {chapter}{C~~ Definitionsverzeichnis}{37}{appendix.B}%
-\contentsline {chapter}{Literaturverzeichnis}{39}{chapter*.44}%
+\contentsline {subsection}{\numberline {4.1.3}Konzept der Materialstrukturierung}{21}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Algorithmen für die Klassifizierung}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}\dots }{21}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Gegenüberstellung der möglichen Konzepte}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Messkriterien}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Vergleich der Konzepte}{23}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Festsetzten eines Algorithmus}{23}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Praktische Umsetzung}{25}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Zusammenfassen der Materialschnittstelle einer \ac {ifc} Datei}{25}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Entwurf des Algorithmus?}{25}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Implementieren des Algorithmus}{25}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Standardisierung der Materialnamen}{25}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Nutzen von Artificial Inteligence}{25}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Erstellen einer Datengrundlage}{25}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Implementierung der Standardisierung}{25}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Integration in die ORCA AVA}{25}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{27}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Clean Code}{27}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Technische Hilfsmittel}{27}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Tests und Abnahme}{27}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Abschluss}{29}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Bewertung der praktischen Umsetzung}{29}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Fazit}{29}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Ausblick}{29}{section.8.3}%
+\contentsline {chapter}{\numberline {A}Anhang}{31}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{37}{appendix.B}%
+\contentsline {chapter}{C ~~Definitionsverzeichnis}{39}{appendix.B}%
+\contentsline {chapter}{Literaturverzeichnis}{41}{chapter*.44}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

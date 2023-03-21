@@ -275,7 +275,7 @@ Durch die beschriebenen Anforderungen aus Abschnitt \ref{c:requirements:requirem
 \label{c:conception}
 In diesem Kapitel ein theoretisches Konzept für das Lösen der Problemstellung erstellt und begründet. Zuerst wird das Konzept vorgestellt. Dann werden mögliche Algorithmen erläutert und evaluiert, wie sie zu den Anforderungen passen. Im Folgekapitel werden die Algorithmen miteinander verglichen und der geeignetste Ausgewählt.
 
-\section{Architekturzusammenfassung}
+\section{Grundlegende Architektur und Vorgehensweise}
 \label{c:conception:architecture}
 In diesem Kapitel wird das erarbeitete Konzept für die Erweiterung vorgestellt und begründet. In Abbildung \ref{fig:usecasediagramm} ist ein Anwendungsfalldiagramm der neuen Funktionen zu sehen. Die Anwendungsfälle des Benutzers der ORCA AVA decken sich mit den schon beschriebenen funktionalen Anforderungen (Abschnitt \ref{c:requirements:requirements:functional}) Die Zusätzlichen Anwendungsfälle ergeben sich aus Anforderung \ref{r:improvement}.
 
@@ -285,6 +285,9 @@ In diesem Kapitel wird das erarbeitete Konzept für die Erweiterung vorgestellt 
 	\caption[Anwendungsfalldiagramm]{Anwendungsfalldiagramm}
 	\label{fig:usecasediagramm}
 \end{figure}
+
+Das Ergebnis des Hauptanwendungsfalles der Material-Strukturierung ist abhängig von den Inhalten der \ac{ifc}-Datei. Durch die Nutzung verschiedener \ac{cad}-Programme und eigene Vorlieben bei der Materialangabe der ORCA AVA Benutzer entstehen viele unterschiedliche Inhalte bei der Materialangabe.
+Um die hierarchische Strukturierung zu vereinfachen, werden Materialien zuerst nach dem \glqq Teile-und-hersche\grqq{} Verfahren in Oberkategorien klassifiziert werden. In Abbildung \ref{fig:material-categories} sind die Kategorien mit Beispielen aufgelistet. So müssen anschließend nur noch eine kleinere Liste von Materialien einer Oberkategorie weiter hierarchisch strukturiert werden.
 
 In Abbildung \ref{fig:distribution-diagramm} ist ein Verteilungsdiagramm mit allen relevanten Objekten zu sehen. Auf dem Lokalem Computer des Benutzers laufen die beiden Prozesse der ORCA AVA und des \ac{ifc} Managers. Die ORCA AVA kommuniziert mit einem Webserver über \ac{rest}. Dieser verwaltet die anhängende SQL-Datenbank und übernimmt das Strukturieren des Material-Kostengliederungs-Import.
 
