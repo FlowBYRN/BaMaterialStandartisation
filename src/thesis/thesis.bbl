@@ -1,12 +1,5 @@
 \begin{thebibliography}{xx}
 
-\harvarditem{{\em Ausw{\"a}hlen eines Algorithmus f{\"u}r maschinelles Lernen -
-  Azure Machine Learning}}{n.d.}{noauthor_undated-bx}
-{\em Ausw{\"a}hlen eines Algorithmus f{\"u}r maschinelles Lernen - Azure
-  Machine Learning}  \harvardyearleft n.d.\harvardyearright .
-\newblock Accessed: 2023-1-18.
-\newline\harvardurl{https://learn.microsoft.com/de-de/azure/machine-learning/how-to-select-algorithms}
-
 \harvarditem{Beetz \harvardand\ Harrer}{2021}{devops_2021}
 Beetz, F. \harvardand\ Harrer, S.  \harvardyearleft 2021\harvardyearright ,
   `Gitops: The evolution of devops?', {\em IEEE Software} {\bf 39}.
@@ -31,15 +24,48 @@ Beetz, F. \harvardand\ Harrer, S.  \harvardyearleft 2021\harvardyearright ,
 \newblock Accessed: 2023-1-31.
 \newline\harvardurl{\url{https://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/HTML/schema/ifckernel/lexical/ifcpropertyset.htm}}
 
-\harvarditem{Grutters}{n.d.}{BuildingSMART_IFC}
-Grutters, B.  \harvardyearleft n.d.\harvardyearright , `Industry foundation
+\harvarditem{Chandrasekar \harvardand\ Qian}{2016}{Priyanga_2016}
+Chandrasekar, P. \harvardand\ Qian, K.  \harvardyearleft 2016\harvardyearright
+  , The impact of data preprocessing on the performance of a naive bayes
+  classifier, {\em in} `2016 IEEE 40th Annual Computer Software and
+  Applications Conference (COMPSAC)', Vol.~2, pp.~618--619.
+
+\harvarditem{Glinz}{2007}{glinz_2007}
+Glinz, M.  \harvardyearleft 2007\harvardyearright , On non-functional
+  requirements, {\em in} `15th IEEE International Requirements Engineering
+  Conference (RE 2007)', pp.~21 -- 26.
+
+\harvarditem{Gonzalez \harvardand\ Carlos}{2019}{Zelaya_2019}
+Gonzalez, Z. \harvardand\ Carlos, V.  \harvardyearleft 2019\harvardyearright ,
+  Towards explaining the effects of data preprocessing on machine learning,
+  {\em in} `2019 IEEE 35th International Conference on Data Engineering
+  (ICDE)', pp.~2086--2090.
+
+\harvarditem{Grutters}{2022}{BuildingSMART_IFC}
+Grutters, B.  \harvardyearleft 2022\harvardyearright , `Industry foundation
   classes (ifc) – an introduction'.
 \newblock Accessed: 2023-2-22.
-\newline\harvardurl{https://technical.buildingsmart.org/standards/ifc/}
+\newline\harvardurl{\url{https://technical.buildingsmart.org/standards/ifc/}}
+
+\harvarditem{Guyon \harvardand\ Elisseeff}{2006}{Guyon2006}
+Guyon, I. \harvardand\ Elisseeff, A.  \harvardyearleft 2006\harvardyearright ,
+  {\em Feature Extraction Preface}, Springer Berlin Heidelberg, Berlin,
+  Heidelberg.
+\newline\harvardurl{\url{https://doi.org/10.1007/978-3-540-35488-8_1}}
 
 \harvarditem{Hölzing}{2008}{Hölzing_2008}
 Hölzing, J.~A.  \harvardyearleft 2008\harvardyearright , {\em Die Kano-Theorie
   der Kundenzufriedenheitsmessung}, Gabler Verlag Wiesbaden.
+
+\harvarditem{{\em Industry Foundation Classes}}{2017}{BuildingSMART_IFC4_doc}
+{\em Industry Foundation Classes}  \harvardyearleft 2017\harvardyearright .
+\newblock Accessed: 2023-1-31.
+\newline\harvardurl{\url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML}}
+
+\harvarditem{Ken \harvardand\ Jeff}{2020}{scrum_2020}
+Ken, S. \harvardand\ Jeff, S.  \harvardyearleft 2020\harvardyearright , `The
+  scrum guide'.
+\newline\harvardurl{\url{https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf}}
 
 \harvarditem{Laakso \harvardand\ Kiviniemi}{2012}{Laakso2012-oi}
 Laakso, M. \harvardand\ Kiviniemi, A.~O.  \harvardyearleft
@@ -47,18 +73,60 @@ Laakso, M. \harvardand\ Kiviniemi, A.~O.  \harvardyearleft
   development, and standardization, information technology', {\em J. Inf.
   Technol. Constr.} {\bf 17}(9),~134--161.
 
-\harvarditem{{Microsoft}}{2022}{Microsoft_2022}
-{Microsoft}  \harvardyearleft 2022\harvardyearright , `Windows presentation
-  foundation ({WPF})'.
-\newblock Accessed: 2023-2-10.
-\newline\harvardurl{https://github.com/dotnet/wpf}
+\harvarditem{{Microsoft}}{2022{\em a}}{Microsoft_2022_ml}
+{Microsoft}  \harvardyearleft 2022{\em a}\harvardyearright , `Auswählen eines
+  algorithmus für maschinelles lernen - azure machine learning'.
+\newblock Accessed: 2023-3-10.
+\newline\harvardurl{\url{https://learn.microsoft.com/de-de/azure/machine-learning/how-to-select-algorithms}}
 
-\harvarditem{{Thomas Baumanns, Dr. Philipp-Stephan Freber, Dr. Kai-Stefan
-  Schober, Dr. Florian
+\harvarditem{{Microsoft}}{2022{\em b}}{Microsoft_2022}
+{Microsoft}  \harvardyearleft 2022{\em b}\harvardyearright , `Windows
+  presentation foundation ({WPF})'.
+\newblock Accessed: 2023-2-10.
+\newline\harvardurl{\url{https://github.com/dotnet/wpf}}
+
+\harvarditem{Miller}{2017}{miller_2017}
+Miller, T.  \harvardyearleft 2017\harvardyearright , `Explanation in artificial
+  intelligence: Insights from the social sciences'.
+\newline\harvardurl{\url{https://arxiv.org/abs/1706.07269}}
+
+\harvarditem{Molnar}{2022}{molnar2022}
+Molnar, C.  \harvardyearleft 2022\harvardyearright , {\em Interpretable Machine
+  Learning}, 2 edn.
+\newline\harvardurl{\url{https://christophm.github.io/interpretable-ml-book}}
+
+\harvarditem{{.NET Foundation and Contributors}}{n.d.}{asp-net}
+{.NET Foundation and Contributors}  \harvardyearleft n.d.\harvardyearright ,
+  `{ASP.NET} core'.
+\newblock Accessed: 2023-3-20.
+\newline\harvardurl{\url{https://github.com/dotnet/aspnetcore/blob/main/README.md}}
+
+\harvarditem{{ORCA Software GmbH}}{n.d.}{helpdesk-kostengliederungen}
+{ORCA Software GmbH}  \harvardyearleft n.d.\harvardyearright , `{ORCA} helpdesk
+  - {ORCA} {AVA} 25 - kostengliederungen als basis f{\"u}r das
+  kostenmanagement'.
+\newblock Accessed: 2023-2-1.
+\newline\harvardurl{\url{https://helpdesk.orca-software.com/Solution/AVA25/Content/Kontexthilfe-337_8277}}
+
+\harvarditem{Shah \harvardand\ Patel}{2016}{Foram_2016}
+Shah, F.~P. \harvardand\ Patel, V.  \harvardyearleft 2016\harvardyearright , A
+  review on feature selection and feature extraction for text classification,
+  {\em in} `2016 International Conference on Wireless Communications, Signal
+  Processing and Networking (WiSPNET)', pp.~2264--2268.
+
+\harvarditem[Szegedy et~al.]{Szegedy, Zaremba, Sutskever, Bruna, Erhan,
+  Goodfellow \harvardand\ Fergus}{2013}{Szegedy_2013}
+Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I.
+  \harvardand\ Fergus, R.  \harvardyearleft 2013\harvardyearright , `Intriguing
+  properties of neural networks'.
+\newline\harvardurl{\url{https://arxiv.org/abs/1312.6199}}
+
+\harvarditem{{Thomas, Baumanns and Dr. Philipp-Stephan, Freber and Dr.
+  Kai-Stefan, Schober and Dr. Florian,
   Kirchner}}{2016}{Thomas_Baumanns_Dr_Philipp-Stephan_Freber_Dr_Kai-Stefan_Schober_Dr_Florian_Kirchner2016-gu}
-{Thomas Baumanns, Dr. Philipp-Stephan Freber, Dr. Kai-Stefan Schober, Dr.
-  Florian Kirchner}  \harvardyearleft 2016\harvardyearright , Bauwirtschaft im
-  wandel - trends und potenziale bis 2020, Technical report.
+{Thomas, Baumanns and Dr. Philipp-Stephan, Freber and Dr. Kai-Stefan, Schober
+  and Dr. Florian, Kirchner}  \harvardyearleft 2016\harvardyearright ,
+  `Bauwirtschaft im wandel - trends und potenziale bis 2020'.
 
 \harvarditem[Thomas et~al.]{Thomas, Yoshinobu, James, Juha, Kari, Kent, Stefan
   \harvardand\ {buildingSMART International
@@ -67,17 +135,30 @@ Thomas, L., Yoshinobu, A., James, F., Juha, H., Kari, K., Kent, R., Stefan, R.
   \harvardand\ {buildingSMART International Ltd.}  \harvardyearleft
   2007\harvardyearright , `Ifcmateriallist'.
 \newblock Accessed: 2023-1-31.
-\newline\harvardurl{https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcmaterialresource/lexical/ifcmateriallist.htm}
+\newline\harvardurl{\url{https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcmaterialresource/lexical/ifcmateriallist.htm}}
+
+\harvarditem{Uysal \harvardand\ Gunal}{2014}{Uysal_2014}
+Uysal, A.~K. \harvardand\ Gunal, S.  \harvardyearleft 2014\harvardyearright ,
+  `The impact of preprocessing on text classification', {\em Information
+  Processing \& Management} {\bf 50}(1),~104--112.
+\newline\harvardurl{\url{https://www.sciencedirect.com/science/article/pii/S0306457313000964}}
 
 \harvarditem{van Berlo}{2022}{BuildingSMART_history_2022}
 van Berlo, L.  \harvardyearleft 2022\harvardyearright , `Ifc specifications
   database'.
 \newblock Accessed: 2023-2-22.
-\newline\harvardurl{https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/}
+\newline\harvardurl{\url{https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/}}
 
-\harvarditem{{Xbim Ltd.}}{n.d.}{Xbim_ltd_undated-wm}
+\harvarditem{{Xbim Ltd.}}{n.d.}{Xbim_ltd_history}
 {Xbim Ltd.}  \harvardyearleft n.d.\harvardyearright , `Xbim toolkit'.
 \newblock Accessed: 2023-1-31.
-\newline\harvardurl{https://docs.xbim.net/}
+\newline\harvardurl{\url{https://docs.xbim.net/research/history.html}}
+
+\harvarditem{{© 2007 - 2023, scikit-learn
+  developers}}{n.d.}{scit-learn_featureextraction}
+{© 2007 - 2023, scikit-learn developers}  \harvardyearleft
+  n.d.\harvardyearright , `Feature extraction'.
+\newblock Accessed: 2023-2-10.
+\newline\harvardurl{\url{https://scikit-learn.org/stable/modules/feature_extraction.html}}
 
 \end{thebibliography}

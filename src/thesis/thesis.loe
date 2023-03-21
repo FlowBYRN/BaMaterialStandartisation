@@ -1,0 +1,16 @@
+\addvspace {10\p@ }
+\contentsline {goal}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Ziel}{4}{thmt@dummyctr.dummy.1}%
+\addvspace {10\p@ }
+\contentsline {shadedefinition}{\ifthmt@listswap Definition~1\else \numberline {1}Definition\fi \thmtformatoptarg {Scrum}}{7}{shadedefinition.1}%
+\addvspace {10\p@ }
+\contentsline {problem}{\ifthmt@listswap Problemstellung~1\else \numberline {1}Problemstellung\fi }{13}{problem.1}%
+\contentsline {problem}{\ifthmt@listswap Problemstellung~2\else \numberline {2}Problemstellung\fi }{13}{problem.2}%
+\contentsline {shadedefinition}{\ifthmt@listswap Definition~2\else \numberline {2}Definition\fi \thmtformatoptarg {Funktionale Anforderung}}{14}{shadedefinition.2}%
+\contentsline {requirement}{\ifthmt@listswap Anforderung~1\else \numberline {1}Anforderung\fi }{14}{requirement.1}%
+\contentsline {requirement}{\ifthmt@listswap Anforderung~2\else \numberline {2}Anforderung\fi }{14}{requirement.2}%
+\contentsline {requirement}{\ifthmt@listswap Anforderung~3\else \numberline {3}Anforderung\fi }{14}{requirement.3}%
+\contentsline {shadedefinition}{\ifthmt@listswap Definition~3\else \numberline {3}Definition\fi \thmtformatoptarg {Interpretierbarkeit}}{15}{shadedefinition.3}%
+\contentsline {requirement}{\ifthmt@listswap Anforderung~4\else \numberline {4}Anforderung\fi }{16}{requirement.4}%
+\contentsline {requirement}{\ifthmt@listswap Anforderung~5\else \numberline {5}Anforderung\fi }{16}{requirement.5}%
+\addvspace {10\p@ }
+\contentsline {shadedefinition}{\ifthmt@listswap Definition~4\else \numberline {4}Definition\fi \thmtformatoptarg {Feature extraction}}{20}{shadedefinition.4}%

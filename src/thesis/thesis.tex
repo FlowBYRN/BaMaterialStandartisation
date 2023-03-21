@@ -9,7 +9,7 @@
     paper=a4,%          use ISO A4
 %    bibliography=totoc,%         write bibliography-chapter to table of contents
     numbers=noenddot
-  ]{scrartcl}
+  ]{scrbook}
 
 \usepackage[utf8]{inputenc}
 \usepackage{makeidx}
@@ -34,22 +34,41 @@
 \usepackage{acronym}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,} %a -> Author- Year Style
 \usepackage{hyperref}
 \usepackage{csquotes}
+\usepackage{shadethm}
+\usepackage{amsthm}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{rotating} % turning figures
+\usepackage{thmtools}
+\usepackage{tcolorbox}
 
 \usepackage{graphicx}
 \graphicspath{ {./figures/} }
 
-\newtheorem{definition}{Definition}
+\newshadetheorem{definition}{Definition}
+\newtheorem*{goal}{Ziel}
+\newtheorem{problem}{Problemstellung}
+\newtheorem{requirement}{Anforderung}
 \selectlanguage{ngerman}
 
 \deffootnote{1em}{1em}{%
  \makebox[1em][l]{\thefootnotemark}}
 
+\newcommand{\goalshaded}[1]{
+	\begin{tcolorbox}[width=\linewidth, sharp corners=all, colback=white!95!black,boxrule=0pt]
+		\begin{goal}
+			#1
+		\end{goal}
+	\end{tcolorbox}
+}
+\newcommand\todo[1]{ \colorbox{yellow!30}{Todo: #1}}
 \newcommand{\real}{\mathord{\mathrm{I\!R}}}
 \newcommand*{\quelle}[1]{\tiny\par\raggedleft\footnotesize Quelle:~#1}
-
-
+\newcommand*{\paragraphheader}[1]{\vspace{5mm}\noindent{\large\textbf{#1}}\\}
+\newcommand*\emptyPage{\newpage\null\thispagestyle{empty}\newpage}
 
 % benötigt da \bf nicht mehr unterstützt
 \DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
@@ -62,49 +81,45 @@
 \def\figdir{figures}
 \def\tabledir{tables}
 
-\titlehead{
-\raggedleft
-\includegraphics[scale=0.7]{\figdir/logo-th-rosenheim-2019_master_quer_2c.eps}
-}
+\frontmatter
 
-\title{
-\vspace*{0cm}
-Erstellen einer standardisierten Material-Kostengliederung für Projekte einer Bausoftware mittels Natural Language Processing
-}
+\pagestyle{scrplain}
+\pagestyle{empty}
 
-\author{
-Florian Weidner\\
-Fakultät für Informatik}
+\include{title}
+\cleardoubleemptypage
 
-\date{WS 2022/23}
+\include{abstract}
+\cleardoubleemptypage
 
-\maketitle
 
-\begin{abstract}
-IFC ist ein öffentlicher Standard im Bauwesen zur digitalen Beschreibung von Gebäudemodellen. In diesen Modellen können auch die Materialein der einzelnen Bauteile spezifiziert werden. Ziel ist es eine Kostengliederungsstruktur in der Bausoftware ORCA AVA aus den Materialieninformationen einer IFC-Datei zu generieren. Materialen können an verschiedenen Stellen im Modell angegenben werden. Ein Algorithmus soll diese Möglichkeiten in ein Interface zusammenführen. Außerdem handelt es sich bei der Materialangabe um ein Freitextfeld. Hier soll mit Hilfe von Natural Language Processing und Artificial Inteligence eine Lösung entwickelt werden, um eine standartisierte Liste der Materialen zu erschafffen.
-\end{abstract}
-
-\pagebreak
 \tableofcontents
-
-
-%\pagestyle{scrheadings}
-
+\clearpage
+\listoffigures
+%\clearpage
+%\listoftables
+\cleardoublepage
 
 \addtokomafont{caption}{\small}
+\mainmatter
 
 \include{chapters}
 
-
-\include{acronyms}
-
 \appendix
 \include{append}
+\cleardoublepage
 
+\include{acronyms}
+\cleardoublepage
 
+\stepcounter{chapter} %increment counter
+\addcontentsline{toc}{chapter}{\Alph{chapter}~~ Definitionsverzeichnis}
+\listoftheorems[ignore={goal,problem,requirement},show={definition},title={Definitionsverzeichnis}]
+\cleardoublepage
+
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
 \bibliographystyle{agsm}
 \bibliography{thesis}
-
 
 
 \end{document}

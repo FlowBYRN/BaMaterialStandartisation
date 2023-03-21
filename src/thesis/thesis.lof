@@ -1,8 +1,32 @@
-\select@language {ngerman}
-\select@language {ngerman}
-\select@language {ngerman}
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces AR Beispiel}}{8}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Relevanz \ac {bim}}}{3}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Google Trends}}{4}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Kano Modells}}{5}{figure.caption.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces IfcMaterial}}{11}{figure.caption.26}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Anwendungsfalldiagramm}}{18}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Dokumentation}}{19}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Textklassifizierung}}{19}{figure.caption.33}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces IFC Manager}}{29}{figure.caption.34}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces IfcMaterialLayerSet}}{29}{figure.caption.35}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces IfcMaterialProfileSet}}{30}{figure.caption.36}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces IfcMaterialConsituentSet}}{30}{figure.caption.37}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces CostStructure}}{30}{figure.caption.38}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Verteilungsdiagramm}}{31}{figure.caption.39}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Import}}{32}{figure.caption.40}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Takeover}}{32}{figure.caption.41}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Rating}}{33}{figure.caption.42}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces MaterialCategories}}{34}{figure.caption.43}%
+\addvspace {10\p@ }
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

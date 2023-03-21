@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  24 FEB 2023 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  21 MAR 2023 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,8 +7,8 @@ entering extended mode
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-02>
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
-crartcl.cls
-Document Class: scrartcl 2022/10/12 v3.38 KOMA-Script document class (article)
+crbook.cls
+Document Class: scrbook 2022/10/12 v3.38 KOMA-Script document class (book)
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
 crkbase.sty
@@ -50,9 +50,9 @@ Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 135.
-Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 2367.
+(tocbasic)             for `toc' on input line 137.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 2617.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
 crsize12pt.clo
@@ -87,53 +87,57 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              on input line 1767.
 )
 \c@part=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\scr@dte@section@maxnumwidth=\skip54
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\section on input line 4994.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\section on input line 4994.
-\scr@dte@part@maxnumwidth=\skip55
-Class scrartcl Info: using compatibility default `afterindent=false'
-(scrartcl)           for `\part on input line 5002.
-\scr@dte@subsection@maxnumwidth=\skip56
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsection on input line 5012.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsection on input line 5012.
-\scr@dte@subsubsection@maxnumwidth=\skip57
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsubsection on input line 5022.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsubsection on input line 5022.
-\scr@dte@paragraph@maxnumwidth=\skip58
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\paragraph on input line 5033.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\paragraph on input line 5033.
-\scr@dte@subparagraph@maxnumwidth=\skip59
-Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subparagraph on input line 5043.
-Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subparagraph on input line 5043.
-\abovecaptionskip=\skip60
-\belowcaptionskip=\skip61
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\scr@dte@chapter@maxnumwidth=\skip54
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\chapter on input line 5898.
+\scr@dte@section@maxnumwidth=\skip55
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\section on input line 5909.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\section on input line 5909.
+\scr@dte@part@maxnumwidth=\skip56
+Class scrbook Info: using compatibility default `afterindent=true'
+(scrbook)           for `\part on input line 5918.
+\scr@dte@subsection@maxnumwidth=\skip57
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsection on input line 5928.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsection on input line 5928.
+\scr@dte@subsubsection@maxnumwidth=\skip58
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subsubsection on input line 5938.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subsubsection on input line 5938.
+\scr@dte@paragraph@maxnumwidth=\skip59
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\paragraph on input line 5949.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\paragraph on input line 5949.
+\scr@dte@subparagraph@maxnumwidth=\skip60
+Class scrbook Info: using compatibility default `runin=bysign'
+(scrbook)           for `\subparagraph on input line 5959.
+Class scrbook Info: using compatibility default `afterindent=bysign'
+(scrbook)           for `\subparagraph on input line 5959.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
 \c@pti@nb@sid@b@x=\box52
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 6211.
-\scr@dte@figure@maxnumwidth=\skip62
-\c@figure=\count192
+(tocbasic)             for `lof' on input line 7142.
+\scr@dte@figure@maxnumwidth=\skip63
+\c@figure=\count193
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 6227.
-\scr@dte@table@maxnumwidth=\skip63
-\c@table=\count193
-Class scrartcl Info: Redefining `\numberline' on input line 6397.
+(tocbasic)             for `lot' on input line 7159.
+\scr@dte@table@maxnumwidth=\skip64
+\c@table=\count194
+Class scrbook Info: Redefining `\numberline' on input line 7330.
 \bibindent=\dimen140
 )
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc
@@ -216,7 +220,7 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsma
 th.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip64
+\@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
 
@@ -239,14 +243,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 n.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count194
+\inf@bad=\count195
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count195
-\leftroot@=\count196
+\uproot@=\count196
+\leftroot@=\count197
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count197
-\DOTSCASE@=\count198
+\classnum@=\count198
+\DOTSCASE@=\count199
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -259,20 +263,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count199
+\macc@depth=\count266
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count266
+\c@MaxMatrixCols=\count267
 \dotsspace@=\muskip16
-\c@parentequation=\count267
-\dspbrk@lvl=\count268
+\c@parentequation=\count268
+\dspbrk@lvl=\count269
 \tag@help=\toks21
-\row@=\count269
-\column@=\count270
-\maxfields@=\count271
+\row@=\count270
+\column@=\count271
+\maxfields@=\count272
 \andhelp@=\toks22
 \eqnshift@=\dimen144
 \alignsep@=\dimen145
@@ -281,8 +285,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen148
 \lineht@=\dimen149
 \@envbody=\toks23
-\multlinegap=\skip65
-\multlinetaggap=\skip66
+\multlinegap=\skip66
+\multlinetaggap=\skip67
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -388,14 +392,14 @@ on-koma.sto
 File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the 
 KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count272
-\c@continuedfloat=\count273
+\c@caption@flags=\count273
+\c@continuedfloat=\count274
 )
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/caption\subca
 ption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
-\c@subfigure=\count274
-\c@subtable=\count275
+\c@subfigure=\count275
+\c@subtable=\count276
 )
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\s
 crlayer-scrpage.sty
@@ -470,14 +474,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel
 .sty
 Package: babel 2022/01/23 3.85 The Babel package
-\babel@savecnt=\count276
+\babel@savecnt=\count277
 \U@D=\dimen160
 \l@unhyphenated=\language79
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtba
 bel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count277
+\bbl@dirlevel=\count278
 
 *************************************
 * Local config file bblopts.cfg used
@@ -521,18 +525,18 @@ Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoo
 lbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count278
+\etb@tempcnta=\count279
 )
 \MT@toks=\toks25
 \MT@tempbox=\box55
-\MT@count=\count279
+\MT@count=\count280
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
 LaTeX Info: Redefining \leftprotrusion on input line 1046.
 LaTeX Info: Redefining \rightprotrusion on input line 1056.
 LaTeX Info: Redefining \textls on input line 1234.
 \MT@outer@kern=\dimen161
 LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
-\MT@listname@count=\count280
+\MT@listname@count=\count281
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mic
 rotype-pdftex.def
@@ -540,7 +544,7 @@ File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 900.
 LaTeX Info: Redefining \lslig on input line 900.
-\MT@outer@space=\skip67
+\MT@outer@space=\skip68
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -560,8 +564,8 @@ Package: suffix 2006/07/15 1.5a Variant command support
 ng.sty
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xst
 ring.tex
-\integerpart=\count281
-\decimalpart=\count282
+\integerpart=\count282
+\decimalpart=\count283
 )
 Package: xstring 2023/01/14 v1.85 String manipulations (CT)
 )
@@ -574,10 +578,10 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib
 .sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip68
-\bibsep=\skip69
+\bibhang=\skip69
+\bibsep=\skip70
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count283
+\c@NAT@ctr=\count284
 )
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hype
 rref.sty
@@ -611,11 +615,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ing\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count284
+\c@section@level=\count285
 )
 \@linkdim=\dimen162
-\Hy@linkcounter=\count285
-\Hy@pagecounter=\count286
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1e
 nc.def
@@ -631,7 +635,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 excmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count287
+\Hy@SavedSpaceFactor=\count288
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puen
 c.def
@@ -646,7 +650,7 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count288
+\c@Hy@tempcnt=\count289
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
@@ -664,7 +668,7 @@ bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count289
+\Fld@menulength=\count290
 \Field@Width=\dimen164
 \Fld@charsize=\dimen165
 Package hyperref Info: Hyper figures OFF on input line 6027.
@@ -680,9 +684,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6057.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count290
-\c@Item=\count291
-\c@Hfootnote=\count292
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -696,8 +700,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count293
-\c@bookmark@seq@number=\count294
+\Fld@listcount=\count294
+\c@bookmark@seq@number=\count295
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilechec
 k\rerunfilecheck.sty
@@ -710,17 +714,17 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip70
+\Hy@SectionHShift=\skip71
 )
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csqu
 otes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count295
-\csq@gtype=\count296
-\csq@glevel=\count297
-\csq@qlevel=\count298
-\csq@maxlvl=\count299
-\csq@tshold=\count300
+\csq@reset=\count296
+\csq@gtype=\count297
+\csq@glevel=\count298
+\csq@qlevel=\count299
+\csq@maxlvl=\count300
+\csq@tshold=\count301
 \csq@ltx@everypar=\toks27
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csqu
@@ -734,70 +738,493 @@ Package csquotes Info: ... configuration file loaded successfully.
 otes.cfg
 File: csquotes.cfg 
 ))
-\c@definition=\count301
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/shadethm\shad
+ethm.sty
+Package: shadethm 1999/11/23
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/graphics\colo
+r.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\
+color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/graphics\math
+color.ltx))
+\saveparindent=\skip72
+\shadeboxsep=\skip73
+\shadeboxrule=\skip74
+\shadedtextwidth=\skip75
+\shadeleftshift=\skip76
+\shaderightshift=\skip77
+\shadesavebox=\box56
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm
+.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
+\thm@preskip=\skip78
+\thm@postskip=\skip79
+\thm@headsep=\skip80
+\dth@everypar=\toks33
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch
+.sty
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl
+3.sty
+Package: expl3 2023-02-02 L3 programming layer (loader) 
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3b
 ackend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count302
-\l__pdf_internal_box=\box56
-) (thesis.aux (chapters.aux) (acronyms.aux) (append.aux))
+\l__pdf_internal_box=\box57
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xp
+arse\xparse.sty
+Package: xparse 2023-01-16 L3 Experimental document command parser
+))
+Class scrbook Info: amsthm's \deferred@thm@head patched.
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor
+.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\
+color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/graphics\math
+color.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/float\float.s
+ty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count303
+\float@exts=\toks34
+\float@box=\box58
+\@float@everytoks=\toks35
+\@floatcapt=\box59
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rota
+ting.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.s
+ty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count304
+\rotFPtop=\skip81
+\rotFPbot=\skip82
+\rot@float@box=\box60
+\rot@mess@toks=\toks36
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thmt
+ools.sty
+Package: thmtools 2023/02/17 v0.75
+\thmt@toks=\toks37
+\c@thmt@dummyctr=\count305
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-
+patch.sty
+Package: thm-patch 2023/02/17 v0.75
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\pars
+eargs.sty
+Package: parseargs 2023/02/17 v0.75
+\@parsespec=\toks38
+))
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-
+kv.sty
+Package: thm-kv 2023/02/17 v0.75
+Package thm-kv Info: Theorem names will be uppercased on input line 42.
+Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-
+autoref.sty
+Package: thm-autoref 2023/02/17 v0.75
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\alia
+sctr.sty
+Package: aliasctr 2023/02/17 v0.75
+))
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-
+listof.sty
+Package: thm-listof 2023/02/17 v0.75
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-
+restate.sty
+Package: thm-restate 2023/02/17 v0.75
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-
+amsthm.sty
+Package: thm-amsthm 2023/02/17 v0.75
+\thmt@style@headstyle=\toks39
+))
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tco
+lorbox.sty
+Package: tcolorbox 2022/06/24 version 5.1.1 text color boxes
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclaye
+r\pgf.sty
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities
+\pgfrcs.sty
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utiliti
+es\pgfutil-common.tex
+\pgfutil@everybye=\toks40
+\pgfutil@tempdima=\dimen166
+\pgfutil@tempdimb=\dimen167
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utiliti
+es\pgfutil-latex.def
+\pgfutil@abb=\box61
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utiliti
+es\pgfrcs.code.tex
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.rev
+ision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclaye
+r\pgfcore.sty
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlay
+er\pgfsys.sty
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systeml
+ayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utiliti
+es\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utiliti
+es\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks43
+))
+\pgf@x=\dimen168
+\pgf@y=\dimen169
+\pgf@xa=\dimen170
+\pgf@ya=\dimen171
+\pgf@xb=\dimen172
+\pgf@yb=\dimen173
+\pgf@xc=\dimen174
+\pgf@yc=\dimen175
+\pgf@xd=\dimen176
+\pgf@yd=\dimen177
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count306
+\c@pgf@countb=\count307
+\c@pgf@countc=\count308
+\c@pgf@countd=\count309
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
+\pgf@sys@id@count=\count310
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systeml
+ayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systeml
+ayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systeml
+ayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systeml
+ayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count311
+\pgfsyssoftpath@bigbuffer@items=\count312
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systeml
+ayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmath.code.tex
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathutil.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathparser.code.tex
+\pgfmath@dimen=\dimen178
+\pgfmath@count=\count313
+\pgfmath@box=\box62
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfunctions.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfunctions.basic.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfunctions.trigonometric.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfunctions.random.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfunctions.comparison.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfunctions.base.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfunctions.round.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfunctions.misc.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfunctions.integerarithmetics.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathcalc.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count314
+))
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pg
+fint.code.tex)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen179
+\pgf@picmaxx=\dimen180
+\pgf@picminy=\dimen181
+\pgf@picmaxy=\dimen182
+\pgf@pathminx=\dimen183
+\pgf@pathmaxx=\dimen184
+\pgf@pathminy=\dimen185
+\pgf@pathmaxy=\dimen186
+\pgf@xx=\dimen187
+\pgf@xy=\dimen188
+\pgf@yx=\dimen189
+\pgf@yy=\dimen190
+\pgf@zx=\dimen191
+\pgf@zy=\dimen192
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen193
+\pgf@path@lasty=\dimen194
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen195
+\pgf@shorten@start@additional=\dimen196
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count315
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen197
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen198
+\pgf@pt@y=\dimen199
+\pgf@pt@temp=\dimen256
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen257
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen258
+\pgf@sys@shading@range@num=\count316
+\pgf@shadingcount=\count317
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box66
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basicla
+yer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules
+\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box67
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules
+\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibi
+lity\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen259
+\pgf@nodesepend=\dimen260
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibi
+lity\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbati
+m.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks50
+\verbatim@line=\toks51
+\verbatim@in@stream=\read4
+)
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/environ\envir
+on.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\tr
+imspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box68
+\tcb@upperbox=\box69
+\tcb@lowerbox=\box70
+\tcb@phantombox=\box71
+\c@tcbbreakpart=\count318
+\c@tcblayer=\count319
+\c@tcolorbox@number=\count320
+\tcb@temp=\box72
+\tcb@temp=\box73
+\tcb@temp=\box74
+\tcb@temp=\box75
+)
+\c@shadedefinition=\count321
+\c@problem=\count322
+\c@requirement=\count323
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+ (thesis.aux (title.aux) (abstract.aux) (chapters.aux
+
+LaTeX Warning: Label `r:improvement' multiply defined.
+
+) (append.aux) (acronyms.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\s
 upp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
-\scratchdimen=\dimen166
-\scratchbox=\box57
-\nofMPsegments=\count304
-\nofMParguments=\count305
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count306
-\MPscratchDim=\dimen167
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count324
+\scratchdimen=\dimen261
+\scratchbox=\box76
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen262
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks53
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \dots on input line 57.
-LaTeX Info: Redefining \microtypecontext on input line 57.
-Package microtype Info: Applying patch `item' on input line 57.
-Package microtype Info: Applying patch `toc' on input line 57.
-Package microtype Info: Applying patch `eqnum' on input line 57.
-Package microtype Info: Applying patch `footnote' on input line 57.
+LaTeX Info: Redefining \dots on input line 76.
+LaTeX Info: Redefining \microtypecontext on input line 76.
+Package microtype Info: Applying patch `item' on input line 76.
+Package microtype Info: Applying patch `toc' on input line 76.
+Package microtype Info: Applying patch `eqnum' on input line 76.
+Package microtype Info: Applying patch `footnote' on input line 76.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 57.
+LaTeX Info: Redefining \showhyphens on input line 76.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -807,19 +1234,19 @@ cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 57.
+Package hyperref Info: Link coloring OFF on input line 76.
  (thesis.out) (thesis.out)
-\@outlinefile=\write3
-\openout3 = `thesis.out'.
+\@outlinefile=\write4
+\openout4 = `thesis.out'.
 
-Class scrartcl Info: loading recommended package `bookmark'.
-(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
-(scrartcl)           because of handling of possible bookmark level gaps.
-(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
-(scrartcl)           `bookmarkpackage=false' before \begin{document} and
-(scrartcl)           you can avoid this message adding:
-(scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 57.
+Class scrbook Info: loading recommended package `bookmark'.
+(scrbook)           Using `bookmark' together with `hyperref' is recommended,
+(scrbook)           because of handling of possible bookmark level gaps.
+(scrbook)           You can avoid loading `bookmark' with KOMA-Script option
+(scrbook)           `bookmarkpackage=false' before \begin{document} and
+(scrbook)           you can avoid this message adding:
+(scrbook)             \usepackage{bookmark}
+(scrbook)           before \begin{document} on input line 76.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\book
 mark.sty
@@ -828,8 +1255,24 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-
 pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count309
+\BKM@id=\count330
 ))
+\openout2 = `title.aux'.
+
+ (title.tex
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 3.
+
+
+(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.
+fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 3.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 Package epstopdf Info: Source file: <figures/logo-th-rosenheim-2019_master_quer
 _2c.eps>
 (epstopdf)                    date: 2023-01-13 09:35:22
@@ -841,63 +1284,84 @@ _2c-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/logo-th-rose
 nheim-2019_master_quer_2c-eps-converted-to.pdf figures/logo-th-rosenheim-2019_m
 aster_quer_2c.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
-<figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf, id=3, 181.
+<figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf, id=6, 181.
 67876pt x 57.21375pt>
 File: figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf>
 Package pdftex.def Info: figures/logo-th-rosenheim-2019_master_quer_2c-eps-conv
-erted-to.pdf  used on input line 82.
-(pdftex.def)             Requested size: 127.17424pt x 40.04933pt.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 82
-.
-
-(C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.
-fd
-File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
+erted-to.pdf  used on input line 9.
+(pdftex.def)             Requested size: 181.6783pt x 57.2136pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 82.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(Font)              scaled to size 19.70294pt on input line 14.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 18.
+ [1
+
+
+
+
+
+
+{C:/Users/Florian.Weidner/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./
+figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf>]
+[2
+
+
+]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+) [3] [4
+
+
+
+
+]
+\openout2 = `abstract.aux'.
+
+ (abstract.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 82.
+(Font)              scaled to size 11.39996pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 82.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+(Font)              scaled to size 23.63593pt on input line 1.
+Package acronym Info: Label `acro:ifc' newly defined as it shall be overridden
+although it is yet undefined on input line 2.
+Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
+although it is yet undefined on input line 2.
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
 2.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
 2.
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-82.
+92.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-82.
+92.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 82.
+(Font)              <12> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 82.
+(Font)              <8> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 82.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
+(Font)              <6> on input line 92.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
 
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa
@@ -908,7 +1372,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
 
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb
@@ -918,196 +1382,338 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-
 msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Underfull \vbox (badness 3895) has occurred while \output is active []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 88.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 88.
- [1
+) [5
 
 
-{C:/Users/Florian.Weidner/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./
-figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf>]
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 88.
-Package tocbasic Info: character protrusion at toc deactivated on input line 88
+
+] [6
+
+
+
+
+]
+Package tocbasic Info: character protrusion at toc deactivated on input line 96
 .
- (thesis.toc
-Package acronym Info: Label `acro:ifc' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2])
-\tf@toc=\write4
-\openout4 = `thesis.toc'.
+ (thesis.toc [7
 
 
-[3]
+])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
+
+ [8]
+Package tocbasic Info: character protrusion at lof deactivated on input line 98
+.
+ (thesis.lof
+Package acronym Info: Label `acro:bim' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
+)
+\tf@lof=\write6
+\openout6 = `thesis.lof'.
+
+ [9
+
+
+
+] [10
+
+
+]
 \openout2 = `chapters.aux'.
 
  (chapters.tex
-Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
-although it is yet undefined on input line 5.
+chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface.
+
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 8.
+(Font)              scaled to size 16.41594pt on input line 8.
 Package acronym Info: Label `acro:ava' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
-Package acronym Info: Label `acro:bim' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:din' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:se' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
+although it is yet undefined on input line 14.
 Package acronym Info: Label `acro:pe' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
+although it is yet undefined on input line 14.
 Package acronym Info: Label `acro:ee' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
-Package acronym Info: Label `acro:vb' newly defined as it shall be overridden
-although it is yet undefined on input line 15.
-Package acronym Info: Label `acro:gui' newly defined as it shall be overridden
-although it is yet undefined on input line 15.
-Package acronym Info: Label `acro:wpf' newly defined as it shall be overridden
-although it is yet undefined on input line 15.
- [1
+although it is yet undefined on input line 14.
+[1
+
+
+
+
 
 ]
-<./figures//bim-relevanz.png, id=181, 874.01532pt x 460.72125pt>
+Package acronym Info: Label `acro:vb' newly defined as it shall be overridden
+although it is yet undefined on input line 16.
+Package acronym Info: Label `acro:gui' newly defined as it shall be overridden
+although it is yet undefined on input line 16.
+Package acronym Info: Label `acro:wpf' newly defined as it shall be overridden
+although it is yet undefined on input line 16.
+<./figures//bim-relevanz.png, id=254, 874.01532pt x 460.72125pt>
 File: ./figures//bim-relevanz.png Graphic file (type png)
 <use ./figures//bim-relevanz.png>
-Package pdftex.def Info: ./figures//bim-relevanz.png  used on input line 23.
+Package pdftex.def Info: ./figures//bim-relevanz.png  used on input line 25.
 (pdftex.def)             Requested size: 454.49059pt x 239.57643pt.
 
-Overfull \hbox (10.62753pt too wide) in paragraph at lines 23--25
+Overfull \hbox (10.62753pt too wide) in paragraph at lines 25--27
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//künstiliche-intilligenz-trend.png, id=191, 1059.96pt x 220.57407pt
+[2]
+<./figures//künstiliche-intilligenz-trend.png, id=281, 1059.96pt x 220.57407pt
 >
 File: ./figures//künstiliche-intilligenz-trend.png Graphic file (type png)
 <use ./figures//künstiliche-intilligenz-trend.png>
 Package pdftex.def Info: ./figures//künstiliche-intilligenz-trend.png  used on
- input line 37.
+ input line 39.
 (pdftex.def)             Requested size: 439.42685pt x 91.44228pt.
-<./figures//machine-learning-trend.png, id=192, 1053.1847pt x 249.18094pt>
+<./figures//machine-learning-trend.png, id=282, 1053.1847pt x 249.18094pt>
 File: ./figures//machine-learning-trend.png Graphic file (type png)
 <use ./figures//machine-learning-trend.png>
 Package pdftex.def Info: ./figures//machine-learning-trend.png  used on input l
-ine 44.
+ine 46.
 (pdftex.def)             Requested size: 439.42685pt x 103.96707pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//kano-modell.png, id=193, 1606.0pt x 1038.88126pt>
+<./figures//kano-modell.png, id=283, 1606.0pt x 1038.88126pt>
 File: ./figures//kano-modell.png Graphic file (type png)
 <use ./figures//kano-modell.png>
-Package pdftex.def Info: ./figures//kano-modell.png  used on input line 55.
+Package pdftex.def Info: ./figures//kano-modell.png  used on input line 57.
 (pdftex.def)             Requested size: 443.86305pt x 287.12784pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] [3 <./figures//bim-relevanz.png>]
-Package acronym Info: Label `acro:devops' newly defined as it shall be overridd
-en
-although it is yet undefined on input line 78.
- [4 <./figures//künstiliche-intilligenz-trend.png> <./figures//machine-learnin
-g-trend.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 90.
-
-
-Package natbib Warning: Citation `BuildingSMART_International_Ltd2017-gs' on pa
-ge 5 undefined on input line 92.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./figures//kano-modell.png (PNG copy)>]
-Package acronym Info: Label `acro:iso' newly defined as it shall be overridden
-although it is yet undefined on input line 97.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-04.
+[3 <./figures//bim-relevanz.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+0.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+Package hyperref Info: bookmark level for unknown goal defaults to 0 on input l
+ine 80.
+
+LaTeX Warning: Reference `c:theoretical' on page 4 undefined on input line 85.
+
+[4 <./figures//künstiliche-intilligenz-trend.png> <./figures//machine-learning
+-trend.png>] [5 <./figures//kano-modell.png (PNG copy)>] [6
+
+
+]
+chapter 2.
+Package acronym Info: Label `acro:devops' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 94.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 96.
+Package hyperref Info: bookmark level for unknown shadedefinition defaults to 0
+ on input line 100.
+
+Package xcolor Warning: Incompatible color definition on input line 102.
+
+
+Package xcolor Warning: Incompatible color definition on input line 102.
+
+[7]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ac' on input line 111.
+
+Package acronym Info: Label `acro:iso' newly defined as it shall be overridden
+although it is yet undefined on input line 118.
+[8]
 Package acronym Info: Label `acro:spf' newly defined as it shall be overridden
-although it is yet undefined on input line 109.
+although it is yet undefined on input line 130.
 Package acronym Info: Label `acro:step' newly defined as it shall be overridden
 
-although it is yet undefined on input line 109.
+although it is yet undefined on input line 130.
 Package acronym Info: Label `acro:xml' newly defined as it shall be overridden
-although it is yet undefined on input line 109.
-[6]
+although it is yet undefined on input line 130.
 Package acronym Info: Label `acro:cad' newly defined as it shall be overridden
-although it is yet undefined on input line 117.
+although it is yet undefined on input line 137.
+ [9]
 Package acronym Info: Label `acro:ifc2x3' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 121.
+although it is yet undefined on input line 140.
 Package acronym Info: Label `acro:ifc4' newly defined as it shall be overridden
 
-although it is yet undefined on input line 121.
-
-Underfull \vbox (badness 1817) has occurred while \output is active []
-
- [7]
-<./figures//material-single.png, id=332, 590.205pt x 120.45pt>
+although it is yet undefined on input line 140.
+ [10]
+<./figures//material-single.png, id=452, 590.205pt x 120.45pt>
 File: ./figures//material-single.png Graphic file (type png)
 <use ./figures//material-single.png>
-Package pdftex.def Info: ./figures//material-single.png  used on input line 136
+Package pdftex.def Info: ./figures//material-single.png  used on input line 155
 .
 (pdftex.def)             Requested size: 443.86305pt x 90.58537pt.
 Package acronym Info: Label `acro:kg' newly defined as it shall be overridden
-although it is yet undefined on input line 143.
+although it is yet undefined on input line 162.
+ [11 <./figures//material-single.png>] [12]
+chapter 3.
+Package hyperref Info: bookmark level for unknown problem defaults to 0 on inpu
+t line 180.
+[13
+
+
+]
+
+Package xcolor Warning: Incompatible color definition on input line 209.
+
+
+Package xcolor Warning: Incompatible color definition on input line 209.
+
+Package hyperref Info: bookmark level for unknown requirement defaults to 0 on 
+input line 214.
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--237
+
+ []
+
+[14]
+
+Package xcolor Warning: Incompatible color definition on input line 237.
+
+
+Package xcolor Warning: Incompatible color definition on input line 237.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+[15]
+Package acronym Info: Label `acro:ki' newly defined as it shall be overridden
+although it is yet undefined on input line 270.
+ [16]
+chapter 4.
+<./figures//anwendungsfalldiagramm.png, id=546, 960.58875pt x 645.91313pt>
+File: ./figures//anwendungsfalldiagramm.png Graphic file (type png)
+<use ./figures//anwendungsfalldiagramm.png>
+Package pdftex.def Info: ./figures//anwendungsfalldiagramm.png  used on input l
+ine 284.
+(pdftex.def)             Requested size: 443.86305pt x 298.46404pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package acronym Info: Label `acro:rest' newly defined as it shall be overridden
+
+although it is yet undefined on input line 289.
+[17
+
+
+]
+Package acronym Info: Label `acro:iot' newly defined as it shall be overridden
+although it is yet undefined on input line 302.
+<./figures//db-scheme.png, id=562, 1249.66875pt x 228.855pt>
+File: ./figures//db-scheme.png Graphic file (type png)
+<use ./figures//db-scheme.png>
+Package pdftex.def Info: ./figures//db-scheme.png  used on input line 308.
+(pdftex.def)             Requested size: 443.86305pt x 81.28424pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./figures//material-single.png>] [9] [10] [11] [12] [13] [14]) [15]
-\openout2 = `acronyms.aux'.
+ [18 <./figures//anwendungsfalldiagramm.png>]
+<./figures//classification-flow.png, id=571, 261.97874pt x 538.26094pt>
+File: ./figures//classification-flow.png Graphic file (type png)
+<use ./figures//classification-flow.png>
+Package pdftex.def Info: ./figures//classification-flow.png  used on input line
+ 326.
+(pdftex.def)             Requested size: 133.16026pt x 273.59778pt.
+ [19 <./figures//db-scheme.png> <./figures//classification-flow.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 340--344
 
- (acronyms.tex)
-[16
+ []
 
 
+Package xcolor Warning: Incompatible color definition on input line 344.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{bim}) has bee
-n already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.99 \include{acronyms}
-                       ]
+Package xcolor Warning: Incompatible color definition on input line 344.
+
+[20]
+chapter 5.
+[21
+
+
+] [22
+
+
+]
+chapter 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ac' on input line 364.
+
+[23] [24
+
+
+]
+chapter 7.
+[25] [26
+
+
+]
+chapter 8.
+) [27]
 \openout2 = `append.aux'.
 
- (append.tex
-<./figures//ifc-manager.png, id=432, 1445.4pt x 782.925pt>
+ (append.tex [28
+
+
+
+
+
+]
+chapter A.
+<./figures//ifc-manager.png, id=645, 1445.4pt x 782.925pt>
 File: ./figures//ifc-manager.png Graphic file (type png)
 <use ./figures//ifc-manager.png>
 Package pdftex.def Info: ./figures//ifc-manager.png  used on input line 6.
 (pdftex.def)             Requested size: 443.86305pt x 240.42247pt.
-<./figures//material-layer-set.png, id=435, 891.33pt x 246.9225pt>
+<./figures//material-layer-set.png, id=648, 891.33pt x 246.9225pt>
 File: ./figures//material-layer-set.png Graphic file (type png)
 <use ./figures//material-layer-set.png>
 Package pdftex.def Info: ./figures//material-layer-set.png  used on input line 
 13.
 (pdftex.def)             Requested size: 443.86305pt x 122.9636pt.
-<./figures//material-profile-set.png, id=436, 891.33pt x 258.9675pt>
+<./figures//material-profile-set.png, id=649, 891.33pt x 258.9675pt>
 File: ./figures//material-profile-set.png Graphic file (type png)
 <use ./figures//material-profile-set.png>
 Package pdftex.def Info: ./figures//material-profile-set.png  used on input lin
 e 20.
 (pdftex.def)             Requested size: 443.86305pt x 128.9618pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures//material-constituent-set.png, id=437, 891.33pt x 198.7425pt>
+<./figures//material-constituent-set.png, id=650, 891.33pt x 198.7425pt>
 File: ./figures//material-constituent-set.png Graphic file (type png)
 <use ./figures//material-constituent-set.png>
 Package pdftex.def Info: ./figures//material-constituent-set.png  used on input
@@ -1116,19 +1722,109 @@ Package pdftex.def Info: ./figures//material-constituent-set.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [17
+<./figures//cost-structure-example.png, id=651, 446.41782pt x 249.18094pt>
+File: ./figures//cost-structure-example.png Graphic file (type png)
+<use ./figures//cost-structure-example.png>
+Package pdftex.def Info: ./figures//cost-structure-example.png  used on input l
+ine 34.
+(pdftex.def)             Requested size: 443.86305pt x 247.75829pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures//verteilungsdiagramm.png, id=652, 638.385pt x 693.34032pt>
+File: ./figures//verteilungsdiagramm.png Graphic file (type png)
+<use ./figures//verteilungsdiagramm.png>
+Package pdftex.def Info: ./figures//verteilungsdiagramm.png  used on input line
+ 41.
+(pdftex.def)             Requested size: 443.86305pt x 482.07643pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures//function-import.png, id=653, 1297.84875pt x 499.8675pt>
+File: ./figures//function-import.png Graphic file (type png)
+<use ./figures//function-import.png>
+Package pdftex.def Info: ./figures//function-import.png  used on input line 48.
+
+(pdftex.def)             Requested size: 443.86305pt x 170.95187pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures//function-takeover.png, id=654, 1189.44376pt x 545.03625pt>
+File: ./figures//function-takeover.png Graphic file (type png)
+<use ./figures//function-takeover.png>
+Package pdftex.def Info: ./figures//function-takeover.png  used on input line 5
+5.
+(pdftex.def)             Requested size: 443.86305pt x 203.3901pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures//function-rating.png, id=657, 1052.43187pt x 494.59781pt>
+File: ./figures//function-rating.png Graphic file (type png)
+<use ./figures//function-rating.png>
+Package pdftex.def Info: ./figures//function-rating.png  used on input line 62.
+
+(pdftex.def)             Requested size: 443.86305pt x 208.59755pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures//material-categories.png, id=658, 1032.85875pt x 447.92343pt>
+File: ./figures//material-categories.png Graphic file (type png)
+<use ./figures//material-categories.png>
+Package pdftex.def Info: ./figures//material-categories.png  used on input line
+ 69.
+(pdftex.def)             Requested size: 650.0pt x 281.89935pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [29 <./figures//ifc-manager.png> <./figures//material-layer-set.png>]
+[30 <./figures//material-profile-set.png> <./figures//material-constituent-set.
+png> <./figures//cost-structure-example.png>] [31 <./figures//verteilungsdiagra
+mm.png>] [32 <./figures//function-import.png> <./figures//function-takeover.png
+>] [33 <./figures//function-rating.png>] [34 <./figures//material-categories.pn
+g>]
+\openout2 = `acronyms.aux'.
+
+ (acronyms.tex
+chapter B.
+[35
 
 
 
- <./figures//ifc-manager.png> <./figures//material-layer-set.png>]
-[18 <./figures//material-profile-set.png> <./figures//material-constituent-set.
-png>] (thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 5--9
-\T1/lmr/bx/n/12 (+20) URL: \T1/lmr/m/it/12 (+20) https://learn.microsoft.com/de
--de/azure/machine-learning/how-to-select-
- []
 
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 18
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{bim}) has bee
+n already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 ...st}[REST]{Representational State Transfer}
+                                                  ]
+
+LaTeX Warning: Hyper reference `acro:rgb' on page 36 undefined on input line 27
+.
+
+
+LaTeX Warning: Hyper reference `acro:rgb' on page 36 undefined on input line 27
+.
+
+) [36]
+showing definition
+Package tocbasic Info: character protrusion at lof deactivated on input line 11
+7.
+(thesis.loe) [37
+
+
+
+
+
+
+] [38
+
+
+] (thesis.bbl
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 11
 .
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.
@@ -1136,64 +1832,114 @@ fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <12> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 18.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 11.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 5939) in paragraph at lines 15--19
+Underfull \hbox (badness 5939) in paragraph at lines 8--12
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 http : / / standards . buildingsm
 art . org / IFC / RELEASE / IFC4 _ 1 /
  []
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 22--27
+Underfull \hbox (badness 5939) in paragraph at lines 15--20
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 http : / / standards . buildingsm
+art . org / IFC / RELEASE / IFC4 _ 1 /
+ []
+
+[39
+
+
+]
+Underfull \hbox (badness 5939) in paragraph at lines 61--64
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 http : / / standards . buildingsm
 art . org / IFC / RELEASE / IFC4 _ 1 /
  []
 
 
-Overfull \hbox (211.91019pt too wide) in paragraph at lines 66--71
-\T1/lmr/bx/n/12 (-20) URL: \T1/lmr/m/it/12 (-20) htt-ps://standards.buildingsma
-rt.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcmaterialresource/lexical/ifcmateriallist.
-htm 
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / scrumguides . org / d
+ocs / scrumguide / v2020 /
  []
 
-[19
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
+om / de-[]de / azure /
+ []
 
 
-])
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / github . com / dotnet
+ / aspnetcore / blob / main / README .
+ []
 
-Package natbib Warning: There were undefined citations.
 
-[20] (thesis.aux (chapters.aux) (acronyms.aux) (append.aux))
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / helpdesk . orca-[]sof
+tware . com / Solution / AVA25 /
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 141--145
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . sciencedirect .
+ com / science / article / pii /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / technical . buildings
+mart . org / standards / ifc /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / scikit-[]learn . org 
+/ stable / modules / feature _
+ []
+
+) [41]
+\tf@loe=\write7
+\openout7 = `thesis.loe'.
+
+ (thesis.aux (title.aux) (abstract.aux) (chapters.aux) (append.aux)
+(acronyms.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21267 strings out of 476374
- 410756 string characters out of 5784134
+ 32805 strings out of 476374
+ 666336 string characters out of 5784134
  1866340 words of memory out of 5000000
- 40948 multiletter control sequences out of 15000+600000
- 598953 words of font info for 197 fonts, out of 8000000 for 9000
+ 52070 multiletter control sequences out of 15000+600000
+ 609939 words of font info for 220 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,106p,10603b,814s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,106p,10603b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/
 8r.enc}{C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
 lm/lm-ec.enc}{C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/enc/
 dvips/lm/lm-ts1.enc}<C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/lm/lmbx12.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Florian.Weidner/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Florian.Weidner/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Florian.Weid
-ner/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Fl
-orian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb
-><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
-ic/uhvb8a.pfb>
-Output written on thesis.pdf (23 pages, 674849 bytes).
+MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Florian.Weidner/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Florian.Weidner/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Florian.We
+idner/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/
+Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
+<C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier
+/ucrro8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/helvetic/uhvb8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (51 pages, 1189178 bytes).
 PDF statistics:
- 675 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 58299 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1059 PDF objects out of 1200 (max. 8388607)
+ 221 named destinations out of 1000 (max. 500000)
+ 68620 words of extra memory for PDF output out of 74296 (max. 10000000)
 
