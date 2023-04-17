@@ -238,7 +238,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Anwendungsfalldiagramm}}{18}{figure.caption.29}\protected@file@percent }
 \newlabel{fig:usecasediagramm}{{4.1}{18}{Anwendungsfalldiagramm}{figure.caption.29}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Implementierung als Web-Service}{18}{subsection.4.1.1}\protected@file@percent }
-\newlabel{c:conception:service}{{4.1.1}{18}{Implementierung als Web-Service}{subsection.4.1.1}{}}
+\newlabel{c:conception:architecture:service}{{4.1.1}{18}{Implementierung als Web-Service}{subsection.4.1.1}{}}
 \acronymused{ki}
 \acronymused{ki}
 \citation{Foram_2016}
@@ -248,8 +248,15 @@
 \acronymused{iot}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Dokumentation}}{19}{figure.caption.32}\protected@file@percent }
 \newlabel{fig:db-scheme}{{4.2}{19}{Dokumentation}{figure.caption.32}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Stufen der Textklassifizierung}{19}{subsection.4.1.2}\protected@file@percent }
-\newlabel{c:conception:preprocessing}{{4.1.2}{19}{Stufen der Textklassifizierung}{subsection.4.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Konzept der Materialstrukturierung}{19}{subsection.4.1.2}\protected@file@percent }
+\newlabel{c:conception:architecture:structuring}{{4.1.2}{19}{Konzept der Materialstrukturierung}{subsection.4.1.2}{}}
+\acronymused{ifc}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Konzept für das Auslesen von Materialien aus einer \ac {ifc} Datei}{19}{subsection.4.1.3}\protected@file@percent }
+\newlabel{c:conception:architecture:ifc-material-extraction}{{4.1.3}{19}{Konzept für das Auslesen von Materialien aus einer \ac {ifc} Datei}{subsection.4.1.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Algorithmen für die Textklassifizierung}{19}{section.4.2}\protected@file@percent }
+\newlabel{c:conception:classification}{{4.2}{19}{Algorithmen für die Textklassifizierung}{section.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Ablauf einer Textklassifizierung}{19}{subsection.4.2.1}\protected@file@percent }
+\newlabel{c:conception:classification:steps}{{4.2.1}{19}{Ablauf einer Textklassifizierung}{subsection.4.2.1}{}}
 \citation{Zelaya_2019}
 \citation{Priyanga_2016}
 \citation{Uysal_2014}
@@ -261,29 +268,62 @@
 \@writefile{loe}{\addvspace {10\p@ }}
 \@writefile{loe}{\contentsline {shadedefinition}{\ifthmt@listswap Definition~4\else \numberline {4}Definition\fi \thmtformatoptarg {Feature extraction}}{21}{shadedefinition.4}\protected@file@percent }
 \newlabel{d:feature-extraction}{{4}{21}{Feature extraction}{shadedefinition.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Konzept der Materialstrukturierung}{21}{subsection.4.1.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Algorithmen für die Klassifizierung}{21}{section.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}\dots  }{21}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Sdca Maximum Entropy}{21}{subsection.4.2.2}\protected@file@percent }
+\newlabel{c:conception:classification:sdca}{{4.2.2}{21}{Sdca Maximum Entropy}{subsection.4.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Convolutional Neural Network}{21}{subsection.4.2.3}\protected@file@percent }
+\newlabel{c:conception:classification:cnn}{{4.2.3}{21}{Convolutional Neural Network}{subsection.4.2.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Möglichkeiten für die Feinstrukturierung}{21}{section.4.3}\protected@file@percent }
+\newlabel{c:conception:fine-structuring}{{4.3}{21}{Möglichkeiten für die Feinstrukturierung}{section.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}OpenAI Schnittstelle}{21}{subsection.4.3.1}\protected@file@percent }
+\newlabel{c:conception:fine-structuring:openai}{{4.3.1}{21}{OpenAI Schnittstelle}{subsection.4.3.1}{}}
+\acronymused{ki}
+\acronymused{ki}
+\AC@undonewlabel{acro:api}
+\newlabel{acro:api}{{4.3.1}{21}{OpenAI Schnittstelle}{section*.34}{}}
+\acronymused{api}
+\AC@undonewlabel{acro:gpt}
+\newlabel{acro:gpt}{{4.3.1}{21}{OpenAI Schnittstelle}{section*.35}{}}
+\acronymused{gpt}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}FastText mit Density Based Clustering}{21}{subsection.4.3.2}\protected@file@percent }
+\newlabel{c:conception:fine-structuring:dbscan}{{4.3.2}{21}{FastText mit Density Based Clustering}{subsection.4.3.2}{}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Gegenüberstellung der möglichen Konzepte}{23}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{c:comparison}{{5}{23}{Gegenüberstellung der möglichen Konzepte}{chapter.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Messkriterien}{23}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Vergleich der Konzepte}{23}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Festsetzten eines Algorithmus}{23}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Vergleich der Textklassifizierung}{23}{section.5.1}\protected@file@percent }
+\newlabel{c:comparison:classification}{{5.1}{23}{Vergleich der Textklassifizierung}{section.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Messkriterien}{23}{subsection.5.1.1}\protected@file@percent }
+\newlabel{c:comparison:classification:criteria}{{5.1.1}{23}{Messkriterien}{subsection.5.1.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Auswahl eines Algorithmus}{23}{subsection.5.1.2}\protected@file@percent }
+\newlabel{c:comparison:classification:selection}{{5.1.2}{23}{Auswahl eines Algorithmus}{subsection.5.1.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Vergleich der Feinstrukturierung}{23}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Messkriterien}{23}{subsection.5.2.1}\protected@file@percent }
+\newlabel{c:comparison:fine-structuring:criteria}{{5.2.1}{23}{Messkriterien}{subsection.5.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Auswahl eines Algorithmus}{23}{subsection.5.2.2}\protected@file@percent }
+\newlabel{c:comparison:fine-structuring:selection}{{5.2.2}{23}{Auswahl eines Algorithmus}{subsection.5.2.2}{}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Praktische Umsetzung}{25}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{c:implementation}{{6}{25}{Praktische Umsetzung}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Implementierung des Services}{25}{section.6.1}\protected@file@percent }
+\newlabel{c:implementation:service}{{6.1}{25}{Implementierung des Services}{section.6.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Python-Interop}{25}{section.6.2}\protected@file@percent }
+\newlabel{c:implementation:python-interop}{{6.2}{25}{Python-Interop}{section.6.2}{}}
 \acronymused{ifc}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Zusammenfassen der Materialschnittstelle einer \ac {ifc} Datei}{25}{section.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Entwurf des Algorithmus?}{25}{subsection.6.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Implementieren des Algorithmus}{25}{subsection.6.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Standardisierung der Materialnamen}{25}{section.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Nutzen von Artificial Inteligence}{25}{subsection.6.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Erstellen einer Datengrundlage}{25}{subsection.6.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Implementierung der Standardisierung}{25}{subsection.6.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Integration in die ORCA AVA}{25}{section.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Implementieren des Auslesens aller Materialien aus einer \ac {ifc} Datei}{25}{section.6.3}\protected@file@percent }
+\newlabel{c:implementation:ifc-material-extraction}{{6.3}{25}{Implementieren des Auslesens aller Materialien aus einer \ac {ifc} Datei}{section.6.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Strukturieren der Materialnamen}{25}{section.6.4}\protected@file@percent }
+\newlabel{c:implementation:structuring}{{6.4}{25}{Strukturieren der Materialnamen}{section.6.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Implementierung des Preprocessings}{25}{subsection.6.4.1}\protected@file@percent }
+\newlabel{c:implementation:preprocess}{{6.4.1}{25}{Implementierung des Preprocessings}{subsection.6.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Erstellen einer Datengrundlage}{25}{subsection.6.4.2}\protected@file@percent }
+\newlabel{c:implementation:data}{{6.4.2}{25}{Erstellen einer Datengrundlage}{subsection.6.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.3}Training des Text-Klassifizierungsmodells}{25}{subsection.6.4.3}\protected@file@percent }
+\newlabel{c:implementation:classification-training}{{6.4.3}{25}{Training des Text-Klassifizierungsmodells}{subsection.6.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.4}Training des FastText Modells}{25}{subsection.6.4.4}\protected@file@percent }
+\newlabel{c:implementation:embedding-training}{{6.4.4}{25}{Training des FastText Modells}{subsection.6.4.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.5}DBSCAN Clustering}{25}{subsection.6.4.5}\protected@file@percent }
+\newlabel{c:implementation:clustering}{{6.4.5}{25}{DBSCAN Clustering}{subsection.6.4.5}{}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{27}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -302,8 +342,10 @@
 \newlabel{c:closing:rating}{{8.1}{29}{Bewertung der praktischen Umsetzung}{section.8.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {8.2}Fazit}{29}{section.8.2}\protected@file@percent }
 \newlabel{c:closing:conclusion}{{8.2}{29}{Fazit}{section.8.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.3}Ausblick}{29}{section.8.3}\protected@file@percent }
-\newlabel{c:closing:outlook}{{8.3}{29}{Ausblick}{section.8.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Integration in die ORCA AVA}{29}{section.8.3}\protected@file@percent }
+\newlabel{c:closing:integration}{{8.3}{29}{Integration in die ORCA AVA}{section.8.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}Ausblick}{29}{section.8.4}\protected@file@percent }
+\newlabel{c:closing:outlook}{{8.4}{29}{Ausblick}{section.8.4}{}}
 \@setckpt{chapters}{
 \setcounter{page}{30}
 \setcounter{equation}{0}
@@ -315,7 +357,7 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{8}
-\setcounter{section}{3}
+\setcounter{section}{4}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
