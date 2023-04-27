@@ -2,31 +2,34 @@
 \babel@toc {ngerman}{}\relax 
 \babel@toc {ngerman}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Relevanz \ac {bim}}}{3}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Google Trends}}{4}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Kano Modells}}{5}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Relevanz \ac {bim}}}{3}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Google Trends}}{4}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Kano Modells}}{5}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces IfcMaterial}}{11}{figure.caption.26}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Anwendungsfalldiagramm}}{18}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Dokumentation}}{19}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Textklassifizierung}}{20}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces IfcMaterial}}{10}{figure.caption.29}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Anwendungsfalldiagramm}}{17}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Dokumentation}}{18}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ablauf}}{18}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Textklassifizierung}}{21}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces CBOW}}{27}{figure.caption.43}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces IFC Manager}}{31}{figure.caption.36}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces IfcMaterialLayerSet}}{31}{figure.caption.37}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces IfcMaterialProfileSet}}{32}{figure.caption.38}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces IfcMaterialConsituentSet}}{32}{figure.caption.39}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces CostStructure}}{32}{figure.caption.40}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Verteilungsdiagramm}}{33}{figure.caption.41}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Import}}{34}{figure.caption.42}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Takeover}}{34}{figure.caption.43}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Rating}}{35}{figure.caption.44}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces MaterialCategories}}{36}{figure.caption.45}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces IFC Manager}}{36}{figure.caption.48}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces IfcMaterialLayerSet}}{36}{figure.caption.49}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces MaterialCategories}}{37}{figure.caption.50}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces IfcMaterialProfileSet}}{38}{figure.caption.51}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces IfcMaterialConsituentSet}}{38}{figure.caption.52}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces CostStructure}}{38}{figure.caption.53}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Verteilungsdiagramm}}{39}{figure.caption.54}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Import}}{40}{figure.caption.55}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Takeover}}{40}{figure.caption.56}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Rating}}{41}{figure.caption.57}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Rating}}{41}{figure.caption.58}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

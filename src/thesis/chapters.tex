@@ -8,7 +8,7 @@ In diesem Kapitel soll eine kurze Einführung über die \glqq ORCA Software GmbH
 \section{Ausgangssituation}
 \label{c:intro:start}
 
-Die im Titel beschriebene Bausoftware ist die ORCA AVA aus dem Softwarehaus \glqq ORCA Software GmbH\grqq{}. Dieses wurde im Jahr 1990 von Dipl.-Ing. Siegfried Tille und Dipl.-Ing. Heinz Nießen gegründet. Der Hauptsitz des Unternehmens ist in Neubeuern, bei Rosenheim. Das Unternehmen ist auf die Produktentwicklung von Software für die Baubranche spezialisiert. Im Vordergrund stehen die Ausschreibungssoftware ORCA AVA und die Ausschreibungstext-Plattform AUSSCHREIBEN.DE. Ziel der Entwicklung ist es die \ac{ava} eines Bauvorhabens für Planer, Architekten und Bauingenieure zu vereinfachen. Der Leitfaden ist, Software zu entwickeln, die jeder versteht, intuitiv bedienbar ist, einen optimalen Workflow gewährleistet und viele Import- und Exportmöglichkeiten für den Datenaustausch bietet.
+Die im Titel beschriebene Bausoftware ist die ORCA AVA aus dem Softwarehaus \glqq ORCA Software GmbH\grqq{}. Dieses wurde im Jahr 1990 von Dipl.-Ing. Siegfried Tille und Dipl.-Ing. Heinz Nießen gegründet. Der Hauptsitz des Unternehmens ist in Neubeuern, bei Rosenheim. Das Unternehmen ist auf die Produktentwicklung von Software für die Baubranche spezialisiert. Im Vordergrund stehen die Ausschreibungssoftware ORCA AVA und die Ausschreibungstext-Plattform \ac{ade}. Ziel der Entwicklung ist es die \ac{ava} eines Bauvorhabens für Planer, Architekten und Bauingenieure zu vereinfachen. Der Leitfaden ist, Software zu entwickeln, die jeder versteht, intuitiv bedienbar ist, einen optimalen Workflow gewährleistet und viele Import- und Exportmöglichkeiten für den Datenaustausch bietet.
 Diese Arbeit fokussiert sich auf eine Erweiterung der ORCA AVA. Sie ist für alle Architektur- und
 Ingenieurbüros, Wohnungsbaugesellschaften, Unternehmen und Behörden zur einfachen Abwicklung von Bauprojekten mit Ausschreibung, Vergabe und Abrechnung. Zusätzlich bildet sie das Kostenmanagement von solchen Projekten ab. Die Software ist außerdem \ac{bim} fähig und bietet \ac{din} zertifizierte Schnittstellen für den Datenaustausch an. Neben der ORCA AVA gibt es den \ac{ifc}-Manager als eigene Instanz, der \ac{ifc}-Modelle anzeigen kann. Die ORCA AVA kann dann Mengen aus dem Gebäudemodell übernehmen.
 Es stehen drei verschiedene Editionen der Software zur Verfügung. Die ORCA AVA \ac{se}, die ORCA AVA \ac{pe} und die ORCA AVA \ac{ee}. Die aktuellste Version ist die 25.0.
@@ -31,7 +31,7 @@ Ein weiterer Trendbegriff, der mit der Programmerweiterung abgedeckt werden soll
 
 Durch die genannten Punkte ist die Programmerweiterung dem Kano-Modell nach als Begeisterungsfeature zuzuordnen. Die Kundenzufriedenheit steigt also exponentiell mit dem Erfüllungsgrad der Anforderung. (siehe Abbildung \ref{fig:kano-model}) Mit der Zeit wandelt sich es dann erst in ein Leistungsfeature und irgendwann in ein Basisfeature. \citep[p.~3-4]{Hölzing_2008} Es besteht also die Motivation die Erweiterung möglichst exklusiv zur Verfügung zu stellen. Es eignet sich somit sehr für die ORCA AVA \ac{ee} Edition.
 
-\begin{figure}[h]
+\begin{figure}[tb]
 	\centering
 	
 	\begin{subfigure}{0.99\textwidth}
@@ -66,7 +66,7 @@ Um die Anforderungen aus Abschnitt \ref{c:requirements:requirements} umsetzten z
 Die Zieldefinition für diese Arbeit wird nach der SMART Technik definiert. Dabei muss ein Ziel folgende Eigenschaften haben:
 
 \begin{itemize}
-	%\setlength\itemsep{0.3em}
+	\setlength\itemsep{0.01em}
 	\item Spezifisch
 	\item Messbar
 	\item Attraktiv
@@ -137,7 +137,7 @@ Die Spezifikation kann also für das Bauen, Betreiben oder Nutzen eines Gebäude
 In der ORCA AVA wird \ac{ifc} für das Einlesen und Übernehmen von Maßen und Mengen in die Ausschreibung verwendet. Es vereinfacht den Prozess, die in der \ac{cad}-Software erstellten Daten einfach in die Leistungsverzeichnisse der ORCA AVA zu überführen.
 Die ORCA AVA kann \ac{ifc}-Dateien einlesen. Im \ac{ifc} Manager wird das 3D-Modell dann angezeigt. In dem geöffneten Fenster gibt es einige fachliche Ansichten, die jegliche \ac{ifc}-Daten nochmal fachlich abstrahieren. In den Ansichten können zum Beispiel bestimmte Maße oder die Anzahl verschiedener Bauteile, die aus dem \ac{ifc}-Modell berechnet werden, in die ORCA AVA übernommen werden. Auch alle im \ac{ifc} definierten Eigenschaften eines Bauteils sind in der Eigenschaften-Ansicht sichtbar. Hier kann man auch die Materialbezeichnung des Bauteils finden, die im Modell hinterlegt ist. In Abbildung\,\ref{fig:ifc-manager} ist die Oberfläche des \ac{ifc} Managers zu sehen. Man sieht die Materialangabe rechts unten im Eigenschaftenfeld unter dem 3D-Modell.
 
-Für das Arbeiten mit \ac{ifc}-Dateien wird die open-source Bibliothek xbim-toolkit verwendet. Die .NET Bibliothek kann \ac{ifc}-Dateien lesen, schreiben und anzeigen. Außerdem unterstützt es bei der Berechnung von komplexer Geometrie, um die Modelldaten für Analysen nutzbar zu machen. Die Entwicklung der Bibliothek startete 2007 und läuft seit 2009 in Zusammenarbeit mit der Norhumbria Untiversity. Mittlerweile bildet es die Standards \ac{ifc2x3} und \ac{ifc4} zu 100\% ab. Zudem bietet es an, auch \ac{ifc2x3} Modelle über das \ac{ifc4} Interface anzuprogrammieren. Somit können mit einer Codebasis beide Formate abgebildet und unterstützt werden. \citep{Xbim_ltd_history}
+Für das Arbeiten mit \ac{ifc}-Dateien wird die open-source Bibliothek \textit{xbim-toolkit} verwendet. Die .NET Bibliothek kann \ac{ifc}-Dateien lesen, schreiben und anzeigen. Außerdem unterstützt es bei der Berechnung von komplexer Geometrie, um die Modelldaten für Analysen nutzbar zu machen. Die Entwicklung der Bibliothek startete 2007 und läuft seit 2009 in Zusammenarbeit mit der Norhumbria Untiversity. Mittlerweile bildet es die Standards \ac{ifc2x3} und \ac{ifc4} zu 100\% ab. Zudem bietet es an, auch \ac{ifc2x3} Modelle über das \ac{ifc4} Interface anzuprogrammieren. Somit können mit einer Codebasis beide Formate abgebildet und unterstützt werden. \citep{Xbim_ltd_history}
 
 
 \subsection{Möglichkeiten für die  Materialangabe eines Bauteils}
@@ -146,7 +146,7 @@ In einem \ac{ifc}-Modell können Materialien auf unterschiedliche Weise einem Ba
 Bei einer Platte mit mehreren Schichten kann das \textit{IfcMaterial} auch wie in Abbildung \ref{fig:layer-set} zu sehen an einem \textit{IfcMaterialLayerSet} zugewiesen sein. Jede Schicht hat hier seine eigene Dicke und eigene Materialangabe. 
 Ein Träger kann das \textit{IfcMaterial} über ein \textit{IfcMaterialProfileSet} abgebildet haben. (siehe Abbildung \ref{fig:profile-set})
 Bei zum Beispiel einer Tür können verschiedene Materialien des Rahmens und der Verglasung über das \textit{IfcMaterialConstituentSet} abgebildet werden. (siehe Abbildung \ref{fig:constituent-set}) \citep{ifc_material_association}
-Zusätzlich gibt es noch ältere Möglichkeiten Materialangaben an ein Element zu binden. In \ac{ifc2x3} gibt es die Klasse \textit{IfcMaterialList} \citep{Thomas2007_MaterialList}. Diese Möglichkeit ist deprecated, in der Praxis kommt das \ac{ifc2x3} Format noch regelmäßig vor. Die \textit{IfcMaterialList} muss also auch beachtet werden.
+Zusätzlich gibt es noch ältere Möglichkeiten Materialangaben an ein Element zu binden. In \ac{ifc2x3} gibt es die Klasse \textit{IfcMaterialList} \citep{Thomas2007_MaterialList}. Diese Möglichkeit ist deprecated, in der Praxis kommt das \ac{ifc2x3} Format noch regelmäßig vor. Die \textit{IfcMateGitOpsrialList} muss also auch beachtet werden.
 
 Neben verschiedenen Verbindungen zu \textit{IfcMaterial} hat jedes Element bei \ac{ifc} auch verschiedene Property Sets. Property Sets sind Container, die Eigentschaften je nach ihrem Namensattribut enthalten. Einige Property Sets sind in der Spezifikation des \ac{ifc} Standards enthalten. Es können auch zusätzlich benutzerdefinierte Property Sets erfasst werden. Diese können auch Informationen über das Material eines Elements enthalten. \citep{ifc_property_set} Das PropertySet \textit{Pset\_MaterialConcrete} weist darauf hin, dass es sich z.B um Beton handelt.
 
@@ -298,15 +298,16 @@ Für die Materialstrukturierung ist ein neuer Webservice vorgesehen, mit den die
 \begin{itemize}
 	\setlength\itemsep{0.3em}
 	\item Der Import greift immer auf das aktuellste \ac{ki}-Modell zu, welches zentral verwaltet werden kann
-	\item Wegen der Verwendung von Python muss nicht bei jedem Client eine lauffähige Pythonumgebung vorhanden sein oder durchs Setup installiert werden.
-	\item Neue Materialbezeichnungen und Klassifizierungen können direkt zentral Datenbank persistiert werden.
+	\item Wegen der nötigen Verwendung von Python muss nicht bei jedem Client eine lauffähige Pythonumgebung vorhanden sein oder durchs Setup installiert werden.
+	\item Neue Materialbezeichnungen und Klassifizierungen werden direkt zentral in der Datenbank persistiert.
 	\item Eine Änderung/Verbesserung der Datengrundlage kann durch automatisches Trainieren direkt zu einem verbessertem \ac{ki}-Modell führen.
 \end{itemize}
-Für die ORCA AVA bestehen schon Services für die Bereitstellung von News, die Lizenzierung oder das Updaten der Software. Durch die Vorgabe der ORCA Software GmbH wird der Service mit ASP.NET implementiert. ASP.NET ist ein Open-Source und Plattform-unabhängiges Web-Framework für die Entwicklung cloudbasierter Anwendungen wie Web-Applikationen, \ac{iot}-Apps oder mobile Backends. \citep{asp-net}. Die Architektur dieses Services entspricht dementsprechend den schon existierenden Services.
+
+Für die ORCA AVA bestehen schon Services für die Bereitstellung von News, die Lizenzierung oder das Updaten der Software. Durch die Vorgabe der ORCA Software GmbH wird der Service mit dem Framework ASP.NET implementiert. ASP.NET ist ein Open-Source und Plattform-unabhängiges Web-Framework für die Entwicklung cloudbasierter Anwendungen wie Web-Applikationen, \ac{iot}-Apps oder mobile Backends. \citep{asp-net}. Die Architektur dieses Services entspricht dementsprechend den schon existierenden Services.
 
 Daten werden über den Service in einem SQL-Datenbank Server gespeichert. Hier werden auch die ORCA Software GmbH internen Standards verwendet. Daten für den Material-Kostengliederungs-Import sind in der Tabelle \textit{Materials} persistiert. Die Tabellendokumentation ist in Abbildung \ref{fig:db-scheme} zu sehen. Zusätzlich bestehen Tabellen für die Autorisierung der Zugriffe auf den Service.
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{db-scheme}
 	\caption[Dokumentation]{Dokumentation der Tabelle \textit{Materials} der Datenbank}
@@ -315,17 +316,68 @@ Daten werden über den Service in einem SQL-Datenbank Server gespeichert. Hier w
 
 \subsection{Konzept der Materialstrukturierung}
 \label{c:conception:architecture:structuring}
+Der Ablauf der Materialstrukturierung ist in drei Schritten aufgeteilt. Materialien werden nach dem Einlesen zuerst nach dem Preprocessing in Übergeordnete Kategorien klassifiziert. Danach wird jede Überkategorie nochmals feiner strukturiert.
+Dieser Ablauf ist in Abbildung \ref{fig:structurize-process} anhand eines Beispiels zu sehen. Am Ende entsteht bei erfolgreicher Feinstrukturierung eine Baumstruktur mit einer Tiefe von drei. Falls in nach der Zuweisung in die Überkategorien nicht mehr als 3 Materialien in der gleichen Kategorie sind, wird nicht weiter fein-strukturiert.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{structurize-process}
+	\caption[Ablauf]{Ablauf der Strukturierung mit Beispiel }
+	\label{fig:structurize-process}
+\end{figure}
+
+Bei der Strukturierung von Materialien gibt es einige Probleme, die gelöst werden müssen. 
+\begin{problem}
+	\label{p:shorttext}
+	Bei den Materialangaben handelt es sich um Sehr kurze Stichpunkte aus nur einem oder wenigen Wörtern. (z.B Metall, Edelstahl - gebürstet)
+\end{problem}
+
+Problemstellung \ref{p:shorttext} ist ein bekanntes aber noch wenig erforschtes Problem in der Textklassifizierung. Textklassifizierungen stützen sich meistens auf Textrepräsentationen. Diese machen den Text für den Klassifizierungs-Algorithmus erst lesbar. Bei der Repräsentation von Text haben kurze Texte folgende Nachteile:
+
+\begin{itemize}
+	\setlength\itemsep{0.1em}
+	\item Kurzen Texten fehlt es an Kontext. Kontextbezogene Word Embeddings wie z.B. Word2Vec führen folgendermaßen zu unbrauchbaren Textrepräsentationen für die Textklassifizierung.
+	\item Kurze Texte entsprechen nicht immer der Syntax der natürlichen Sprache
+	\item Kurze Texte sind in der Regel mehrdeutig, weil sie
+	Polyseme und Tippfehler enthalten. \citep{ijcai2017p406}
+\end{itemize}
+
+Um das Problem zu überwinden, schlagen \cite{ijcai2017p406} und \cite{chen2019deep} vor, mehr Syntax und Semantik aus den kurzen Texten zu erfassen, in dem man mit Hilfe einer bekannten Wissensbasis mit Merkmalen anreichert. Die Informationen aus dem Text alleine, reichen nicht aus um die Bedeutung des Textes in einer Textrepräsentation gut darzustellen.
+\cite{Qingyuan2019} nutzt unter anderem Wikipedia2Vec, um eine Textrepräsentation der Kurztexte zu bekommen. Durch den mitgegeben Kontext über das Wikipedia2Vec Modell wird so dem Wort seine Bedeutung der Textklassifizierung mitgegeben.
+
+\begin{problem}
+	\label{p:technical-term}
+	In den Materialangaben kommen viele Fachbegriffe aus der Baubranche vor.
+\end{problem}
+Ein weiters Problem ist Problemstellung \ref{p:technical-term}.Laut \cite{nooralahzadeh2018evaluation} gibt es viele vortrainierte Embedding Modelle, die sich aber auf den allgemeinen Bereich der Sprache fokussieren. Diese können Fachbegriffe oft schlecht verarbeiten, da die zum Trainieren genutzten Texte, diese Wörter nicht beinhalten.
+
+Wie diese Probleme gelöst beziehungsweise umgangen werden, wird in den jeweiligen Abschnitten der verschiedenen analysierten Algorithmen in Kapitel \ref{c:conception:classification} und \ref{c:conception:fine-structuring} erläutert.
 
 \subsection{Konzept für das Auslesen von Materialien aus einer \ac{ifc} Datei}
 \label{c:conception:architecture:ifc-material-extraction}
+Bevor jegliche Klassifizierung und Strukturierung stattfinden kann müssen die Materialien erst aus der \ac{ifc}-Datei extrahiert werden. In Abschnitt \ref{c:basics:ifc:buildingmaterial} wurden bereits die theoretischen Möglichkeiten der Materialangabe in der \ac{ifc}-Spezifikation aufgezählt.
+
+Über schon vorhandenen Abstraktion des \textit{xbim-toolkit} (siehe Abschnitt \ref{c:basics:ifc:usage}) kann eine \ac{ifc}-Datei eingelesen werden. Über das instanziierte Objekt \code{IfcProject} kann dann auf alle Daten der Datei zugegriffen werden. Hier wird ein neuer \code{MaterialsManager} als Attribut des \code{IfcProject} implementiert. Über die Methode \code{Enumerable<Material> GetMergedMaterials()} im \code{MaterialsManager} können alle Materialangaben aus einer \ac{ifc}-Datei ausgelesen werden. Die Methode iteriert über jeden bekannten Materiallink mit seinem jeweiligen Objekt, teilt diese Links nach ihrem jeweiligen Materialtyp (z.b LayerSet) auf und liest die Materialbezeichnungen entsprechend dem Materialtypen aus. Am Ende liefert die Methode also alle Materialbezeichnungen in einer List mit der jeweiligen \ac{guid} des Bauteiles.
+Das extrahieren der Materialien passiert Clientseitig in der ORCA AVA. So muss dem Service nicht eine ganze Datei, sondern lediglich die Liste der Materialstrings übergeben werden. Zusätzlich spart man sich die Zeit des Einlesen der Datei, wenn diese schon im \ac{ifc}-Manager geöffnet ist.
+
+\subsection{Preprocessing der Materialien}
+\label{c:conception:architecture:preprocessing}
+Nach dem Einlesen beginnt das Preprocessing der Materialien.
+Das Preprocessing ist ein wichtiger Schritt vor einer Klassifizierung. Es hat Auswirkungen auf die Genauigkeit, Interpretierbarkeit und Robustheit des Gesamtalgorithmus aus. \citep{Zelaya_2019} Materialbezeichnungen aus \ac{ifc}-Dateien können verrauscht und uneinheitlich sein, da es sich um ein Freitextfeld handelt. Die Vorverarbeitung der Daten hilft, die Daten zu säubern und auf das wesentliche reduzieren. \citep{Priyanga_2016}
+Die Vorverarbeitungsstufe besteht normalerweise aus Aufgaben wie Tokenisierung, Entfernung von Stoppwörtern, Umwandlung in Kleinbuchstaben und Stemming. \citep{Uysal_2014}
+Für die Material-Strukturierung wird das Preprocessing als erster Schritt aus der Textklassifizierung extrahiert. Somit wirkt sich das Preprocessing auf beide weiteren Schritte (Grobe Textklassifizierung und Feinstrukturierung )aus. Außerdem wird das Preprocessing zusätzlich für die Zuweisung der Materialkostengliederung bei der Mengenübernahme als erster Schritt gebraucht.
+Konkret wird beim Preprocessing folgende Schritte durchgeführt. Als erstes werden alle Sonderzeichen bis auf \glqq /\grqq{} entfernt. Oft befinden sich in der Bezeichnung auch Größen- und Farbangaben, welche irrelevant für die Materialbeschaffenheit sind.
+Mithilfe von Regex werden Farben, RGB-Farbcodes (z.B \textit{60 - 60 - 60}) und Größenangaben (z.B \textit{400 x 300}) herausgefiltert. Anschließend wird der Text in Worttokens, jeder Token in Kleinbuchstaben umgewandelt und unnötige Leerzeichen entfernt. Aus \textit{\glqq Kunststoff - grau 80-80-80\grqq{}} wird z.B. \textit{\glqq 'kunststoff'\grqq{}} und aus \textit{\glqq Beton- C30/37 Verputzt\grqq{}} wird \textit{\glqq 'beton', 'c30/37', 'verputzt'\grqq{}}
+
 \section{Algorithmen für die Textklassifizierung}
 \label{c:conception:classification}
+Die Textklassifizierung ist nach dem Preprocessing der zweite Schritt der Material-Strukturierung. Hier werden die Materialien den in Abbildung \ref{fig:material-categories} aufgelisteten Überkategorien zugeordnet. Zuerst wird der Ablauf einer normalen Textklassifizierung erläutert und dann die Algorithmen Sdca Maximum Entropy mit ML.NET und Convolutional Neural Network mit Keras analysiert.
+
 \subsection{Ablauf einer Textklassifizierung}
 \label{c:conception:classification:steps}
-
 Das Klassifizieren von Texten teilt sich oft in die folgende Stufen. Alle diese Stufen wirken sich auf das Ergebnis der Klassifizierung aus:
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.3\textwidth]{classification-flow}
 	\caption[Textklassifizierung]{Stufen der Textklassifizierung (Quelle:  \cite{Foram_2016})}
@@ -333,73 +385,167 @@ Das Klassifizieren von Texten teilt sich oft in die folgende Stufen. Alle diese 
 \end{figure}
 
 \paragraphheader{Preprocessing}
-Das Preprocessing ist ein wichtiger Schritt vor der Klassifizierung. Es hat Auswirkungen auf die Genauigkeit, Interpretierbarkeit und Robustheit des Gesamtalgorithmus aus. \citep{Zelaya_2019} Materialbezeichnungen aus \ac{ifc}-Dateien können verrauscht und uneinheitlich sein, da es sich um ein Freitextfeld handelt. Die Vorverarbeitung der Daten hilft, die Daten zu säubern und auf das wesentliche reduzieren. \citep{Priyanga_2016}
-Die Vorverarbeitungsstufe besteht normalerweise aus Aufgaben wie Tokenisierung, Entfernung von Stoppwörtern, Umwandlung in Kleinbuchstaben und Stemming. \citep{Uysal_2014}
-Für die Materialklassifizierung werden zuerst bestimmte Zeichenketten rausgefiltert. Of befinden sich in der Bezeichnung Größen- und Farbangaben.
-Mithilfe von Regex werden Farben, RGB-Farbcodes (z.B \textit{60 - 60 - 60}) und Größenangaben (z.B \textit{400 x 300}) aus dem String entfernt. Anschließend wird der Text in Tokens und jeder Token in Kleinbuchstaben umgewandelt. Aus \textit{\glqq Kunststoff - grau 80-80-80\grqq{}} wird dann z.B. \textit{\glqq 'kunststoff'\grqq{}} und aus \textit{\glqq Beton- C30/37 Verputzt\grqq{}} wird \textit{\glqq 'beton', 'c30/37', 'verputzt'\grqq{}}
+Das in Abschnitt \ref{c:conception:architecture:preprocessing} beschriebene Preprocessing findet als erster Schritt der ganzen Materialstrukturierung statt. Ein zusätzliches Preprocessing für die Textklassifizierung gibt es nicht.
 
-\paragraphheader{Feature selection}
-Da es bei der Materialstrukturierung nur ein Feature gibt, muss keine Auswahl aus einem Feature-Set getroffen werden. Es werden lediglich Größen- und Farbangaben aus dem Material-String im Preprocessing entfernt.
+\paragraphheader{Feature Selection}
+Beim Schritt der Feature Selection werden unrelevante Informationen für die Klassifizierung aus den Ausgangsdaten entfernt. Da es bei der Materialstrukturierung nur die Materialbezeichnung als Feature gibt, muss keine Auswahl aus einem Feature-Set getroffen werden. Es werden lediglich Größen- und Farbangaben aus dem Material-String im Preprocessing entfernt.
 
-\paragraphheader{Feature extraction}
+\paragraphheader{Feature Extraction}
 \begin{definition}[Feature extraction]
 	\label{d:feature-extraction}
 	\glqq Feature extraction addresses the problem of finding the most compact and informative set of features, to improve the efficiency or data storage and processing.\grqq{} \citep{Guyon2006}
 \end{definition}
-Zusätzlich werden in diesem Schritt beliebig formatierte Daten in eine  maschinenlesbare numerische Darstellung umgewandelt. \citep{scit-learn_featureextraction} Auch die im Preprocessing entstandenen Tokens sind noch Zeichenketten die in eine numerische Darstellung umgewandelt werden müssen.
+Bei der Feature Extraction geht es darum, die rohen Daten in eine numerische Darstellung zu bringen, die möglichst kompakt ist, ohne aber relevanten Informationen zu verlieren.
+Auch die im Preprocessing entstandenen Worttokens sind noch Zeichenketten die in eine numerische Darstellung umgewandelt werden müssen.
 
 \paragraphheader{Classification stages}
 Nachdem die vorherigen Schritte auf die Daten ausgeführt wurde, kann die Klassifizierung starten.
 
+\subsection{Kriterien der Messbarkeit}
+\label{c:conception:classification:criteria}
+Bei der Textklassifizierung ist vor allem die Genauigkeit entscheidend.
+
+
 \subsection{Sdca Maximum Entropy}
 \label{c:conception:classification:sdca}
+
 \subsection{Convolutional Neural Network}
 \label{c:conception:classification:cnn}
+
+
 \section{Möglichkeiten für die Feinstrukturierung}
 \label{c:conception:fine-structuring}
-\subsection{OpenAI Schnittstelle}
-\label{c:conception:fine-structuring:openai}
-OpenAI ist ein Unternehmen für \ac{ki}-Forschung und -Einsatz. Sie bieten verschiedene \ac{ki}-Modelle über eine \ac{api} an. Neben Speech-ToText und einem Bildgenerierungsmodell gibt es das Sprachverarbeitungsmodell \ac{gpt}
-\subsection{FastText mit Density Based Clustering}
-\label{c:conception:fine-structuring:dbscan}
+Die Feinstrukturierung ist nach der Textklassifikation der dritte Schritt der Material-Strukturierung. Hier werden die in eine Überkategorie zugeordneten Materialien weiter hierarchisch strukturiert, um eine feinere und tiefere Baumstruktur zu erreichen. In diesem Kapitel wird das Vorgehen mit dem \ac{gpt}-Modell von OpenAI und der Implementierung mit \textit{fastText} Encoding und Density Based Clustering analysiert.
 
+\subsection{Spezifikation und Kriterien der Messbarkeit}
+\label{c:conception:fine-structuring:criteria}
+Die Verteilung der Materialien auf die Überkategorien ist nicht gleich verteilt. Materialien der Kategorien \textit{Mineralisch} oder \textit{Metall} kommen kommen viel häufiger vor als zum Beispiel \textit{BitumenUndTeer} oder \textit{Gebäudetechnik}. Nicht in jeder \ac{ifc}-Datei ist eine Einfahrt aus Asphalt oder die Gebäudetechnik definiert. Die Verteilung der Materialien ist in Tabelle \ref{t:distribution} zu sehen. Somit ist auch die Verteilung der Materialien aus einer \ac{ifc}-Datei nach dem Schritt der Textklassifizierung in die Überkategorien nicht gleich verteilt. Eine Feinstrukturierung ist bei zwei Materialien pro Kategorie nicht sinnvoll und auch bei drei soll noch keine tiefere Strukturierung stattfinden. Erst bei vier Materialien pro Kategorie wird feiner strukturiert.
+Die Feinstrukturierung soll keine weiteren selbst trainierten Klassifizierungsmodelle benötigen. Diese würden zusätzlich zu der Textklassifizierung hohen Wartungsaufwand verursachen, da sie regelmäßig aktualisiert werden müssten, um die Genauigkeit der Klassifizierung beizubehalten bzw. zu verbessern. In den folgenden Kapiteln wird dies einerseits mit dem Benutzen eines fertig trainierten Modells und Unsupervised Learning umgangen.
+Somit kann die Feinstrukturierung nicht mit fest definierten Kriterien der Algorithmen evaluiert werden. Für die Auswertung sind 20 Beispiele zum Testen der Algorithmen definiert. Diese sind in Anhang \ref{c:tables} von Tabelle \ref{t:evaluation-example1} bis \ref{t:evaluation-example22} zu finden. Die Beispiele wurden in Kooperation mit dem Produktmanagement erstellt und fachlich überprüft. Sie sind auf Basis echter \ac{ifc}-Dateien entstanden. Eine Tabelle stellt alle Materialien einer \ac{ifc}-Datei, die in die Überkategorie (in der Überschrift zu sehen) eingeordnet wurden, dar. In der Spalte \textit{Klasse} sind die Begriffe einer Unterklasse über eine Nummer zugeordnet. Alle Begriffe mit der selben Nummer gehören zu einer Unterklasse. Die Verteilung der Beispiele über die Überkategorien ist aus dem selben Grund, wie auch die Verteilung der Materialklassifikationsdaten (Tabelle \ref{t:distribution}), nicht gleich verteilt. Die Ergebnisse der Evaluation sind in Abschnitt \ref{c:comparison:fine-structuring} aufgezeigt.
+
+% Tabelle
+\input{tables/distribution}
+
+\subsection{\acf{gpt} Modell von OpenAI}
+\label{c:conception:fine-structuring:openai}
+OpenAI ist ein Unternehmen für \ac{ki}-Forschung und -Einsatz. Sie bieten verschiedene fertig trainierte \ac{ki}-Modelle über eine \ac{api} an. Neben Speech-ToText und einem Bildgenerierungsmodell gibt es das Sprachverarbeitungsmodell \ac{gpt}.
+Die Nutzung eines fertig trainierten Modells hat einige Vorteile. Vor allem werden so die Problemstellungen \ref{p:shorttext} und \ref{p:technical-term} automatisch gelöst. OpenAI benutzen ihr eigenen ausgereiften Textrepräsentationsmodelle. Somit wird auch die Bedeutung von Worten bei den kurzen Materialangaben bei der Vektorisierung beibehalten. Außerdem kann das Modell durch die Masse an Trainingsdaten aus Büchern, Artikel und Webseiten auch mit vielen Fachbegriffen umgehen. Außerdem spart man sich die Wartung eines selbst trainierten Modells. Das Etikettieren von Daten ist sehr Zeit und auch Ressourcen-aufwändig, da es von einer Person gemacht werden muss, die passende fachliche Kenntnisse besitzt.
+
+Der Begriff \ac{gpt} steht für eine Reihe von vor trainierten Sprachmodellen, die von OpenAI entwickelt wurden. Diese sind populäre Transformer für die Generierung von natürlicher Sprache. \citep{zhu_luo_2022}
+\begin{definition}[Transformer]
+	\glqq Transformers are a type of artificial neural network architecture that is used to solve the problem of transduction or transformation of input sequences into output sequences in deep learning applications. \grqq{} \citep{Rogel-Salazar2022-pd}
+\end{definition}
+\ac{gpt} ist also ein Modell, das auf einem großen Datensatz an textuellen Informationen trainiert wurde und kann zur Bewältigung spezifischer sprachbezogener Aufgaben eingesetzt werden. Im Vergleich zu Modellen zum Verstehen natürlicher Sprache wie zum Beispiel BERT kann \ac{gpt} natürliche Sprache generieren. Der Algorithmus liefert basierend auf allen eingegebenen Tokens neue Tokens, welche dann die Antwort darstellen. \citep{zhu_luo_2022}
+
+OpenAI hat verschiedene Versionen des \ac{gpt} Algorithmus. \ac{gpt} 1 wurde 2018 veröffentlicht. Darauf folgte \ac{gpt} 2 2019. Beide Modelle wurden in zwei Schritten trainiert. Zuerst wurde ein Model mit Hilfe von Unsupervised Learning mit einer sehr großen Datenmenge vor trainiert und konnte dann für bestimmte Aufgaben mit dem Trainieren von überwachten Datensätzen verfeinert werden. \citep{alec_2018} \ac{gpt} 3 wurde in einem Schritt trainiert und verzichtet auf die kontextbezogene Verfeinern des Modells. \citep{zhu_luo_2022} Stattdessen benutzt das Modell \glqq Meta-Learning\grqq{}. Das Modell entwickelt so beim Training ein breites Spektrum an Mustererkennungsfähigkeiten und weiteren Fertigkeiten, die sich beim Ausführen des Modells schnell an die gewünschte Aufgabe anpassen. 
+Durch die Skalierung des Modells auf 175 Billionen Parameter wurden ähnliche Ergebnisse wie bei damaligen modernster fein abgestimmter Systeme erzielt. \citep{brown2020language} 
+
+Die \ac{gpt}-Modelle 2 und 3 sind nicht darauf trainiert, Benutzeranweisungen zu befolgen. Dafür wurde 2022 \textit{InstructGPT} auf der Basis des \ac{gpt} 3 Modell trainiert. Mit Supervised Learning und Reinfocement Learning wurde das Modell verfeinert, um hilfreichere Ergebnisse bei Benutzeranweisungen zu bekommen. Zusätzlich wurde eine Reduktion von toxischen Antworten erzielt. \citep{ouyang2022training}
+
+Das für die Material-Feinstrukturierung verwendete Modell \textit{ChatGPT} ist ein Zwillingsmodell von \textit{InstructGPT} und ist ist eine Feinabstimmung eines Modells der \ac{gpt}-3.5-Serie. \citep{OpenAI2022-la}
+Das Modell wurde Ende 2022 veröffentlicht und ist über eine öffentliche API erreichbar und kann mit Hilfe des Python-Package \textit{openai} leicht genutzt werden.
+
+\subsection{fastText mit \acf{dbscan}}
+\label{c:conception:fine-structuring:dbscan}
+In diesem Ansatz werden mit Hilfe von Clustering, Materialien weiter strukturiert. Durch das Nutzen von Unsupervised Learning müssen so keine weiteren Klassifizierungs-Modelle trainiert und verwaltet werden.
+Um Problemstellung \ref{p:shorttext} zu lösen, wird das Vorgehen wie es auch \cite{Qingyuan2019} vorgeschlagen hat angewandt. Ein Textrepräsentationsmodell wird mit anderen Texten trainiert und mit diesem Modell die Vektorisierung auf die Materialbezeichnungen angewandt. 
+Die \glqq ORCA Software GmbH\grqq{} entwickelt neben der ORCA AVA das Portal \ac{ade}. Dieses hat über einer Millionen Ausschreibungstext von über 800 verschiedenen Herstellern. Diese Texte eignen sich optimal für das Trainieren des Worteinbettung Modells. Sie enthalten viele Materialnamen und weitere Fachbegriffe der Baubranche, welche essenziell für das Clustering der Materialien aus dern \ac{ifc}-Dateien sind. Somit ist zusätzlich Problemstellung \ref{p:technical-term} gelöst. Auch \cite{nooralahzadeh2018evaluation} kommt auf das Ergebnis, dass sich Domänen-Spezifische Word Embeddings auch schon mit limitierter Eingabedaten nützlich ist. 
+Die Ausschreibungstexte werden mit einem schon existierendem Preprocessing verarbeitet und liefern am Ende ca. 360.000 Sätze mit über 300.000 verschiedene Wörtern. Im Preprocessing werden verschiedene Zeichenketten aus den Texten mit Hilfe von Regex herausgefiltert. Dazu gehören \ac{url}s, verschieden Normen wie \ac{din} und Attribut-Listen wie zum Beispiel \textit{Nettogewicht: 0,196 kg}. Zusätzlich werden unnötige Absätze entfernt.
+Auch wenn Ausschreibungstexte oft keine kompletten Sätze beinhalten, werden so viele nicht relevanten Daten entfernt.
+
+Als Textrepräsentation und Wort-Einbettungs-Algorithmus bietet sich \textit{fastText} an. \textit{fastText} wurde 2016 von Facebook veröffentlicht \citep{fastText_release2016}. Außerdem wurde die dazu getätigte Forschung mit \cite{bojanowski2017enriching} und \cite{joulin2016bag} veröffentlicht.
+
+Das Modell basiert auf dem Wort-Einbettungs Algorithmus \textit{Word2Vec} mit \glqq Continuous Skip-Gram\grqq{} und \ac{cbow} \citep{bojanowski2017enriching}. Das Modell nutzt ein Neuronales Netz bei dem die ausgewählten Gewichte als Vektor für ein Wort entstehen. Die Trainingsdaten für das neuronale Netz entstehen durch ein selbst gestelltes Problem. Mit \ac{cbow} versucht man mit nahegelegenen Wörtern ein Wort hervorzusagen. Bei Skip-Gram versucht man aus einem Wort den Kontext, also die nahegelgenden Wörter hervorzusagen. So kann beim Iterieren über den Trainingstext das Modell immer weiter trainiert werden. In Abbildung \ref{fig:cbow} sieht man ein \ac{cbow} Beispiel, in dem die Kontextwörter als Input Layer und das gesuchte Wort als Ergebnis zur Ermittlung des Verlustes genutzt werden. Die nach dem Trainieren entstandenen Gewichte \textit{W1\textsubscript{n$\times $k}}\: sind dann die Repräsentation für das Wort \textit{catches}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{cbow-model}
+	\caption[CBOW]{Beispiel des \ac{cbow}-Modells. (Quelle:  \cite{cbow_image})}
+	\label{fig:cbow}
+\end{figure}
+\textit{fastText} erweitert diese Vorgehensweise und, nutzt \textit{fastText} Teilwortinformationen und ein Wort als Vektor darzustellen. Wörter werden in N-Grams dargestellt. \citep{bojanowski2017enriching} Die Repräsentation für das Wort \textit{Estrich} mit n = 3 ist zum Beispiel \textit{<Es,est,str,tri,ric,ich,ch>} wobei die Zeichen \textit{<} und \textit{>} als Begrenzungszeichen hinzugefügt werden, um die N-Gramms eines Wortes vom Wort selbst zu unterscheiden. Wäre also das Wort \textit{ich} im Vokabular, wird es als \textit{<ich>} dargestellt. Das Neuronale Netz wird dann mit der Liste der N-Gramms inklusive dem kompletten Wort trainiert. Somit ermöglicht das Modell die gemeinsame Nutzung der Teilwortinformationen für alle Wörter\citep{bojanowski2017enriching}. Zusätzlich nutzt \textit{fastText} eine hierarchische Softmax Verlustfunktion, um die Berechnung von unausgewogenen Verteilungen zu beschleunigen \citep{fastText_release2016}.
+
+\textit{fastText} hat für den Anwendungsfall folgende Vorteile:
+
+\begin{itemize}
+	\item \textit{fastText} kann mit Wörtern außerhalb des Vokabulars umgehen. Bei unbekannten Wörtern, werden die Vektoren der einzelnen Char-Ngramms summiert. Es muss allerdings mindestens eines der char-ngrams in den Trainingsdaten vorhanden sein. \citep{gensim_fastText,le2014distributed} Da sich bei diesem Konzept der Feinstrukturierung das Vokabular bei Ausführung vom Trainingsvokabular unterscheidet, ist das Verarbeiten von diesen Wörtern essentiell.
+	\item \textit{fastText} liefert Vektordarstellungen mit fester Länge welche für das Clustering mit zum Beispiel \ac{dbscan} nötig ist. \citep{le2014distributed}
+	\item \textit{fastText} liefert bessere Ergebnisse bei syntaktischen Aufgaben als zum Beispiel \textit{Word2Vec} und \textit{Bag of Words} \citep{fastText_word2vec_comparison,le2014distributed}
+	\item \textit{fastText} hat eine schnellere Trainingszeit als vergleichbar genaue Deep Learning Algorithmen \citep{fastText_release2016}
+\end{itemize}
+
+
+Mit dem fertige trainierten \textit{fastText} Modell können dann Wörter in Vektoren umgewandelt werden. Bei der Vektorisierung der Materialien, die aus mehreren Wörtern bestehen, werden die Vektoren der einzelnen Wörter aufaddiert. Das ist die selbe Vorgehensweise, wie \textit{fastText} bei neuen Wörter, die nicht im Vokabular vorkommen, vorgeht \citep{gensim_fastText}.
+
+
+Wenn die Materialbezeichnungen vektorisiert wurden können sie geclusterd werden. Aus einer großen Auswahl an Cluster-Algorithmen bietet sich \ac{dbscan} an. \glqq The \ac{dbscan} algorithm views clusters as areas of high density separated by areas of low density.\grqq{} \citep{scikitlearn_clustering} Der Algorithmus wurde \citeyear{Ester1996ADA} von \citeauthor{Ester1996ADA} vorgestellt und veröffentlicht. Ziel war es einen Algorithmus zu entwickeln, bei dem man wenig Fachwissen für die Bestimmung der Parameter braucht, Cluster mit beliebiger Form bekommen kann und eine gute Effizienz bei großen Datenbanken besitzt.
+
+\ac{dbscan} braucht die zwei Parameter \textit{min\_samples} und \textit{eps}. Als erster Schritt werden alle Punkte, die inklusive sich selbst mindestens \textit{min\_samples} an Nachbarn innerhalb des Abstands von \textit{eps} hat, als Kernpunkte definiert. Alle anderen Punkte werden erstmals als Rauschen gekennzeichnet. Als nächstes werden alle Kernpunke, die inherhalb des Radius \textit{eps} beieinander liegen als ein Cluster definiert. Zum Schluss werden nochmal alle Rauschpunke überprüft, ob sie nicht doch innerhalb des Radius eines Kernpunktes in einem Clusters liegen. \citep{scikitlearn_clustering,Ester1996ADA} Die Anzahl der Cluster ist also abhängig von den Daten (und den Parametern) und muss nicht vorgegeben werden.
+\ac{dbscan} hat also für den Anwendungsfall folgende Vorteile:
+
+\begin{itemize}
+	\item \ac{dbscan} liefert eine passende Anzahl von Clustern, abhängig von den Materialbezeichnungen. Dies ist wichtig, da die Anzahl der Materialien pro Überkategorie und somit auch die der potentiellen Clustern immer unterschiedlich ist. Das Ergebnis des Clustering wird auch direkt dem Benutzer der ORCA AVA präsentiert. Somit ist es auch nicht möglich mit einem anderen Clustering-Algorithmus über die Anzahl von Clustern zu iterieren und das fachlich beste auszuwählen.
+	\item Es müssen keine Trainingsdatensätze oder Modell verwaltet werden.
+	\item Der Algorithmus setzt die mitgegebene Bedeutung des Wortes bei der Wort-Einbettung mit \textit{fastText} um. 
+\end{itemize}
+
+Am Ende liefert \ac{dbscan} zu jedem übergebenem Material eine Zahl, die das Cluster repräsentiert. Rauschpunkte werden mit -1 zurückgegeben. Diese werden dann nicht weiter strukturiert und bleiben hierarchisch direkt unter ihrer zugewiesenen Überkategorie. Dieses Format kann für die Evaluationsbeispiele (Tabelle \ref{t:evaluation-example1} - \ref{t:evaluation-example22}) direkt genutzt werden. Bei diesem Ergebnis fehlen für die endgültige Material-Strukturierung noch die Begriffe der Gliederungspunkte für die entstandenen Cluster.
 
 \chapter{Gegenüberstellung der möglichen Konzepte}
 \label{c:comparison}
-
+In diesem Kapitel werden die in Kapitel \ref{c:conception} vorgestellten Konzepte verglichen.
+Dies wird gesondert für die Textklassifizierung und die Feinstrukturierung durchgeführt. Es wird jeweils das Ergebnis ausgewertet und eine Auswahl eines Algorithmus durchgeführt.
 \section{Vergleich der Textklassifizierung}
 \label{c:comparison:classification}
-\subsection{Messkriterien}
-\label{c:comparison:classification:criteria}
+\subsection{Auswertung}
+\label{c:comparison:classification:evaluation}
 \subsection{Auswahl eines Algorithmus}
 \label{c:comparison:classification:selection}
 \section{Vergleich der Feinstrukturierung}
-\subsection{Messkriterien}
-\label{c:comparison:fine-structuring:criteria}
+\label{c:comparison:fine-structuring}
+\subsection{Auswertung}
+\label{c:comparison:fine-structuring:evaluation}
 \subsection{Auswahl eines Algorithmus}
 \label{c:comparison:fine-structuring:selection}
 
+
 \chapter{Praktische Umsetzung}
 \label{c:implementation}
-\section{Implementierung des Services}
+In diesem Kapitel wird die Umsetzung der ausgewählten Algorithmen und Bibliotheken beschrieben. Zuerst werden Die Implementierung des Services und der Python-Interop gezeigt. Danach geht es um die konkrete Implementierung der Material-Strukturierung.
+
+\section{Implementierung des ASP.NET Services}
 \label{c:implementation:service}
+Die Realisierung als ASP.NET Service ist eine Anforderung der \glqq ORCA Software GmbH\grqq{}. Für das Erstellen eines neuen Services gibt es ein fertiges Projekttemplate, weleches nur umbenannt werden muss. Die Vorlage liefert eine einheitliche Projektstruktur und zeigt den Aufbau des Services anhand der Implementierung eines Beispiels. Die neu genannte \textit{ MaterialStructurizationApi} hat zwei verschiedene \ac{rest}-Controller.
+Diese teilen sich wie im Anwendungsfalldiagramm (Abbildung \ref{fig:usecasediagramm}) zu sehen in die Schnittstellen für die ORCA AVA Benutzer und die ORCA Internen Schnittstellen auf. In den Controllern werden die \ac{rest}-Schnittstellen-Methoden definiert. Dazu zählt die Art der Anfragemethoden, die \ac{url} oder auch die möglichen Antwort-StatusCodes. Service interne Logik wird im \code{MaterialService} organisiert. Hier werden die \acp{dto} in Entitäten umgewandelt und die Aufrufe auf die entsprechenden weiteren themenspezifischen Services oder Datenzugriff-Repositories weitergeleitet. Am Ende werden Rückgabewerte wieder in entsprechende \acp{dto} abgebildet und an den Controller zurückgegeben. Ein Beispiel ist in Abbildung \ref{lst:materialservice} zu sehen. Die Methode ist für die Material-Strukturierung zuständig. Sie bekommt die Liste von Manualbezeichnungen und eine \code{bool}, welcher bestimmt ob die Feingliederung durchgeführt werden soll, übergeben. Nach der Parameterprüfung werden Duplikate aus der Materialliste entfernt und danach in Zeile 8 über das \code{MaterialRepository} neue Materialien dem Trainingsdatensatz für die Klassifizierung hinzugefügt. Danach wird der \code{MaterialStructurizerService} aufgerufen, der sich dann um die Logik der Strukturierung kümmert.
+
+Repositories kapseln den Datenzugriff über Interfaces. So ist die Logikimplementierung in den Services unabhängig von der Implementierung des Datenbankzugriffs. Der Datenbankzugriff wird in den Repositories mit der Object-Relation-Mapper Bibliothek \textit{EntityFramework} implementiert. Es wird der Model-First Ansatz verwendet, bei dem zuerst die Objektstruktur im C\#-Code definiert wird und daraus automatisiert die Datenbank generiert wird.
+
 \section{Python-Interop}
 \label{c:implementation:python-interop}
+Für die Implementierung einiger Komponenten wird Python als Programmiersprache benötigt. Der Webservice wird allerdings mit ASP.NET implementiert. Um die Kommunikation zwischen .NET und Python zu vereinfachen wird das Nuget-Packet \code{pythonnet} verwendet. Die Bibliothek vereinfacht es Python-Code aus dem C\#-Code auszuführen und verschiedene Python-Variablen auszulesen oder diesen Werte zuweisen. Um den Python-Interop nutzen zu können, muss eine lauffähige Python-Umgebung installiert sein. Der Python-Interop ist in mit dem Interface \code{IKiExecuter} gekapselt und lässt so eine eventuelle C\# Ablösung der Python-Komponenten in der Zukunft einfach zu integrieren. In Listing \ref{lst:pythonnet} ist der Python-Code Aufruf für das Preprocessing zu sehen. Nachdem die Python-Engine initialisiert wird, kann der Python-Variable ein Wert zugewiesen werden. Dann wird das Skript \textit{preprocess.py} (Listing \ref{lst:preprocess}) über den Namen aufgerufen und danach die Python-Variable \code{material\_preprocessed}, in welcher am Ende des Python-Skripts das Ergebnis steht, wieder ausgelesen.
+
+\lstinputlisting[language={[Sharp]C}, caption={Python-Interopt für das Preprocessing}, style={csharp}, label={lst:pythonnet}]{Pythonnet.cs}
+
+Zusätzlich löst es das Problem, das das Pythonskript zur Feinstrukturierung immer wieder das \textit{fastText}-Modell neu laden muss. Durch die Möglichkeit Python-Variablen zuzuweisen und auszulesen, ist es auch möglich das \textit{fastText}-Modell initial beim Starten des Services in den Speicher zu laden. Das macht das Ausführen der Feinstrukturierung sehr viel performanter und erst produktiv einsetzbar.
 
 \section{Implementieren des Auslesens aller Materialien aus einer \ac{ifc} Datei}
 \label{c:implementation:ifc-material-extraction}
+Für das Auslesen aller Materialien aus einer \ac{ifc}-Datei besteht schon ein Grundgerüst in der Codebasis der ORCA AVA. Es bestehen bereits die Funktionen mit dem \textit{xbim-toolkit} \ac{ifc}-Dateien einzulesen und daraus das Business Model \code{IfcProject} zu erzeugen. Dazu reicht der Pfad zur gewünschten \ac{ifc}-Datei. 
 
-\section{Strukturieren der Materialnamen}
+\section{Implementierung der Material-Strukturierung}
 \label{c:implementation:structuring}
+Die Implementierung der Material-Strukturierung teilt sich ähnlich wie in Kapitel \ref{c:conception} auf. Zuerst geht es um das Erstellen einer Datengrundlage, dann um die Implementierung des Preprocessings. Anschliesend wird das Textklassifizierungs-Modell vorgestellt. Für die Feinstrukturierung wird am Ende noch die Implementierung für \textit{fastText} und \ac{dbscan} erläutert.
+\subsection{Erstellen einer Datengrundlage}
+\label{c:implementation:data} 
+Die Datengrundlage entstand durch das Extrahieren der Materialangaben (wie in Abschnitt \ref{c:implementation:ifc-material-extraction} beschrieben) aus verschiedenen \ac{ifc}-Dateien. Hierzu standen über 500 verschiedene Dateien zur Verfügung. Die daraus entstandenen Materialbezeichnungen wurden über eine \ac{http}-PUT Anfrage in einem \ac{sql}-Server mit dem in Abbildung \ref{fig:db-scheme} abgebildetem Schema persistiert. Die Liste diese Materialien wurden anschließend manuell gefiltert. In vielen \ac{ifc}-Dateien werden die Möglichkeiten der Materialangabe noch nicht gut genutzt. Deshalb waren viele Materialangaben nicht aussagekräftig um sie als Trainingsdaten für die Textklassifizierung zu nutzten. Am Ende standen circa 500 unterschiedliche Materialien zur Verfügung.
+Um die Daten anschließend zu klassifizieren, wurde ein Klassifizierungs-Service mit Oberfläche implementiert (siehe Anhang \ref{fig:classification-service}). Dieser stand im internen Firmennetzwerk zur Verfügung, sodass ausgewählte Mitarbeiter die Materialien klassifizieren konnten. Die dafür benötigten Methoden standen über den \code{InhouseMaterialController} der \textit{MaterialStructurizationApi}, welcher die internen ORCA-Schnittstellen bietet, zur Verfügung. Somit wurden über 480 klassifizierte Datensätze geschaffen. Die Verteilung der Klassifizierung ist in Abbildung \ref{fig:distribution-diagramm} zu sehen.
 \subsection{Implementierung des Preprocessings}
 \label{c:implementation:preprocess}
-\subsection{Erstellen einer Datengrundlage}
-\label{c:implementation:data}
+Das Preprocessing für die Textklassifizierung 
 \subsection{Training des Text-Klassifizierungsmodells}
 \label{c:implementation:classification-training}
-\subsection{Training des FastText Modells}
+\subsection{Training des \textit{fastText} Modells}
 \label{c:implementation:embedding-training}
-\subsection{DBSCAN Clustering}
+\subsection{\ac{dbscan} Clustering}
 \label{c:implementation:clustering}
 
 
@@ -429,3 +575,5 @@ Bei der Durchsetzung von Maßnahmen der Qualitätssicherung wurden technische Hi
 \section{Ausblick}
 \label{c:closing:outlook}
 Die Erweiterung soll in der Version 26 in der ORCA AVA Enterprise Edition erscheinen.
+
+Fachlich: Nutzung der Materialliste für die CO2-Bilanz einer \ac{ifc}-Datei

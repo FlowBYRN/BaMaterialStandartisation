@@ -11,52 +11,55 @@ Reallocating 'name_of_file' (item size: 1) to 11 items.
 A level-1 auxiliary file: append.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: acronyms.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: dicts.aux
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: agsm.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
+Warning--I didn't find a database entry for "Ester1996ADA"
 Warning--can't use both author and editor fields in Guyon2006
 Warning--empty chapter and pages in Guyon2006
 Warning--empty publisher in molnar2022
-You've used 27 entries,
+You've used 44 entries,
             2909 wiz_defined-function locations,
-            798 strings with 9929 characters,
-and the built_in function-call counts, 121711 in all, are:
-= -- 20324
-> -- 1089
+            886 strings with 13991 characters,
+and the built_in function-call counts, 242164 in all, are:
+= -- 40175
+> -- 2984
 < -- 1
-+ -- 9669
-- -- 329
-* -- 10384
-:= -- 24144
-add.period$ -- 40
-call.type$ -- 27
-change.case$ -- 370
-chr.to.int$ -- 24
-cite$ -- 30
-duplicate$ -- 393
-empty$ -- 819
-format.name$ -- 415
-if$ -- 21919
++ -- 19673
+- -- 931
+* -- 21207
+:= -- 47639
+add.period$ -- 62
+call.type$ -- 44
+change.case$ -- 608
+chr.to.int$ -- 41
+cite$ -- 47
+duplicate$ -- 619
+empty$ -- 1304
+format.name$ -- 1071
+if$ -- 43533
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 116
-num.names$ -- 262
-pop$ -- 219
+missing$ -- 20
+newline$ -- 181
+num.names$ -- 440
+pop$ -- 354
 preamble$ -- 1
-purify$ -- 400
+purify$ -- 655
 quote$ -- 0
-skip$ -- 322
+skip$ -- 521
 stack$ -- 0
-substring$ -- 28912
-swap$ -- 82
-text.length$ -- 369
+substring$ -- 57641
+swap$ -- 111
+text.length$ -- 607
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 102
+type$ -- 170
 warning$ -- 3
-while$ -- 561
+while$ -- 922
 width$ -- 0
-write$ -- 363
-(There were 3 warnings)
+write$ -- 591
+(There were 4 warnings)

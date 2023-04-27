@@ -1,5 +1,14 @@
 \stepcounter{chapter} %increment counter of chapters B -> C
 \def\verzeichnisdef{\Alph{chapter} ~~} %variable
+
 \addcontentsline{toc}{chapter}{\verzeichnisdef Definitionsverzeichnis}
 
 \listoftheorems[ignore={goal,problem,requirement},show={definition},title={\verzeichnisdef Definitionsverzeichnis}]
+
+\stepcounter{chapter} %increment counter of chapters C -> D
+\def\listingdef{\Alph{chapter} ~~} %variable
+
+\addcontentsline{toc}{chapter}{\listingdef Quellcodeverzeichnis}
+
+\renewcommand{\lstlistlistingname}{\listingdef Quellcodeverzeichnis}
+\lstlistoflistings

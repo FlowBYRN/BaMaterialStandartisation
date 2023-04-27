@@ -1,4 +1,4 @@
-  \documentclass[twoside=true, %  doppelseitiger Druck
+  \documentclass[twoside=false, %  doppelseitiger Druck
     DIV=15
     ,% 11 DIV Faktor für Satzspiegelberechnung - muss bei anderen Schriftgrößen als 11pt angepasst werden , sie Doku zu KOMA Script
     BCOR=15mm, % Bindekorrektur
@@ -8,20 +8,31 @@
     fontsize=12pt,%             use this font size
     paper=a4,%          use ISO A4
 %    bibliography=totoc,%         write bibliography-chapter to table of contents
-    numbers=noenddot
+    numbers=noenddot,
   ]{scrbook}
 
 \usepackage[utf8]{inputenc}
 \usepackage{makeidx}
+
+% Fonts:
 \usepackage{amsfonts}
 \usepackage{lmodern}    % statt mathpazo, falls CM fonts verwendet werden sollen
-\usepackage[scaled=.95]{helvet}
 \usepackage{courier}
+\usepackage[scaled=.95]{helvet}
 \usepackage[T1]{fontenc}
-\usepackage{textcomp}
-\usepackage{amsmath}            % standard math notation (vectors/sets/...)
-\usepackage{bm}        % standard math notation (fonts)
-\usepackage{fixmath}        % standard math notation (fonts)
+%\usepackage{mathptmx}
+%\usepackage{textcomp}
+
+% All in Arial Times
+%\renewcommand{\rmdefault}{ptm}
+%\addtokomafont{disposition}{\rmfamily}
+
+% Math:
+%\usepackage{amsmath}            % standard math notation (vectors/sets/...)
+%\usepackage{bm}        % standard math notation (fonts)
+%\usepackage{fixmath}        % standard math notation (fonts)
+
+% Figures:
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -44,6 +55,77 @@
 \usepackage{rotating} % turning figures
 \usepackage{thmtools}
 \usepackage{tcolorbox}
+
+%code listing
+\usepackage{listings}
+
+\renewcommand{\lstlistingname}{Codeauflistung}
+\renewcommand{\lstlistlistingname}{Quellcodeverzeichnis}
+\lstset{
+	inputpath={./listings/},
+	frame=single,
+	breaklines=true,
+	captionpos=b,
+	basicstyle=\footnotesize\ttfamily,
+	keywordstyle=\color{blue},
+	identifierstyle=\color{black},
+	backgroundcolor=\color{white},
+	stringstyle=\color{black}\ttfamily,
+	commentstyle=\color{gray},
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=5pt,
+	tabsize=2,
+	showspaces=false,
+	showtabs=false,
+	xleftmargin=17pt,
+	framexleftmargin=17pt,
+	framexrightmargin=5pt,
+	framexbottommargin=4pt,
+    inputencoding = utf8,  % Input encoding
+	extendedchars=true,
+	showstringspaces=false,
+	literate={á}{{\'a}}1  {é}{{\'e}}1  {í}{{\'i}}1 {ó}{{\'o}}1  {ú}{{\'u}}1
+	{Á}{{\'A}}1  {É}{{\'E}}1  {Í}{{\'I}}1 {Ó}{{\'O}}1  {Ú}{{\'U}}1
+	{à}{{\`a}}1  {è}{{\`e}}1  {ì}{{\`i}}1 {ò}{{\`o}}1  {ù}{{\`u}}1
+	{À}{{\`A}}1  {È}{{\'E}}1  {Ì}{{\`I}}1 {Ò}{{\`O}}1  {Ù}{{\`U}}1
+	{ä}{{\"a}}1  {ë}{{\"e}}1  {ï}{{\"i}}1 {ö}{{\"o}}1  {ü}{{\"u}}1
+	{Ä}{{\"A}}1  {Ë}{{\"E}}1  {Ï}{{\"I}}1 {Ö}{{\"O}}1  {Ü}{{\"U}}1
+	{â}{{\^a}}1  {ê}{{\^e}}1  {î}{{\^i}}1 {ô}{{\^o}}1  {û}{{\^u}}1
+	{Â}{{\^A}}1  {Ê}{{\^E}}1  {Î}{{\^I}}1 {Ô}{{\^O}}1  {Û}{{\^U}}1
+	{œ}{{\oe}}1  {Œ}{{\OE}}1  {æ}{{\ae}}1 {Æ}{{\AE}}1  {ß}{{\ss}}1
+	{ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1  {Ø}{{\O}}1   {å}{{\r a}}1
+	{Å}{{\r A}}1 {ã}{{\~a}}1  {õ}{{\~o}}1 {Ã}{{\~A}}1  {Õ}{{\~O}}1
+	{ñ}{{\~n}}1  {Ñ}{{\~N}}1  {¿}{{?`}}1  {¡}{{!`}}1,
+}
+\lstdefinestyle{csharp}
+{
+	language=csh,
+	morecomment=[l]{//}, %use comment-line-style!
+	morecomment=[s]{/*}{*/}, %for multiline comments
+	morekeywords={ abstract, event, new, struct,
+		as, explicit, null, switch,
+		base, extern, object, this,
+		bool, false, operator, throw,
+		break, finally, out, true,
+		byte, fixed, override, try,
+		case, float, params, typeof,
+		catch, for, private, uint,
+		char, foreach, protected, ulong,
+		checked, goto, public, unchecked,
+		class, if, readonly, unsafe,
+		const, implicit, ref, ushort,
+		continue, in, return, using,
+		decimal, int, sbyte, virtual,
+		default, interface, sealed, volatile,
+		delegate, internal, short, void,
+		do, is, sizeof, while,
+		double, lock, stackalloc,
+		else, long, static,
+		enum, namespace, string,
+		await, async},
+}
+
 
 \usepackage{graphicx}
 \graphicspath{ {./figures/} }
@@ -68,6 +150,7 @@
 \newcommand{\real}{\mathord{\mathrm{I\!R}}}
 \newcommand*{\quelle}[1]{\tiny\par\raggedleft\footnotesize Quelle:~#1}
 \newcommand*{\paragraphheader}[1]{\vspace{5mm}\noindent{\large\textbf{#1}}\\}
+\newcommand{\code}[1]{\texttt{#1}}
 
 % benötigt da \bf nicht mehr unterstützt
 \DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
@@ -79,6 +162,9 @@
 
 \def\figdir{figures}
 \def\tabledir{tables}
+
+
+
 
 \frontmatter
 
