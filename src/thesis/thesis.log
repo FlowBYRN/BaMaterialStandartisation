@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  27 APR 2023 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  29 APR 2023 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1689,35 +1689,34 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 526.
- (listings/Pythonnet.cs)
+ (listings/Pythonnet.cs) [31]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 530.
+(hyperref)                removing `\@ac' on input line 531.
 
-[31]
 Package acronym Info: Label `acro:http' newly defined as it shall be overridden
 
-although it is yet undefined on input line 539.
+although it is yet undefined on input line 540.
 Package acronym Info: Label `acro:sql' newly defined as it shall be overridden
-although it is yet undefined on input line 539.
- [32]
+although it is yet undefined on input line 540.
+[32]
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 546.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 550.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 13.67995pt on input line 546.
-
+(Font)              scaled to size 13.67995pt on input line 550.
+ [33]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 548.
+(hyperref)                removing `\@ac' on input line 558.
 
-[33]
+[34]
 chapter 7.
-[34
+[35
 
 
 ]
 chapter 8.
-) [35
+) [36
 
 
 ]
@@ -1725,91 +1724,91 @@ chapter 8.
 
  (append.tex
 chapter A.
-<./figures//ifc-manager.png, id=927, 1445.4pt x 782.925pt>
+<./figures//ifc-manager.png, id=944, 1445.4pt x 782.925pt>
 File: ./figures//ifc-manager.png Graphic file (type png)
 <use ./figures//ifc-manager.png>
 Package pdftex.def Info: ./figures//ifc-manager.png  used on input line 7.
 (pdftex.def)             Requested size: 443.86305pt x 240.42247pt.
-<./figures//material-layer-set.png, id=930, 891.33pt x 246.9225pt>
+<./figures//material-layer-set.png, id=947, 891.33pt x 246.9225pt>
 File: ./figures//material-layer-set.png Graphic file (type png)
 <use ./figures//material-layer-set.png>
 Package pdftex.def Info: ./figures//material-layer-set.png  used on input line 
 14.
 (pdftex.def)             Requested size: 443.86305pt x 122.9636pt.
-<./figures//material-categories.png, id=931, 1032.85875pt x 447.92343pt>
+<./figures//material-categories.png, id=948, 1032.85875pt x 447.92343pt>
 File: ./figures//material-categories.png Graphic file (type png)
 <use ./figures//material-categories.png>
 Package pdftex.def Info: ./figures//material-categories.png  used on input line
  21.
 (pdftex.def)             Requested size: 650.0pt x 281.89935pt.
-<./figures//material-profile-set.png, id=932, 891.33pt x 258.9675pt>
+<./figures//material-profile-set.png, id=949, 891.33pt x 258.9675pt>
 File: ./figures//material-profile-set.png Graphic file (type png)
 <use ./figures//material-profile-set.png>
 Package pdftex.def Info: ./figures//material-profile-set.png  used on input lin
 e 28.
 (pdftex.def)             Requested size: 443.86305pt x 128.9618pt.
-[36
+[37
 
 
 
 
 
- <./figures//ifc-manager.png> <./figures//material-layer-set.png>] [37 <./figur
+ <./figures//ifc-manager.png> <./figures//material-layer-set.png>] [38 <./figur
 es//material-categories.png>]
-<./figures//material-constituent-set.png, id=945, 891.33pt x 198.7425pt>
+<./figures//material-constituent-set.png, id=961, 891.33pt x 198.7425pt>
 File: ./figures//material-constituent-set.png Graphic file (type png)
 <use ./figures//material-constituent-set.png>
 Package pdftex.def Info: ./figures//material-constituent-set.png  used on input
  line 35.
 (pdftex.def)             Requested size: 443.86305pt x 98.9707pt.
-<./figures//cost-structure-example.png, id=946, 446.41782pt x 249.18094pt>
+<./figures//cost-structure-example.png, id=962, 446.41782pt x 249.18094pt>
 File: ./figures//cost-structure-example.png Graphic file (type png)
 <use ./figures//cost-structure-example.png>
 Package pdftex.def Info: ./figures//cost-structure-example.png  used on input l
 ine 42.
 (pdftex.def)             Requested size: 443.86305pt x 247.75829pt.
-<./figures//verteilungsdiagramm.png, id=947, 638.385pt x 693.34032pt>
+<./figures//verteilungsdiagramm.png, id=963, 638.385pt x 693.34032pt>
 File: ./figures//verteilungsdiagramm.png Graphic file (type png)
 <use ./figures//verteilungsdiagramm.png>
 Package pdftex.def Info: ./figures//verteilungsdiagramm.png  used on input line
  49.
 (pdftex.def)             Requested size: 443.86305pt x 482.07643pt.
- [38 <./figures//material-profile-set.png> <./figures//material-constituent-set
+ [39 <./figures//material-profile-set.png> <./figures//material-constituent-set
 .png> <./figures//cost-structure-example.png>]
-<./figures//function-import.png, id=953, 1297.84875pt x 499.8675pt>
+<./figures//function-import.png, id=969, 1297.84875pt x 499.8675pt>
 File: ./figures//function-import.png Graphic file (type png)
 <use ./figures//function-import.png>
 Package pdftex.def Info: ./figures//function-import.png  used on input line 56.
 
 (pdftex.def)             Requested size: 443.86305pt x 170.95187pt.
 
-[39 <./figures//verteilungsdiagramm.png>]
-<./figures//function-takeover.png, id=959, 1189.44376pt x 545.03625pt>
+[40 <./figures//verteilungsdiagramm.png>]
+<./figures//function-takeover.png, id=975, 1189.44376pt x 545.03625pt>
 File: ./figures//function-takeover.png Graphic file (type png)
 <use ./figures//function-takeover.png>
 Package pdftex.def Info: ./figures//function-takeover.png  used on input line 6
 3.
 (pdftex.def)             Requested size: 443.86305pt x 203.3901pt.
-<./figures//function-rating.png, id=962, 1052.43187pt x 494.59781pt>
+<./figures//function-rating.png, id=978, 1052.43187pt x 494.59781pt>
 File: ./figures//function-rating.png Graphic file (type png)
 <use ./figures//function-rating.png>
 Package pdftex.def Info: ./figures//function-rating.png  used on input line 70.
 
 (pdftex.def)             Requested size: 443.86305pt x 208.59755pt.
- [40 <./figures//function-import.png> <./figures//function-takeover.png>]
-<./figures//material-classifier-gui.png, id=969, 1108.8928pt x 406.51875pt>
+ [41 <./figures//function-import.png> <./figures//function-takeover.png>]
+<./figures//material-classifier-gui.png, id=985, 1108.8928pt x 406.51875pt>
 File: ./figures//material-classifier-gui.png Graphic file (type png)
 <use ./figures//material-classifier-gui.png>
 Package pdftex.def Info: ./figures//material-classifier-gui.png  used on input 
 line 77.
 (pdftex.def)             Requested size: 443.86305pt x 162.71626pt.
- (listings/MaterialService.cs [41 <./figures//function-rating.png> <./figures//
+ (listings/MaterialService.cs [42 <./figures//function-rating.png> <./figures//
 material-classifier-gui.png>])
-(listings/PythonPreprocess.cs [42])
+(listings/PythonPreprocess.cs [43])
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstl
 ang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (listings/preprocess.py [43]) (tables/evaluation-examples.tex
+) (listings/preprocess.py [44]) (tables/evaluation-examples.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1873,12 +1872,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [44] [45] [46] [47] [48] [49] [50]
+)) [45] [46] [47] [48] [49] [50] [51]
 \openout2 = `acronyms.aux'.
 
  (acronyms.tex
 chapter B.
-[51
+[52
 
 
 
@@ -1894,11 +1893,11 @@ n already used, duplicate ignored
 l.24 \acro{cad}[CAD]{Computer-aided design}
                                            ]
 
-LaTeX Warning: Hyper reference `acro:rgb' on page 52 undefined on input line 28
+LaTeX Warning: Hyper reference `acro:rgb' on page 53 undefined on input line 28
 .
 
 
-LaTeX Warning: Hyper reference `acro:rgb' on page 52 undefined on input line 28
+LaTeX Warning: Hyper reference `acro:rgb' on page 53 undefined on input line 28
 .
 
 
@@ -1907,7 +1906,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{vb}) has been
 <to be read again> 
                    \relax 
 l.31 \acro{vb}[VB]{Visual Basic}
-                                ) [52]
+                                ) [53]
 \openout2 = `dicts.aux'.
 
  (dicts.tex
@@ -1928,7 +1927,7 @@ Class scrbook Warning: \float@listhead detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@listhead interface on input line 14.
 
-[53
+[54
 
 
 
@@ -1946,7 +1945,7 @@ erateMaterialCostStructureAsync
 \tf@lol=\write7
 \openout7 = `thesis.lol'.
 
-) [54
+) [55
 
 
 ] (thesis.bbl
@@ -1976,7 +1975,7 @@ Underfull \hbox (badness 5939) in paragraph at lines 46--51
 art . org / IFC / RELEASE / IFC4 _ 1 /
  []
 
-[55
+[56
 
 
 
@@ -2001,7 +2000,7 @@ Underfull \hbox (badness 5939) in paragraph at lines 116--119
 art . org / IFC / RELEASE / IFC4 _ 1 /
  []
 
-[56]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 127--130
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / scrumguides . org / d
 ocs / scrumguide / v2020 /
@@ -2019,26 +2018,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--168
  / aspnetcore / blob / main / README .
  []
 
-[57]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 184--189
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / helpdesk . orca-[]sof
 tware . com / Solution / AVA25 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--209
+Underfull \hbox (badness 10000) in paragraph at lines 212--216
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . dominodatalab .
  com / blog /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--249
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 252--256
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . sciencedirect .
  com / science / article / pii /
  []
 
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 251--255
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--262
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / technical . buildings
 mart . org / standards / ifc /
  []
@@ -2048,7 +2047,7 @@ No file thesis.ind.
 
 Package natbib Warning: There were undefined citations.
 
-[59]
+[60]
 \tf@loe=\write8
 \openout8 = `thesis.loe'.
 
@@ -2064,11 +2063,11 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34551 strings out of 476374
- 691571 string characters out of 5784134
- 2186340 words of memory out of 5000000
- 53565 multiletter control sequences out of 15000+600000
- 613300 words of font info for 234 fonts, out of 8000000 for 9000
+ 34566 strings out of 476374
+ 691787 string characters out of 5784134
+ 2204340 words of memory out of 5000000
+ 53575 multiletter control sequences out of 15000+600000
+ 613429 words of font info for 235 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,106p,10603b,2402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/
@@ -2092,9 +2091,9 @@ Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/U
 sers/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 bo8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/ur
 w/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (66 pages, 1470490 bytes).
+Output written on thesis.pdf (67 pages, 1478563 bytes).
 PDF statistics:
- 1638 PDF objects out of 1728 (max. 8388607)
- 420 named destinations out of 1000 (max. 500000)
+ 1658 PDF objects out of 1728 (max. 8388607)
+ 423 named destinations out of 1000 (max. 500000)
  72331 words of extra memory for PDF output out of 74296 (max. 10000000)
 

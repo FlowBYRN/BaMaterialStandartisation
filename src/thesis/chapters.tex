@@ -525,7 +525,8 @@ Für die Implementierung einiger Komponenten wird Python als Programmiersprache 
 
 \lstinputlisting[language={[Sharp]C}, caption={Python-Interopt für das Preprocessing}, style={csharp}, label={lst:pythonnet}]{Pythonnet.cs}
 
-Zusätzlich löst es das Problem, das das Pythonskript zur Feinstrukturierung immer wieder das \textit{fastText}-Modell neu laden muss. Durch die Möglichkeit Python-Variablen zuzuweisen und auszulesen, ist es auch möglich das \textit{fastText}-Modell initial beim Starten des Services in den Speicher zu laden. Das macht das Ausführen der Feinstrukturierung sehr viel performanter und erst produktiv einsetzbar.
+Zusätzlich löst \textit{pythonnet} das Problem, dass das Pythonskript zur Feinstrukturierung nicht immer wieder das \textit{fastText}-Modell neu in den Speicher laden muss. Durch die Möglichkeit Python-Variablen zuzuweisen und auszulesen, ist es auch möglich das \textit{fastText}-Modell initial beim Starten des Services in den Speicher zu laden. Das macht das Ausführen der Feinstrukturierung sehr viel performanter und erst produktiv einsetzbar.
+Für die Entwicklung der Pyhtonskripte wird die Logik immer in eine Methode ausgelagert. Mit der Zeile \code{if \_\_name\_\_ == "\_\_main\_\_":} wird der darauf folgende Code beim initialen aufrufen des Skriptes ausgeführt. Mit dem Try-Except-Block wird überprüft, ob durch \textit{pythonnet} die Eingabevariable schon initialisiert wurde. Ansonsten kann beim Debuggen ein Wert über die Kommandozeile eingetragen werden. Somit kann für alle Konstellationen immer nur ein Skript verwendet werden. Das ganze Skript sowohl die definierte Methode kann dann mit \textit{pyhtonnet} im C\#-Code ausgeführt und aber auch autark im Debug-Modus ausgeführt werden. (Beispiel: Codeausschnitt \ref{lst:preprocess})
 
 \section{Implementieren des Auslesens aller Materialien aus einer \ac{ifc} Datei}
 \label{c:implementation:ifc-material-extraction}
@@ -540,11 +541,20 @@ Die Datengrundlage entstand durch das Extrahieren der Materialangaben (wie in Ab
 Um die Daten anschließend zu klassifizieren, wurde ein Klassifizierungs-Service mit Oberfläche implementiert (siehe Anhang \ref{fig:classification-service}). Dieser stand im internen Firmennetzwerk zur Verfügung, sodass ausgewählte Mitarbeiter die Materialien klassifizieren konnten. Die dafür benötigten Methoden standen über den \code{InhouseMaterialController} der \textit{MaterialStructurizationApi}, welcher die internen ORCA-Schnittstellen bietet, zur Verfügung. Somit wurden über 480 klassifizierte Datensätze geschaffen. Die Verteilung der Klassifizierung ist in Abbildung \ref{fig:distribution-diagramm} zu sehen.
 \subsection{Implementierung des Preprocessings}
 \label{c:implementation:preprocess}
-Das Preprocessing für die Textklassifizierung 
+Das Preprocessing für die Textklassifizierung wurde in Python implementiert.
+Das Vorgehen wurde schon in Abschnitt \ref{c:conception:architecture:preprocessing} erläutert. Die Implementierung des Pythonskripts ist im Codeausschnitt \ref{lst:python-preprocess} zu sehen. Das Preprocessing basiert größtenteils auf der Textverarbeitung mit Regex. Mit dem Regex \code{[A-Za-z0-9üäöÜÄÖßóåéèÉÈÓ/]} werden alle Sonderzeichen bis auf  \glqq /\grqq{} aus dem String entfernt. Bei der Maßangabe mussten aufgrund der unterschiedlicher Verarbeitung des Python-Package \code{re} bei \code{re.findall(...)} \code{re.sub(...)} mehrere Regex definiert werden. Zuerst werden dreidimensionale Maße im Materialstring gesucht. Wenn keine Vorhanden sind, werden zweidimensionale Maße entfernt. Ansonsten wird mit einem zusätzlichen Regex die dreidimensionalen Maßangaben entfernt. Am Ende wird eine Liste von Strings aus dem Materialstring gefiltert und überschüssige Leerzeichen mit \code{strip()} entfernt. 
+
+Wie in Abbildung \ref{fig:db-scheme} zu sehen ist, werden die vorverarbeiteten Materialien in der Datenbank persistiert. Immer wenn ein neues Material in die Datenbank geschrieben wird, wird das Preprocessing gestartet. Das bietet die Möglichkeit direkt nach dem Klassifizieren eines Materials, das Textklassifizierungs-Modell ohne vorheriges Preprocessing neu trainieren zu können. Dadurch verringert sich die Ausführungszeit des Trainingsprozesses und es kann direkt auf das aktualisierte Modell zugegriffen werden.
 \subsection{Training des Text-Klassifizierungsmodells}
 \label{c:implementation:classification-training}
 \subsection{Training des \textit{fastText} Modells}
 \label{c:implementation:embedding-training}
+Für das Trainieren des \textit{fastText}-Modells wird die Python-Bibliothek \textit{Gensim}  \citep{rehurek_lrec} verwendet. Die Bibliothek implementiert verschiedene Vektorisierungsalgorithmen, wie zum Beispiel \textit{Word2Vec}, \textit{EnsembleLDA} aber auch \textit{fastText}.
+
+Über eine interne Schnittstelle wurden alle \ac{ade}-Texte in Textdateien gespeichert. Der Trainingsablauf wurde in drei Skripte aufgeteilt. Das Skript \textit{fasttext\_prepare.py} liest die Catalogtexte ein und führt das in Abschnitt \ref{c:conception:fine-structuring:dbscan} erläuterte Preprocessing aus.
+Das Skript \textit{fasttext\_train.py} liest die vorverarbeiteten Texte wieder ein teilt sie in Sätze ein und generiert Tokens aus jedem Satz. Bei der Aufteilung in Sätze werden Abkürzungen in denen ein Punkt vorkommt beachtet und führen zu keinem eigenen Satz. Anschließend wird ein \textit{fastText}-Modell initialisiert, trainiert und am Ende gespeichert.
+
+Mit dem dritten Skript \textit{fasttext\_test.py} kann man das trainierte Modell fachlich bewerten. Mit der Methode \code{most\_similar(positive=[word],topn=100)} werden die 100 ähnlichsten Wörter zu einem Wort ausgegeben. Da der Algorithmus \ac{dbscan} mit der Dichte von Punkten und somit der \glqq Ähnlichkeit\grqq{} von Worten funktioniert, ist diese Methode eine gutee Möglichkeit das Modell fachlich zu evaluieren und testen.
 \subsection{\ac{dbscan} Clustering}
 \label{c:implementation:clustering}
 

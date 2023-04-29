@@ -201,6 +201,13 @@ Radford, A.  \harvardyearleft 2018\harvardyearright , `Improving language
   understanding with unsupervised learning'.
 \newline\harvardurl{\url{https://openai.com/research/language-unsupervised}}
 
+\harvarditem{{\v R}eh{\r u}{\v r}ek \harvardand\ Sojka}{2010}{rehurek_lrec}
+{\v R}eh{\r u}{\v r}ek, R. \harvardand\ Sojka, P.  \harvardyearleft
+  2010\harvardyearright , {Software Framework for Topic Modelling with Large
+  Corpora}, {\em in} `{Proceedings of the LREC 2010 Workshop on New Challenges
+  for NLP Frameworks}', ELRA, Valletta, Malta, pp.~45--50.
+\newblock \url{http://is.muni.cz/publication/884893/en}.
+
 \harvarditem{Rogel-Salazar}{2022}{Rogel-Salazar2022-pd}
 Rogel-Salazar, J.  \harvardyearleft 2022\harvardyearright , `Transformers
   models in machine learning: Self-attention to the rescue'.

@@ -52,19 +52,19 @@
 \contentsline {subsection}{\numberline {6.4.2}Implementierung des Preprocessings}{33}{subsection.6.4.2}%
 \contentsline {subsection}{\numberline {6.4.3}Training des Text-Klassifizierungsmodells}{33}{subsection.6.4.3}%
 \contentsline {subsection}{\numberline {6.4.4}Training des \textit {fastText} Modells}{33}{subsection.6.4.4}%
-\contentsline {subsection}{\numberline {6.4.5}\ac {dbscan} Clustering}{33}{subsection.6.4.5}%
-\contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{34}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Clean Code}{34}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Technische Hilfsmittel}{34}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Tests und Abnahme}{34}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Abschluss}{35}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Bewertung der praktischen Umsetzung}{35}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Fazit}{35}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Integration in die ORCA AVA}{35}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Ausblick}{35}{section.8.4}%
-\contentsline {chapter}{\numberline {A}Anhang}{36}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{51}{appendix.B}%
-\contentsline {chapter}{C ~~Definitionsverzeichnis}{53}{appendix.B}%
-\contentsline {chapter}{D ~~Quellcodeverzeichnis}{53}{chapter*.83}%
-\contentsline {chapter}{Literaturverzeichnis}{55}{chapter*.84}%
+\contentsline {subsection}{\numberline {6.4.5}\ac {dbscan} Clustering}{34}{subsection.6.4.5}%
+\contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{35}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Clean Code}{35}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Technische Hilfsmittel}{35}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Tests und Abnahme}{35}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Abschluss}{36}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Bewertung der praktischen Umsetzung}{36}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Fazit}{36}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Integration in die ORCA AVA}{36}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Ausblick}{36}{section.8.4}%
+\contentsline {chapter}{\numberline {A}Anhang}{37}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{52}{appendix.B}%
+\contentsline {chapter}{C ~~Definitionsverzeichnis}{54}{appendix.B}%
+\contentsline {chapter}{D ~~Quellcodeverzeichnis}{54}{chapter*.83}%
+\contentsline {chapter}{Literaturverzeichnis}{56}{chapter*.84}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
