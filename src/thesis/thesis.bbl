@@ -1,8 +1,19 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{Adriaans}{2020}{sep-information}
+Adriaans, P.  \harvardyearleft 2020\harvardyearright , {Information}, {\em in}
+  E.~N. Zalta, ed., `The {Stanford} Encyclopedia of Philosophy', {F}all 2020
+  edn, Metaphysics Research Lab, Stanford University.
+
 \harvarditem{Beetz \harvardand\ Harrer}{2021}{devops_2021}
 Beetz, F. \harvardand\ Harrer, S.  \harvardyearleft 2021\harvardyearright ,
   `{GitOps: The Evolution of DevOps?}', {\em IEEE Software} {\bf 39}.
+
+\harvarditem[Berger et~al.]{Berger, Pietra \harvardand\
+  Pietra}{1996}{maximumentorpy1996}
+Berger, A.~L., Pietra, V. J.~D. \harvardand\ Pietra, S. A.~D.  \harvardyearleft
+  1996\harvardyearright , `A maximum entropy approach to natural language
+  processing', {\em Comput. Linguist.} {\bf 22}(1),~39–71.
 
 \harvarditem{Bie}{2019}{Qingyuan2019}
 Bie, Q.  \harvardyearleft 2019\harvardyearright , `{Words are not enough! Short
@@ -138,17 +149,76 @@ Laakso, M. \harvardand\ Kiviniemi, A.~O.  \harvardyearleft
 Le, Q.~V. \harvardand\ Mikolov, T.  \harvardyearleft 2014\harvardyearright ,
   `Distributed representations of sentences and documents'.
 
+\harvarditem{Liu \harvardand\ Nocedal}{1989}{Liu1989OnTL}
+Liu, D.~C. \harvardand\ Nocedal, J.  \harvardyearleft 1989\harvardyearright ,
+  `On the limited memory bfgs method for large scale optimization', {\em
+  Mathematical Programming} {\bf 45},~503--528.
+
+\harvarditem{Martin \harvardand\ Coplien}{2009}{martin2009clean}
+Martin, R.~C. \harvardand\ Coplien, J.~O.  \harvardyearleft
+  2009\harvardyearright , {\em Clean code: a handbook of agile software
+  craftsmanship}, Prentice Hall, Upper Saddle River, NJ [etc.].
+\newline\harvardurl{\url{https://www.amazon.de/gp/product/0132350882/ref=oh_details_o00_s00_i00}}
+
+\harvarditem{Microsoft}{2021}{select_ml_2021}
+Microsoft  \harvardyearleft 2021\harvardyearright , `{Ausw{\"a}hlen eines
+  Algorithmus f{\"u}r maschinelles Lernen - Azure Machine Learning}'.
+\newblock Accessed: 2023-05-02.
+\newline\harvardurl{\url{https://learn.microsoft.com/de-de/azure/machine-learning/how-to-select-algorithms}}
+
 \harvarditem{{Microsoft}}{2022{\em a}}{Microsoft_2022_ml}
 {Microsoft}  \harvardyearleft 2022{\em a}\harvardyearright , `Auswählen eines
   {Algorithmus} für maschinelles {Lernen} - {Azure Machine Learning}'.
 \newblock Accessed: 2023-3-10.
 \newline\harvardurl{\url{https://learn.microsoft.com/de-de/azure/machine-learning/how-to-select-algorithms}}
 
-\harvarditem{{Microsoft}}{2022{\em b}}{Microsoft_2022}
-{Microsoft}  \harvardyearleft 2022{\em b}\harvardyearright , `Windows
+\harvarditem{Microsoft}{2022{\em b}}{mlnet_doc2022}
+Microsoft  \harvardyearleft 2022{\em b}\harvardyearright , `What is {ML.NET}
+  and how does it work?'.
+\newblock Accessed: 2023-5-02.
+\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/machine-learning/how-does-mldotnet-work}}
+
+\harvarditem{Microsoft}{2022{\em c}}{mlnet2022}
+Microsoft  \harvardyearleft 2022{\em c}\harvardyearright , `What is ml.net and
+  how does it work?'.
+\newblock Accessed: 2023-5-02.
+\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/machine-learning/how-does-mldotnet-work}}
+
+\harvarditem{{Microsoft}}{2022{\em d}}{Microsoft_2022}
+{Microsoft}  \harvardyearleft 2022{\em d}\harvardyearright , `Windows
   presentation foundation ({WPF})'.
 \newblock Accessed: 2023-2-10.
 \newline\harvardurl{\url{https://github.com/dotnet/wpf}}
+
+\harvarditem{Microsoft}{n.d.{\em a}}{lbfgstrainer_doc2022}
+Microsoft  \harvardyearleft n.d.{\em a}\harvardyearright ,
+  `Lbfgsmaximumentropymulticlasstrainer class'.
+\newblock Accessed: 2023-5-02.
+\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.lbfgsmaximumentropymulticlasstrainer?view=ml-dotnet}}
+
+\harvarditem{Microsoft}{n.d.{\em b}}{oneversusall_doc}
+Microsoft  \harvardyearleft n.d.{\em b}\harvardyearright ,
+  `Lbfgsmaximumentropymulticlasstrainer class'.
+\newblock Accessed: 2023-5-02.
+\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.lbfgsmaximumentropymulticlasstrainer?view=ml-dotnet}}
+
+\harvarditem{Microsoft}{n.d.{\em c}}{metrics_doc}
+Microsoft  \harvardyearleft n.d.{\em c}\harvardyearright ,
+  `Multiclassclassificationmetrics class'.
+\newblock Accessed: 2023-5-02.
+\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.data.multiclassclassificationmetrics?view=ml-dotnet}}
+
+\harvarditem{Microsoft}{n.d.{\em d}}{scdabinary_doc}
+Microsoft  \harvardyearleft n.d.{\em d}\harvardyearright ,
+  `Sdcalogisticregressionbinarytrainer class'.
+\newblock Accessed: 2023-5-02.
+\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.sdcalogisticregressionbinarytrainer?view=ml-dotnet}}
+
+\harvarditem{Microsoft}{n.d.{\em e}}{sdcatrainer_doc2022}
+Microsoft  \harvardyearleft n.d.{\em e}\harvardyearright ,
+  `Sdcamulticlasstrainerbase<tmodel> class'.
+\newblock Accessed: 2023-5-02.
+\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.sdcamulticlasstrainerbase-1?view=ml-dotnet}}
 
 \harvarditem{Miller}{2017}{miller_2017}
 Miller, T.  \harvardyearleft 2017\harvardyearright , `{Explanation in
@@ -180,6 +250,16 @@ Nooralahzadeh, F., {\O}vrelid, L. \harvardand\ L{\o}nning, J.~T.
 \newblock Accessed: 2023-4-24.
 \newline\harvardurl{\url{https://openai.com/blog/chatgpt}}
 
+\harvarditem{{OpenAI}}{n.d.{\em a}}{openai_reference}
+{OpenAI}  \harvardyearleft n.d.{\em a}\harvardyearright , `Api reference'.
+\newblock Accessed: 2023-5-09.
+\newline\harvardurl{\url{https://platform.openai.com/docs/api-reference/introduction}}
+
+\harvarditem{{OpenAI}}{n.d.{\em b}}{Openai_pricing}
+{OpenAI}  \harvardyearleft n.d.{\em b}\harvardyearright , `Pricing'.
+\newblock Accessed: 2023-5-09.
+\newline\harvardurl{\url{https://openai.com/pricing}}
+
 \harvarditem{{ORCA Software GmbH}}{n.d.}{helpdesk-kostengliederungen}
 {ORCA Software GmbH}  \harvardyearleft n.d.\harvardyearright , `{ORCA} helpdesk
   - {ORCA} {AVA} 25 - {Kostengliederungen als Basis f{\"u}r das
@@ -195,6 +275,12 @@ Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C.~L., Mishkin, P.,
   F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike,
   J. \harvardand\ Lowe, R.  \harvardyearleft 2022\harvardyearright , `Training
   language models to follow instructions with human feedback'.
+
+\harvarditem{Quintanilla}{2022}{mlnet_textclassification2022}
+Quintanilla, L.  \harvardyearleft 2022\harvardyearright , `Introducing the
+  ml.net text classification api (preview)'.
+\newblock Accessed: 2023-5-02.
+\newline\harvardurl{\url{https://devblogs.microsoft.com/dotnet/introducing-the-ml-dotnet-text-classification-api-preview/}}
 
 \harvarditem{Radford}{2018}{alec_2018}
 Radford, A.  \harvardyearleft 2018\harvardyearright , `Improving language
@@ -225,6 +311,17 @@ Shah, F.~P. \harvardand\ Patel, V.  \harvardyearleft 2016\harvardyearright , A
   {\em in} `2016 International Conference on Wireless Communications, Signal
   Processing and Networking (WiSPNET)', pp.~2264--2268.
 
+\harvarditem{Shalev-Shwartz \harvardand\
+  Zhang}{2013}{shalevshwartz2013stochastic}
+Shalev-Shwartz, S. \harvardand\ Zhang, T.  \harvardyearleft
+  2013\harvardyearright , `Stochastic dual coordinate ascent methods for
+  regularized loss minimization'.
+
+\harvarditem{Shannon}{1948}{shannon1948}
+Shannon, C.~E.  \harvardyearleft 1948\harvardyearright , `A mathematical theory
+  of communication', {\em Bell System Technical Journal} {\bf 27}(3),~379--423.
+\newline\harvardurl{https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1948.tb01338.x}
+
 \harvarditem[Szegedy et~al.]{Szegedy, Zaremba, Sutskever, Bruna, Erhan,
   Goodfellow \harvardand\ Fergus}{2013}{Szegedy_2013}
 Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I.
@@ -233,8 +330,7 @@ Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I.
 \newline\harvardurl{\url{https://arxiv.org/abs/1312.6199}}
 
 \harvarditem{{Thomas, Baumanns and Dr. Philipp-Stephan, Freber and Dr.
-  Kai-Stefan, Schober and Dr. Florian,
-  Kirchner}}{2016}{Thomas_Baumanns_Dr_Philipp-Stephan_Freber_Dr_Kai-Stefan_Schober_Dr_Florian_Kirchner2016-gu}
+  Kai-Stefan, Schober and Dr. Florian, Kirchner}}{2016}{RolandBerger2016}
 {Thomas, Baumanns and Dr. Philipp-Stephan, Freber and Dr. Kai-Stefan, Schober
   and Dr. Florian, Kirchner}  \harvardyearleft 2016\harvardyearright ,
   `Bauwirtschaft im {Wandel} - {Trends und Potenziale bis 2020}'.

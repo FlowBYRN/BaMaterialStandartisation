@@ -1,0 +1,963 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  4 MAY 2023 15:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./structuring-result.tex
+(structuring-result.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-02>
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{table}
+                 [!ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{table}[
+                  !ht]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.3 	\resizebox
+               {\columnwidth}{!}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.3 	\resizebox{\columnwidth}
+                             {!}{
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.3 	\resizebox{\columnwidth}
+                             {!}{
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ! in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+! Argument of \check@nocorr@ has an extra }.
+<inserted text> 
+                \par 
+l.6 ...tbf{} & \textbf{\textit{fastText} & DBSCAN}
+                                                   & \textbf{OpenAI} \\ \hline
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{fastText} \unskip \hfil 
+! Paragraph ended before \check@nocorr@ was complete.
+<to be read again> 
+                   \par 
+l.6 ...tbf{} & \textbf{\textit{fastText} & DBSCAN}
+                                                   & \textbf{OpenAI} \\ \hline
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.6 ...tbf{} & \textbf{\textit{fastText} & DBSCAN}
+                                                   & \textbf{OpenAI} \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no N in font nullfont!
+! Undefined control sequence.
+\text@command ...e \check@nocorr@ #1\nocorr \@nil 
+                                                  \fi \fi 
+l.6 ...tbf{} & \textbf{\textit{fastText} & DBSCAN}
+                                                   & \textbf{OpenAI} \\ \hline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no N in font nullfont!
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.6 ...f{} & \textbf{\textit{fastText} & DBSCAN} &
+                                                   \textbf{OpenAI} \\ \hline
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 25 strings out of 476374
+ 604 string characters out of 5784134
+ 1849340 words of memory out of 5000000
+ 20513 multiletter control sequences out of 15000+600000
+ 512954 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 19i,7n,12p,144b,193s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+!  ==> Fatal error occurred, no output PDF file produced!

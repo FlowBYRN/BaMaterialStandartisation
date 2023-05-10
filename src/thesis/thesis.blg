@@ -21,45 +21,45 @@ Warning--I didn't find a database entry for "Ester1996ADA"
 Warning--can't use both author and editor fields in Guyon2006
 Warning--empty chapter and pages in Guyon2006
 Warning--empty publisher in molnar2022
-You've used 45 entries,
+You've used 62 entries,
             2909 wiz_defined-function locations,
-            895 strings with 14255 characters,
-and the built_in function-call counts, 247886 in all, are:
-= -- 41141
-> -- 3031
+            974 strings with 16672 characters,
+and the built_in function-call counts, 291139 in all, are:
+= -- 47995
+> -- 3558
 < -- 1
-+ -- 20127
-- -- 945
-* -- 21698
-:= -- 48747
-add.period$ -- 64
-call.type$ -- 45
-change.case$ -- 622
-chr.to.int$ -- 42
-cite$ -- 48
-duplicate$ -- 642
-empty$ -- 1347
-format.name$ -- 1091
-if$ -- 44580
-int.to.chr$ -- 8
++ -- 23221
+- -- 1100
+* -- 25174
+:= -- 57898
+add.period$ -- 92
+call.type$ -- 62
+change.case$ -- 860
+chr.to.int$ -- 52
+cite$ -- 65
+duplicate$ -- 856
+empty$ -- 1831
+format.name$ -- 1293
+if$ -- 52273
+int.to.chr$ -- 15
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 185
-num.names$ -- 450
-pop$ -- 360
+missing$ -- 27
+newline$ -- 260
+num.names$ -- 623
+pop$ -- 497
 preamble$ -- 1
-purify$ -- 670
+purify$ -- 925
 quote$ -- 0
-skip$ -- 541
+skip$ -- 706
 stack$ -- 0
-substring$ -- 59009
-swap$ -- 118
-text.length$ -- 621
+substring$ -- 68355
+swap$ -- 150
+text.length$ -- 859
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 174
+type$ -- 240
 warning$ -- 3
-while$ -- 946
+while$ -- 1307
 width$ -- 0
-write$ -- 608
+write$ -- 840
 (There were 4 warnings)

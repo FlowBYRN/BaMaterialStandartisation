@@ -1,390 +1,432 @@
 \begin{table}[h]
-	\label{t:evaluation-example1}
+
 	\centering
-\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
+\begin{tabular}{|l|l|l|l|}
 	\hline
-	\textbf{Begriff} & \textbf{Klasse} \\ \hline
-	Ortbeton C30/37 Verputzt & 1 \\ \hline
-	Trockenbau Gipsplatte & ~ \\ \hline
-	Fußboden Heizestrich & 3 \\ \hline
-	Geländearbeiten Gebundene Schüttung & 4 \\ \hline
-	Ortbeton C30/37 & 1 \\ \hline
-	Mauerwerk mit Daemmeigenschaften & 2 \\ \hline
-	Fußboden Fußbodenaufbau & 3 \\ \hline
-	Fußboden Schüttung & 3 \\ \hline
-	Putz & ~ \\ \hline
-	Geländearbeiten Rollierung Schuettung & 4 \\ \hline
-	Ortbeton bewehrt geschliffen & 1 \\ \hline
-	Geländearbeiten Aufgeschüttet & 4 \\ \hline
-	Fußboden Estrich & 3 \\ \hline
-	Beton C 25/30 & 1 \\ \hline
-	Dachdeckung Ziegel & ~ \\ \hline
-	Mauerwerk ohne Daemmeigenschaften & 2 \\ \hline
+	\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+   Ortbeton C30/37 Verputzt & 1 & 1 & ~ \\ \hline
+Trockenbau Gipsplatte & ~ & ~ & ~ \\ \hline
+Fußboden Heizestrich & 3 & 3 & 3 \\ \hline
+Geländearbeiten Gebundene Schüttung & 4 & 4 & 4 \\ \hline
+Ortbeton C30/37 & 1 & 1 & ~ \\ \hline
+Mauerwerk mit Daemmeigenschaften & 2 & 2 & 2 \\ \hline
+Fußboden Fußbodenaufbau & 3 & 3 & 3 \\ \hline
+Fußboden Schüttung & 3 & ~ & 3 \\ \hline
+Putz & ~ & ~ & ~ \\ \hline
+Geländearbeiten Rollierung Schuettung & 4 & 4 & 4 \\ \hline
+Ortbeton bewehrt geschliffen & 1 & ~ & ~ \\ \hline
+Geländearbeiten Aufgeschüttet & 4 & 4 & 4 \\ \hline
+Fußboden Estrich & 3 & 3 & 3 \\ \hline
+Beton C 25/30 & 1 & 1 & ~ \\ \hline
+Dachdeckung Ziegel & ~ & ~ & ~ \\ \hline
+Mauerwerk ohne Daemmeigenschaften & 2 & 2 & 2 \\ \hline
+\textbf{Auswertung} & richtig & teilweise & teilweise \\ \hline
 	\end{tabular}
 	\caption{Überkategorie: Mineralisch}
+	\label{t:evaluation-example1}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		 Keramik & ~ & ~ & ~ \\ \hline
+		 Trockenbau Gipsplatte & 1 & 1 & 1 \\ \hline
+		 Trockenbau Gipsplatte 2 & 1 & 1 & 1 \\ \hline
+		 Trockenbau Gipsplatte 3 & 1 & 1 & 1 \\ \hline
+		 Trockenbau Gipsplatte 4 & 1 & 1 & 1 \\ \hline
+		 Fußboden Teppich & 2 & ~ & 2 \\ \hline
+		 Fußboden Estrich & 2 & ~ & 2 \\ \hline
+		 Fußboden Trittschall & 2 & 2 & 2 \\ \hline
+		 Fußboden Schüttung & 2 & 2 & 2 \\ \hline
+		 Geschossdecke FB 200 Fliese & 3 & 3 & ~ \\ \hline
+		 Fußboden Fliese Travertin & 2 & 3 & 2 \\ \hline
+		 Ortbeton bewehrt & 3 & ~ & ~ \\ \hline
+		 Mauerwerk Ziegel \\ \hline
+		\textbf{Auswertung} & richtig & falsch & teilweise \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Mineralisch}
 	\label{t:evaluation-example2}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		Gipskarton & ~ \\ \hline
-		Keramik Fliesen & ~ \\ \hline
-		Mauerwerk Betonblock & 1/2 \\ \hline
-		Beton Gegossen & 2 \\ \hline
-		Mauerwerk Ziegel & (1) \\ \hline
-		Beton & 2 \\ \hline
-	\end{tabular}
-	\caption[]{Überkategorie: Mineralisch}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+      	Gipskarton & ~ & ~ & ~ \\ \hline
+		Keramik Fliesen & ~ & ~ & ~ \\ \hline
+		Mauerwerk Betonblock & 1 & 1 & 1 \\ \hline
+		Beton Gegossen & 2 & 2 & 2 \\ \hline
+		Mauerwerk Ziegel & 1 & 1 & 1 \\ \hline
+		Beton & 2 & 2 & 2 \\ \hline	
+		\textbf{Auswertung} & richtig & richtig & richtig \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Mineralisch}
 	\label{t:evaluation-example3}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-	Keramik & 2 \\ \hline
-	Trockenbau Gipsplatte & 1 \\ \hline
-	Trockenbau Gipsplatte 2 & 1 \\ \hline
-	Trockenbau Gipsplatte 3 & 1 \\ \hline
-	Trockenbau Gipsplatte 4 & 1 \\ \hline
-	Fußboden Teppich & 2 \\ \hline
-	Fußboden Estrich & 2 \\ \hline
-	Fußboden Trittschall & 2 \\ \hline
-	Fußboden Schüttung & 2 \\ \hline
-	Geschossdecke FB 200 Fliese & 3 \\ \hline
-	Fußboden Fliese Travertin & 2 \\ \hline
-	Ortbeton bewehrt & 3 \\ \hline
-	Mauerwerk Ziegel & ~ \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Mineralisch}
 \end{table}
 
-
-
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		 Stütze Auflager & ~ & ~ & -1 \\ \hline
+		Kalksandstein & ~ & ~ & ~ \\ \hline
+		Kies & ~ & ~ & ~ \\ \hline
+		Fliesen & ~ & ~ & 2 \\ \hline
+		Estrich & ~ & ~ & 2 \\ \hline
+		Gipsputz & ~ & ~ & ~ \\ \hline
+		Volkernplatte & ~ & ~ & 1 \\ \hline
+		Ausbauplatte GKBI & 1 & 1 & 1 \\ \hline
+		Ausbauplatte GKB & 1 & 1 & 1 \\ \hline
+		\textbf{Auswertung} & richtig & richtig & falsch \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Mineralisch}
 	\label{t:evaluation-example4}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		Stütze Auflager & ~ \\ \hline
-		Kalksandstein & ~ \\ \hline
-		Kies & ~ \\ \hline
-		Fliesen & ~ \\ \hline
-		Estrich & ~ \\ \hline
-		Gipsputz & ~ \\ \hline
-		Volkernplatte & ~ \\ \hline
-		Ausbauplatte GKBI & 1 \\ \hline
-		Ausbauplatte GKB & 1 \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Mineralisch}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		 WI KS 17 5 & 1 & 1 & ~ \\ \hline
+		Kalksandstein & 1 & ~ & 1 \\ \hline
+		WI KS 11 5 & 1 & 1 & 1 \\ \hline
+		DA Flachdach Kiesschicht & 3 & ~ & ~ \\ \hline
+		Kies & 3 & ~ & ~ \\ \hline
+		Fliesen & ~ & ~ & 3 \\ \hline
+		Estrich & ~ & ~ & 3 \\ \hline
+		Gipsputz & ~ & ~ & ~ \\ \hline
+		Ausbauplatte GKBI & 2 & 2 & 2 \\ \hline
+		Ausbauplatte GKB & 2 & 2 & 2 \\ \hline
+		\textbf{Auswertung} & richtig & teilweise & falsch \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Mineralisch}
 	\label{t:evaluation-example5}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 WI KS 17 5 & 1 \\ \hline
-		Kalksandstein & 1 \\ \hline
-		WI KS 11 5 & 1 \\ \hline
-		DA Flachdach Kiesschicht & 3 \\ \hline
-		Kies & 3 \\ \hline
-		Fliesen & ~ \\ \hline
-		Estrich & ~ \\ \hline
-		Gipsputz & ~ \\ \hline
-		Ausbauplatte GKBI & 2 \\ \hline
-		Ausbauplatte GKB & 2 \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Mineralisch}
 \end{table}
 
 \begin{table}[h]
 	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		  Mauerwerk Langlochziegel verputzt & 1 & 1 & 1 \\ \hline
+		Mauerwerk Ziegel verputzt & 1 & 1 & 1 \\ \hline
+		MW Kalksandstein verputzt & 1 & 1 & 1 \\ \hline
+		Knauf Bauplatte Typ A & ~ & ~ & ~ \\ \hline
+		Decke Fliesen & ~ & ~ & ~ \\ \hline
+		Beton Estrich & ~ & ~ & ~ \\ \hline
+		Porenbeton verputzt & 1 & 1 & ~ \\ \hline
+		Vorgabe Dach & ~ & ~ & ~ \\ \hline
+		\textbf{Auswertung} & richtig & richtig & teilweise \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Mineralisch}
 	\label{t:evaluation-example6}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 Mauerwerk Langlochziegel verputzt & 1 \\ \hline
-		Mauerwerk Ziegel verputzt & 1 \\ \hline
-		MW Kalksandstein verputzt & 1 \\ \hline
-		Knauf Bauplatte Typ A & ~ \\ \hline
-		Decke Fliesen & ~ \\ \hline
-		Beton Estrich & ~ \\ \hline
-		Porenbeton verputzt & ~ \\ \hline
-		Vorgabe Dach & ~ \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Mineralisch}
 \end{table}
 
 \begin{table}[h]
 	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		 A W TR MW KS 17 5 & 4 & 4 & ~ \\ \hline
+		FAS PUTZ TYP1 0 2 0 & 1 & 1 & ~ \\ \hline
+		I BOD ESTRICH ZE 6 & 2 & 2 & 2 \\ \hline
+		I BOD ESTRICH ZE 7 & 2 & 2 & 2 \\ \hline
+		FAS PUTZ TYP1 0 2 & 1 & 1 & ~ \\ \hline
+		I BOD BELAG BETONSTEIN 3 & 3 & 3 & 3 \\ \hline
+		I BOD ESTRICH ZE 4 & 2 & 2 & 2 \\ \hline
+		I BOD BELAG FLIESE 1 5 & 3 & 3 & 3 \\ \hline
+		I BOD ESTRICH ZE 5 5 & 2 & 2 & 2 \\ \hline
+		I W TR MW KS 11 5 & 4 & 4 & ~ \\ \hline
+		A BOD KIES 5 & ~ & ~ & ~ \\ \hline
+		Gefällebeton & 5 & ~ & ~ \\ \hline
+		Beton & 5 & ~ & ~ \\ \hline
+		Concrete & 5 & ~ & ~ \\ \hline
+		\textbf{Auswertung} & richtig & teilweise & teilweise \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Mineralisch}
 	\label{t:evaluation-example7}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 A W TR MW KS 17 5 & 4 \\ \hline
-		FAS PUTZ TYP1 0 2 0 & 1 \\ \hline
-		I BOD ESTRICH ZE 6 & 2 \\ \hline
-		I BOD ESTRICH ZE 7 & 2 \\ \hline
-		FAS PUTZ TYP1 0 2 & 1 \\ \hline
-		I BOD BELAG BETONSTEIN 3 & 3 \\ \hline
-		I BOD ESTRICH ZE 4 & 2 \\ \hline
-		I BOD BELAG FLIESE 1 5 & 3 \\ \hline
-		I BOD ESTRICH ZE 5 5 & 2 \\ \hline
-		I W TR MW KS 11 5 & 4 \\ \hline
-		A BOD KIES 5 & ~ \\ \hline
-		Gefällebeton & 5 \\ \hline
-		Beton & 5 \\ \hline
-		Concrete & 5 \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Mineralisch}
 \end{table}
 
 \begin{table}[h]
 	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		        Metall Edelstahl gebürstet & 1 & 1 & 1 \\ \hline
+		Fensterbank Aussen Blech & ~ & ~ & -1 \\ \hline
+		Metall Edelstahl Satiniert & 1 & 1 & 1 \\ \hline
+		Metall Stahl matt & ~ & 1 & ~ \\ \hline
+		\textbf{Auswertung} & richtig & falsch & falsch \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Metall}
 	\label{t:evaluation-example8}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		Metall Edelstahl gebürstet & 1 \\ \hline
-		Fensterbank Aussen Blech & ~ \\ \hline
-		Metall Edelstahl Satiniert & 1 \\ \hline
-		Metall Stahl matt & ~ \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Metall}
 \end{table}
 
 \begin{table}[h]
 	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		   Metall Titanzink & ~ & 2 & ~ \\ \hline
+		Metall Oberfläche lackiert elfenbein Mit Glaz & 1 & 1 & 1 \\ \hline
+		Metall Oberfläche lackiert matt & 1 & 1 & 1 \\ \hline
+		Metall Aluminium & ~ & 2 & ~ \\ \hline
+		Metall lackiert & 1 & 1 & ~ \\ \hline
+		Metall verzinkt & ~ & 2 & ~ \\ \hline
+		\textbf{Auswertung} & richtig & richtig & teilweise \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Metall}
 	\label{t:evaluation-example9}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		Metall Titanzink & ~ \\ \hline
-		Metall Oberfläche lackiert elfenbein Mit Glaz & 1 \\ \hline
-		Metall Oberfläche lackiert matt & 1 \\ \hline
-		Metall Aluminium & ~ \\ \hline
-		Metall lackiert & 1 \\ \hline
-		Metall verzinkt & ~ \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Metall}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		  Metall Edelstahl Satiniert & 1 & 1 & 1 \\ \hline
+		Metall Edelstahl gebürstet & 1 & 1 & 1 \\ \hline
+		Metall Stahl matt & 2 & 1 & ~ \\ \hline
+		Metal Strugal Stainless Steel & 1 & 2 & ~ \\ \hline
+		Aluminum Strugal RAL 9016 & ~ & 2 & ~ \\ \hline
+		Fensterbank Aussen Blech & ~ & 2 & ~ \\ \hline
+		\textbf{Auswertung} & richtig & falsch & teilweise \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Metall}
 	\label{t:evaluation-example10}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 Metall Edelstahl Satiniert & 1 \\ \hline
-		Metall Edelstahl gebürstet & 1 \\ \hline
-		Metall Stahl matt & 2 \\ \hline
-		Metal Strugal Stainless Steel & 1 \\ \hline
-		Aluminum Strugal RAL 9016 & ~ \\ \hline
-		Fensterbank Aussen Blech & ~ \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Metall}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		 StB C45 & 1 & 1 & 1 \\ \hline
+		StB C55 & 1 & 1 & 1 \\ \hline
+		StB C35 & 1 & 1 & 1 \\ \hline
+		StB C30 & 1 & 1 & 1 \\ \hline
+		StB C60 & 1 & 1 & 1 \\ \hline
+		Fertigteil StB C35 & 1 & 1 & 1 \\ \hline
+		StB FU & 1 & ~ & 1 \\ \hline
+		\textbf{Auswertung} & richtig & teilweise & richtig \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Verbundbauteil}
 	\label{t:evaluation-example11}
+\end{table}
+
+\begin{table}[h]
+	
 	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
+	\begin{tabular}{|l|l|l|l|}
 		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 Aluminium & ~ \\ \hline
-		Stahl verzinkt & ~ \\ \hline
-		Edelstahl & ~ \\ \hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		 Aluminium & ~ & ~ & ~ \\ \hline
+		Stahl verzinkt & ~ & ~ & ~ \\ \hline
+		Edelstahl  & ~ & ~ & ~ \\ \hline
+		\textbf{Auswertung} & richtig & richtig & richtig\\ \hline
 	\end{tabular}
 	\caption{Überkategorie: Metall}
-\end{table}
-
-\begin{table}[h]
 	\label{t:evaluation-example12}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 DA Flachdach Gefälledämmung & 2 \\ \hline
-		Mineralwolle 4 & 1 \\ \hline
-		WA XPS Dämmung 10cm & 3 \\ \hline
-		XPS & 3 \\ \hline
-		DA Flachdach Dämmung 14cm & 2 \\ \hline
-		Mineralwolle 3 & 1 \\ \hline
-		Brandriegel & ~ \\ \hline
-		Trittschalldämmung & ~ \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Dämmungen}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		  DA Flachdach Gefälledämmung & 2 & 2 & 1 \\ \hline
+		Mineralwolle 4 & 1 & 1 & 1 \\ \hline
+		WA XPS Dämmung 10cm & 3 & ~ & 1 \\ \hline
+		XPS & 3 & 2 & 1 \\ \hline
+		DA Flachdach Dämmung 14cm & 2 & 2 & 1 \\ \hline
+		Mineralwolle 3 & 1 & 1 & 1 \\ \hline
+		Brandriegel & ~ & ~ & ~ \\ \hline
+		Trittschalldämmung  & ~ & ~ & ~ \\ \hline
+		\textbf{Auswertung} & richtig & falsch & falsch \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Dämmungen}
 	\label{t:evaluation-example13}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		   DA Flachdach Dämmung 14cm & 3 \\ \hline
-		Mineralwolle 3 & 1 \\ \hline
-		WA XPS Dämmung 10cm & 2 \\ \hline
-		XPS & 2 \\ \hline
-		DA Flachdach Gefälledämmung & 3 \\ \hline
-		Mineralwolle 4 & 1 \\ \hline
-		Trittschalldämmung & ~ \\ \hline
-		Brandriegel & ~ \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Dämmungen}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		   DA Flachdach Dämmung 14cm & 3 & 2 & 1 \\ \hline
+		Mineralwolle 3 & 1 & 1 & 1 \\ \hline
+		WA XPS Dämmung 10cm & 2 & 2 & 1 \\ \hline
+		XPS & 2 & ~ & 1 \\ \hline
+		DA Flachdach Gefälledämmung & 3 & 2 & 1 \\ \hline
+		Mineralwolle 4 & 1 & 1 & 1 \\ \hline
+		Trittschalldämmung & ~ & ~ & ~ \\ \hline
+		Brandriegel  & ~ & ~ & ~ \\ \hline
+		\textbf{Auswertung} & richtig & falsch & falsch \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Dämmungen}
 	\label{t:evaluation-example14}
+\end{table}
+
+\begin{table}[h]
+	
 	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
+	\begin{tabular}{|l|l|l|l|}
 		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 FAS WDVS WD EPS 8 & 1 \\ \hline
-		FAS WDVS WD EPS 18 & 1 \\ \hline
-		I BOD DAEM TD 3 & ~ \\ \hline
-		I BOD DAEM WD 14 & 2 \\ \hline
-		I BOD DAEM WD 15 & 2 \\ \hline
-		A BOD DAEM XPS 11 & 4 \\ \hline
-		A W NT DAEM PD XPS 12 & 3 \\ \hline
-		A W NT DAEM PD XPS 6 & 3 \\ \hline
-		A BOD DAEM XPS 12 & 4 \\ \hline
-		A BOD DAEM XPS 10 & 4 \\ \hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		  FAS WDVS WD EPS 8 & 1 & 1 & 1 \\ \hline
+		FAS WDVS WD EPS 18 & 1 & 1 & 1 \\ \hline
+		I BOD DAEM TD 3 & ~ & ~ & 2 \\ \hline
+		I BOD DAEM WD 14 & 2 & 2 & 2 \\ \hline
+		I BOD DAEM WD 15 & 2 & 2 & 2 \\ \hline
+		A BOD DAEM XPS 11 & 4 & 4 & 4 \\ \hline
+		A W NT DAEM PD XPS 12 & 3 & 3 & 3 \\ \hline
+		A W NT DAEM PD XPS 6 & 3 & 3 & 3 \\ \hline
+		A BOD DAEM XPS 12 & 4 & 4 & 4 \\ \hline
+		A BOD DAEM XPS 10 & 4 & 4 & 4 \\ \hline
+		\textbf{Auswertung} & richtig & richtig & teilweise \\ \hline
 	\end{tabular}
 	\caption{Überkategorie: Dämmungen}
-\end{table}
-
-\begin{table}[h]
 	\label{t:evaluation-example15}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		Glas matt & ~ \\ \hline
-		Glas Isolierverglasung Bronze & 1 \\ \hline
-		Glass Strugal Clear Glazing & 1 \\ \hline
-		Glas klar & 1 \\ \hline
-		Glass Simonton Clear & 1 \\ \hline
-		Glas Isolierverglasung klar & 1 \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Glas}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		Glas Isolierverglasung klar & 1 & 1 & 1 \\ \hline
+		Glas Isolierverglasung 3 fach & 1 & 2 & 1 \\ \hline
+		Glas Isolierverglasung 2 fach & 1 & 2 & 1 \\ \hline
+		Glas klar & 1 & 1 & ~ \\ \hline
+		Glas matt & ~ & ~ & ~ \\ \hline
+		\textbf{Auswertung} & richtig & falsch & teilweise\\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Glas}
 	\label{t:evaluation-example16}
+\end{table}
+
+\begin{table}[h]
+	
 	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
+	\begin{tabular}{|l|l|l|l|}
 		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 Glas Isolierverglasung klar & 1 \\ \hline
-		Glas Isolierverglasung 3 fach & 1 \\ \hline
-		Glas Isolierverglasung 2 fach & 1 \\ \hline
-		Glas klar & 1 \\ \hline
-		Glas matt & ~ \\ \hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		Glas matt & ~ & ~ & ~ \\ \hline
+		Glas Isolierverglasung Bronze & 1 & ~ & 1 \\ \hline
+		Glass Strugal Clear Glazing & 1 & 2 & ~ \\ \hline
+		Glas klar & 1 & 1 & ~ \\ \hline
+		Glass Simonton Clear & 1 & 2 & ~ \\ \hline
+		Glas Isolierverglasung klar & 1 & 1 & 1 \\ \hline
+		\textbf{Auswertung} & richtig & falsch & teilweise \\ \hline
 	\end{tabular}
 	\caption{Überkategorie: Glas}
-\end{table}
-
-\begin{table}[h]
 	\label{t:evaluation-example17}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 Geschossdecke FB 200 Parkett & ~ \\ \hline
-		Holz generisch & ~ \\ \hline
-		Fußboden Parkett eiche & ~ \\ \hline
-		Dachdeckung Holz & 1 \\ \hline
-		Dachdeckung Holz 2 & 1 \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Holz}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		 Geschossdecke FB 200 Parkett & 2 & 2 & -1 \\ \hline
+		 Holz generisch & ~ & 1 & ~ \\ \hline
+		 Fußboden Parkett eiche & 2 & 2 & -1 \\ \hline
+		 Dachdeckung Holz & 1 & 1 & 1 \\ \hline
+		 Dachdeckung Holz 2 & 1 & 1 & 1 \\ \hline
+		\textbf{Auswertung} & richtig & teilweise & falsch \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Holz}
 	\label{t:evaluation-example18}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		 Holz Parkett & 1 \\ \hline
-		Holz Birke & 1 \\ \hline
-		Holz Eiche & 1 \\ \hline
-		Standard Treppe & ~ \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Holz}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		 Holz Parkett & ~ & ~ & 1 \\ \hline
+		Holz Birke & 1 & 1 & 1 \\ \hline
+		Holz Eiche & 1 & 1 & 1 \\ \hline
+		Standard Treppe & ~ & ~ & ~ \\ \hline
+		\textbf{Auswertung} & richtig & richtig & teilweise \\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Holz}
 	\label{t:evaluation-example19}
+\end{table}
+
+\begin{table}[h]
+	
 	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
+	\begin{tabular}{|l|l|l|l|}
 		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		Dachdeckung Holz & ~ \\ \hline
-		Fußboden Terrasse Teakholz & ~ \\ \hline
-		Holz HSB Steher & ~ \\ \hline
-		Holz Astfichte senkrecht & ~ \\ \hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		  Dachdeckung Holz & ~ & ~ & ~ \\ \hline
+		Fußboden Terrasse Teakholz & ~ & ~ & ~ \\ \hline
+		Holz HSB Steher & ~ & ~ & ~ \\ \hline
+		Holz Astfichte senkrecht & ~ & ~ & ~ \\ \hline
+		\textbf{Auswertung} & richtig & richtig & richtig \\ \hline
 	\end{tabular}
 	\caption{Überkategorie: Holz}
-\end{table}
-
-\begin{table}[h]
 	\label{t:evaluation-example20}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		        Fußboden Epoxidharzbeschichtung & ~ \\ \hline
-		BSt 500 M A & 1 \\ \hline
-		BSt 500 M B & 1 \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Verbundbauteile}
 \end{table}
 
 \begin{table}[h]
+	
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		 Fußboden Epoxidharzbeschichtung & ~ & ~ & ~ \\ \hline
+		BSt 500 M A & 1 & 1 & 1 \\ \hline
+		BSt 500 M B & 1 & 1 & 1 \\ \hline
+		\textbf{Auswertung} & richtig & richtig & richtig\\ \hline
+	\end{tabular}
+	\caption{Überkategorie: Verbundbauteile}
 	\label{t:evaluation-example21}
-	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
-		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		  A W TR STB OB 17 5 & 1 \\ \hline
-		I W TR STB OB 25 & 1 \\ \hline
-		A DE TR STB OB 30 & 2 \\ \hline
-		I W TR STB OB 12 & 1 \\ \hline
-		A W TR STB OB 25 & 1 \\ \hline
-		A W TR STB OB 30 & 1 \\ \hline
-		I W TR STB OB 22 & 1 \\ \hline
-		I DE TR STB OB 20 & 2 \\ \hline
-		I DE TR STB OB 45 & 2 \\ \hline
-		I DE TR STB OB 25 & 2 \\ \hline
-	\end{tabular}
-	\caption{Überkategorie: Verbundbauteile}
 \end{table}
 
 \begin{table}[h]
-	\label{t:evaluation-example22}
+	
 	\centering
-	\begin{tabular}{|p{0.7\textwidth}|p{0.1\textwidth}|}
+	\begin{tabular}{|l|l|l|l|}
 		\hline
-		\textbf{Begriff} & \textbf{Klasse} \\ \hline
-		StB C45 & 1 \\ \hline
-		StB C55 & 1 \\ \hline
-		StB C35 & 1 \\ \hline
-		StB C30 & 1 \\ \hline
-		StB C60 & 1 \\ \hline
-		Fertigteil StB C35 & 1 \\ \hline
-		StB FU & 1 \\ \hline
+		\textbf{Begriff} & \textbf{Erwartet} & \textbf{DBSCAN} & \textbf{OpenAI}\\ \hline
+		  A W TR STB OB 17 5 & 1 & 1 & -1 \\ \hline
+		I W TR STB OB 25 & 1 & 2 & -1 \\ \hline
+		A DE TR STB OB 30 & 3 & ~ & -1 \\ \hline
+		I W TR STB OB 12 & 1 & 2 & -1 \\ \hline
+		A W TR STB OB 25 & 1 & 1 & -1 \\ \hline
+		A W TR STB OB 30 & 1 & 1 & -1 \\ \hline
+		I W TR STB OB 22 & 1 & 2 & -1 \\ \hline
+		I DE TR STB OB 20 & 3 & 3 & -1 \\ \hline
+		I DE TR STB OB 45 & 3 & 3 & -1 \\ \hline
+		I DE TR STB OB 25 & 3 & 3 & -1 \\ \hline
+		\textbf{Auswertung} & richtig & teilweise & teilweise \\ \hline
 	\end{tabular}
 	\caption{Überkategorie: Verbundbauteile}
+	\label{t:evaluation-example22}
 \end{table}
+
+
+
+

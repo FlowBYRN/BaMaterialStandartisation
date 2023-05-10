@@ -1,0 +1,15 @@
+\begin{table}[!ht]
+	\centering
+	\resizebox{\columnwidth}{!}{
+		\begin{tabular}{|l|l|l|l|l|}
+			\hline
+			\textbf{Algorithmus} & \textbf{MicroAccuracy} & \textbf{MacroAccuracy} & \textbf{LogLoss} & \textbf{TrainingTime} \\ \hline
+			\textbf{SdcaMaximumEntropy} & 0,882 & 0,910 & 0,477 & 0,245sec \\ \hline
+			\textbf{LbfgsMaximumEntropy} & 0,670 & 0,591 & 1,131 & 0,243sec \\ \hline
+			\textbf{TextClassification} & 0,479 & 0,292 & 5,994 & 20,229sec \\ \hline
+			\textbf{OneVersusAll SdcaLogisticRegression} & 0,872 & 0,894 & 0,477 & 4,219sec \\ \hline
+		\end{tabular}
+	}
+    \caption{Auswertung der Textklassifizierungsalgorithmen}
+   	\label{t:classification-result}
+\end{table}
