@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  9 MAY 2023 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  11 MAY 2023 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1353,6 +1353,17 @@ Package acronym Info: Label `acro:ifc' newly defined as it shall be overridden
 although it is yet undefined on input line 2.
 Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
 although it is yet undefined on input line 2.
+Package acronym Info: Label `acro:sdca' newly defined as it shall be overridden
+
+although it is yet undefined on input line 2.
+Package acronym Info: Label `acro:dbscan' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 78.
@@ -1425,9 +1436,6 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 18
 ]
 Package acronym Info: Label `acro:gpt' newly defined as it shall be overridden
 although it is yet undefined on input line 47.
-Package acronym Info: Label `acro:dbscan' newly defined as it shall be overridd
-en
-although it is yet undefined on input line 48.
  [5])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
@@ -1494,7 +1502,7 @@ Package acronym Info: Label `acro:gui' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
 Package acronym Info: Label `acro:wpf' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
-<./figures//bim-relevanz.png, id=284, 874.01532pt x 460.72125pt>
+<./figures//bim-relevanz.png, id=291, 874.01532pt x 460.72125pt>
 File: ./figures//bim-relevanz.png Graphic file (type png)
 <use ./figures//bim-relevanz.png>
 Package pdftex.def Info: ./figures//bim-relevanz.png  used on input line 25.
@@ -1508,20 +1516,20 @@ Overfull \hbox (10.62753pt too wide) in paragraph at lines 25--27
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]
-<./figures//künstiliche-intilligenz-trend.png, id=312, 1059.96pt x 220.57407pt
+<./figures//künstiliche-intilligenz-trend.png, id=319, 1059.96pt x 220.57407pt
 >
 File: ./figures//künstiliche-intilligenz-trend.png Graphic file (type png)
 <use ./figures//künstiliche-intilligenz-trend.png>
 Package pdftex.def Info: ./figures//künstiliche-intilligenz-trend.png  used on
  input line 39.
 (pdftex.def)             Requested size: 439.42685pt x 91.44228pt.
-<./figures//machine-learning-trend.png, id=313, 1053.1847pt x 249.18094pt>
+<./figures//machine-learning-trend.png, id=320, 1053.1847pt x 249.18094pt>
 File: ./figures//machine-learning-trend.png Graphic file (type png)
 <use ./figures//machine-learning-trend.png>
 Package pdftex.def Info: ./figures//machine-learning-trend.png  used on input l
 ine 46.
 (pdftex.def)             Requested size: 439.42685pt x 103.96707pt.
-<./figures//kano-modell.png, id=314, 1606.0pt x 1038.88126pt>
+<./figures//kano-modell.png, id=321, 1606.0pt x 1038.88126pt>
 File: ./figures//kano-modell.png Graphic file (type png)
 <use ./figures//kano-modell.png>
 Package pdftex.def Info: ./figures//kano-modell.png  used on input line 57.
@@ -1540,7 +1548,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 Package hyperref Info: bookmark level for unknown goal defaults to 0 on input l
 ine 80.
 [4 <./figures//künstiliche-intilligenz-trend.png> <./figures//machine-learning
--trend.png>] [5 <./figures//kano-modell.png (PNG copy)>]
+-trend.png>] [5 <./figures//kano-modell.png (PNG copy)>] [6]
 chapter 2.
 Package acronym Info: Label `acro:devops' newly defined as it shall be overridd
 en
@@ -1555,17 +1563,13 @@ Package xcolor Warning: Incompatible color definition on input line 102.
 
 Package xcolor Warning: Incompatible color definition on input line 102.
 
-[6
+[7
 
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 111.
-
 Package acronym Info: Label `acro:iso' newly defined as it shall be overridden
 although it is yet undefined on input line 118.
-[7]
+ [8]
 Package acronym Info: Label `acro:spf' newly defined as it shall be overridden
 although it is yet undefined on input line 130.
 Package acronym Info: Label `acro:step' newly defined as it shall be overridden
@@ -1575,81 +1579,79 @@ Package acronym Info: Label `acro:xml' newly defined as it shall be overridden
 although it is yet undefined on input line 130.
 Package acronym Info: Label `acro:cad' newly defined as it shall be overridden
 although it is yet undefined on input line 137.
- [8]
+ [9]
 Package acronym Info: Label `acro:ifc2x3' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 140.
 Package acronym Info: Label `acro:ifc4' newly defined as it shall be overridden
 
 although it is yet undefined on input line 140.
- [9]
-<./figures//material-single.png, id=480, 590.205pt x 120.45pt>
+ [10]
+<./figures//material-single.png, id=491, 590.205pt x 120.45pt>
 File: ./figures//material-single.png Graphic file (type png)
 <use ./figures//material-single.png>
-Package pdftex.def Info: ./figures//material-single.png  used on input line 155
+Package pdftex.def Info: ./figures//material-single.png  used on input line 152
 .
 (pdftex.def)             Requested size: 443.86305pt x 90.58537pt.
 Package acronym Info: Label `acro:kg' newly defined as it shall be overridden
-although it is yet undefined on input line 162.
- [10 <./figures//material-single.png>] [11]
+although it is yet undefined on input line 159.
+ [11 <./figures//material-single.png>]
 chapter 3.
 Package hyperref Info: bookmark level for unknown problem defaults to 0 on inpu
-t line 180.
+t line 172.
 [12
 
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 209.
+Package xcolor Warning: Incompatible color definition on input line 200.
 
 
-Package xcolor Warning: Incompatible color definition on input line 209.
+Package xcolor Warning: Incompatible color definition on input line 200.
 
 Package hyperref Info: bookmark level for unknown requirement defaults to 0 on 
-input line 214.
-
-LaTeX Warning: Reference `c:conception:fine-structuring;criteria' on page 13 un
-defined on input line 228.
-
+input line 205.
 [13]
 Package acronym Info: Label `acro:ki' newly defined as it shall be overridden
-although it is yet undefined on input line 249.
+although it is yet undefined on input line 240.
  [14]
 chapter 4.
-<./figures//anwendungsfalldiagramm.png, id=558, 960.58875pt x 645.91313pt>
+<./figures//anwendungsfalldiagramm.png, id=571, 960.58875pt x 645.91313pt>
 File: ./figures//anwendungsfalldiagramm.png Graphic file (type png)
 <use ./figures//anwendungsfalldiagramm.png>
 Package pdftex.def Info: ./figures//anwendungsfalldiagramm.png  used on input l
-ine 263.
+ine 252.
 (pdftex.def)             Requested size: 443.86305pt x 298.46404pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package acronym Info: Label `acro:rest' newly defined as it shall be overridden
 
-although it is yet undefined on input line 271.
+although it is yet undefined on input line 259.
+Package acronym Info: Label `acro:sql' newly defined as it shall be overridden
+although it is yet undefined on input line 259.
 [15
 
 
 ]
 Package acronym Info: Label `acro:iot' newly defined as it shall be overridden
-although it is yet undefined on input line 285.
+although it is yet undefined on input line 273.
  [16 <./figures//anwendungsfalldiagramm.png>]
-<./figures//db-scheme.png, id=582, 1249.66875pt x 228.855pt>
+<./figures//db-scheme.png, id=599, 1249.66875pt x 228.855pt>
 File: ./figures//db-scheme.png Graphic file (type png)
 <use ./figures//db-scheme.png>
-Package pdftex.def Info: ./figures//db-scheme.png  used on input line 291.
+Package pdftex.def Info: ./figures//db-scheme.png  used on input line 279.
 (pdftex.def)             Requested size: 443.86305pt x 81.28424pt.
-<./figures//structurize-process.png, id=584, 951.555pt x 305.64188pt>
+<./figures//structurize-process.png, id=601, 951.555pt x 305.64188pt>
 File: ./figures//structurize-process.png Graphic file (type png)
 <use ./figures//structurize-process.png>
 Package pdftex.def Info: ./figures//structurize-process.png  used on input line
- 303.
+ 291.
 (pdftex.def)             Requested size: 443.86305pt x 142.5697pt.
  [17 <./figures//db-scheme.png> <./figures//structurize-process.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 335.
+(hyperref)                removing `\@ac' on input line 323.
 
 [18]
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1658,104 +1660,102 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 Package acronym Info: Label `acro:guid' newly defined as it shall be overridden
 
-although it is yet undefined on input line 339.
+although it is yet undefined on input line 327.
  [19]
-<./figures//classification-flow.png, id=653, 261.97874pt x 538.26094pt>
+<./figures//classification-flow.png, id=673, 261.97874pt x 538.26094pt>
 File: ./figures//classification-flow.png Graphic file (type png)
 <use ./figures//classification-flow.png>
 Package pdftex.def Info: ./figures//classification-flow.png  used on input line
- 363.
+ 351.
 (pdftex.def)             Requested size: 133.16026pt x 273.59778pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package xcolor Warning: Incompatible color definition on input line 378.
+Package xcolor Warning: Incompatible color definition on input line 366.
 
 
-Package xcolor Warning: Incompatible color definition on input line 378.
+Package xcolor Warning: Incompatible color definition on input line 366.
 
 [20] [21 <./figures//classification-flow.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 396.
+Package xcolor Warning: Incompatible color definition on input line 384.
 
 
-Package xcolor Warning: Incompatible color definition on input line 396.
+Package xcolor Warning: Incompatible color definition on input line 384.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-[22]
+[22] [23]
 
-LaTeX Warning: Reference `d:entorpy' on page 23 undefined on input line 418.
-
-[23]
-
-Package xcolor Warning: Incompatible color definition on input line 423.
+Package xcolor Warning: Incompatible color definition on input line 412.
 
 
-Package xcolor Warning: Incompatible color definition on input line 423.
+Package xcolor Warning: Incompatible color definition on input line 412.
 
-Package acronym Info: Label `acro:sdca' newly defined as it shall be overridden
-
-although it is yet undefined on input line 430.
 Package acronym Info: Label `acro:lbfgs' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 432.
+although it is yet undefined on input line 421.
 Package acronym Info: Label `acro:api' newly defined as it shall be overridden
-although it is yet undefined on input line 436.
-
-LaTeX Warning: Reference `d:transformer' on page 24 undefined on input line 436
-.
-
+although it is yet undefined on input line 425.
 [24] [25] (tables/distribution.tex) [26]
 
-Package xcolor Warning: Incompatible color definition on input line 466.
+Package xcolor Warning: Incompatible color definition on input line 454.
 
 
-Package xcolor Warning: Incompatible color definition on input line 466.
+Package xcolor Warning: Incompatible color definition on input line 454.
 
 [27]
 Package acronym Info: Label `acro:url' newly defined as it shall be overridden
-although it is yet undefined on input line 482.
+although it is yet undefined on input line 469.
  [28]
 Package acronym Info: Label `acro:cbow' newly defined as it shall be overridden
 
-although it is yet undefined on input line 487.
+although it is yet undefined on input line 474.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 487.
-<./figures//cbow-model.png, id=889, 848.16875pt x 497.86pt>
+(Font)              <5> on input line 474.
+<./figures//cbow-model.png, id=905, 848.16875pt x 497.86pt>
 File: ./figures//cbow-model.png Graphic file (type png)
 <use ./figures//cbow-model.png>
-Package pdftex.def Info: ./figures//cbow-model.png  used on input line 490.
+Package pdftex.def Info: ./figures//cbow-model.png  used on input line 477.
 (pdftex.def)             Requested size: 443.86305pt x 260.53717pt.
- [29 <./figures//cbow-model.png>]
-
-Package natbib Warning: Citation `Ester1996ADA' on page 30 undefined on input l
-ine 509.
-
-
-Package natbib Warning: Citation `Ester1996ADA' on page 30 undefined on input l
-ine 509.
-
-
-Package natbib Warning: Citation `Ester1996ADA' on page 30 undefined on input l
-ine 511.
-
-[30] [31]
+ [29 <./figures//cbow-model.png>] [30] [31]
 chapter 5.
 (tables/classification-result.tex) [32
 
 
-] [33] (tables/structuring-result.tex)
-[34] [35]
+]
+<./figures//accuracy-graph.png, id=996, 423.08063pt x 376.40625pt>
+File: ./figures//accuracy-graph.png Graphic file (type png)
+<use ./figures//accuracy-graph.png>
+Package pdftex.def Info: ./figures//accuracy-graph.png  used on input line 536.
+
+(pdftex.def)             Requested size: 310.70277pt x 276.43414pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
+[][][]|\T1/lmr/m/n/10.95 (+20) Ge-nau-ig-keit des SdcaMaximumEntropy-Modells f�
+r die je-wei-li-ge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
+\T1/lmr/m/n/10.95 (+20) Trainingsdaten-Anzahl. (Durch-schnitts-wer-te von 100 T
+rai-nings-durch-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33] [34 <./figures//accuracy-graph.png>] (tables/structuring-result.tex)
+[35] [36]
 chapter 6.
 Package acronym Info: Label `acro:dto' newly defined as it shall be overridden
-although it is yet undefined on input line 597.
-[36
+although it is yet undefined on input line 592.
+[37
 
 
 ]
@@ -1768,29 +1768,24 @@ ang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 605.
- (listings/Pythonnet.cs) [37]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 610.
-
+nput line 600.
+ (listings/Pythonnet.cs) [38]
 Package acronym Info: Label `acro:http' newly defined as it shall be overridden
 
-although it is yet undefined on input line 619.
-Package acronym Info: Label `acro:sql' newly defined as it shall be overridden
-although it is yet undefined on input line 619.
-[38] [39] (listings/MaterialClassification.cs)
+although it is yet undefined on input line 611.
+ [39] [40]
+(listings/MaterialClassification.cs)
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 634.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 628.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 13.67995pt on input line 634.
- [40] [41] [42]
+(Font)              scaled to size 13.67995pt on input line 628.
+ [41] [42]
 chapter 7.
 
-Package xcolor Warning: Incompatible color definition on input line 656.
+Package xcolor Warning: Incompatible color definition on input line 650.
 
 
-Package xcolor Warning: Incompatible color definition on input line 656.
+Package xcolor Warning: Incompatible color definition on input line 650.
 
 [43
 
@@ -1800,102 +1795,102 @@ chapter 8.
 [46
 
 
-] [47]) [48]
+] [47]) [48] [49]
 \openout2 = `append.aux'.
 
  (append.tex
 chapter A.
-<./figures//ifc-manager.png, id=1172, 1445.4pt x 782.925pt>
+<./figures//ifc-manager.png, id=1198, 1445.4pt x 782.925pt>
 File: ./figures//ifc-manager.png Graphic file (type png)
 <use ./figures//ifc-manager.png>
 Package pdftex.def Info: ./figures//ifc-manager.png  used on input line 7.
 (pdftex.def)             Requested size: 443.86305pt x 240.42247pt.
-<./figures//material-layer-set.png, id=1175, 891.33pt x 246.9225pt>
+<./figures//material-layer-set.png, id=1201, 891.33pt x 246.9225pt>
 File: ./figures//material-layer-set.png Graphic file (type png)
 <use ./figures//material-layer-set.png>
 Package pdftex.def Info: ./figures//material-layer-set.png  used on input line 
 14.
 (pdftex.def)             Requested size: 443.86305pt x 122.9636pt.
-<./figures//material-categories.png, id=1176, 1032.85875pt x 447.92343pt>
+<./figures//material-categories.png, id=1202, 1032.85875pt x 447.92343pt>
 File: ./figures//material-categories.png Graphic file (type png)
 <use ./figures//material-categories.png>
 Package pdftex.def Info: ./figures//material-categories.png  used on input line
  21.
 (pdftex.def)             Requested size: 650.0pt x 281.89935pt.
-<./figures//material-profile-set.png, id=1177, 891.33pt x 258.9675pt>
+<./figures//material-profile-set.png, id=1203, 891.33pt x 258.9675pt>
 File: ./figures//material-profile-set.png Graphic file (type png)
 <use ./figures//material-profile-set.png>
 Package pdftex.def Info: ./figures//material-profile-set.png  used on input lin
 e 28.
 (pdftex.def)             Requested size: 443.86305pt x 128.9618pt.
-[49
+[50
 
 
 
 
 
- <./figures//ifc-manager.png> <./figures//material-layer-set.png>] [50 <./figur
+ <./figures//ifc-manager.png> <./figures//material-layer-set.png>] [51 <./figur
 es//material-categories.png>]
-<./figures//material-constituent-set.png, id=1189, 891.33pt x 198.7425pt>
+<./figures//material-constituent-set.png, id=1215, 891.33pt x 198.7425pt>
 File: ./figures//material-constituent-set.png Graphic file (type png)
 <use ./figures//material-constituent-set.png>
 Package pdftex.def Info: ./figures//material-constituent-set.png  used on input
  line 35.
 (pdftex.def)             Requested size: 443.86305pt x 98.9707pt.
-<./figures//cost-structure-example.png, id=1190, 446.41782pt x 249.18094pt>
+<./figures//cost-structure-example.png, id=1216, 446.41782pt x 249.18094pt>
 File: ./figures//cost-structure-example.png Graphic file (type png)
 <use ./figures//cost-structure-example.png>
 Package pdftex.def Info: ./figures//cost-structure-example.png  used on input l
 ine 42.
 (pdftex.def)             Requested size: 443.86305pt x 247.75829pt.
-<./figures//verteilungsdiagramm.png, id=1191, 638.385pt x 693.34032pt>
+<./figures//verteilungsdiagramm.png, id=1217, 638.385pt x 693.34032pt>
 File: ./figures//verteilungsdiagramm.png Graphic file (type png)
 <use ./figures//verteilungsdiagramm.png>
 Package pdftex.def Info: ./figures//verteilungsdiagramm.png  used on input line
  49.
 (pdftex.def)             Requested size: 443.86305pt x 482.07643pt.
- [51 <./figures//material-profile-set.png> <./figures//material-constituent-set
+ [52 <./figures//material-profile-set.png> <./figures//material-constituent-set
 .png> <./figures//cost-structure-example.png>]
-<./figures//function-import.png, id=1197, 1297.84875pt x 499.8675pt>
+<./figures//function-import.png, id=1223, 1297.84875pt x 499.8675pt>
 File: ./figures//function-import.png Graphic file (type png)
 <use ./figures//function-import.png>
 Package pdftex.def Info: ./figures//function-import.png  used on input line 56.
 
 (pdftex.def)             Requested size: 443.86305pt x 170.95187pt.
 
-[52 <./figures//verteilungsdiagramm.png>]
-<./figures//function-takeover.png, id=1203, 1189.44376pt x 545.03625pt>
+[53 <./figures//verteilungsdiagramm.png>]
+<./figures//function-takeover.png, id=1229, 1189.44376pt x 545.03625pt>
 File: ./figures//function-takeover.png Graphic file (type png)
 <use ./figures//function-takeover.png>
 Package pdftex.def Info: ./figures//function-takeover.png  used on input line 6
 3.
 (pdftex.def)             Requested size: 443.86305pt x 203.3901pt.
-<./figures//function-rating.png, id=1206, 1052.43187pt x 494.59781pt>
+<./figures//function-rating.png, id=1232, 1052.43187pt x 494.59781pt>
 File: ./figures//function-rating.png Graphic file (type png)
 <use ./figures//function-rating.png>
 Package pdftex.def Info: ./figures//function-rating.png  used on input line 70.
 
 (pdftex.def)             Requested size: 443.86305pt x 208.59755pt.
- [53 <./figures//function-import.png> <./figures//function-takeover.png>]
-<./figures//material-classifier-gui.png, id=1213, 1108.8928pt x 406.51875pt>
+ [54 <./figures//function-import.png> <./figures//function-takeover.png>]
+<./figures//material-classifier-gui.png, id=1240, 1108.8928pt x 406.51875pt>
 File: ./figures//material-classifier-gui.png Graphic file (type png)
 <use ./figures//material-classifier-gui.png>
 Package pdftex.def Info: ./figures//material-classifier-gui.png  used on input 
 line 77.
 (pdftex.def)             Requested size: 443.86305pt x 162.71626pt.
-<./figures//mldotnet-workflow.png, id=1214, 552.0625pt x 685.56125pt>
+<./figures//mldotnet-workflow.png, id=1241, 552.0625pt x 685.56125pt>
 File: ./figures//mldotnet-workflow.png Graphic file (type png)
 <use ./figures//mldotnet-workflow.png>
 Package pdftex.def Info: ./figures//mldotnet-workflow.png  used on input line 8
 4.
 (pdftex.def)             Requested size: 443.86305pt x 551.22185pt.
- [54 <./figures//function-rating.png> <./figures//material-classifier-gui.png>]
- (listings/MaterialService.cs [55 <./figures//mldotnet-workflow.png>]) (listing
-s/PythonPreprocess.cs [56])
+ [55 <./figures//function-rating.png> <./figures//material-classifier-gui.png>]
+ [56 <./figures//mldotnet-workflow.png>]
+(listings/MaterialService.cs) (listings/PythonPreprocess.cs [57])
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstl
 ang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (listings/preprocess.py [57]) (tables/confusion-matrix.tex)
+) (listings/preprocess.py [58]) [59] (tables/confusion-matrix.tex)
 (tables/evaluation-examples.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1963,12 +1958,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [58] [59] [60] [61] [62] [63] [64] [65] [66]
+)) [60] [61] [62] [63] [64] [65] [66] [67] [68]
 \openout2 = `acronyms.aux'.
 
  (acronyms.tex
 chapter B.
-[67
+[69
 
 
 
@@ -1984,11 +1979,11 @@ n already used, duplicate ignored
 l.24 \acro{cad}[CAD]{Computer-aided design}
                                            ]
 
-LaTeX Warning: Hyper reference `acro:rgb' on page 68 undefined on input line 28
+LaTeX Warning: Hyper reference `acro:rgb' on page 70 undefined on input line 28
 .
 
 
-LaTeX Warning: Hyper reference `acro:rgb' on page 68 undefined on input line 28
+LaTeX Warning: Hyper reference `acro:rgb' on page 70 undefined on input line 28
 .
 
 
@@ -1997,7 +1992,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{vb}) has been
 <to be read again> 
                    \relax 
 l.31 \acro{vb}[VB]{Visual Basic}
-                                ) [68]
+                                ) [70]
 \openout2 = `dicts.aux'.
 
  (dicts.tex
@@ -2018,7 +2013,7 @@ Class scrbook Warning: \float@listhead detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@listhead interface on input line 14.
 
-[69
+[71
 
 
 
@@ -2030,7 +2025,7 @@ Class scrbook Warning: \float@listhead detected!
 \tf@lol=\write7
 \openout7 = `thesis.lol'.
 
-) [70
+) [72
 
 
 ] (thesis.bbl
@@ -2057,7 +2052,7 @@ Underfull \hbox (badness 5939) in paragraph at lines 57--62
 art . org / IFC / RELEASE / IFC4 _ 1 /
  []
 
-[71
+[73
 
 
 
@@ -2065,122 +2060,119 @@ art . org / IFC / RELEASE / IFC4 _ 1 /
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / github . com / RaRe-[
 ]Technologies / gensim / blob /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--98
+Underfull \hbox (badness 10000) in paragraph at lines 101--105
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / radimrehurek . com / 
 gensim / auto _ examples /
  []
 
-[72]
-Underfull \hbox (badness 5939) in paragraph at lines 127--130
+[74]
+Underfull \hbox (badness 5939) in paragraph at lines 134--137
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 http : / / standards . buildingsm
 art . org / IFC / RELEASE / IFC4 _ 1 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--141
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / scrumguides . org / d
 ocs / scrumguide / v2020 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--162
+Underfull \hbox (badness 10000) in paragraph at lines 172--176
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . amazon . de / g
 p / product / 0132350882 / ref = oh _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--168
+Underfull \hbox (badness 10000) in paragraph at lines 178--182
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
+om / de-[]de / azure /
+ []
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 184--188
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
 om / de-[]de / azure /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
-om / de-[]de / azure /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--180
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
-om / en-[]us / dotnet /
- []
-
-[73]
-Underfull \hbox (badness 10000) in paragraph at lines 182--186
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
 om / en-[]us / dotnet /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--198
+Underfull \hbox (badness 10000) in paragraph at lines 196--200
+\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
+om / en-[]us / dotnet /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--212
 \T1/pcr/m/sl/12 ml . trainers . lbfgsmaximumentropymulticlasstrainer ? view =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--204
+Underfull \hbox (badness 10000) in paragraph at lines 214--218
 \T1/pcr/m/sl/12 ml . trainers . lbfgsmaximumentropymulticlasstrainer ? view =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--216
+Underfull \hbox (badness 10000) in paragraph at lines 226--230
 \T1/pcr/m/sl/12 ml . trainers . sdcalogisticregressionbinarytrainer ? view =
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--238
+[76]
+Underfull \hbox (badness 10000) in paragraph at lines 248--252
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / github . com / dotnet
  / aspnetcore / blob / main / README .
  []
 
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--276
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / platform . openai . c
 om / docs / api-[]reference /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--269
+Underfull \hbox (badness 10000) in paragraph at lines 283--288
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / helpdesk . orca-[]sof
 tware . com / Solution / AVA25 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
+Underfull \hbox (badness 10000) in paragraph at lines 299--303
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / devblogs . microsoft 
 . com / dotnet /
  []
 
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 317--321
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . dominodatalab .
  com / blog /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--352
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . sciencedirect .
  com / science / article / pii /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--358
+Underfull \hbox (badness 10000) in paragraph at lines 373--377
 \T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / technical . buildings
 mart . org / standards / ifc /
  []
 
-[76])
+)
 No file thesis.ind.
-
-Package natbib Warning: There were undefined citations.
-
-[77]
+[79]
 \tf@loe=\write8
 \openout8 = `thesis.loe'.
 
@@ -2196,11 +2188,11 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34930 strings out of 476374
- 698790 string characters out of 5784134
- 2151340 words of memory out of 5000000
- 53808 multiletter control sequences out of 15000+600000
- 612678 words of font info for 245 fonts, out of 8000000 for 9000
+ 34969 strings out of 476374
+ 699591 string characters out of 5784134
+ 2107340 words of memory out of 5000000
+ 53825 multiletter control sequences out of 15000+600000
+ 616193 words of font info for 251 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,106p,10603b,2402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/
@@ -2214,19 +2206,20 @@ pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Florian.W
 eidner/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/
 Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C
 :/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
-i10.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/lm/lmri12.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/lm/lmri8.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Florian.Weidner/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Florian.Weidner/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/Florian.
-Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/U
-sers/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
-bo8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (84 pages, 1674745 bytes).
+8.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmri10.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/lm/lmri12.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Florian.Weidner/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Florian.Weidner/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Florian.Weidn
+er/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/
+Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.p
+fb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helv
+etic/uhvbo8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (86 pages, 1714043 bytes).
 PDF statistics:
- 1964 PDF objects out of 2073 (max. 8388607)
- 520 named destinations out of 1000 (max. 500000)
- 70272 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 2003 PDF objects out of 2073 (max. 8388607)
+ 531 named destinations out of 1000 (max. 500000)
+ 72317 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
-\contentsline {goal}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Ziel}{4}{thmt@dummyctr.dummy.1}%
+\contentsline {goal}{\ifthmt@listswap \else \numberline {\let \autodot \@empty }\fi Ziel}{5}{thmt@dummyctr.dummy.1}%
 \addvspace {10\p@ }
-\contentsline {shadedefinition}{\ifthmt@listswap Definition~1\else \numberline {1}Definition\fi \thmtformatoptarg {Scrum}}{6}{shadedefinition.1}%
+\contentsline {shadedefinition}{\ifthmt@listswap Definition~1\else \numberline {1}Definition\fi \thmtformatoptarg {Scrum}}{7}{shadedefinition.1}%
 \addvspace {10\p@ }
 \contentsline {problem}{\ifthmt@listswap Problemstellung~1\else \numberline {1}Problemstellung\fi }{12}{problem.1}%
 \contentsline {problem}{\ifthmt@listswap Problemstellung~2\else \numberline {2}Problemstellung\fi }{12}{problem.2}%

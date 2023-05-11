@@ -4,18 +4,18 @@
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Ausgangssituation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Ziel der Arbeit}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Ziel der Arbeit}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Wissenschaftliche Vorgehensweise}{5}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Grundlagen}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Projektmanagement}{6}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Vorgehensmodell}{6}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}DevOps}{7}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}\ac {ifc}}{7}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Geschichte}{7}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Format}{8}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Verwendung}{8}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Möglichkeiten für die Materialangabe eines Bauteils}{9}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Das Format Kostengliederung in der ORCA AVA}{10}{section.2.3}%
+\contentsline {chapter}{\numberline {2}Grundlagen}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Projektmanagement}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Vorgehensmodell}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}DevOps}{8}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}\acf {ifc}}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Geschichte}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Format}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Verwendung}{9}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Möglichkeiten für die Materialangabe eines Bauteils}{10}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Das Format Kostengliederung in der ORCA AVA}{11}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Problemstellung und Anforderungen}{12}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Problemstellung}{12}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Anforderungen}{13}{section.3.2}%
@@ -29,56 +29,55 @@
 \contentsline {subsection}{\numberline {4.1.4}Preprocessing der Materialien}{19}{subsection.4.1.4}%
 \contentsline {section}{\numberline {4.2}Algorithmen für die Textklassifizierung}{20}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Ablauf einer Textklassifizierung}{20}{subsection.4.2.1}%
-\contentsline {subsubsection}{\nonumberline Preprocessing}{20}{subsubsection*.40}%
-\contentsline {subsubsection}{\nonumberline Feature Selection}{20}{subsubsection*.42}%
-\contentsline {subsubsection}{\nonumberline Feature Extraction}{21}{subsubsection*.44}%
-\contentsline {subsubsection}{\nonumberline Classification stages}{21}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline Preprocessing}{20}{subsubsection*.42}%
+\contentsline {subsubsection}{\nonumberline Feature Selection}{20}{subsubsection*.44}%
+\contentsline {subsubsection}{\nonumberline Feature Extraction}{21}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline Classification stages}{21}{subsubsection*.48}%
 \contentsline {subsection}{\numberline {4.2.2}Kriterien der Messbarkeit}{21}{subsection.4.2.2}%
-\contentsline {subsubsection}{\nonumberline Genauigkeit}{22}{subsubsection*.48}%
-\contentsline {subsubsection}{\nonumberline Interpretierbarkeit}{22}{subsubsection*.50}%
-\contentsline {subsubsection}{\nonumberline Robustheit}{22}{subsubsection*.52}%
-\contentsline {subsubsection}{\nonumberline Performance}{22}{subsubsection*.54}%
+\contentsline {subsubsection}{\nonumberline Genauigkeit}{22}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline Interpretierbarkeit}{22}{subsubsection*.52}%
+\contentsline {subsubsection}{\nonumberline Robustheit}{22}{subsubsection*.54}%
+\contentsline {subsubsection}{\nonumberline Performance}{22}{subsubsection*.56}%
 \contentsline {subsection}{\numberline {4.2.3}ML.NET Multiclass Classification}{23}{subsection.4.2.3}%
-\contentsline {subsubsection}{\nonumberline Maximum Entropy Model}{23}{subsubsection*.56}%
-\contentsline {subsubsection}{\nonumberline TextclassifcationTrainer}{24}{subsubsection*.60}%
-\contentsline {subsubsection}{\nonumberline One Versus All Ansatz}{25}{subsubsection*.63}%
+\contentsline {subsubsection}{\nonumberline Maximum Entropy Model}{23}{subsubsection*.58}%
+\contentsline {subsubsection}{\nonumberline TextclassifcationTrainer}{24}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline One Versus All Ansatz}{25}{subsubsection*.64}%
 \contentsline {section}{\numberline {4.3}Möglichkeiten für die Feinstrukturierung}{25}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Spezifikation und Kriterien der Messbarkeit}{25}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}\acf {gpt} Modell von OpenAI}{26}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}\acf {gpt} Modell von OpenAI}{27}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}fastText mit \acf {dbscan}}{28}{subsection.4.3.3}%
 \contentsline {chapter}{\numberline {5}Gegenüberstellung der möglichen Konzepte}{32}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Vergleich der Textklassifizierung}{32}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Auswertung}{32}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Auswahl eines Algorithmus}{33}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Vergleich der Feinstrukturierung}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Vergleich der Feinstrukturierung}{34}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Auswertung}{34}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Auswahl eines Algorithmus}{35}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Praktische Umsetzung}{36}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Implementierung des ASP.NET Services}{36}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Python-Interop}{37}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Implementieren des Auslesens aller Materialien aus einer \ac {ifc} Datei}{38}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Implementierung der Material-Strukturierung}{38}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Erstellen einer Datengrundlage}{38}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Implementierung des Preprocessings}{39}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Training des Textklassifizierungsmodells}{39}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}Training des \textit {fastText} Modells}{41}{subsection.6.4.4}%
-\contentsline {subsection}{\numberline {6.4.5}Ausführen der Feinstrukturierung}{41}{subsection.6.4.5}%
+\contentsline {subsection}{\numberline {5.2.2}Auswahl eines Algorithmus}{36}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Praktische Umsetzung}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Implementierung des ASP.NET Services}{37}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Python-Interop}{38}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Implementierung der Materialstrukturierung}{39}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Erstellen einer Datengrundlage}{39}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Implementierung des Preprocessings}{40}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Training des Textklassifizierungsmodells}{40}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Training des \textit {fastText} Modells}{41}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Ausführen der Feinstrukturierung}{42}{subsection.6.3.5}%
 \contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{43}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Clean Code}{43}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Technische Hilfsmittel}{43}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Tests und Abnahme}{44}{section.7.3}%
 \contentsline {chapter}{\numberline {8}Abschluss}{46}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Fazit}{46}{section.8.1}%
-\contentsline {subsubsection}{\nonumberline Zusammenfassung der Ergebnisse}{46}{subsubsection*.74}%
-\contentsline {subsubsection}{\nonumberline Zielerreichung}{47}{subsubsection*.76}%
-\contentsline {subsubsection}{\nonumberline Textklassifizierung}{47}{subsubsection*.78}%
-\contentsline {subsubsection}{\nonumberline Feinstrukturierung}{47}{subsubsection*.80}%
-\contentsline {subsubsection}{\nonumberline Beschränkungen der Arbeit}{47}{subsubsection*.82}%
+\contentsline {subsubsection}{\nonumberline Zusammenfassung der Ergebnisse}{46}{subsubsection*.75}%
+\contentsline {subsubsection}{\nonumberline Zielerreichung}{47}{subsubsection*.77}%
+\contentsline {subsubsection}{\nonumberline Textklassifizierung}{47}{subsubsection*.79}%
+\contentsline {subsubsection}{\nonumberline Feinstrukturierung}{47}{subsubsection*.81}%
+\contentsline {subsubsection}{\nonumberline Beschränkungen der Arbeit}{47}{subsubsection*.83}%
 \contentsline {section}{\numberline {8.2}Integration in die ORCA AVA}{48}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Ausblick}{48}{section.8.3}%
-\contentsline {chapter}{\numberline {A}Anhang}{49}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{67}{appendix.B}%
-\contentsline {chapter}{C ~~Definitionsverzeichnis}{69}{appendix.B}%
-\contentsline {chapter}{D ~~Quellcodeverzeichnis}{69}{chapter*.124}%
-\contentsline {chapter}{Literaturverzeichnis}{71}{chapter*.125}%
+\contentsline {chapter}{\numberline {A}Anhang}{50}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{69}{appendix.B}%
+\contentsline {chapter}{C ~~Definitionsverzeichnis}{71}{appendix.B}%
+\contentsline {chapter}{D ~~Quellcodeverzeichnis}{71}{chapter*.125}%
+\contentsline {chapter}{Literaturverzeichnis}{73}{chapter*.126}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

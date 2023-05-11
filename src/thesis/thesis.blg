@@ -17,49 +17,48 @@ Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: agsm.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
-Warning--I didn't find a database entry for "Ester1996ADA"
 Warning--can't use both author and editor fields in Guyon2006
 Warning--empty chapter and pages in Guyon2006
 Warning--empty publisher in molnar2022
-You've used 62 entries,
+You've used 65 entries,
             2909 wiz_defined-function locations,
-            974 strings with 16672 characters,
-and the built_in function-call counts, 291139 in all, are:
-= -- 47995
-> -- 3558
+            987 strings with 17187 characters,
+and the built_in function-call counts, 302954 in all, are:
+= -- 49895
+> -- 3743
 < -- 1
-+ -- 23221
-- -- 1100
-* -- 25174
-:= -- 57898
-add.period$ -- 92
-call.type$ -- 62
-change.case$ -- 860
-chr.to.int$ -- 52
-cite$ -- 65
-duplicate$ -- 856
-empty$ -- 1831
-format.name$ -- 1293
-if$ -- 52273
-int.to.chr$ -- 15
++ -- 24139
+- -- 1156
+* -- 26192
+:= -- 60288
+add.period$ -- 96
+call.type$ -- 65
+change.case$ -- 902
+chr.to.int$ -- 54
+cite$ -- 68
+duplicate$ -- 900
+empty$ -- 1922
+format.name$ -- 1357
+if$ -- 54391
+int.to.chr$ -- 16
 int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 260
-num.names$ -- 623
-pop$ -- 497
+missing$ -- 29
+newline$ -- 272
+num.names$ -- 655
+pop$ -- 518
 preamble$ -- 1
-purify$ -- 925
+purify$ -- 970
 quote$ -- 0
-skip$ -- 706
+skip$ -- 739
 stack$ -- 0
-substring$ -- 68355
-swap$ -- 150
-text.length$ -- 859
+substring$ -- 71020
+swap$ -- 155
+text.length$ -- 901
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 240
+type$ -- 252
 warning$ -- 3
-while$ -- 1307
+while$ -- 1371
 width$ -- 0
-write$ -- 840
-(There were 4 warnings)
+write$ -- 883
+(There were 3 warnings)

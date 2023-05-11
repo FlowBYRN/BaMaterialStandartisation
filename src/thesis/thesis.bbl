@@ -78,6 +78,13 @@ Chen, J., Hu, Y., Liu, J., Xiao, Y. \harvardand\ Jiang, H.  \harvardyearleft
   2019\harvardyearright , `Deep short text classification with knowledge
   powered attention'.
 
+\harvarditem[Ester et~al.]{Ester, Kriegel, Sander \harvardand\
+  Xu}{1996}{Ester1996ADA}
+Ester, M., Kriegel, H.-P., Sander, J. \harvardand\ Xu, X.  \harvardyearleft
+  1996\harvardyearright , A density-based algorithm for discovering clusters in
+  large spatial databases with noise, {\em in} `Knowledge Discovery and Data
+  Mining'.
+
 \harvarditem{Ferrone \harvardand\ Zanzotto}{2019}{cbow_image}
 Ferrone, L. \harvardand\ Zanzotto, F.~M.  \harvardyearleft
   2019\harvardyearright , `Symbolic, distributed, and distributional
@@ -153,6 +160,13 @@ Le, Q.~V. \harvardand\ Mikolov, T.  \harvardyearleft 2014\harvardyearright ,
 Liu, D.~C. \harvardand\ Nocedal, J.  \harvardyearleft 1989\harvardyearright ,
   `On the limited memory bfgs method for large scale optimization', {\em
   Mathematical Programming} {\bf 45},~503--528.
+
+\harvarditem[Lockley et~al.]{Lockley, Benghi \harvardand\
+  Černý}{2017}{LockleyXbimEssentialslibrary2017}
+Lockley, S., Benghi, C. \harvardand\ Černý, M.  \harvardyearleft
+  2017\harvardyearright , `Xbim.{{Essentials}}: A library for interoperable
+  building information applications',  {\bf 2}(20),~473.
+\newline\harvardurl{http://joss.theoj.org/papers/b23bed93a0377b4f4317d0583b4d2c5e}
 
 \harvarditem{Martin \harvardand\ Coplien}{2009}{martin2009clean}
 Martin, R.~C. \harvardand\ Coplien, J.~O.  \harvardyearleft
@@ -250,13 +264,18 @@ Nooralahzadeh, F., {\O}vrelid, L. \harvardand\ L{\o}nning, J.~T.
 \newblock Accessed: 2023-4-24.
 \newline\harvardurl{\url{https://openai.com/blog/chatgpt}}
 
-\harvarditem{{OpenAI}}{n.d.{\em a}}{openai_reference}
-{OpenAI}  \harvardyearleft n.d.{\em a}\harvardyearright , `Api reference'.
+\harvarditem{{OpenAI}}{n.d.{\em a}}{openai_company}
+{OpenAI}  \harvardyearleft n.d.{\em a}\harvardyearright , `About openai'.
+\newblock Accessed: 2023-5-09.
+\newline\harvardurl{\url{https://openai.com/about}}
+
+\harvarditem{{OpenAI}}{n.d.{\em b}}{openai_reference}
+{OpenAI}  \harvardyearleft n.d.{\em b}\harvardyearright , `Api reference'.
 \newblock Accessed: 2023-5-09.
 \newline\harvardurl{\url{https://platform.openai.com/docs/api-reference/introduction}}
 
-\harvarditem{{OpenAI}}{n.d.{\em b}}{Openai_pricing}
-{OpenAI}  \harvardyearleft n.d.{\em b}\harvardyearright , `Pricing'.
+\harvarditem{{OpenAI}}{n.d.{\em c}}{Openai_pricing}
+{OpenAI}  \harvardyearleft n.d.{\em c}\harvardyearright , `Pricing'.
 \newblock Accessed: 2023-5-09.
 \newline\harvardurl{\url{https://openai.com/pricing}}
 

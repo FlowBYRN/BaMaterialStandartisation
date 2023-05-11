@@ -5,10 +5,16 @@ public async Task<CostStructureDto> GenerateMaterialCostStructureAsync(ICollecti
 
     materialNames = materialNames.Distinct().ToArray();
 
-    List<Material> materials = await mMaterialRepository.CreateNewAsync(materialNames.Select(name => new Material() { MaterialBezeichnung = name, Appearances = 1 }));
+    List<Material> materials = await mMaterialRepository.CreateNewAsync(materialNames
+        .Select(name =>
+            new Material()
+            {
+                MaterialBezeichnung = name,
+                Appearances = 1
+            }));
 
     ICollection<MaterialStructureNode> result = mMaterialStructorizer
-    .StructurizeMaterials(materials.Select(m => m.PreprocessedMaterialBezeichnung).ToArray(), structurizeFine);
+        .StructurizeMaterials(materials.Select(m => m.PreprocessedMaterialBezeichnung).ToArray(), structurizeFine);
 
     var dto = new CostStructureDto();
     dto.SetMaterials(result.Select(r => r.ToDto()).ToList());
