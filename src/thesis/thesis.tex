@@ -51,7 +51,7 @@
 \usepackage{csquotes}
 \usepackage{shadethm}
 \usepackage{amsthm}
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{float}
 \usepackage{rotating} % turning figures
 \usepackage{thmtools}
@@ -60,6 +60,7 @@
 %code listing
 \usepackage{listings}
 
+\definecolor{darkgreen}{rgb}{0,255,0}
 \renewcommand\harvardurl[1]{\textit{#1}}
 \renewcommand{\lstlistingname}{Codeauflistung}
 \renewcommand{\lstlistlistingname}{Quellcodeverzeichnis}
@@ -72,7 +73,7 @@
 	keywordstyle=\color{blue},
 	identifierstyle=\color{black},
 	backgroundcolor=\color{white},
-	stringstyle=\color{black}\ttfamily,
+	stringstyle=\color{OliveGreen}\ttfamily,
 	commentstyle=\color{gray},
 	numbers=left,
 	numberstyle=\tiny,
@@ -125,7 +126,7 @@
 		double, lock, stackalloc,
 		else, long, static,
 		enum, namespace, string,
-		await, async},
+		await, async, var},
 }
 
 

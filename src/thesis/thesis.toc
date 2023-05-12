@@ -62,20 +62,20 @@
 \contentsline {subsection}{\numberline {6.3.3}Training des Textklassifizierungsmodells}{40}{subsection.6.3.3}%
 \contentsline {subsection}{\numberline {6.3.4}Training des \textit {fastText} Modells}{41}{subsection.6.3.4}%
 \contentsline {subsection}{\numberline {6.3.5}Ausführen der Feinstrukturierung}{42}{subsection.6.3.5}%
-\contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{43}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Clean Code}{43}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Technische Hilfsmittel}{43}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Tests und Abnahme}{44}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Abschluss}{46}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Fazit}{46}{section.8.1}%
-\contentsline {subsubsection}{\nonumberline Zusammenfassung der Ergebnisse}{46}{subsubsection*.75}%
-\contentsline {subsubsection}{\nonumberline Zielerreichung}{47}{subsubsection*.77}%
-\contentsline {subsubsection}{\nonumberline Textklassifizierung}{47}{subsubsection*.79}%
-\contentsline {subsubsection}{\nonumberline Feinstrukturierung}{47}{subsubsection*.81}%
-\contentsline {subsubsection}{\nonumberline Beschränkungen der Arbeit}{47}{subsubsection*.83}%
-\contentsline {section}{\numberline {8.2}Integration in die ORCA AVA}{48}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Ausblick}{48}{section.8.3}%
-\contentsline {chapter}{\numberline {A}Anhang}{50}{appendix.A}%
+\contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{44}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Clean Code}{44}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Technische Hilfsmittel}{44}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Tests und Abnahme}{45}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Abschluss}{47}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Fazit}{47}{section.8.1}%
+\contentsline {subsubsection}{\nonumberline Zusammenfassung der Ergebnisse}{47}{subsubsection*.75}%
+\contentsline {subsubsection}{\nonumberline Zielerreichung}{48}{subsubsection*.77}%
+\contentsline {subsubsection}{\nonumberline Textklassifizierung}{48}{subsubsection*.79}%
+\contentsline {subsubsection}{\nonumberline Feinstrukturierung}{48}{subsubsection*.81}%
+\contentsline {subsubsection}{\nonumberline Beschränkungen der Arbeit}{48}{subsubsection*.83}%
+\contentsline {section}{\numberline {8.2}Integration in die ORCA AVA}{49}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Ausblick}{49}{section.8.3}%
+\contentsline {chapter}{\numberline {A}Anhang}{51}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{69}{appendix.B}%
 \contentsline {chapter}{C ~~Definitionsverzeichnis}{71}{section*.125}%
 \contentsline {chapter}{D ~~Quellcodeverzeichnis}{72}{section*.127}%

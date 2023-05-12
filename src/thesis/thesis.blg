@@ -22,14 +22,14 @@ Warning--empty chapter and pages in Guyon2006
 Warning--empty publisher in molnar2022
 You've used 69 entries,
             2909 wiz_defined-function locations,
-            1010 strings with 18980 characters,
-and the built_in function-call counts, 375141 in all, are:
+            1010 strings with 18983 characters,
+and the built_in function-call counts, 375138 in all, are:
 = -- 62062
 > -- 4838
 < -- 1
 + -- 30434
 - -- 1513
-* -- 32858
+* -- 32856
 := -- 73939
 add.period$ -- 102
 call.type$ -- 69
@@ -43,13 +43,13 @@ if$ -- 67415
 int.to.chr$ -- 18
 int.to.str$ -- 0
 missing$ -- 30
-newline$ -- 246
+newline$ -- 245
 num.names$ -- 698
 pop$ -- 510
 preamble$ -- 1
 purify$ -- 1030
 quote$ -- 0
-skip$ -- 826
+skip$ -- 827
 stack$ -- 0
 substring$ -- 88962
 swap$ -- 163
@@ -60,5 +60,5 @@ type$ -- 268
 warning$ -- 3
 while$ -- 1457
 width$ -- 0
-write$ -- 935
+write$ -- 934
 (There were 3 warnings)
