@@ -20,45 +20,45 @@ Database file #1: thesis.bib
 Warning--can't use both author and editor fields in Guyon2006
 Warning--empty chapter and pages in Guyon2006
 Warning--empty publisher in molnar2022
-You've used 65 entries,
+You've used 69 entries,
             2909 wiz_defined-function locations,
-            987 strings with 17187 characters,
-and the built_in function-call counts, 302954 in all, are:
-= -- 49895
-> -- 3743
+            1010 strings with 18980 characters,
+and the built_in function-call counts, 375141 in all, are:
+= -- 62062
+> -- 4838
 < -- 1
-+ -- 24139
-- -- 1156
-* -- 26192
-:= -- 60288
-add.period$ -- 96
-call.type$ -- 65
-change.case$ -- 902
-chr.to.int$ -- 54
-cite$ -- 68
-duplicate$ -- 900
-empty$ -- 1922
-format.name$ -- 1357
-if$ -- 54391
-int.to.chr$ -- 16
++ -- 30434
+- -- 1513
+* -- 32858
+:= -- 73939
+add.period$ -- 102
+call.type$ -- 69
+change.case$ -- 958
+chr.to.int$ -- 56
+cite$ -- 72
+duplicate$ -- 951
+empty$ -- 2044
+format.name$ -- 1725
+if$ -- 67415
+int.to.chr$ -- 18
 int.to.str$ -- 0
-missing$ -- 29
-newline$ -- 272
-num.names$ -- 655
-pop$ -- 518
+missing$ -- 30
+newline$ -- 246
+num.names$ -- 698
+pop$ -- 510
 preamble$ -- 1
-purify$ -- 970
+purify$ -- 1030
 quote$ -- 0
-skip$ -- 739
+skip$ -- 826
 stack$ -- 0
-substring$ -- 71020
-swap$ -- 155
-text.length$ -- 901
+substring$ -- 88962
+swap$ -- 163
+text.length$ -- 957
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 252
+type$ -- 268
 warning$ -- 3
-while$ -- 1371
+while$ -- 1457
 width$ -- 0
-write$ -- 883
+write$ -- 935
 (There were 3 warnings)

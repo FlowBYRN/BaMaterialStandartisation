@@ -23,8 +23,8 @@ Ziel der \glqq ORCA Software GmbH\grqq{} ist es, \ac{bim} noch mehr in die ORCA 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.52]{bim-relevanz}
-	\caption[Relevanz \ac{bim}]
-	{Megatrends Nachhaltigkeit und Digitalisierung in der Bauwirtschaft. Bilder aus \citep[vgl.][p.~20]{RolandBerger2016}}
+	\source{\citep[p.~20]{RolandBerger2016}}
+	\caption{Megatrends Nachhaltigkeit und Digitalisierung in der Bauwirtschaft.}
 	\label{fig:bim}
 \end{figure}
 Ein weiterer Trendbegriff, der mit der Programmerweiterung abgedeckt werden soll, ist \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen\grqq{}. Das Suchinteresse der beiden Themen ist in \autoref{fig:ki-ml-trend} zu sehen. Die Werte geben das Google-Suchinteresse relativ zum höchsten Punkt im angegebenen Zeitraum an. Der Begriff \glqq Maschinelles Lernen\grqq{} hat seit Anfang 2015 ein steigendes Suchinteresse. Bei \glqq Künstliche Intelligenz\grqq{} ist das Suchinteresse von Anfang 2017 bis Ende 2021 konstant hoch. Der starke Anstieg ab November 2022 ist signifikant und korreliert wahrscheinlich mit der Veröffentlichung des Chatbots ChatGPT, wodurch auch Menschen außerhalb der Informatik erreicht wurden. Man erkennt insgesamt, dass das Interesse über die letzten Jahre stetig ansteigt. Die Abdeckung dieser Begriffe ist seit geraumer Zeit ein Wunsch der Vertriebsseite für den noch besseren Verkauf der Software. Die neue Programmerweiterung wäre der erste Einsatz von maschinellem Lernen. Es ist also zusätzlich auch ein Pilotprojekt in der ORCA AVA Entwicklung, um sich mit Machine-Learning-Algorithmen vertraut zu machen und Erfahrungen in diesem Themengebiet zu sammeln. 
@@ -48,15 +48,15 @@ Durch die genannten Punkte ist die Programmerweiterung dem Kano-Modell nach als 
 		\label{FIG:ml-trend}
 	\end{subfigure}
 	
-	\caption[Google Trends]{Google Suchinteresse der beiden Begriffe \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen{} seit 2004 bis 2023}
+	\caption[Google Suchinteresse von \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen{}]{Google Suchinteresse der Begriffe \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen\grqq{} von 2004 bis 2023}
 	\label{fig:ki-ml-trend}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{kano-modell}
-	\quelle{https://dmexco-lightsails-media.s3.eu-central-1.amazonaws.com/wp-content/uploads/2021/01/04112832/Kano-Modell.png (Accessed: 2023-2-24) }
-	\caption[Kano Modells]{Kano Modell der Kundenzufriedenheit}
+	\source{https://dmexco-lightsails-media.s3.eu-central-1.amazonaws.com/wp-content/uploads/2021/01/04112832/Kano-Modell.png (Accessed: 2023-2-24) }
+	\caption{Kano Modell der Kundenzufriedenheit}
 	\label{fig:kano-model}
 \end{figure}
 
@@ -150,7 +150,8 @@ Die Qualität der Materialkostengliederung hängt somit am Ende maßgeblich von 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{material-single}
-	\caption[IfcMaterial]{Material Single Association}
+	\source{\cite{ifc_material_graph}}
+	\caption{\ac{ifc}: Material Single Association}
 	\label{fig:material-single}
 \end{figure}
 
@@ -250,7 +251,7 @@ In diesem Abschnitt wird das erarbeitete Konzept für die Erweiterung vorgestell
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{anwendungsfalldiagramm}
-	\caption[Anwendungsfalldiagramm]{Anwendungsfalldiagramm}
+	\caption{Anwendungsfalldiagramm}
 	\label{fig:usecasediagramm}
 \end{figure}
 
@@ -277,7 +278,7 @@ Daten werden über den Service in einem \ac{sql}-Datenbankserver gespeichert. Hi
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{db-scheme}
-	\caption[Dokumentation]{Dokumentation der Tabelle \textit{Materials} der Datenbank}
+	\caption{Dokumentation der Datenbanktabelle \textit{Materials}}
 	\label{fig:db-scheme}
 \end{figure}
 
@@ -289,7 +290,7 @@ Dieser Ablauf ist in \autoref{fig:structurize-process} anhand eines Beispiels zu
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{structurize-process}
-	\caption[Ablauf]{Ablauf der Strukturierung mit Beispiel }
+	\caption{Ablauf der Strukturierung mit Beispiel}
 	\label{fig:structurize-process}
 \end{figure}
 
@@ -339,7 +340,7 @@ Mithilfe von Regex werden Farben, RGB-Farbcodes (z. B. \textit{60 - 60 - 60}) un
 \section{Algorithmen für die Textklassifizierung}
 \label{c:conception:classification}
 Die Textklassifizierung ist nach dem Preprocessing der zweite Schritt der Materialstrukturierung. Hier werden die Materialien, den in \autoref{fig:material-categories} aufgelisteten Überkategorien, zugeordnet.
-Technisch wird dieser Schritt mit der .NET-Bibliothek \textit{ML.NET} implementiert. Das Nuget-Package ist für die Erstellung benutzerdefinierte Modell für maschinelles Lernen. \citep[vgl.][]{mlnet_doc2022} Da die Bibliothek die Anforderungen für die Textklassifizierung gut erfüllen kann, kann die technische \autoref{r:language} für diesen Schritt eingehalten werden. Die Bibliothek kann direkt in den ASP.NET-Service integriert werden.
+Technisch wird dieser Schritt mit der .NET-Bibliothek \textit{ML.NET} \citep[vgl.][]{Ahmed_2019} implementiert. Das Nuget-Package ist für die Erstellung benutzerdefinierte Modell für maschinelles Lernen. \citep[vgl.][]{mlnet_doc2022} Da die Bibliothek die Anforderungen für die Textklassifizierung gut erfüllen kann, kann die technische \autoref{r:language} für diesen Schritt eingehalten werden. Die Bibliothek kann direkt in den ASP.NET-Service integriert werden.
 In diesem Kapitel wird zuerst der Ablauf einer normalen Textklassifizierung erläutert, die Kriterien der Messbarkeit festgelegt und dann die verschiedenen Algorithmen von \textit{ML.NET} analysiert.
 
 \subsection{Ablauf einer Textklassifizierung}
@@ -349,7 +350,8 @@ Die Stufen bei der Klassifikation von Texten sind in \autoref{fig:classification
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.3\textwidth]{classification-flow}
-	\caption[Textklassifizierung]{Stufen der Textklassifizierung (Quelle:  \cite{Foram_2016})}
+	\source{\cite{Foram_2016}}
+	\caption{Stufen der Textklassifizierung}
 	\label{fig:classification:flow}
 \end{figure}
 
@@ -375,7 +377,7 @@ Nachdem die vorherigen Schritte auf die Daten ausgeführt wurde, kann das Traini
 Für die Textklassifizierung sind folgende Kriterien der Messbarkeit wichtig:
 
 \subsubsection{Genauigkeit}
-Die Genauigkeit bei maschinellem Lernen misst die Wirksamkeit eines Modells. Klassifizierte Daten werden in einen Testdatensatz und einen Trainingsdatensatz geteilt. Mit dem Testdatensatz wird das trainierte Modell getestet. Das Ergebnis der Genauigkeit stellt eine prozentuale Angabe der Übereinstimmung des Testdatensatzes zum trainierten Modell dar. \citep[vgl.][]{Microsoft_2022_ml}
+Die Genauigkeit bei maschinellem Lernen misst die Wirksamkeit eines Modells. Klassifizierte Daten werden in einen Testdatensatz und einen Trainingsdatensatz geteilt. Mit dem Testdatensatz wird das trainierte Modell getestet. Das Ergebnis der Genauigkeit stellt eine prozentuale Angabe der Übereinstimmung des Testdatensatzes zum trainierten Modell dar. \citep[vgl.][]{select_ml_2021}
 
 \subsubsection{Interpretierbarkeit}
 \begin{definition}[Interpretierbarkeit]
@@ -475,7 +477,8 @@ Das Modell basiert auf dem Wort-Einbettungs-Algorithmus \textit{Word2Vec} mit \t
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{cbow-model}
-	\caption[CBOW]{Beispiel des \ac{cbow}-Modells. (Quelle:  \cite{cbow_image})}
+	\source{ \cite{cbow_image}}
+	\caption{Beispiel des \ac{cbow}-Modells.}
 	\label{fig:cbow}
 \end{figure}
 \textit{fastText} erweitert diese Vorgehensweise und nutzt Teilwortinformationen, um ein Wort als Vektor darzustellen. Wörter werden in N-Grams dargestellt. \citep[vgl.][]{bojanowski2017enriching} Die Repräsentation für das Wort \textit{Estrich} mit n = 3 ist zum Beispiel \textit{<Es,est,str,tri,ric,ich,ch>}, wobei die Zeichen \textit{<} und \textit{>} als Begrenzungszeichen hinzugefügt werden, um die N-Gramms eines Wortes vom Wort selbst zu unterscheiden. Wäre also das Wort \textit{ich} im Vokabular, wird es als \textit{<ich>} dargestellt. Das neuronale Netz wird dann mit der Liste der N-Gramms inklusive dem kompletten Wort trainiert. Somit ermöglicht das Modell die gemeinsame Nutzung der Teilwortinformationen für alle Wörter \citep[vgl.][]{bojanowski2017enriching}. Zusätzlich nutzt \textit{fastText} eine hierarchische Softmax Verlustfunktion, um die Berechnung von unausgewogenen Verteilungen zu beschleunigen \citep[vgl.][]{fastText_release2016}.
@@ -534,7 +537,7 @@ Um die Anzahl der Trainingsdaten besser einschätzen zu können, wird in \autore
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{accuracy-graph}
-	\caption[Accuracy]{Genauigkeit des SdcaMaximumEntropy-Modells für die jeweilige Trainingsdaten-Anzahl. (Durchschnittswerte von 100 Trainingsdurchläufen bei einem Testsplit von 0.2)}
+	\caption[Genauigkeit des SdcaMaximumEntropy-Modells]{Genauigkeit des SdcaMaximumEntropy-Modells für die jeweilige Trainingsdaten-Anzahl. (Durchschnittswerte von 100 Trainingsdurchläufen bei einem Testsplit von 0.2)}
 	\label{fig:accuracy-graph}
 \end{figure}
 
@@ -636,7 +639,7 @@ Mit dem dritten Skript \textit{fasttext\_test.py} kann man das trainierte Modell
 
 \subsection{Ausführen der Feinstrukturierung}
 \label{c:implementation:clustering}
-Die Feinstrukturierung wird im Pythonskript \textit{dbscan\_structurize.py} ausgeführt und kann parallel abgearbeitet werden. Nachdem das \textit{fastText}-Modell geladen wurde, werden für jede Überkategorie mit mehr als zwei Materialien ein Threat für die Feinstrukturierung gestartet. Den folgenden Ablauf kann man in zwei Schritte einteilen. Da die Begriffe schon bei der Textklassifizierung durch das Preprocessing gelaufen sind, ist das nicht mehr nötig. Der erste Schritt ist das Vektorisieren der Materialbezeichnungen. Hier werden die Begriffe mit \code{tokenize()} in die einzelnen Wörter geteilt und dann der Vektor durch die Summe aller Wortvektoren ermittelt. Hierzu werden die Wörter nacheinander mit dem \textit{fastText}-Modell in Vektoren umgewandelt und dann aufaddiert. Danach beginnt der zweite Schritt des Clusterings. Der \ac{dbscan}-Parameter \textit{min\_samples} wird auf 2 gesetzt, damit Cluster ab zwei Materialien entstehen können. Über den Parameter \textit{eps} wird von 0,5 bis 5 in 0,1-Schritten iteriert. Da jede Ausführung von \ac{dbscan} andere Eingabevektoren hat, muss auch der Parameter \textit{eps} immer anders gewählt werden, um das optimale Ergebnis zu bekommen. Das optimale Ergebnis bedeutet, möglichst viele verschiedene Cluster zu erhalten und dabei den Median der Anzahl der Rauschpunkte bei dieser Anzahl von möglichst vielen Clustern zu haben. Bei der Iteration über den Parameter kann das optimale Ergebnis, durch Evaluieren der jeweiligen Clusteranzahl und Anzahl von Rauschpunkten, ermittelt werden. Der Startwert und Endwert haben sich durch Testen als passende Werte ergeben, sodass das optimale Ergebnis immer innerhalb des Bereiches liegt. Am Ende wird das optimale Ergebnis an den ASP.NET Service zurückgegeben. Dort wird der Rückgabewert in eine passende Objektstruktur abgebildet und als \ac{dto} als \ac{http}-Response zurückgegeben.
+Die Feinstrukturierung wird im Pythonskript \textit{dbscan\_structurize.py} ausgeführt und kann parallel abgearbeitet werden. Nachdem das \textit{fastText}-Modell geladen wurde, werden für jede Überkategorie mit mehr als zwei Materialien ein Threat für die Feinstrukturierung gestartet. Den folgenden Ablauf kann man in zwei Schritte einteilen. Da die Begriffe schon bei der Textklassifizierung durch das Preprocessing gelaufen sind, ist das nicht mehr nötig. Der erste Schritt ist das Vektorisieren der Materialbezeichnungen. Hier werden die Begriffe mit \code{tokenize()} in die einzelnen Wörter geteilt und dann der Vektor durch die Summe aller Wortvektoren ermittelt. Hierzu werden die Wörter nacheinander mit dem \textit{fastText}-Modell in Vektoren umgewandelt und dann aufaddiert. Danach beginnt der zweite Schritt des Clusterings. Hierzu wird die \ac{dbscan}-Implementierung von \textit{scikit-learn} \citep{scikit-learn} genutzt. Der \ac{dbscan}-Parameter \textit{min\_samples} wird auf 2 gesetzt, damit Cluster ab zwei Materialien entstehen können. Über den Parameter \textit{eps} wird von 0,5 bis 5 in 0,1-Schritten iteriert. Da jede Ausführung von \ac{dbscan} andere Eingabevektoren hat, muss auch der Parameter \textit{eps} immer anders gewählt werden, um das optimale Ergebnis zu bekommen. Das optimale Ergebnis bedeutet, möglichst viele verschiedene Cluster zu erhalten und dabei den Median der Anzahl der Rauschpunkte bei dieser Anzahl von möglichst vielen Clustern zu haben. Bei der Iteration über den Parameter kann das optimale Ergebnis, durch Evaluieren der jeweiligen Clusteranzahl und Anzahl von Rauschpunkten, ermittelt werden. Der Startwert und Endwert haben sich durch Testen als passende Werte ergeben, sodass das optimale Ergebnis immer innerhalb des Bereiches liegt. Am Ende wird das optimale Ergebnis an den ASP.NET Service zurückgegeben. Dort wird der Rückgabewert in eine passende Objektstruktur abgebildet und als \ac{dto} als \ac{http}-Response zurückgegeben.
 
 \chapter{Maßnahmen zur Qualitätssicherung}
 \label{c:qs}

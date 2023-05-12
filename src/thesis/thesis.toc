@@ -29,19 +29,19 @@
 \contentsline {subsection}{\numberline {4.1.4}Preprocessing der Materialien}{19}{subsection.4.1.4}%
 \contentsline {section}{\numberline {4.2}Algorithmen für die Textklassifizierung}{20}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Ablauf einer Textklassifizierung}{20}{subsection.4.2.1}%
-\contentsline {subsubsection}{\nonumberline Preprocessing}{20}{subsubsection*.42}%
-\contentsline {subsubsection}{\nonumberline Feature Selection}{20}{subsubsection*.44}%
-\contentsline {subsubsection}{\nonumberline Feature Extraction}{21}{subsubsection*.46}%
-\contentsline {subsubsection}{\nonumberline Classification stages}{21}{subsubsection*.48}%
+\contentsline {subsubsection}{\nonumberline Preprocessing}{20}{subsubsection*.43}%
+\contentsline {subsubsection}{\nonumberline Feature Selection}{20}{subsubsection*.45}%
+\contentsline {subsubsection}{\nonumberline Feature Extraction}{21}{subsubsection*.47}%
+\contentsline {subsubsection}{\nonumberline Classification stages}{21}{subsubsection*.49}%
 \contentsline {subsection}{\numberline {4.2.2}Kriterien der Messbarkeit}{21}{subsection.4.2.2}%
-\contentsline {subsubsection}{\nonumberline Genauigkeit}{22}{subsubsection*.50}%
-\contentsline {subsubsection}{\nonumberline Interpretierbarkeit}{22}{subsubsection*.52}%
-\contentsline {subsubsection}{\nonumberline Robustheit}{22}{subsubsection*.54}%
-\contentsline {subsubsection}{\nonumberline Performance}{22}{subsubsection*.56}%
+\contentsline {subsubsection}{\nonumberline Genauigkeit}{22}{subsubsection*.51}%
+\contentsline {subsubsection}{\nonumberline Interpretierbarkeit}{22}{subsubsection*.53}%
+\contentsline {subsubsection}{\nonumberline Robustheit}{22}{subsubsection*.55}%
+\contentsline {subsubsection}{\nonumberline Performance}{22}{subsubsection*.57}%
 \contentsline {subsection}{\numberline {4.2.3}ML.NET Multiclass Classification}{23}{subsection.4.2.3}%
-\contentsline {subsubsection}{\nonumberline Maximum Entropy Model}{23}{subsubsection*.58}%
-\contentsline {subsubsection}{\nonumberline TextclassifcationTrainer}{24}{subsubsection*.61}%
-\contentsline {subsubsection}{\nonumberline One Versus All Ansatz}{25}{subsubsection*.64}%
+\contentsline {subsubsection}{\nonumberline Maximum Entropy Model}{23}{subsubsection*.59}%
+\contentsline {subsubsection}{\nonumberline TextclassifcationTrainer}{24}{subsubsection*.62}%
+\contentsline {subsubsection}{\nonumberline One Versus All Ansatz}{25}{subsubsection*.65}%
 \contentsline {section}{\numberline {4.3}Möglichkeiten für die Feinstrukturierung}{25}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Spezifikation und Kriterien der Messbarkeit}{25}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}\acf {gpt} Modell von OpenAI}{27}{subsection.4.3.2}%
@@ -77,7 +77,8 @@
 \contentsline {section}{\numberline {8.3}Ausblick}{48}{section.8.3}%
 \contentsline {chapter}{\numberline {A}Anhang}{50}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{69}{appendix.B}%
-\contentsline {chapter}{C ~~Definitionsverzeichnis}{71}{appendix.B}%
-\contentsline {chapter}{D ~~Quellcodeverzeichnis}{71}{chapter*.125}%
-\contentsline {chapter}{Literaturverzeichnis}{73}{chapter*.126}%
+\contentsline {chapter}{C ~~Definitionsverzeichnis}{71}{section*.125}%
+\contentsline {chapter}{D ~~Quellcodeverzeichnis}{72}{section*.127}%
+\contentsline {chapter}{E ~~Tabellenverzeichnis}{73}{section*.129}%
+\contentsline {chapter}{Literaturverzeichnis}{75}{section*.131}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

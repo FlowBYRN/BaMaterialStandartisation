@@ -1,14 +1,36 @@
 \stepcounter{chapter} %increment counter of chapters B -> C
 \def\verzeichnisdef{\Alph{chapter} ~~} %variable
 
+\phantomsection
 \addcontentsline{toc}{chapter}{\verzeichnisdef Definitionsverzeichnis}
-
 \listoftheorems[ignore={goal,problem,requirement},show={definition},title={\verzeichnisdef Definitionsverzeichnis}]
+
+\cleardoublepage
 
 \stepcounter{chapter} %increment counter of chapters C -> D
 \def\listingdef{\Alph{chapter} ~~} %variable
 
+\phantomsection
 \addcontentsline{toc}{chapter}{\listingdef Quellcodeverzeichnis}
+
 
 \renewcommand{\lstlistlistingname}{\listingdef Quellcodeverzeichnis}
 \lstlistoflistings
+
+\cleardoublepage
+
+\stepcounter{chapter} %increment counter of chapters C -> D
+\def\listingdef{\Alph{chapter} ~~} %variable
+
+\phantomsection
+\addcontentsline{toc}{chapter}{\listingdef Tabellenverzeichnis}
+
+\renewcommand{\listtablename}{\listingdef Tabellenverzeichnis}
+\listoftables
+
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+\bibliographystyle{agsm}
+\bibliography{thesis}

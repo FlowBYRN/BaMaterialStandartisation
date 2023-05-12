@@ -5,6 +5,21 @@ Adriaans, P.  \harvardyearleft 2020\harvardyearright , {Information}, {\em in}
   E.~N. Zalta, ed., `The {Stanford} Encyclopedia of Philosophy', {F}all 2020
   edn, Metaphysics Research Lab, Stanford University.
 
+\harvarditem[Ahmed et~al.]{Ahmed, Amizadeh, Bilenko, Carr, Chin, Dekel, Dupre,
+  Eksarevskiy, Filipi, Finley, Goswami, Hoover, Inglis, Interlandi, Kazmi,
+  Krivosheev, Luferenko, Matantsev, Matusevych, Moradi, Nazirov, Ormont, Oshri,
+  Pagnoni, Parmar, Roy, Siddiqui, Weimer, Zahirazami \harvardand\
+  Zhu}{2019}{Ahmed_2019}
+Ahmed, Z., Amizadeh, S., Bilenko, M., Carr, R., Chin, W.-S., Dekel, Y., Dupre,
+  X., Eksarevskiy, V., Filipi, S., Finley, T., Goswami, A., Hoover, M., Inglis,
+  S., Interlandi, M., Kazmi, N., Krivosheev, G., Luferenko, P., Matantsev, I.,
+  Matusevych, S., Moradi, S., Nazirov, G., Ormont, J., Oshri, G., Pagnoni, A.,
+  Parmar, J., Roy, P., Siddiqui, M.~Z., Weimer, M., Zahirazami, S. \harvardand\
+  Zhu, Y.  \harvardyearleft 2019\harvardyearright , Machine learning at
+  microsoft with {ML}.{NET}, {\em in} `Proceedings of the 25th {ACM} {SIGKDD}
+  International Conference on Knowledge Discovery & Data Mining', {ACM}.
+\newline\harvardurl{\url{https://doi.org/10.1145\%2F3292500.3330667}}
+
 \harvarditem{Beetz \harvardand\ Harrer}{2021}{devops_2021}
 Beetz, F. \harvardand\ Harrer, S.  \harvardyearleft 2021\harvardyearright ,
   `{GitOps: The Evolution of DevOps?}', {\em IEEE Software} {\bf 39}.
@@ -17,8 +32,9 @@ Berger, A.~L., Pietra, V. J.~D. \harvardand\ Pietra, S. A.~D.  \harvardyearleft
 
 \harvarditem{Bie}{2019}{Qingyuan2019}
 Bie, Q.  \harvardyearleft 2019\harvardyearright , `{Words are not enough! Short
-  text classification using words as well as entities}'.
-\newline\harvardurl{\url{https://www.fiz-karlsruhe.de/sites/default/files/FIZ/Dokumente/Forschung/ISE/Masterarbeiten/Thesis-Qingyuan-Bie.pdf}}
+  text classification using words as well as entities}',
+  \url{https://www.fiz-karlsruhe.de/sites/default/files/FIZ/Dokumente/Forschung/ISE/Masterarbeiten/Thesis-Qingyuan-Bie.pdf}.
+\newblock (Accessed: 2023-5-12).
 
 \harvarditem[Bojanowski et~al.]{Bojanowski, Grave, Joulin \harvardand\
   Mikolov}{2017}{bojanowski2017enriching}
@@ -29,9 +45,9 @@ Bojanowski, P., Grave, E., Joulin, A. \harvardand\ Mikolov, T.
 \harvarditem[Bojanowski et~al.]{Bojanowski, Joulin \harvardand\
   Mikolo}{2016}{fastText_release2016}
 Bojanowski, P., Joulin, A. \harvardand\ Mikolo, T.  \harvardyearleft
-  2016\harvardyearright , `Fair open-sources fasttext'.
-\newblock Accessed: 2023-4-26.
-\newline\harvardurl{\url{https://research.facebook.com/blog/2016/8/fasttext/}}
+  2016\harvardyearright , `Fair open-sources fasttext',
+  \url{https://research.facebook.com/blog/2016/8/fasttext/}.
+\newblock (Accessed: 2023-4-26).
 
 \harvarditem[Brown et~al.]{Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal,
   Neelakantan, Shyam, Sastry, Askell, Agarwal, Herbert-Voss, Krueger, Henighan,
@@ -48,23 +64,52 @@ Brown, T.~B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P.,
 
 \harvarditem{{buildingSMART International Ltd.}}{2017{\em a}}{ifc_material}
 {buildingSMART International Ltd.}  \harvardyearleft 2017{\em
-  a}\harvardyearright , `{Industry Foundation Classes - IfcMaterial}'.
-\newblock Accessed: 2023-1-31.
-\newline\harvardurl{\url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/ifcmaterial.htm}}
+  a}\harvardyearright , `{Industry Foundation Classes - IfcMaterial}',
+  \url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/ifcmaterial.htm}.
+\newblock (Accessed: 2023-1-31).
 
 \harvarditem{{buildingSMART International Ltd.}}{2017{\em
-  b}}{ifc_material_association}
+  b}}{ifc_constituentset_graph}
 {buildingSMART International Ltd.}  \harvardyearleft 2017{\em
-  b}\harvardyearright , `{Industry Foundation Classes 4x1 - Material
-  Association}'.
-\newblock Accessed: 2023-1-31.
-\newline\harvardurl{\url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/material-association.htm}}
+  b}\harvardyearright , `{Industry Foundation Classes 4x1 - Constituent Set}',
+  \url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/material-constituent-set.htm}.
+\newblock (Accessed: 2023-5-12).
 
-\harvarditem{{buildingSMART International Ltd.}}{2017{\em c}}{ifc_property_set}
+\harvarditem{{buildingSMART International Ltd.}}{2017{\em
+  c}}{ifc_layerset_graph}
 {buildingSMART International Ltd.}  \harvardyearleft 2017{\em
-  c}\harvardyearright , `{Industry Foundation Classes 4x3- IfcPropertySet}'.
-\newblock Accessed: 2023-1-31.
-\newline\harvardurl{\url{https://standards.buildingsmart.org/IFC/DEV/IFC4_3/RC1/HTML/schema/ifckernel/lexical/ifcpropertyset.htm}}
+  c}\harvardyearright , `{Industry Foundation Classes 4x1 - Layer Set}',
+  \url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/material-layer-set.htm}.
+\newblock (Accessed: 2023-5-12).
+
+\harvarditem{{buildingSMART International Ltd.}}{2017{\em
+  d}}{ifc_material_association}
+{buildingSMART International Ltd.}  \harvardyearleft 2017{\em
+  d}\harvardyearright , `{Industry Foundation Classes 4x1 - Material
+  Association}',
+  \url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/material-association.htm}.
+\newblock (Accessed: 2023-1-31).
+
+\harvarditem{{buildingSMART International Ltd.}}{2017{\em
+  e}}{ifc_material_graph}
+{buildingSMART International Ltd.}  \harvardyearleft 2017{\em
+  e}\harvardyearright , `{Industry Foundation Classes 4x1 - Material Single}',
+  \url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/material-single.htm}.
+\newblock (Accessed: 2023-5-12).
+
+\harvarditem{{buildingSMART International Ltd.}}{2017{\em
+  f}}{ifc_profileset_graph}
+{buildingSMART International Ltd.}  \harvardyearleft 2017{\em
+  f}\harvardyearright , `{Industry Foundation Classes 4x1 - Profile Set}',
+  \url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/material-profile-set.htm}.
+\newblock (Accessed: 2023-5-12).
+
+\harvarditem{{buildingSMART International Ltd.}}{2017{\em g}}{ifc_property_set}
+{buildingSMART International Ltd.}  \harvardyearleft 2017{\em
+  g}\harvardyearright , `{Industry Foundation Classes 4x1- Property Sets for
+  Objects}',
+  \url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/link/property-sets-for-objects.htm}.
+\newblock (Accessed: 2023-5-12).
 
 \harvarditem{Chandrasekar \harvardand\ Qian}{2016}{Priyanga_2016}
 Chandrasekar, P. \harvardand\ Qian, K.  \harvardyearleft 2016\harvardyearright
@@ -93,15 +138,15 @@ Ferrone, L. \harvardand\ Zanzotto, F.~M.  \harvardyearleft
 
 \harvarditem{{Gensim}}{n.d.}{fastText_word2vec_comparison}
 {Gensim}  \harvardyearleft n.d.\harvardyearright , `Comparison of fasttext and
-  word2vec'.
-\newblock Accessed: 2023-4-25.
-\newline\harvardurl{\url{https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/Word2Vec_FastText_Comparison.ipynb}}
+  word2vec',
+  \url{https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/Word2Vec_FastText_Comparison.ipynb}.
+\newblock (Accessed: 2023-4-25).
 
 \harvarditem{{Gensim Documentation}}{n.d.}{gensim_fastText}
 {Gensim Documentation}  \harvardyearleft n.d.\harvardyearright , `Gensim
-  documentation - {FastText} model'.
-\newblock Accessed: 2023-4-25.
-\newline\harvardurl{\url{https://radimrehurek.com/gensim/auto_examples/tutorials/run_fasttext.html}}
+  documentation - {FastText} model',
+  \url{https://radimrehurek.com/gensim/auto_examples/tutorials/run_fasttext.html}.
+\newblock (Accessed: 2023-4-25).
 
 \harvarditem{Glinz}{2007}{glinz_2007}
 Glinz, M.  \harvardyearleft 2007\harvardyearright , On non-functional
@@ -116,9 +161,9 @@ Gonzalez, Z. \harvardand\ Carlos, V.  \harvardyearleft 2019\harvardyearright ,
 
 \harvarditem{Grutters}{2022}{BuildingSMART_IFC}
 Grutters, B.  \harvardyearleft 2022\harvardyearright , `{Industry Foundation
-  Classes (IFC) – An Introduction}'.
-\newblock Accessed: 2023-2-22.
-\newline\harvardurl{\url{https://technical.buildingsmart.org/standards/ifc/}}
+  Classes (IFC) – An Introduction}',
+  \url{https://technical.buildingsmart.org/standards/ifc/}.
+\newblock (Accessed: 2023-2-22).
 
 \harvarditem{Guyon \harvardand\ Elisseeff}{2006}{Guyon2006}
 Guyon, I. \harvardand\ Elisseeff, A.  \harvardyearleft 2006\harvardyearright ,
@@ -131,9 +176,9 @@ Hölzing, J.~A.  \harvardyearleft 2008\harvardyearright , {\em Die
   {Kano-Theorie} der {Kundenzufriedenheitsmessung}}, Gabler Verlag Wiesbaden.
 
 \harvarditem{{\em {Industry Foundation Classes}}}{2017}{BuildingSMART_IFC4_doc}
-{\em {Industry Foundation Classes}}  \harvardyearleft 2017\harvardyearright .
-\newblock Accessed: 2023-1-31.
-\newline\harvardurl{\url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML}}
+{\em {Industry Foundation Classes}}  \harvardyearleft 2017\harvardyearright ,
+  \url{http://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML}.
+\newblock (Accessed: 2023-1-31).
 
 \harvarditem[Joulin et~al.]{Joulin, Grave, Bojanowski \harvardand\
   Mikolov}{2016}{joulin2016bag}
@@ -144,7 +189,6 @@ Joulin, A., Grave, E., Bojanowski, P. \harvardand\ Mikolov, T.
 \harvarditem{Ken \harvardand\ Jeff}{2020}{scrum_2020}
 Ken, S. \harvardand\ Jeff, S.  \harvardyearleft 2020\harvardyearright , `The
   scrum guide'.
-\newline\harvardurl{\url{https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf}}
 
 \harvarditem{Laakso \harvardand\ Kiviniemi}{2012}{Laakso2012-oi}
 Laakso, M. \harvardand\ Kiviniemi, A.~O.  \harvardyearleft
@@ -166,89 +210,73 @@ Liu, D.~C. \harvardand\ Nocedal, J.  \harvardyearleft 1989\harvardyearright ,
 Lockley, S., Benghi, C. \harvardand\ Černý, M.  \harvardyearleft
   2017\harvardyearright , `Xbim.{{Essentials}}: A library for interoperable
   building information applications',  {\bf 2}(20),~473.
-\newline\harvardurl{http://joss.theoj.org/papers/b23bed93a0377b4f4317d0583b4d2c5e}
 
 \harvarditem{Martin \harvardand\ Coplien}{2009}{martin2009clean}
 Martin, R.~C. \harvardand\ Coplien, J.~O.  \harvardyearleft
   2009\harvardyearright , {\em Clean code: a handbook of agile software
   craftsmanship}, Prentice Hall, Upper Saddle River, NJ [etc.].
-\newline\harvardurl{\url{https://www.amazon.de/gp/product/0132350882/ref=oh_details_o00_s00_i00}}
 
 \harvarditem{Microsoft}{2021}{select_ml_2021}
 Microsoft  \harvardyearleft 2021\harvardyearright , `{Ausw{\"a}hlen eines
-  Algorithmus f{\"u}r maschinelles Lernen - Azure Machine Learning}'.
-\newblock Accessed: 2023-05-02.
-\newline\harvardurl{\url{https://learn.microsoft.com/de-de/azure/machine-learning/how-to-select-algorithms}}
+  Algorithmus f{\"u}r maschinelles Lernen - Azure Machine Learning}',
+  \url{https://learn.microsoft.com/de-de/azure/machine-learning/how-to-select-algorithms}.
+\newblock (Accessed: 2023-05-02).
 
-\harvarditem{{Microsoft}}{2022{\em a}}{Microsoft_2022_ml}
-{Microsoft}  \harvardyearleft 2022{\em a}\harvardyearright , `Auswählen eines
-  {Algorithmus} für maschinelles {Lernen} - {Azure Machine Learning}'.
-\newblock Accessed: 2023-3-10.
-\newline\harvardurl{\url{https://learn.microsoft.com/de-de/azure/machine-learning/how-to-select-algorithms}}
+\harvarditem{Microsoft}{2022{\em a}}{mlnet_doc2022}
+Microsoft  \harvardyearleft 2022{\em a}\harvardyearright , `What is {ML.NET}
+  and how does it work?',
+  \url{https://learn.microsoft.com/en-us/dotnet/machine-learning/how-does-mldotnet-work}.
+\newblock (Accessed: 2023-5-02).
 
-\harvarditem{Microsoft}{2022{\em b}}{mlnet_doc2022}
-Microsoft  \harvardyearleft 2022{\em b}\harvardyearright , `What is {ML.NET}
-  and how does it work?'.
-\newblock Accessed: 2023-5-02.
-\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/machine-learning/how-does-mldotnet-work}}
-
-\harvarditem{Microsoft}{2022{\em c}}{mlnet2022}
-Microsoft  \harvardyearleft 2022{\em c}\harvardyearright , `What is ml.net and
-  how does it work?'.
-\newblock Accessed: 2023-5-02.
-\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/machine-learning/how-does-mldotnet-work}}
-
-\harvarditem{{Microsoft}}{2022{\em d}}{Microsoft_2022}
-{Microsoft}  \harvardyearleft 2022{\em d}\harvardyearright , `Windows
-  presentation foundation ({WPF})'.
-\newblock Accessed: 2023-2-10.
-\newline\harvardurl{\url{https://github.com/dotnet/wpf}}
+\harvarditem{{Microsoft}}{2022{\em b}}{Microsoft_2022}
+{Microsoft}  \harvardyearleft 2022{\em b}\harvardyearright , `Windows
+  presentation foundation ({WPF})', \url{https://github.com/dotnet/wpf}.
+\newblock (Accessed: 2023-2-10).
 
 \harvarditem{Microsoft}{n.d.{\em a}}{lbfgstrainer_doc2022}
 Microsoft  \harvardyearleft n.d.{\em a}\harvardyearright ,
-  `Lbfgsmaximumentropymulticlasstrainer class'.
-\newblock Accessed: 2023-5-02.
-\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.lbfgsmaximumentropymulticlasstrainer?view=ml-dotnet}}
+  `Lbfgsmaximumentropymulticlasstrainer class',
+  \url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.lbfgsmaximumentropymulticlasstrainer?view=ml-dotnet}.
+\newblock (Accessed: 2023-5-02).
 
-\harvarditem{Microsoft}{n.d.{\em b}}{oneversusall_doc}
+\harvarditem{Microsoft}{n.d.{\em b}}{metrics_doc}
 Microsoft  \harvardyearleft n.d.{\em b}\harvardyearright ,
-  `Lbfgsmaximumentropymulticlasstrainer class'.
-\newblock Accessed: 2023-5-02.
-\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.lbfgsmaximumentropymulticlasstrainer?view=ml-dotnet}}
+  `Multiclassclassificationmetrics class',
+  \url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.data.multiclassclassificationmetrics?view=ml-dotnet}.
+\newblock (Accessed: 2023-5-02).
 
-\harvarditem{Microsoft}{n.d.{\em c}}{metrics_doc}
-Microsoft  \harvardyearleft n.d.{\em c}\harvardyearright ,
-  `Multiclassclassificationmetrics class'.
-\newblock Accessed: 2023-5-02.
-\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.data.multiclassclassificationmetrics?view=ml-dotnet}}
+\harvarditem{Microsoft}{n.d.{\em c}}{oneversusall_doc}
+Microsoft  \harvardyearleft n.d.{\em c}\harvardyearright , `Oneversusalltrainer
+  class',
+  \url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.oneversusalltrainer?view=ml-dotnet}.
+\newblock (Accessed: 2023-5-02).
 
 \harvarditem{Microsoft}{n.d.{\em d}}{scdabinary_doc}
 Microsoft  \harvardyearleft n.d.{\em d}\harvardyearright ,
-  `Sdcalogisticregressionbinarytrainer class'.
-\newblock Accessed: 2023-5-02.
-\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.sdcalogisticregressionbinarytrainer?view=ml-dotnet}}
+  `Sdcalogisticregressionbinarytrainer class',
+  \url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.sdcalogisticregressionbinarytrainer?view=ml-dotnet}.
+\newblock (Accessed: 2023-5-02).
 
 \harvarditem{Microsoft}{n.d.{\em e}}{sdcatrainer_doc2022}
 Microsoft  \harvardyearleft n.d.{\em e}\harvardyearright ,
-  `Sdcamulticlasstrainerbase<tmodel> class'.
-\newblock Accessed: 2023-5-02.
-\newline\harvardurl{\url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.sdcamulticlasstrainerbase-1?view=ml-dotnet}}
+  `Sdcamulticlasstrainerbase<tmodel> class',
+  \url{https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.sdcamulticlasstrainerbase-1?view=ml-dotnet}.
+\newblock (Accessed: 2023-5-02).
 
 \harvarditem{Miller}{2017}{miller_2017}
 Miller, T.  \harvardyearleft 2017\harvardyearright , `{Explanation in
-  Artificial Intelligence: Insights from the Social Sciences}'.
-\newline\harvardurl{\url{https://arxiv.org/abs/1706.07269}}
+  Artificial Intelligence: Insights from the Social Sciences}',
+  \url{https://arxiv.org/abs/1706.07269}.
 
 \harvarditem{Molnar}{2022}{molnar2022}
 Molnar, C.  \harvardyearleft 2022\harvardyearright , {\em {Interpretable
   Machine Learning}}, 2 edn.
-\newline\harvardurl{\url{https://christophm.github.io/interpretable-ml-book}}
 
 \harvarditem{{.NET Foundation and Contributors}}{n.d.}{asp-net}
 {.NET Foundation and Contributors}  \harvardyearleft n.d.\harvardyearright ,
-  `{ASP.NET} core'.
-\newblock Accessed: 2023-3-20.
-\newline\harvardurl{\url{https://github.com/dotnet/aspnetcore/blob/main/README.md}}
+  `{ASP.NET} core',
+  \url{https://github.com/dotnet/aspnetcore/blob/main/README.md}.
+\newblock (Accessed: 2023-3-20).
 
 \harvarditem[Nooralahzadeh et~al.]{Nooralahzadeh, {\O}vrelid \harvardand\
   L{\o}nning}{2018}{nooralahzadeh2018evaluation}
@@ -257,34 +285,33 @@ Nooralahzadeh, F., {\O}vrelid, L. \harvardand\ L{\o}nning, J.~T.
   embeddings using knowledge resources, {\em in} `Proceedings of the Eleventh
   International Conference on Language Resources and Evaluation ({LREC} 2018)',
   European Language Resources Association (ELRA), Miyazaki, Japan.
-\newline\harvardurl{\url{https://aclanthology.org/L18-1228}}
 
 \harvarditem{{OpenAI}}{2022}{OpenAI2022-la}
-{OpenAI}  \harvardyearleft 2022\harvardyearright , `Introducing {ChatGPT}'.
-\newblock Accessed: 2023-4-24.
-\newline\harvardurl{\url{https://openai.com/blog/chatgpt}}
+{OpenAI}  \harvardyearleft 2022\harvardyearright , `Introducing {ChatGPT}',
+  \url{https://openai.com/blog/chatgpt}.
+\newblock (Accessed: 2023-4-24).
 
 \harvarditem{{OpenAI}}{n.d.{\em a}}{openai_company}
-{OpenAI}  \harvardyearleft n.d.{\em a}\harvardyearright , `About openai'.
-\newblock Accessed: 2023-5-09.
-\newline\harvardurl{\url{https://openai.com/about}}
+{OpenAI}  \harvardyearleft n.d.{\em a}\harvardyearright , `About openai',
+  \url{https://openai.com/about}.
+\newblock (Accessed: 2023-5-09).
 
 \harvarditem{{OpenAI}}{n.d.{\em b}}{openai_reference}
-{OpenAI}  \harvardyearleft n.d.{\em b}\harvardyearright , `Api reference'.
-\newblock Accessed: 2023-5-09.
-\newline\harvardurl{\url{https://platform.openai.com/docs/api-reference/introduction}}
+{OpenAI}  \harvardyearleft n.d.{\em b}\harvardyearright , `Api reference',
+  \url{https://platform.openai.com/docs/api-reference/introduction}.
+\newblock (Accessed: 2023-5-09).
 
 \harvarditem{{OpenAI}}{n.d.{\em c}}{Openai_pricing}
-{OpenAI}  \harvardyearleft n.d.{\em c}\harvardyearright , `Pricing'.
-\newblock Accessed: 2023-5-09.
-\newline\harvardurl{\url{https://openai.com/pricing}}
+{OpenAI}  \harvardyearleft n.d.{\em c}\harvardyearright , `Pricing',
+  \url{https://openai.com/pricing}.
+\newblock (Accessed: 2023-5-09).
 
 \harvarditem{{ORCA Software GmbH}}{n.d.}{helpdesk-kostengliederungen}
 {ORCA Software GmbH}  \harvardyearleft n.d.\harvardyearright , `{ORCA} helpdesk
   - {ORCA} {AVA} 25 - {Kostengliederungen als Basis f{\"u}r das
-  Kostenmanagement}'.
-\newblock Accessed: 2023-2-1.
-\newline\harvardurl{\url{https://helpdesk.orca-software.com/Solution/AVA25/Content/Kontexthilfe-337_8277}}
+  Kostenmanagement}',
+  \url{https://helpdesk.orca-software.com/Solution/AVA25/Content/Kontexthilfe-337_8277}.
+\newblock (Accessed: 2023-2-1).
 
 \harvarditem[Ouyang et~al.]{Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin,
   Zhang, Agarwal, Slama, Ray, Schulman, Hilton, Kelton, Miller, Simens, Askell,
@@ -295,11 +322,21 @@ Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C.~L., Mishkin, P.,
   J. \harvardand\ Lowe, R.  \harvardyearleft 2022\harvardyearright , `Training
   language models to follow instructions with human feedback'.
 
+\harvarditem[Pedregosa et~al.]{Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
+  Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot \harvardand\ Duchesnay}{2011}{scikit-learn}
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
+  O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
+  Passos, A., Cournapeau, D., Brucher, M., Perrot, M. \harvardand\ Duchesnay,
+  E.  \harvardyearleft 2011\harvardyearright , `Scikit-learn: Machine learning
+  in {P}ython', {\em Journal of Machine Learning Research} {\bf
+  12},~2825--2830.
+
 \harvarditem{Quintanilla}{2022}{mlnet_textclassification2022}
 Quintanilla, L.  \harvardyearleft 2022\harvardyearright , `Introducing the
-  ml.net text classification api (preview)'.
-\newblock Accessed: 2023-5-02.
-\newline\harvardurl{\url{https://devblogs.microsoft.com/dotnet/introducing-the-ml-dotnet-text-classification-api-preview/}}
+  ml.net text classification api (preview)',
+  \url{https://devblogs.microsoft.com/dotnet/introducing-the-ml-dotnet-text-classification-api-preview/}.
+\newblock (Accessed: 2023-5-02).
 
 \harvarditem{Radford}{2018}{alec_2018}
 Radford, A.  \harvardyearleft 2018\harvardyearright , `Improving language
@@ -311,18 +348,17 @@ Radford, A.  \harvardyearleft 2018\harvardyearright , `Improving language
   2010\harvardyearright , {Software Framework for Topic Modelling with Large
   Corpora}, {\em in} `{Proceedings of the LREC 2010 Workshop on New Challenges
   for NLP Frameworks}', ELRA, Valletta, Malta, pp.~45--50.
-\newblock \url{http://is.muni.cz/publication/884893/en}.
 
 \harvarditem{Rogel-Salazar}{2022}{Rogel-Salazar2022-pd}
 Rogel-Salazar, J.  \harvardyearleft 2022\harvardyearright , `Transformers
-  models in machine learning: Self-attention to the rescue'.
-\newblock Accessed: 2023-4-19.
-\newline\harvardurl{\url{https://www.dominodatalab.com/blog/transformers-self-attention-to-the-rescue}}
+  models in machine learning: Self-attention to the rescue',
+  \url{https://www.dominodatalab.com/blog/transformers-self-attention-to-the-rescue}.
+\newblock (Accessed: 2023-4-19).
 
 \harvarditem{scikit-learn developers}{n.d.}{scikitlearn_clustering}
-scikit-learn developers  \harvardyearleft n.d.\harvardyearright , `Clustering'.
-\newblock Accessed: 2023-4-27.
-\newline\harvardurl{\url{https://scikit-learn.org/stable/modules/clustering.html}}
+scikit-learn developers  \harvardyearleft n.d.\harvardyearright , `Clustering',
+  \url{https://scikit-learn.org/stable/modules/clustering.html}.
+\newblock (Accessed: 2023-4-27).
 
 \harvarditem{Shah \harvardand\ Patel}{2016}{Foram_2016}
 Shah, F.~P. \harvardand\ Patel, V.  \harvardyearleft 2016\harvardyearright , A
@@ -339,41 +375,37 @@ Shalev-Shwartz, S. \harvardand\ Zhang, T.  \harvardyearleft
 \harvarditem{Shannon}{1948}{shannon1948}
 Shannon, C.~E.  \harvardyearleft 1948\harvardyearright , `A mathematical theory
   of communication', {\em Bell System Technical Journal} {\bf 27}(3),~379--423.
-\newline\harvardurl{https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1948.tb01338.x}
 
 \harvarditem[Szegedy et~al.]{Szegedy, Zaremba, Sutskever, Bruna, Erhan,
   Goodfellow \harvardand\ Fergus}{2013}{Szegedy_2013}
 Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I.
   \harvardand\ Fergus, R.  \harvardyearleft 2013\harvardyearright , `Intriguing
-  properties of neural networks'.
-\newline\harvardurl{\url{https://arxiv.org/abs/1312.6199}}
+  properties of neural networks', \url{https://arxiv.org/abs/1312.6199}.
 
-\harvarditem{{Thomas, Baumanns and Dr. Philipp-Stephan, Freber and Dr.
-  Kai-Stefan, Schober and Dr. Florian, Kirchner}}{2016}{RolandBerger2016}
-{Thomas, Baumanns and Dr. Philipp-Stephan, Freber and Dr. Kai-Stefan, Schober
-  and Dr. Florian, Kirchner}  \harvardyearleft 2016\harvardyearright ,
-  `Bauwirtschaft im {Wandel} - {Trends und Potenziale bis 2020}'.
+\harvarditem[Thomas et~al.]{Thomas, Dr. Philipp-Stephan, Dr. Kai-Stefan
+  \harvardand\ Dr.~Florian}{2016}{RolandBerger2016}
+Thomas, B., Dr. Philipp-Stephan, F., Dr. Kai-Stefan, S. \harvardand\
+  Dr.~Florian, K.  \harvardyearleft 2016\harvardyearright , `Bauwirtschaft im
+  {Wandel} - {Trends und Potenziale bis 2020}'.
 
 \harvarditem[Thomas et~al.]{Thomas, Yoshinobu, James, Juha, Kari, Kent, Stefan
-  \harvardand\ {buildingSMART International
-  Ltd.}}{2007}{Thomas2007_MaterialList}
+  \harvardand\ Jeffrey}{2007}{Thomas2007_MaterialList}
 Thomas, L., Yoshinobu, A., James, F., Juha, H., Kari, K., Kent, R., Stefan, R.
-  \harvardand\ {buildingSMART International Ltd.}  \harvardyearleft
-  2007\harvardyearright , `{IfcMaterialList}'.
-\newblock Accessed: 2023-1-31.
-\newline\harvardurl{\url{https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcmaterialresource/lexical/ifcmateriallist.htm}}
+  \harvardand\ Jeffrey, W.  \harvardyearleft 2007\harvardyearright ,
+  `{IfcMaterialList}',
+  \url{https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcmaterialresource/lexical/ifcmateriallist.htm}.
+\newblock (Accessed: 2023-1-31).
 
 \harvarditem{Uysal \harvardand\ Gunal}{2014}{Uysal_2014}
 Uysal, A.~K. \harvardand\ Gunal, S.  \harvardyearleft 2014\harvardyearright ,
   `The impact of preprocessing on text classification', {\em Information
   Processing \& Management} {\bf 50}(1),~104--112.
-\newline\harvardurl{\url{https://www.sciencedirect.com/science/article/pii/S0306457313000964}}
 
 \harvarditem{van Berlo}{2022}{BuildingSMART_history_2022}
 van Berlo, L.  \harvardyearleft 2022\harvardyearright , `{IFC Specifications
-  Database}'.
-\newblock Accessed: 2023-2-22.
-\newline\harvardurl{\url{https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/}}
+  Database}',
+  \url{https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/}.
+\newblock (Accessed: 2023-2-22).
 
 \harvarditem[Wang et~al.]{Wang, Wang, Zhang \harvardand\
   Yan}{2017}{ijcai2017p406}
@@ -382,12 +414,11 @@ Wang, J., Wang, Z., Zhang, D. \harvardand\ Yan, J.  \harvardyearleft
   networks for short text classification, {\em in} `Proceedings of the
   Twenty-Sixth International Joint Conference on Artificial Intelligence,
   {IJCAI-17}', pp.~2915--2921.
-\newline\harvardurl{\url{https://doi.org/10.24963/ijcai.2017/406}}
 
 \harvarditem{{Xbim Ltd.}}{n.d.}{Xbim_ltd_history}
-{Xbim Ltd.}  \harvardyearleft n.d.\harvardyearright , `Xbim toolkit'.
-\newblock Accessed: 2023-1-31.
-\newline\harvardurl{\url{https://docs.xbim.net/research/history.html}}
+{Xbim Ltd.}  \harvardyearleft n.d.\harvardyearright , `Xbim toolkit',
+  \url{https://docs.xbim.net/research/history.html}.
+\newblock (Accessed: 2023-1-31).
 
 \harvarditem{Zhu \harvardand\ Luo}{2022}{zhu_luo_2022}
 Zhu, Q. \harvardand\ Luo, J.  \harvardyearleft 2022\harvardyearright ,

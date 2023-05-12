@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  11 MAY 2023 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  12 MAY 2023 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,141 +1081,141 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 (acronyms.aux) (dicts.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 15
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 16
+0.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.
 fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <12> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 159.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/m/scsl' undefined
-(Font)              using `T1/pcr/m/sc' instead on input line 159.
+(Font)              using `T1/pcr/m/sc' instead on input line 160.
 
 LaTeX Font Info:    Font shape `T1/pcr/b/it' in size <12> not available
-(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 159.
+(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 160.
 
 LaTeX Font Warning: Font shape `T1/pcr/b/scsl' undefined
-(Font)              using `T1/pcr/b/sc' instead on input line 159.
+(Font)              using `T1/pcr/b/sc' instead on input line 160.
 
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <12> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 159.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `T1/pcr/bx/it' in size <12> not available
-(Font)              Font shape `T1/pcr/b/it' tried instead on input line 159.
+(Font)              Font shape `T1/pcr/b/it' tried instead on input line 160.
 LaTeX Font Info:    Font shape `T1/pcr/b/it' in size <12> not available
-(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 159.
+(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 160.
 LaTeX Font Info:    Font shape `T1/pcr/bx/sl' in size <12> not available
-(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 159.
+(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 160.
 
 LaTeX Font Warning: Font shape `T1/pcr/bx/scsl' undefined
-(Font)              using `T1/pcr/bx/sc' instead on input line 159.
+(Font)              using `T1/pcr/bx/sc' instead on input line 160.
 
 LaTeX Font Info:    Font shape `T1/pcr/bx/sc' in size <12> not available
-(Font)              Font shape `T1/pcr/b/sc' tried instead on input line 159.
+(Font)              Font shape `T1/pcr/b/sc' tried instead on input line 160.
 
 LaTeX Font Warning: Font shape `T1/pcr/sbx/sc' undefined
-(Font)              using `T1/pcr/sb/sc' instead on input line 159.
+(Font)              using `T1/pcr/sb/sc' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/sb/n' undefined
-(Font)              using `T1/pcr/m/n' instead on input line 159.
+(Font)              using `T1/pcr/m/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/sb/it' undefined
-(Font)              using `T1/pcr/sb/n' instead on input line 159.
+(Font)              using `T1/pcr/sb/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/sb/sl' undefined
-(Font)              using `T1/pcr/sb/it' instead on input line 159.
+(Font)              using `T1/pcr/sb/it' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/sb/scit' undefined
-(Font)              using `T1/pcr/sb/sc' instead on input line 159.
+(Font)              using `T1/pcr/sb/sc' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/sb/sc' undefined
-(Font)              using `T1/pcr/sb/n' instead on input line 159.
+(Font)              using `T1/pcr/sb/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/sbc/sc' undefined
-(Font)              using `T1/pcr/c/sc' instead on input line 159.
+(Font)              using `T1/pcr/c/sc' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/c/n' undefined
-(Font)              using `T1/pcr/m/n' instead on input line 159.
+(Font)              using `T1/pcr/m/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/c/it' undefined
-(Font)              using `T1/pcr/c/n' instead on input line 159.
+(Font)              using `T1/pcr/c/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/c/sl' undefined
-(Font)              using `T1/pcr/c/it' instead on input line 159.
+(Font)              using `T1/pcr/c/it' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/c/scit' undefined
-(Font)              using `T1/pcr/c/sc' instead on input line 159.
+(Font)              using `T1/pcr/c/sc' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/c/sc' undefined
-(Font)              using `T1/pcr/c/n' instead on input line 159.
+(Font)              using `T1/pcr/c/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/lc/sc' undefined
-(Font)              using `T1/pcr/l/sc' instead on input line 159.
+(Font)              using `T1/pcr/l/sc' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/l/n' undefined
-(Font)              using `T1/pcr/m/n' instead on input line 159.
+(Font)              using `T1/pcr/m/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/l/it' undefined
-(Font)              using `T1/pcr/l/n' instead on input line 159.
+(Font)              using `T1/pcr/l/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/l/sl' undefined
-(Font)              using `T1/pcr/l/it' instead on input line 159.
+(Font)              using `T1/pcr/l/it' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/l/scit' undefined
-(Font)              using `T1/pcr/l/sc' instead on input line 159.
+(Font)              using `T1/pcr/l/sc' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/l/sc' undefined
-(Font)              using `T1/pcr/l/n' instead on input line 159.
+(Font)              using `T1/pcr/l/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/m/ui' undefined
-(Font)              using `T1/pcr/m/n' instead on input line 159.
+(Font)              using `T1/pcr/m/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/bx/ui' undefined
-(Font)              using `T1/pcr/bx/n' instead on input line 159.
+(Font)              using `T1/pcr/bx/n' instead on input line 160.
 
 
 LaTeX Font Warning: Font shape `T1/pcr/m/In' undefined
-(Font)              using `T1/pcr/m/n' instead on input line 159.
+(Font)              using `T1/pcr/m/n' instead on input line 160.
 
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\s
@@ -1239,19 +1239,19 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \dots on input line 159.
-LaTeX Info: Redefining \microtypecontext on input line 159.
-Package microtype Info: Applying patch `item' on input line 159.
-Package microtype Info: Applying patch `toc' on input line 159.
-Package microtype Info: Applying patch `eqnum' on input line 159.
-Package microtype Info: Applying patch `footnote' on input line 159.
+LaTeX Info: Redefining \dots on input line 160.
+LaTeX Info: Redefining \microtypecontext on input line 160.
+Package microtype Info: Applying patch `item' on input line 160.
+Package microtype Info: Applying patch `toc' on input line 160.
+Package microtype Info: Applying patch `eqnum' on input line 160.
+Package microtype Info: Applying patch `footnote' on input line 160.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 159.
+LaTeX Info: Redefining \showhyphens on input line 160.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1261,7 +1261,7 @@ cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 159.
+Package hyperref Info: Link coloring OFF on input line 160.
  (thesis.out) (thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -1273,7 +1273,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 159.
+(scrbook)           before \begin{document} on input line 160.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\book
 mark.sty
@@ -1366,35 +1366,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-78.
+79.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-78.
+79.
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-178.
+179.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-178.
+179.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 178.
+(Font)              <12> on input line 179.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 178.
+(Font)              <8> on input line 179.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 178.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 178
+(Font)              <6> on input line 179.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 179
 .
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa
@@ -1405,7 +1405,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 178
+LaTeX Font Info:    Trying to load font information for U+msb on input line 179
 .
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb
@@ -1425,7 +1425,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 18
-2.
+3.
  (thesis.toc [4
 
 
@@ -1442,10 +1442,11 @@ although it is yet undefined on input line 47.
 
  [6]
 Package tocbasic Info: character protrusion at lof deactivated on input line 18
-4.
+5.
  (thesis.lof
-Package acronym Info: Label `acro:bim' newly defined as it shall be overridden
-although it is yet undefined on input line 5.
+Package acronym Info: Label `acro:cbow' newly defined as it shall be overridden
+
+although it is yet undefined on input line 16.
 )
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
@@ -1480,6 +1481,8 @@ Package acronym Info: Label `acro:ade' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
 Package acronym Info: Label `acro:ava' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
+Package acronym Info: Label `acro:bim' newly defined as it shall be overridden
+although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:din' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:se' newly defined as it shall be overridden
@@ -1502,13 +1505,13 @@ Package acronym Info: Label `acro:gui' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
 Package acronym Info: Label `acro:wpf' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
-<./figures//bim-relevanz.png, id=291, 874.01532pt x 460.72125pt>
+<./figures//bim-relevanz.png, id=300, 874.01532pt x 460.72125pt>
 File: ./figures//bim-relevanz.png Graphic file (type png)
 <use ./figures//bim-relevanz.png>
 Package pdftex.def Info: ./figures//bim-relevanz.png  used on input line 25.
 (pdftex.def)             Requested size: 454.49059pt x 239.57643pt.
 
-Overfull \hbox (10.62753pt too wide) in paragraph at lines 25--27
+Overfull \hbox (10.62753pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
@@ -1516,20 +1519,20 @@ Overfull \hbox (10.62753pt too wide) in paragraph at lines 25--27
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]
-<./figures//kÃ¼nstiliche-intilligenz-trend.png, id=319, 1059.96pt x 220.57407pt
+<./figures//kÃ¼nstiliche-intilligenz-trend.png, id=327, 1059.96pt x 220.57407pt
 >
 File: ./figures//kÃ¼nstiliche-intilligenz-trend.png Graphic file (type png)
 <use ./figures//kÃ¼nstiliche-intilligenz-trend.png>
 Package pdftex.def Info: ./figures//kÃ¼nstiliche-intilligenz-trend.png  used on
  input line 39.
 (pdftex.def)             Requested size: 439.42685pt x 91.44228pt.
-<./figures//machine-learning-trend.png, id=320, 1053.1847pt x 249.18094pt>
+<./figures//machine-learning-trend.png, id=328, 1053.1847pt x 249.18094pt>
 File: ./figures//machine-learning-trend.png Graphic file (type png)
 <use ./figures//machine-learning-trend.png>
 Package pdftex.def Info: ./figures//machine-learning-trend.png  used on input l
 ine 46.
 (pdftex.def)             Requested size: 439.42685pt x 103.96707pt.
-<./figures//kano-modell.png, id=321, 1606.0pt x 1038.88126pt>
+<./figures//kano-modell.png, id=329, 1606.0pt x 1038.88126pt>
 File: ./figures//kano-modell.png Graphic file (type png)
 <use ./figures//kano-modell.png>
 Package pdftex.def Info: ./figures//kano-modell.png  used on input line 57.
@@ -1587,71 +1590,71 @@ Package acronym Info: Label `acro:ifc4' newly defined as it shall be overridden
 
 although it is yet undefined on input line 140.
  [10]
-<./figures//material-single.png, id=491, 590.205pt x 120.45pt>
+<./figures//material-single.png, id=498, 590.205pt x 120.45pt>
 File: ./figures//material-single.png Graphic file (type png)
 <use ./figures//material-single.png>
 Package pdftex.def Info: ./figures//material-single.png  used on input line 152
 .
 (pdftex.def)             Requested size: 443.86305pt x 90.58537pt.
 Package acronym Info: Label `acro:kg' newly defined as it shall be overridden
-although it is yet undefined on input line 159.
+although it is yet undefined on input line 160.
  [11 <./figures//material-single.png>]
 chapter 3.
 Package hyperref Info: bookmark level for unknown problem defaults to 0 on inpu
-t line 172.
+t line 173.
 [12
 
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 200.
+Package xcolor Warning: Incompatible color definition on input line 201.
 
 
-Package xcolor Warning: Incompatible color definition on input line 200.
+Package xcolor Warning: Incompatible color definition on input line 201.
 
 Package hyperref Info: bookmark level for unknown requirement defaults to 0 on 
-input line 205.
+input line 206.
 [13]
 Package acronym Info: Label `acro:ki' newly defined as it shall be overridden
-although it is yet undefined on input line 240.
+although it is yet undefined on input line 241.
  [14]
 chapter 4.
-<./figures//anwendungsfalldiagramm.png, id=571, 960.58875pt x 645.91313pt>
+<./figures//anwendungsfalldiagramm.png, id=584, 960.58875pt x 645.91313pt>
 File: ./figures//anwendungsfalldiagramm.png Graphic file (type png)
 <use ./figures//anwendungsfalldiagramm.png>
 Package pdftex.def Info: ./figures//anwendungsfalldiagramm.png  used on input l
-ine 252.
+ine 253.
 (pdftex.def)             Requested size: 443.86305pt x 298.46404pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package acronym Info: Label `acro:rest' newly defined as it shall be overridden
 
-although it is yet undefined on input line 259.
+although it is yet undefined on input line 260.
 Package acronym Info: Label `acro:sql' newly defined as it shall be overridden
-although it is yet undefined on input line 259.
+although it is yet undefined on input line 260.
 [15
 
 
 ]
 Package acronym Info: Label `acro:iot' newly defined as it shall be overridden
-although it is yet undefined on input line 273.
+although it is yet undefined on input line 274.
  [16 <./figures//anwendungsfalldiagramm.png>]
-<./figures//db-scheme.png, id=599, 1249.66875pt x 228.855pt>
+<./figures//db-scheme.png, id=612, 1249.66875pt x 228.855pt>
 File: ./figures//db-scheme.png Graphic file (type png)
 <use ./figures//db-scheme.png>
-Package pdftex.def Info: ./figures//db-scheme.png  used on input line 279.
+Package pdftex.def Info: ./figures//db-scheme.png  used on input line 280.
 (pdftex.def)             Requested size: 443.86305pt x 81.28424pt.
-<./figures//structurize-process.png, id=601, 951.555pt x 305.64188pt>
+<./figures//structurize-process.png, id=614, 951.555pt x 305.64188pt>
 File: ./figures//structurize-process.png Graphic file (type png)
 <use ./figures//structurize-process.png>
 Package pdftex.def Info: ./figures//structurize-process.png  used on input line
- 291.
+ 292.
 (pdftex.def)             Requested size: 443.86305pt x 142.5697pt.
  [17 <./figures//db-scheme.png> <./figures//structurize-process.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 323.
+(hyperref)                removing `\@ac' on input line 324.
 
 [18]
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1660,89 +1663,90 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 Package acronym Info: Label `acro:guid' newly defined as it shall be overridden
 
-although it is yet undefined on input line 327.
+although it is yet undefined on input line 328.
  [19]
-<./figures//classification-flow.png, id=673, 261.97874pt x 538.26094pt>
+<./figures//classification-flow.png, id=687, 261.97874pt x 538.26094pt>
 File: ./figures//classification-flow.png Graphic file (type png)
 <use ./figures//classification-flow.png>
 Package pdftex.def Info: ./figures//classification-flow.png  used on input line
- 351.
+ 352.
 (pdftex.def)             Requested size: 133.16026pt x 273.59778pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package xcolor Warning: Incompatible color definition on input line 366.
+Package xcolor Warning: Incompatible color definition on input line 368.
 
 
-Package xcolor Warning: Incompatible color definition on input line 366.
+Package xcolor Warning: Incompatible color definition on input line 368.
 
 [20] [21 <./figures//classification-flow.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 384.
+Package xcolor Warning: Incompatible color definition on input line 386.
 
 
-Package xcolor Warning: Incompatible color definition on input line 384.
+Package xcolor Warning: Incompatible color definition on input line 386.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
 [22] [23]
 
-Package xcolor Warning: Incompatible color definition on input line 412.
+Package xcolor Warning: Incompatible color definition on input line 414.
 
 
-Package xcolor Warning: Incompatible color definition on input line 412.
+Package xcolor Warning: Incompatible color definition on input line 414.
 
 Package acronym Info: Label `acro:lbfgs' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 421.
+although it is yet undefined on input line 423.
 Package acronym Info: Label `acro:api' newly defined as it shall be overridden
-although it is yet undefined on input line 425.
+although it is yet undefined on input line 427.
 [24] [25] (tables/distribution.tex) [26]
 
-Package xcolor Warning: Incompatible color definition on input line 454.
+Package xcolor Warning: Incompatible color definition on input line 456.
 
 
-Package xcolor Warning: Incompatible color definition on input line 454.
+Package xcolor Warning: Incompatible color definition on input line 456.
 
 [27]
 Package acronym Info: Label `acro:url' newly defined as it shall be overridden
-although it is yet undefined on input line 469.
+although it is yet undefined on input line 471.
  [28]
-Package acronym Info: Label `acro:cbow' newly defined as it shall be overridden
-
-although it is yet undefined on input line 474.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 474.
-<./figures//cbow-model.png, id=905, 848.16875pt x 497.86pt>
+(Font)              <5> on input line 476.
+<./figures//cbow-model.png, id=917, 848.16875pt x 497.86pt>
 File: ./figures//cbow-model.png Graphic file (type png)
 <use ./figures//cbow-model.png>
-Package pdftex.def Info: ./figures//cbow-model.png  used on input line 477.
+Package pdftex.def Info: ./figures//cbow-model.png  used on input line 479.
 (pdftex.def)             Requested size: 443.86305pt x 260.53717pt.
- [29 <./figures//cbow-model.png>] [30] [31]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29] [30 <./figures//cbow-model.png>] [31]
 chapter 5.
 (tables/classification-result.tex) [32
 
 
 ]
-<./figures//accuracy-graph.png, id=996, 423.08063pt x 376.40625pt>
+<./figures//accuracy-graph.png, id=1004, 423.08063pt x 376.40625pt>
 File: ./figures//accuracy-graph.png Graphic file (type png)
 <use ./figures//accuracy-graph.png>
-Package pdftex.def Info: ./figures//accuracy-graph.png  used on input line 536.
+Package pdftex.def Info: ./figures//accuracy-graph.png  used on input line 539.
 
 (pdftex.def)             Requested size: 310.70277pt x 276.43414pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
 [][][]|\T1/lmr/m/n/10.95 (+20) Ge-nau-ig-keit des SdcaMaximumEntropy-Modells fü
 r die je-wei-li-ge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
 \T1/lmr/m/n/10.95 (+20) Trainingsdaten-Anzahl. (Durch-schnitts-wer-te von 100 T
 rai-nings-durch-
  []
@@ -1754,7 +1758,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [35] [36]
 chapter 6.
 Package acronym Info: Label `acro:dto' newly defined as it shall be overridden
-although it is yet undefined on input line 592.
+although it is yet undefined on input line 595.
 [37
 
 
@@ -1768,24 +1772,24 @@ ang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 600.
+nput line 603.
  (listings/Pythonnet.cs) [38]
 Package acronym Info: Label `acro:http' newly defined as it shall be overridden
 
-although it is yet undefined on input line 611.
+although it is yet undefined on input line 614.
  [39] [40]
 (listings/MaterialClassification.cs)
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 628.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 631.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 13.67995pt on input line 628.
+(Font)              scaled to size 13.67995pt on input line 631.
  [41] [42]
 chapter 7.
 
-Package xcolor Warning: Incompatible color definition on input line 650.
+Package xcolor Warning: Incompatible color definition on input line 653.
 
 
-Package xcolor Warning: Incompatible color definition on input line 650.
+Package xcolor Warning: Incompatible color definition on input line 653.
 
 [43
 
@@ -1800,28 +1804,28 @@ chapter 8.
 
  (append.tex
 chapter A.
-<./figures//ifc-manager.png, id=1198, 1445.4pt x 782.925pt>
+<./figures//ifc-manager.png, id=1210, 1445.4pt x 782.925pt>
 File: ./figures//ifc-manager.png Graphic file (type png)
 <use ./figures//ifc-manager.png>
 Package pdftex.def Info: ./figures//ifc-manager.png  used on input line 7.
 (pdftex.def)             Requested size: 443.86305pt x 240.42247pt.
-<./figures//material-layer-set.png, id=1201, 891.33pt x 246.9225pt>
+<./figures//material-layer-set.png, id=1213, 891.33pt x 246.9225pt>
 File: ./figures//material-layer-set.png Graphic file (type png)
 <use ./figures//material-layer-set.png>
 Package pdftex.def Info: ./figures//material-layer-set.png  used on input line 
 14.
 (pdftex.def)             Requested size: 443.86305pt x 122.9636pt.
-<./figures//material-categories.png, id=1202, 1032.85875pt x 447.92343pt>
+<./figures//material-categories.png, id=1218, 1032.85875pt x 447.92343pt>
 File: ./figures//material-categories.png Graphic file (type png)
 <use ./figures//material-categories.png>
 Package pdftex.def Info: ./figures//material-categories.png  used on input line
- 21.
+ 22.
 (pdftex.def)             Requested size: 650.0pt x 281.89935pt.
-<./figures//material-profile-set.png, id=1203, 891.33pt x 258.9675pt>
+<./figures//material-profile-set.png, id=1219, 891.33pt x 258.9675pt>
 File: ./figures//material-profile-set.png Graphic file (type png)
 <use ./figures//material-profile-set.png>
 Package pdftex.def Info: ./figures//material-profile-set.png  used on input lin
-e 28.
+e 29.
 (pdftex.def)             Requested size: 443.86305pt x 128.9618pt.
 [50
 
@@ -1831,58 +1835,58 @@ e 28.
 
  <./figures//ifc-manager.png> <./figures//material-layer-set.png>] [51 <./figur
 es//material-categories.png>]
-<./figures//material-constituent-set.png, id=1215, 891.33pt x 198.7425pt>
+<./figures//material-constituent-set.png, id=1236, 891.33pt x 198.7425pt>
 File: ./figures//material-constituent-set.png Graphic file (type png)
 <use ./figures//material-constituent-set.png>
 Package pdftex.def Info: ./figures//material-constituent-set.png  used on input
- line 35.
+ line 37.
 (pdftex.def)             Requested size: 443.86305pt x 98.9707pt.
-<./figures//cost-structure-example.png, id=1216, 446.41782pt x 249.18094pt>
+<./figures//cost-structure-example.png, id=1241, 446.41782pt x 249.18094pt>
 File: ./figures//cost-structure-example.png Graphic file (type png)
 <use ./figures//cost-structure-example.png>
 Package pdftex.def Info: ./figures//cost-structure-example.png  used on input l
-ine 42.
+ine 45.
 (pdftex.def)             Requested size: 443.86305pt x 247.75829pt.
-<./figures//verteilungsdiagramm.png, id=1217, 638.385pt x 693.34032pt>
+<./figures//verteilungsdiagramm.png, id=1242, 638.385pt x 693.34032pt>
 File: ./figures//verteilungsdiagramm.png Graphic file (type png)
 <use ./figures//verteilungsdiagramm.png>
 Package pdftex.def Info: ./figures//verteilungsdiagramm.png  used on input line
- 49.
+ 52.
 (pdftex.def)             Requested size: 443.86305pt x 482.07643pt.
  [52 <./figures//material-profile-set.png> <./figures//material-constituent-set
 .png> <./figures//cost-structure-example.png>]
-<./figures//function-import.png, id=1223, 1297.84875pt x 499.8675pt>
+<./figures//function-import.png, id=1250, 1297.84875pt x 499.8675pt>
 File: ./figures//function-import.png Graphic file (type png)
 <use ./figures//function-import.png>
-Package pdftex.def Info: ./figures//function-import.png  used on input line 56.
+Package pdftex.def Info: ./figures//function-import.png  used on input line 59.
 
 (pdftex.def)             Requested size: 443.86305pt x 170.95187pt.
 
 [53 <./figures//verteilungsdiagramm.png>]
-<./figures//function-takeover.png, id=1229, 1189.44376pt x 545.03625pt>
+<./figures//function-takeover.png, id=1256, 1189.44376pt x 545.03625pt>
 File: ./figures//function-takeover.png Graphic file (type png)
 <use ./figures//function-takeover.png>
 Package pdftex.def Info: ./figures//function-takeover.png  used on input line 6
-3.
+6.
 (pdftex.def)             Requested size: 443.86305pt x 203.3901pt.
-<./figures//function-rating.png, id=1232, 1052.43187pt x 494.59781pt>
+<./figures//function-rating.png, id=1259, 1052.43187pt x 494.59781pt>
 File: ./figures//function-rating.png Graphic file (type png)
 <use ./figures//function-rating.png>
-Package pdftex.def Info: ./figures//function-rating.png  used on input line 70.
+Package pdftex.def Info: ./figures//function-rating.png  used on input line 73.
 
 (pdftex.def)             Requested size: 443.86305pt x 208.59755pt.
  [54 <./figures//function-import.png> <./figures//function-takeover.png>]
-<./figures//material-classifier-gui.png, id=1240, 1108.8928pt x 406.51875pt>
+<./figures//material-classifier-gui.png, id=1267, 1108.8928pt x 406.51875pt>
 File: ./figures//material-classifier-gui.png Graphic file (type png)
 <use ./figures//material-classifier-gui.png>
 Package pdftex.def Info: ./figures//material-classifier-gui.png  used on input 
-line 77.
+line 80.
 (pdftex.def)             Requested size: 443.86305pt x 162.71626pt.
-<./figures//mldotnet-workflow.png, id=1241, 552.0625pt x 685.56125pt>
+<./figures//mldotnet-workflow.png, id=1268, 552.0625pt x 685.56125pt>
 File: ./figures//mldotnet-workflow.png Graphic file (type png)
 <use ./figures//mldotnet-workflow.png>
 Package pdftex.def Info: ./figures//mldotnet-workflow.png  used on input line 8
-4.
+7.
 (pdftex.def)             Requested size: 443.86305pt x 551.22185pt.
  [55 <./figures//function-rating.png> <./figures//material-classifier-gui.png>]
  [56 <./figures//mldotnet-workflow.png>]
@@ -1978,20 +1982,11 @@ n already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.24 \acro{cad}[CAD]{Computer-aided design}
                                            ]
-
-LaTeX Warning: Hyper reference `acro:rgb' on page 70 undefined on input line 28
-.
-
-
-LaTeX Warning: Hyper reference `acro:rgb' on page 70 undefined on input line 28
-.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{vb}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 \acro{vb}[VB]{Visual Basic}
+l.30 \acro{vb}[VB]{Visual Basic}
                                 ) [70]
 \openout2 = `dicts.aux'.
 
@@ -1999,7 +1994,15 @@ l.31 \acro{vb}[VB]{Visual Basic}
 showing definition
 Package tocbasic Info: character protrusion at lof deactivated on input line 6.
 
-(thesis.loe)
+(thesis.loe) [71
+
+
+
+
+
+
+
+]
 
 Class scrbook Warning: \float@listhead detected!
 (scrbook)              Implementation of \float@listhead became
@@ -2011,188 +2014,240 @@ Class scrbook Warning: \float@listhead detected!
 (scrbook)              Loading of package `scrhack' may help to
 (scrbook)              avoid this warning, if you are using a
 (scrbook)              a package that still implements the
-(scrbook)              deprecated \float@listhead interface on input line 14.
+(scrbook)              deprecated \float@listhead interface on input line 18.
 
-[71
-
-
-
-
-
-
-
-] (thesis.lol)
+(thesis.lol)
 \tf@lol=\write7
 \openout7 = `thesis.lol'.
 
-) [72
-
-
-] (thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . fiz-[]karlsruhe
- . de / sites / default / files / FIZ /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
-\T1/pcr/m/sl/12 Dokumente / Forschung / ISE / Masterarbeiten / Thesis-[]Qingyua
-n-[]Bie .
- []
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 50--54
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 http : / / standards . buildingsm
-art . org / IFC / RELEASE / IFC4 _ 1 /
- []
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 57--62
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 http : / / standards . buildingsm
-art . org / IFC / RELEASE / IFC4 _ 1 /
- []
-
-[73
-
-
+ [72
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / github . com / RaRe-[
-]Technologies / gensim / blob /
+Package tocbasic Info: character protrusion at lot deactivated on input line 29
+.
+ (thesis.lot)
+\tf@lot=\write8
+\openout8 = `thesis.lot'.
+
+ [73
+
+
+
+
+] [74] (thesis.bbl
+! Misplaced alignment tab character &.
+l.20 ...tional Conference on Knowledge Discovery &
+                                                   Data Mining', {ACM}.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+\T1/pcr/l/it/12 Dokumente / Forschung / ISE / Masterarbeiten / Thesis-[]Qingyua
+n-[]Bie .
+ []
+
+[75
+
+
+
+
+] [76]
+Underfull \hbox (badness 5288) in paragraph at lines 140--144
+[]\T1/lmr/m/n/12 (+20) Gensim (n.d.), `Com-pa-ri-son of fast-text and word2vec'
+, []$\T1/pcr/l/it/12 https : / / github .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--105
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / radimrehurek . com / 
-gensim / auto _ examples /
- []
-
-[74]
-Underfull \hbox (badness 5939) in paragraph at lines 134--137
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 http : / / standards . buildingsm
-art . org / IFC / RELEASE / IFC4 _ 1 /
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
+\T1/pcr/l/it/12 com / RaRe-[]Technologies / gensim / blob / develop / docs / no
+tebooks /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--148
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / scrumguides . org / d
-ocs / scrumguide / v2020 /
+Underfull \hbox (badness 6978) in paragraph at lines 146--150
+[]\T1/lmr/m/n/12 (+20) Gensim Do-cu-men-ta-ti-on (n.d.), `Gen-sim do-cu-men-ta-
+ti-on - Fast-Text mo-del',
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . amazon . de / g
-p / product / 0132350882 / ref = oh _
+Underfull \hbox (badness 10000) in paragraph at lines 146--150
+[]$\T1/pcr/l/it/12 https : / / radimrehurek . com / gensim / auto _ examples / 
+tutorials /
+ []
+
+[77]
+Underfull \hbox (badness 5431) in paragraph at lines 220--224
+[]\T1/lmr/m/n/12 (+20) Microsoft (2021), `Aus-wäh-len ei-nes Al-go-rith-mus für
+ ma-schi-nel-les Ler-nen -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--182
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
-om / de-[]de / azure /
- []
-
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 184--188
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
-om / de-[]de / azure /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--194
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
-om / en-[]us / dotnet /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--200
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / learn . microsoft . c
-om / en-[]us / dotnet /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--212
-\T1/pcr/m/sl/12 ml . trainers . lbfgsmaximumentropymulticlasstrainer ? view =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--218
-\T1/pcr/m/sl/12 ml . trainers . lbfgsmaximumentropymulticlasstrainer ? view =
+Underfull \hbox (badness 5711) in paragraph at lines 226--230
+[]\T1/lmr/m/n/12 (+20) Microsoft (2022\T1/lmr/m/it/12 (+20) a\T1/lmr/m/n/12 (+2
+0) ), `What is ML.NET and how does it work?', []$\T1/pcr/l/it/12 https :
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 226--230
-\T1/pcr/m/sl/12 ml . trainers . sdcalogisticregressionbinarytrainer ? view =
- []
-
-[76]
-Underfull \hbox (badness 10000) in paragraph at lines 248--252
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / github . com / dotnet
- / aspnetcore / blob / main / README .
+\T1/pcr/l/it/12 / / learn . microsoft . com / en-[]us / dotnet / machine-[]lear
+ning /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--276
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / platform . openai . c
-om / docs / api-[]reference /
+Underfull \hbox (badness 10000) in paragraph at lines 237--241
+[]\T1/lmr/m/n/12 (+20) Microsoft (n.d.\T1/lmr/m/it/12 (+20) a\T1/lmr/m/n/12 (+2
+0) ), `Lbfgs-ma-xi-mu-men-tro-py-mul-tic-lass-trai-ner class', []$\T1/pcr/l/it/
+12 https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--288
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / helpdesk . orca-[]sof
-tware . com / Solution / AVA25 /
+Underfull \hbox (badness 10000) in paragraph at lines 237--241
+\T1/pcr/l/it/12 learn . microsoft . com / en-[]us / dotnet / api / microsoft . 
+ml . trainers .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--303
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / devblogs . microsoft 
-. com / dotnet /
+Underfull \hbox (badness 10000) in paragraph at lines 243--247
+[]\T1/lmr/m/n/12 (+20) Microsoft (n.d.\T1/lmr/m/it/12 (+20) b\T1/lmr/m/n/12 (+2
+0) ), `Mul-tic-lassclas-si-fi-ca-tion-me-trics class', []$\T1/pcr/l/it/12 https
+ : / /
  []
 
-[77]
-Underfull \hbox (badness 10000) in paragraph at lines 317--321
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . dominodatalab .
- com / blog /
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--247
+\T1/pcr/l/it/12 learn . microsoft . com / en-[]us / dotnet / api / microsoft . 
+ml . data .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--247
+\T1/pcr/l/it/12 multiclassclassificationmetrics ? view = ml-[]dotnet$[]\T1/lmr/
+m/n/12 (+20) .  (Ac-ces-sed:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
+\T1/pcr/l/it/12 en-[]us / dotnet / api / microsoft . ml . trainers . oneversusa
+lltrainer ?
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 255--259
+[]\T1/lmr/m/n/12 (+20) Microsoft (n.d.\T1/lmr/m/it/12 (+20) d\T1/lmr/m/n/12 (+2
+0) ), `Sd-ca-lo-gi-sti-cre-gres-si-on-bi-na-ry-trai-ner class', []$\T1/pcr/l/it
+/12 https : / / learn .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
+\T1/pcr/l/it/12 microsoft . com / en-[]us / dotnet / api / microsoft . ml . tra
+iners .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
+\T1/pcr/l/it/12 sdcalogisticregressionbinarytrainer ? view = ml-[]dotnet$[]\T1/
+lmr/m/n/12 (+20) .  (Ac-ces-
  []
 
 [78]
-Underfull \hbox (badness 10000) in paragraph at lines 367--371
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / www . sciencedirect .
- com / science / article / pii /
+Underfull \hbox (badness 10000) in paragraph at lines 261--265
+[]\T1/lmr/m/n/12 (+20) Microsoft (n.d.\T1/lmr/m/it/12 (+20) e\T1/lmr/m/n/12 (+2
+0) ), `Sd-ca-mul-tic-lass-trai-ner-ba-se<tmodel> class', []$\T1/pcr/l/it/12 htt
+ps : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--377
-\T1/lmr/bx/n/12 (+20) URL: []$\T1/pcr/m/sl/12 https : / / technical . buildings
-mart . org / standards / ifc /
+Underfull \hbox (badness 10000) in paragraph at lines 261--265
+\T1/pcr/l/it/12 learn . microsoft . com / en-[]us / dotnet / api / microsoft . 
+ml . trainers .
  []
 
-)
-No file thesis.ind.
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--303
+[]\T1/lmr/m/n/12 (+20) OpenAI (n.d.\T1/lmr/m/it/12 (+20) b\T1/lmr/m/n/12 (+20) 
+), `Api re-fe-rence', []$\T1/pcr/l/it/12 https : / / platform . openai . com / 
+docs /
+ []
+
 [79]
-\tf@loe=\write8
-\openout8 = `thesis.loe'.
+Underfull \hbox (badness 10000) in paragraph at lines 336--340
+[]\T1/lmr/m/n/12 (+20) Quintanilla, L. (2022), `In-tro-du-cing the ml.net text 
+clas-si-fi-ca-ti-on
+ []
 
- (thesis.aux (title.aux) (abstract.aux) (chapters.aux) (append.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--340
+\T1/lmr/m/n/12 (+20) api (pre-view)', []$\T1/pcr/l/it/12 https : / / devblogs .
+ microsoft . com / dotnet /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--340
+\T1/pcr/l/it/12 introducing-[]the-[]ml-[]dotnet-[]text-[]classification-[]api-[
+]preview/$[]\T1/lmr/m/n/12 (+20) .
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 353--357
+[]\T1/lmr/m/n/12 (+20) Rogel-Salazar, J. (2022), `Trans-for-mers mo-dels in ma-
+chi-ne lear-ning: Self-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--357
+\T1/lmr/m/n/12 (+20) attention to the res-cue', []$\T1/pcr/l/it/12 https : / / 
+www . dominodatalab . com / blog /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--398
+\T1/pcr/l/it/12 org / IFC / RELEASE / IFC2x3 / TC1 / HTML / ifcmaterialresource
+ / lexical /
+ []
+
+[80]
+Underfull \hbox (badness 3547) in paragraph at lines 405--409
+[]\T1/lmr/m/n/12 (+20) van Ber-lo, L. (2022), `IFC Spe-ci-fi-ca-ti-ons Da-ta-ba
+-se', []$\T1/pcr/l/it/12 https : / / technical .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--409
+\T1/pcr/l/it/12 buildingsmart . org / standards / ifc / ifc-[]schema-[]specific
+ations/$[]\T1/lmr/m/n/12 (+20) .
+ []
+
+)) [81]
+No file thesis.ind.
+\tf@loe=\write9
+\openout9 = `thesis.loe'.
+
+(thesis.aux (title.aux) (abstract.aux) (chapters.aux) (append.aux)
 (acronyms.aux) (dicts.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34969 strings out of 476374
- 699591 string characters out of 5784134
+ 35010 strings out of 476374
+ 700436 string characters out of 5784134
  2107340 words of memory out of 5000000
- 53825 multiletter control sequences out of 15000+600000
- 616193 words of font info for 251 fonts, out of 8000000 for 9000
+ 53849 multiletter control sequences out of 15000+600000
+ 620716 words of font info for 254 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,106p,10603b,2402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/
@@ -2217,9 +2272,9 @@ Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.p
 fb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helv
 etic/uhvbo8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (86 pages, 1714043 bytes).
+Output written on thesis.pdf (88 pages, 1727595 bytes).
 PDF statistics:
- 2003 PDF objects out of 2073 (max. 8388607)
- 531 named destinations out of 1000 (max. 500000)
- 72317 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 2077 PDF objects out of 2487 (max. 8388607)
+ 541 named destinations out of 1000 (max. 500000)
+ 74373 words of extra memory for PDF output out of 89155 (max. 10000000)
 

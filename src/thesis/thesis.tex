@@ -60,6 +60,7 @@
 %code listing
 \usepackage{listings}
 
+\renewcommand\harvardurl[1]{\textit{#1}}
 \renewcommand{\lstlistingname}{Codeauflistung}
 \renewcommand{\lstlistlistingname}{Quellcodeverzeichnis}
 \lstset{
@@ -149,7 +150,7 @@
 }
 \newcommand\todo[1]{ \colorbox{yellow!30}{Todo: #1}}
 \newcommand{\real}{\mathord{\mathrm{I\!R}}}
-\newcommand*{\quelle}[1]{\tiny\par\raggedleft\footnotesize Quelle:~#1}
+\newcommand*{\source}[1]{\tiny\par\raggedleft\footnotesize Quelle:~#1}
 \newcommand*{\paragraphheader}[1]{\vspace{5mm}\noindent{\large\textbf{#1}}\\}
 \newcommand{\code}[1]{\texttt{#1}}
 
@@ -192,6 +193,7 @@
 \include{chapters}
 
 \appendix
+
 \include{append}
 \cleardoublepage
 
@@ -199,11 +201,6 @@
 \cleardoublepage
 
 \include{dicts}
-\cleardoublepage
-
-\addcontentsline{toc}{chapter}{Literaturverzeichnis}
-\bibliographystyle{agsm}
-\bibliography{thesis}
 
 \printindex
 
