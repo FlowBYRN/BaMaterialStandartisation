@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  12 MAY 2023 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.10)  30 MAY 2023 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1486,15 +1486,15 @@ although it is yet undefined on input line 11.
 Package acronym Info: Label `acro:ava' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
 Package acronym Info: Label `acro:bim' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
+although it is yet undefined on input line 12.
 Package acronym Info: Label `acro:din' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
+although it is yet undefined on input line 12.
 Package acronym Info: Label `acro:se' newly defined as it shall be overridden
-although it is yet undefined on input line 14.
+although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:pe' newly defined as it shall be overridden
-although it is yet undefined on input line 14.
+although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:ee' newly defined as it shall be overridden
-although it is yet undefined on input line 14.
+although it is yet undefined on input line 13.
 [1
 
 
@@ -1504,18 +1504,18 @@ although it is yet undefined on input line 14.
 
 ]
 Package acronym Info: Label `acro:vb' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
+although it is yet undefined on input line 15.
 Package acronym Info: Label `acro:gui' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
+although it is yet undefined on input line 15.
 Package acronym Info: Label `acro:wpf' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
+although it is yet undefined on input line 15.
 <./figures//bim-relevanz.png, id=288, 874.01532pt x 460.72125pt>
 File: ./figures//bim-relevanz.png Graphic file (type png)
 <use ./figures//bim-relevanz.png>
-Package pdftex.def Info: ./figures//bim-relevanz.png  used on input line 20.
+Package pdftex.def Info: ./figures//bim-relevanz.png  used on input line 19.
 (pdftex.def)             Requested size: 454.49059pt x 239.57643pt.
 
-Overfull \hbox (10.62753pt too wide) in paragraph at lines 20--21
+Overfull \hbox (10.62753pt too wide) in paragraph at lines 19--20
  [][] 
  []
 
@@ -1525,13 +1525,13 @@ Overfull \hbox (10.62753pt too wide) in paragraph at lines 20--21
 File: ./figures//künstiliche-intilligenz-trend.png Graphic file (type png)
 <use ./figures//künstiliche-intilligenz-trend.png>
 Package pdftex.def Info: ./figures//künstiliche-intilligenz-trend.png  used on
- input line 40.
+ input line 39.
 (pdftex.def)             Requested size: 439.42685pt x 91.44228pt.
 <./figures//machine-learning-trend.png, id=330, 1053.1847pt x 249.18094pt>
 File: ./figures//machine-learning-trend.png Graphic file (type png)
 <use ./figures//machine-learning-trend.png>
 Package pdftex.def Info: ./figures//machine-learning-trend.png  used on input l
-ine 47.
+ine 46.
 (pdftex.def)             Requested size: 439.42685pt x 103.96707pt.
 
 
@@ -1540,125 +1540,125 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./figures//kano-modell.png, id=331, 1606.0pt x 1038.88126pt>
 File: ./figures//kano-modell.png Graphic file (type png)
 <use ./figures//kano-modell.png>
-Package pdftex.def Info: ./figures//kano-modell.png  used on input line 58.
+Package pdftex.def Info: ./figures//kano-modell.png  used on input line 57.
 (pdftex.def)             Requested size: 443.86305pt x 287.12784pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
-1.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
+9.
 
 (C:\Users\Florian.Weidner\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package hyperref Info: bookmark level for unknown goal defaults to 0 on input l
-ine 81.
+ine 78.
 [4 <./figures//künstiliche-intilligenz-trend.png> <./figures//machine-learning
 -trend.png>] [5 <./figures//kano-modell.png (PNG copy)>] [6]
 chapter 2.
 Package acronym Info: Label `acro:devops' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 95.
+although it is yet undefined on input line 92.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 97.
+(Font)              scaled to size 13.67995pt on input line 94.
 Package hyperref Info: bookmark level for unknown shadedefinition defaults to 0
- on input line 101.
+ on input line 98.
 
-Package xcolor Warning: Incompatible color definition on input line 103.
+Package xcolor Warning: Incompatible color definition on input line 100.
 
 
-Package xcolor Warning: Incompatible color definition on input line 103.
+Package xcolor Warning: Incompatible color definition on input line 100.
 
 [7
 
 
 ]
 Package acronym Info: Label `acro:iso' newly defined as it shall be overridden
-although it is yet undefined on input line 119.
+although it is yet undefined on input line 116.
  [8]
 Package acronym Info: Label `acro:spf' newly defined as it shall be overridden
-although it is yet undefined on input line 131.
+although it is yet undefined on input line 128.
 Package acronym Info: Label `acro:step' newly defined as it shall be overridden
 
-although it is yet undefined on input line 131.
+although it is yet undefined on input line 128.
 Package acronym Info: Label `acro:xml' newly defined as it shall be overridden
-although it is yet undefined on input line 131.
+although it is yet undefined on input line 128.
 Package acronym Info: Label `acro:cad' newly defined as it shall be overridden
-although it is yet undefined on input line 138.
+although it is yet undefined on input line 135.
  [9]
 Package acronym Info: Label `acro:ifc2x3' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 141.
+although it is yet undefined on input line 138.
 Package acronym Info: Label `acro:ifc4' newly defined as it shall be overridden
 
-although it is yet undefined on input line 141.
+although it is yet undefined on input line 138.
  [10]
 <./figures//material-single.png, id=498, 590.205pt x 120.45pt>
 File: ./figures//material-single.png Graphic file (type png)
 <use ./figures//material-single.png>
-Package pdftex.def Info: ./figures//material-single.png  used on input line 153
+Package pdftex.def Info: ./figures//material-single.png  used on input line 150
 .
 (pdftex.def)             Requested size: 443.86305pt x 90.58537pt.
 Package acronym Info: Label `acro:kg' newly defined as it shall be overridden
-although it is yet undefined on input line 161.
+although it is yet undefined on input line 158.
  [11 <./figures//material-single.png>]
 chapter 3.
 Package hyperref Info: bookmark level for unknown problem defaults to 0 on inpu
-t line 174.
+t line 171.
 [12
 
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 202.
+Package xcolor Warning: Incompatible color definition on input line 199.
 
 
-Package xcolor Warning: Incompatible color definition on input line 202.
+Package xcolor Warning: Incompatible color definition on input line 199.
 
 Package hyperref Info: bookmark level for unknown requirement defaults to 0 on 
-input line 207.
+input line 204.
 [13]
 Package acronym Info: Label `acro:ki' newly defined as it shall be overridden
-although it is yet undefined on input line 242.
+although it is yet undefined on input line 239.
  [14]
 chapter 4.
 <./figures//anwendungsfalldiagramm.png, id=584, 960.58875pt x 645.91313pt>
 File: ./figures//anwendungsfalldiagramm.png Graphic file (type png)
 <use ./figures//anwendungsfalldiagramm.png>
 Package pdftex.def Info: ./figures//anwendungsfalldiagramm.png  used on input l
-ine 254.
+ine 251.
 (pdftex.def)             Requested size: 443.86305pt x 298.46404pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package acronym Info: Label `acro:rest' newly defined as it shall be overridden
 
-although it is yet undefined on input line 261.
+although it is yet undefined on input line 258.
 Package acronym Info: Label `acro:sql' newly defined as it shall be overridden
-although it is yet undefined on input line 261.
+although it is yet undefined on input line 258.
 [15
 
 
 ]
 Package acronym Info: Label `acro:iot' newly defined as it shall be overridden
-although it is yet undefined on input line 275.
+although it is yet undefined on input line 272.
  [16 <./figures//anwendungsfalldiagramm.png>]
 <./figures//db-scheme.png, id=612, 1249.66875pt x 228.855pt>
 File: ./figures//db-scheme.png Graphic file (type png)
 <use ./figures//db-scheme.png>
-Package pdftex.def Info: ./figures//db-scheme.png  used on input line 281.
+Package pdftex.def Info: ./figures//db-scheme.png  used on input line 278.
 (pdftex.def)             Requested size: 443.86305pt x 81.28424pt.
 <./figures//structurize-process.png, id=614, 1087.81406pt x 321.45094pt>
 File: ./figures//structurize-process.png Graphic file (type png)
 <use ./figures//structurize-process.png>
 Package pdftex.def Info: ./figures//structurize-process.png  used on input line
- 293.
+ 290.
 (pdftex.def)             Requested size: 443.86305pt x 131.163pt.
  [17 <./figures//db-scheme.png> <./figures//structurize-process.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 325.
+(hyperref)                removing `\@ac' on input line 322.
 
 [18]
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1667,65 +1667,66 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 Package acronym Info: Label `acro:guid' newly defined as it shall be overridden
 
-although it is yet undefined on input line 329.
+although it is yet undefined on input line 326.
  [19]
-<./figures//classification-flow.png, id=687, 261.97874pt x 538.26094pt>
+<./figures//classification-flow.png, id=686, 261.97874pt x 538.26094pt>
 File: ./figures//classification-flow.png Graphic file (type png)
 <use ./figures//classification-flow.png>
 Package pdftex.def Info: ./figures//classification-flow.png  used on input line
- 353.
+ 350.
 (pdftex.def)             Requested size: 133.16026pt x 273.59778pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package xcolor Warning: Incompatible color definition on input line 369.
+Package xcolor Warning: Incompatible color definition on input line 366.
 
 
-Package xcolor Warning: Incompatible color definition on input line 369.
+Package xcolor Warning: Incompatible color definition on input line 366.
 
 [20] [21 <./figures//classification-flow.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 387.
+Package xcolor Warning: Incompatible color definition on input line 384.
 
 
-Package xcolor Warning: Incompatible color definition on input line 387.
+Package xcolor Warning: Incompatible color definition on input line 384.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-[22] [23]
+[22]
 
-Package xcolor Warning: Incompatible color definition on input line 415.
+Package xcolor Warning: Incompatible color definition on input line 409.
 
 
-Package xcolor Warning: Incompatible color definition on input line 415.
+Package xcolor Warning: Incompatible color definition on input line 409.
 
+[23]
 Package acronym Info: Label `acro:lbfgs' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 424.
+although it is yet undefined on input line 421.
 Package acronym Info: Label `acro:api' newly defined as it shall be overridden
-although it is yet undefined on input line 428.
-[24] [25] (tables/distribution.tex) [26]
+although it is yet undefined on input line 425.
+ [24] [25] (tables/distribution.tex) [26]
 
-Package xcolor Warning: Incompatible color definition on input line 457.
+Package xcolor Warning: Incompatible color definition on input line 454.
 
 
-Package xcolor Warning: Incompatible color definition on input line 457.
+Package xcolor Warning: Incompatible color definition on input line 454.
 
 [27]
 Package acronym Info: Label `acro:url' newly defined as it shall be overridden
-although it is yet undefined on input line 472.
+although it is yet undefined on input line 469.
  [28]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 477.
+(Font)              <5> on input line 474.
 <./figures//cbow-model.png, id=917, 848.16875pt x 497.86pt>
 File: ./figures//cbow-model.png Graphic file (type png)
 <use ./figures//cbow-model.png>
-Package pdftex.def Info: ./figures//cbow-model.png  used on input line 480.
+Package pdftex.def Info: ./figures//cbow-model.png  used on input line 478.
 (pdftex.def)             Requested size: 443.86305pt x 260.53717pt.
 
 
@@ -1737,7 +1738,7 @@ chapter 5.
 
 
 ]
-<./figures//accuracy-graph.png, id=1004, 423.08063pt x 376.40625pt>
+<./figures//accuracy-graph.png, id=1006, 423.08063pt x 376.40625pt>
 File: ./figures//accuracy-graph.png Graphic file (type png)
 <use ./figures//accuracy-graph.png>
 Package pdftex.def Info: ./figures//accuracy-graph.png  used on input line 540.
@@ -1781,8 +1782,12 @@ nput line 604.
 Package acronym Info: Label `acro:http' newly defined as it shall be overridden
 
 although it is yet undefined on input line 615.
- [39] [40]
-(listings/MaterialClassification.cs)
+ [39]
+Underfull \hbox (badness 10000) in paragraph at lines 627--629
+
+ []
+
+[40] (listings/MaterialClassification.cs)
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 632.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
@@ -1808,24 +1813,24 @@ chapter 8.
 
  (append.tex
 chapter A.
-<./figures//ifc-manager.png, id=1217, 1445.4pt x 782.925pt>
+<./figures//ifc-manager.png, id=1220, 1445.4pt x 782.925pt>
 File: ./figures//ifc-manager.png Graphic file (type png)
 <use ./figures//ifc-manager.png>
 Package pdftex.def Info: ./figures//ifc-manager.png  used on input line 7.
 (pdftex.def)             Requested size: 443.86305pt x 240.42247pt.
-<./figures//material-layer-set.png, id=1220, 891.33pt x 246.9225pt>
+<./figures//material-layer-set.png, id=1223, 891.33pt x 246.9225pt>
 File: ./figures//material-layer-set.png Graphic file (type png)
 <use ./figures//material-layer-set.png>
 Package pdftex.def Info: ./figures//material-layer-set.png  used on input line 
 14.
 (pdftex.def)             Requested size: 443.86305pt x 122.9636pt.
-<./figures//material-categories.png, id=1225, 1032.85875pt x 447.92343pt>
+<./figures//material-categories.png, id=1228, 1032.85875pt x 447.92343pt>
 File: ./figures//material-categories.png Graphic file (type png)
 <use ./figures//material-categories.png>
 Package pdftex.def Info: ./figures//material-categories.png  used on input line
  22.
 (pdftex.def)             Requested size: 650.0pt x 281.89935pt.
-<./figures//material-profile-set.png, id=1226, 891.33pt x 258.9675pt>
+<./figures//material-profile-set.png, id=1229, 891.33pt x 258.9675pt>
 File: ./figures//material-profile-set.png Graphic file (type png)
 <use ./figures//material-profile-set.png>
 Package pdftex.def Info: ./figures//material-profile-set.png  used on input lin
@@ -1839,19 +1844,19 @@ e 29.
 
  <./figures//ifc-manager.png> <./figures//material-layer-set.png>] [52 <./figur
 es//material-categories.png>]
-<./figures//material-constituent-set.png, id=1243, 891.33pt x 198.7425pt>
+<./figures//material-constituent-set.png, id=1246, 891.33pt x 198.7425pt>
 File: ./figures//material-constituent-set.png Graphic file (type png)
 <use ./figures//material-constituent-set.png>
 Package pdftex.def Info: ./figures//material-constituent-set.png  used on input
  line 37.
 (pdftex.def)             Requested size: 443.86305pt x 98.9707pt.
-<./figures//cost-structure-example.png, id=1248, 446.41782pt x 249.18094pt>
+<./figures//cost-structure-example.png, id=1251, 446.41782pt x 249.18094pt>
 File: ./figures//cost-structure-example.png Graphic file (type png)
 <use ./figures//cost-structure-example.png>
 Package pdftex.def Info: ./figures//cost-structure-example.png  used on input l
 ine 45.
 (pdftex.def)             Requested size: 443.86305pt x 247.75829pt.
-<./figures//verteilungsdiagramm.png, id=1249, 638.385pt x 693.34032pt>
+<./figures//verteilungsdiagramm.png, id=1252, 638.385pt x 693.34032pt>
 File: ./figures//verteilungsdiagramm.png Graphic file (type png)
 <use ./figures//verteilungsdiagramm.png>
 Package pdftex.def Info: ./figures//verteilungsdiagramm.png  used on input line
@@ -1859,7 +1864,7 @@ Package pdftex.def Info: ./figures//verteilungsdiagramm.png  used on input line
 (pdftex.def)             Requested size: 443.86305pt x 482.07643pt.
  [53 <./figures//material-profile-set.png> <./figures//material-constituent-set
 .png> <./figures//cost-structure-example.png>]
-<./figures//function-import.png, id=1257, 1297.84875pt x 499.8675pt>
+<./figures//function-import.png, id=1260, 1297.84875pt x 499.8675pt>
 File: ./figures//function-import.png Graphic file (type png)
 <use ./figures//function-import.png>
 Package pdftex.def Info: ./figures//function-import.png  used on input line 59.
@@ -1867,26 +1872,26 @@ Package pdftex.def Info: ./figures//function-import.png  used on input line 59.
 (pdftex.def)             Requested size: 443.86305pt x 170.95187pt.
 
 [54 <./figures//verteilungsdiagramm.png>]
-<./figures//function-takeover.png, id=1264, 1189.44376pt x 545.03625pt>
+<./figures//function-takeover.png, id=1267, 1189.44376pt x 545.03625pt>
 File: ./figures//function-takeover.png Graphic file (type png)
 <use ./figures//function-takeover.png>
 Package pdftex.def Info: ./figures//function-takeover.png  used on input line 6
 6.
 (pdftex.def)             Requested size: 443.86305pt x 203.3901pt.
-<./figures//function-rating.png, id=1267, 1052.43187pt x 494.59781pt>
+<./figures//function-rating.png, id=1270, 1052.43187pt x 494.59781pt>
 File: ./figures//function-rating.png Graphic file (type png)
 <use ./figures//function-rating.png>
 Package pdftex.def Info: ./figures//function-rating.png  used on input line 73.
 
 (pdftex.def)             Requested size: 443.86305pt x 208.59755pt.
  [55 <./figures//function-import.png> <./figures//function-takeover.png>]
-<./figures//material-classifier-gui.png, id=1274, 1108.8928pt x 406.51875pt>
+<./figures//material-classifier-gui.png, id=1277, 1108.8928pt x 406.51875pt>
 File: ./figures//material-classifier-gui.png Graphic file (type png)
 <use ./figures//material-classifier-gui.png>
 Package pdftex.def Info: ./figures//material-classifier-gui.png  used on input 
 line 80.
 (pdftex.def)             Requested size: 443.86305pt x 162.71626pt.
-<./figures//mldotnet-workflow.png, id=1275, 552.0625pt x 685.56125pt>
+<./figures//mldotnet-workflow.png, id=1278, 552.0625pt x 685.56125pt>
 File: ./figures//mldotnet-workflow.png Graphic file (type png)
 <use ./figures//mldotnet-workflow.png>
 Package pdftex.def Info: ./figures//mldotnet-workflow.png  used on input line 8
@@ -2233,11 +2238,11 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 35038 strings out of 476374
- 700854 string characters out of 5784134
+ 35036 strings out of 476374
+ 700828 string characters out of 5784134
  2139340 words of memory out of 5000000
  53905 multiletter control sequences out of 15000+600000
- 620716 words of font info for 254 fonts, out of 8000000 for 9000
+ 620587 words of font info for 253 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,106p,10603b,2402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/
@@ -2262,9 +2267,9 @@ Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.p
 fb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helv
 etic/uhvbo8a.pfb><C:/Users/Florian.Weidner/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (88 pages, 1730169 bytes).
+Output written on thesis.pdf (88 pages, 1730642 bytes).
 PDF statistics:
- 2042 PDF objects out of 2073 (max. 8388607)
+ 2045 PDF objects out of 2073 (max. 8388607)
  513 named destinations out of 1000 (max. 500000)
  74373 words of extra memory for PDF output out of 89155 (max. 10000000)
 

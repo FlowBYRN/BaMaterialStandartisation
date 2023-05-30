@@ -32,7 +32,7 @@
 \contentsline {subsubsection}{\nonumberline Preprocessing}{20}{subsubsection*.43}%
 \contentsline {subsubsection}{\nonumberline Feature Selection}{20}{subsubsection*.45}%
 \contentsline {subsubsection}{\nonumberline Feature Extraction}{21}{subsubsection*.47}%
-\contentsline {subsubsection}{\nonumberline Classification stages}{21}{subsubsection*.49}%
+\contentsline {subsubsection}{\nonumberline Classification Stages}{21}{subsubsection*.49}%
 \contentsline {subsection}{\numberline {4.2.2}Kriterien der Messbarkeit}{21}{subsection.4.2.2}%
 \contentsline {subsubsection}{\nonumberline Genauigkeit}{22}{subsubsection*.51}%
 \contentsline {subsubsection}{\nonumberline Interpretierbarkeit}{22}{subsubsection*.53}%
@@ -60,7 +60,7 @@
 \contentsline {subsection}{\numberline {6.3.1}Erstellen einer Datengrundlage}{39}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}Implementierung des Preprocessings}{40}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {6.3.3}Training des Textklassifizierungsmodells}{40}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Training des \textit {fastText} Modells}{41}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.4}Training des \textit {fastText} Modells}{42}{subsection.6.3.4}%
 \contentsline {subsection}{\numberline {6.3.5}Ausführen der Feinstrukturierung}{42}{subsection.6.3.5}%
 \contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{44}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Clean Code}{44}{section.7.1}%
