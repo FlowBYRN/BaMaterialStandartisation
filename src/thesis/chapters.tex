@@ -27,7 +27,7 @@ Technisch wird die ORCA AVA in .NET entwickelt. Ein Großteil der Anwendung best
 
 Ziel der \glqq ORCA Software GmbH\grqq{} ist es, \ac{bim} noch mehr in die ORCA AVA zu integrieren. \ac{bim} bedeutet, dass die Planung von Bauprojekten vollständig auf digitaler Basis durchgeführt wird.  Für jeden Projektbeteiligten besteht somit jederzeit Zugriff auf alle projektrelevanten Daten wie Kosten, Mengen und Zeitabläufe. Somit können Baukosten einfacher ermittelt und der Bauprozess besser überwacht werden. In \autoref{fig:bim} ist zu sehen, dass \ac{bim} ein relevanter Begriff in der Baubranche ist. Die Verwendung in der Praxis ist allerdings noch nicht weit verbreitet. \citep[vgl.][p.~20]{RolandBerger2016} Mit dem \glqq \ac{ifc} First\grqq{} Ansatz ist das langfristige Ziel der ORCA AVA, das Thema \ac{bim} noch mehr abzudecken. Aus den Daten eines 3D-Gebäudemodells soll automatisch ein Ausschreibungstext generiert werden können. Wenn ein \ac{ifc}-Bauteil demnach schon alle Informationen beinhaltet, soll damit eine Position mit Kurztext, Langtext, Menge, Preis und vordefinierten Kostengliederungen in den Programmteil Bauelemente der ORCA AVA übernommen werden können. Der erste Teil davon ist die Übernahme der Baumaterialien aus einer \ac{ifc}-Datei. Diese bietet die erste Kostengliederung für den \glqq \ac{ifc} First\grqq{} Ansatz. Die Übernahme von weiteren Daten aus dem \ac{ifc}-Modell können darauf aufgebaut werden. Aufgrund der hohen Relevanz des Themas, spricht das Ganze viele Kunden an und stellt somit ein effektives Werbemittel zum Verkauf der Software dar. 
 
-Ein weiterer Trendbegriff, der mit der Programmerweiterung abgedeckt werden soll, ist \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen\grqq{}. Das Suchinteresse der beiden Themen im Internet ist in \autoref{fig:ki-ml-trend} zu sehen. Die Werte geben das Google-Suchinteresse relativ zum höchsten Punkt im angegebenen Zeitraum an. Der Begriff \glqq Maschinelles Lernen\grqq{} hat seit Anfang 2015 ein steigendes Suchinteresse. Bei \glqq Künstliche Intelligenz\grqq{} ist das Suchinteresse von Anfang 2017 bis Ende 2021 konstant hoch. Der starke Anstieg ab November 2022 ist signifikant und korreliert wahrscheinlich mit der Veröffentlichung des Chatbots ChatGPT, womit auch Menschen außerhalb der Informatik erreicht wurden. Man erkennt, dass das Interesse über die letzten Jahre stetig ansteigt. Die Abdeckung dieser Begriffe ist seit geraumer Zeit ein Wunsch der Vertriebsseite für einen noch besseren Verkauf der Software. Die neue Programmerweiterung wäre der erste Einsatz von maschinellem Lernen im Unternehmen. Es ist also zusätzlich auch ein Pilotprojekt in der ORCA AVA Entwicklung, um sich mit Machine-Learning-Algorithmen vertraut zu machen und Erfahrungen in diesem Themengebiet zu sammeln. 
+Ein weiterer Trendbegriff, der mit der Programmerweiterung abgedeckt werden soll, ist \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen\grqq{}. Das Google-Suchinteresse der beiden Themen in Deutschland ist in \autoref{fig:ki-ml-trend} zu sehen. Die Werte geben das Suchinteresse relativ zum höchsten Punkt im angegebenen Zeitraum an. Der Begriff \glqq Maschinelles Lernen\grqq{} hat seit Anfang 2015 ein steigendes Suchinteresse. Bei \glqq Künstliche Intelligenz\grqq{} ist das Suchinteresse von Anfang 2017 bis Ende 2021 konstant hoch. Der starke Anstieg ab November 2022 ist signifikant und korreliert wahrscheinlich mit der Veröffentlichung des Chatbots ChatGPT, womit auch Menschen außerhalb der Informatik erreicht wurden. Man erkennt, dass das Interesse über die letzten Jahre stetig ansteigt. Die Abdeckung dieser Begriffe ist seit geraumer Zeit ein Wunsch der Vertriebsseite für einen noch besseren Verkauf der Software. Die neue Programmerweiterung wäre der erste Einsatz von maschinellem Lernen im Unternehmen. Es ist also zusätzlich auch ein Pilotprojekt in der ORCA AVA Entwicklung, um sich mit Machine-Learning-Algorithmen vertraut zu machen und Erfahrungen in diesem Themengebiet zu sammeln. 
 
 Durch die genannten Punkte ist die Programmerweiterung dem Kano-Modell nach als Begeisterungsfeature zuzuordnen. Die Kundenzufriedenheit steigt also exponentiell mit dem Erfüllungsgrad der Anforderung. (siehe \autoref{fig:kano-model}) Mit der Zeit wandelt sich es dann in ein Leistungsfeature und irgendwann in ein Basisfeature. \citep[vgl.][p.~3-4]{Hölzing_2008} Es besteht also die Motivation die Erweiterung möglichst exklusiv zur Verfügung zu stellen. Es eignet sich somit für die ORCA AVA \ac{ee} Edition.
 
@@ -44,11 +44,12 @@ Durch die genannten Punkte ist die Programmerweiterung dem Kano-Modell nach als 
 	\begin{subfigure}{0.99\textwidth}
 		\centering
 	\includegraphics[width=1\textwidth]{machine-learning-trend}
-		\caption{Suchinteresse: Machine Learning}
-		\label{FIG:ml-trend}
+	\source{https://trends.google.com/trends}
+	\caption{Suchinteresse: Machine Learning}
+	\label{FIG:ml-trend}
 	\end{subfigure}
 	
-	\caption[Suchinteresse von \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen\grqq{}]{Google Suchinteresse der Begriffe \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen\grqq{} von 2004 bis 2023}
+	\caption[Suchinteresse von \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen\grqq{}]{Google Suchinteresse der Begriffe \glqq Künstliche Intelligenz\grqq{} und \glqq Maschinelles Lernen\grqq{} in Deutschland von 2004 bis 2023}
 	\label{fig:ki-ml-trend}
 \end{figure}
 
@@ -89,7 +90,7 @@ In diesem Kapitel werden die Grundlagen im Bereich der fachspezifischen Themen, 
 
 \section{Projektmanagement}
 \label{c:basics:project-management}
-Bevor auf technische und fachliche Aspekte von \ac{ifc} und Kostengliederungen eingegangen wird, folgt die Einführung in das Projektmanagements mit SCRUM und \ac{devops}.
+Bevor auf technische und fachliche Aspekte von \ac{ifc} und Kostengliederungen eingegangen wird, folgt die Einführung in das Projektmanagement mit SCRUM und \ac{devops}.
 
 \subsection{Vorgehensmodell}
 \label{c:basics:project-management:procedure_model}
@@ -165,7 +166,7 @@ Im folgenden Kapitel werden die Problemstellung und Anforderungen aufgeführt, u
 \section{Problemstellung}
 \label{c:requirements:problem}
 
-Die Problemstellung entsteht aus der Ausgangssituation (\autoref{c:intro:start}) und der Motivation (\autoref{c:intro:motivation}) der Bausoftware ORCA AVA. Der \ac{bim} Prozess soll noch mehr in die Software integriert werden. Deswegen wurde sich die Programmerweiterung der Materialkostengliederung gewünscht, um den ersten Schritt zu \glqq \ac{bim} First\grqq{} zu schaffen. Die Problemstellung dieser Arbeit bezieht sich der dementsprechenden Umsetzung dieser Programmerweiterung:
+Die Problemstellung entsteht aus der Ausgangssituation (\autoref{c:intro:start}) und der Motivation (\autoref{c:intro:motivation}) der Bausoftware ORCA AVA. Der \ac{bim} Prozess soll noch mehr in die Software integriert werden. Deswegen wurde sich die Programmerweiterung der Materialkostengliederung gewünscht, um einen weiteren Schritt zu \glqq \ac{bim} First\grqq{} zu schaffen. Die Problemstellung dieser Arbeit bezieht sich der dementsprechenden Umsetzung dieser Programmerweiterung:
 
 \begin{problem}
 	\label{p:main}
@@ -329,7 +330,7 @@ Das Extrahieren der Materialien passiert clientseitig in der ORCA AVA. So muss d
 \subsection{Preprocessing der Materialien}
 \label{c:conception:architecture:preprocessing}
 Nach dem Einlesen beginnt das Preprocessing der Materialien.
-Das Preprocessing ist ein wichtiger Schritt vor einer Klassifizierung. Es hat Auswirkungen auf die Genauigkeit, Interpretierbarkeit und Robustheit des Gesamtalgorithmus aus \citep[vgl.][]{Zelaya_2019}. Materialbezeichnungen aus \ac{ifc}-Dateien können verrauscht und uneinheitlich sein, da es sich um ein Freitextfeld handelt. Die Vorverarbeitung der Daten hilft, die Daten zu säubern und auf das wesentliche reduzieren. \citep[vgl.][]{Priyanga_2016}
+Das Preprocessing ist ein wichtiger Schritt vor einer Klassifizierung. Es hat Auswirkungen auf die Genauigkeit, Interpretierbarkeit und Robustheit des Gesamtalgorithmus \citep[vgl.][]{Zelaya_2019}. Materialbezeichnungen aus \ac{ifc}-Dateien können verrauscht und uneinheitlich sein, da es sich um ein Freitextfeld handelt. Die Vorverarbeitung der Daten hilft, die Daten zu säubern und auf das wesentliche reduzieren. \citep[vgl.][]{Priyanga_2016}
 Die Vorverarbeitungsstufe besteht normalerweise aus Aufgaben wie Tokenisierung, Entfernung von Stoppwörtern, Umwandlung in Kleinbuchstaben und Stemming. \citep[vgl.][]{Uysal_2014}
 Für die Materialstrukturierung wird das Preprocessing als erster Schritt aus der Textklassifizierung extrahiert. Somit wirkt sich das Preprocessing auf beide weiteren Schritte (Textklassifizierung und Feinstrukturierung) aus. Außerdem wird das Preprocessing zusätzlich für die Zuweisung der Materialkostengliederung bei der Mengenübernahme als erster Schritt gebraucht.
 Konkret werden beim Preprocessing folgende Schritte durchgeführt. Zuerst werden alle Sonderzeichen bis auf \glqq /\grqq{} entfernt. Oft befinden sich in der Bezeichnung auch Größen- und Farbangaben, welche irrelevant für die Materialbeschaffenheit sind.
@@ -412,7 +413,7 @@ Für die Multiclass Classification gibt es in ML.NET verschiedene Vorgehensweise
 Einige Algorithmen benutzen Maximum Entropy Modeling, um ein Modell mit mehreren Klassen zu generieren. Die Entropie kann man als Maß für den Grad der Unsicherheit, beziehungsweise der Informationsdichte einer Information bezeichnen. (siehe \autoref{def:entorpy}). \cite{maximumentorpy1996} beschreiben die maximale Entropie mit folgendem Prinzip: Die maximale Entropie entsteht bei einem möglichst einheitlich und gleich-verteilten Modell, das alle bekannten Daten modelliert, allerdings nichts zusätzlich, über noch unbekannte Daten, annimmt. Ein Maximum Entropy Model ist ein stochastisches Modell zur Schätzung der bedingten Wahrscheinlichkeit, sodass der Prozess bei einem Kontext x, die Wahrscheinlichkeit y ausgibt. Unter allen Modellen ist das Modell mit der größten Entropie zu wählen, das mit den Beschränkungen der Trainingsdaten vereinbar ist. Das Modell ist somit möglichst einheitlich und unvoreingenommen \citep[vgl.][]{maximumentorpy1996}.
 
 Um ein solches Modell zu bekommen, wird eine Optimierungsalgorithmus benötigt.
-Für jede Nebenbedingung hat das Modell der maximalen Entorpie einen einstellbaren Parameter. Die optimalen Werte dieser Parameter werden durch Maximierung der maximalen Entropie der Trainingsdaten ermittelt. \citep[vgl.][]{maximumentorpy1996}
+Für jede Nebenbedingung hat das Modell der maximalen Entropie einen einstellbaren Parameter. Die optimalen Werte dieser Parameter werden durch Maximierung der maximalen Entropie der Trainingsdaten ermittelt. \citep[vgl.][]{maximumentorpy1996}
 
 Die Bibliothek \textit{ML.NET} bietet zwei verschiedene \code{Trainer} mit zwei verschiedenen Optimierungsmethoden an, welche auf dem Maximum Entropy Modell aufbauen.
 Der \code{SdcaMaximumEntropyMulticlassTrainer} basiert auf dem 
@@ -459,7 +460,7 @@ OpenAI hat verschiedene Versionen des \ac{gpt} Algorithmus. \ac{gpt} 1 wurde 201
 Die \ac{gpt}-Modelle 2 und 3 sind nicht darauf trainiert, Benutzeranweisungen zu befolgen. Dafür wurde 2022 \textit{InstructGPT} auf der Basis des \ac{gpt} 3 Modell trainiert. Mit Supervised Learning und Reinfocement Learning wurde das Modell verfeinert, um hilfreichere Ergebnisse bei Benutzeranweisungen zu bekommen. Zusätzlich wurde eine Reduktion von toxischen Antworten erzielt. \citep[vgl.][]{ouyang2022training}
 
 Das für die Material-Feinstrukturierung verwendete Modell \textit{ChatGPT} ist ein Zwillingsmodell von \textit{InstructGPT} und ist eine Feinabstimmung eines Modells der \ac{gpt}-3.5-Serie. \citep[vgl.][]{OpenAI2022-la}
-Das Modell wurde Ende 2022 veröffentlicht und ist über eine öffentliche API erreichbar und kann mithilfe des Python-Package \textit{openai} leicht genutzt werden. Als Parameter wird die \textit{temperature} mit dem Wert 0 angegeben. Das bedeutet, dass das Ergebnis möglichst deterministisch ist. \citep[vgl.][]{openai_reference} Die Nutzung kostet 0.002 \$ pro 1000 Tokens. \citep[vgl.][]{Openai_pricing} Ein Request kostet also je nach Eingabe und Antwortlänge bei 150 bis 450 Tokens circa 0,0003 \$ bis 0,0009 \$.
+Das Modell wurde Ende 2022 veröffentlicht und ist über eine öffentliche API erreichbar und kann mithilfe des Python-Package \textit{openai} leicht genutzt werden. Es wird mit der Eingabeaufforderung \textit{\glqq Strukturiere folgende Liste von Baustoffen nach ihrer fachlichen Bedeutung in eine Baumstruktur mit Aufzählngsstrichen. Teile die einzelnen Begriffe nicht auf: <Materialliste>\grqq{}} ausgeführt. Als Parameter wird die \textit{temperature} mit dem Wert 0 angegeben. Das bedeutet, dass das Ergebnis möglichst deterministisch ist. \citep[vgl.][]{openai_reference} Die Nutzung kostet 0.002 \$ pro 1000 Tokens. \citep[vgl.][]{Openai_pricing} Ein Request kostet also je nach Eingabe und Antwortlänge bei 150 bis 450 Tokens circa 0,0003 \$ bis 0,0009 \$.
 
 \subsection{fastText mit \acf{dbscan}}
 \label{c:conception:fine-structuring:dbscan}
@@ -599,7 +600,7 @@ Repositories kapseln den Datenzugriff über Interfaces. So ist die Logikimplemen
 
 \section{Python-Interop}
 \label{c:implementation:python-interop}
-Für die Implementierung einiger Komponenten wird Python als Programmiersprache benötigt. Der Webservice wird allerdings mit ASP.NET implementiert. Um die Kommunikation zwischen .NET und Python zu vereinfachen, wird das Nuget-Packet \code{pythonnet} verwendet. Die Bibliothek vereinfacht es, Python-Code aus dem C\#-Code auszuführen und verschiedene Python-Variablen auszulesen oder diesen Werte zuzuweisen. Um den Python-Interop nutzen zu können, muss eine lauffähige Python-Version in der Ausführungsumgebung installiert sein. Der Python-Interop ist in mit dem Interface \code{IKiExecuter} gekapselt und lässt so eine eventuelle C\# Ablösung der Python-Komponenten in der Zukunft einfach integrieren. In \autoref{lst:pythonnet} ist der Python-Code Aufruf für das Preprocessing zu sehen. Nachdem die Python-Engine initialisiert wird, kann der Python-Variable ein Wert zugewiesen werden. Dann wird das Skript \textit{preprocess.py} (\autoref{lst:preprocess}) über den Namen aufgerufen und danach die Python-Variable \code{material\_preprocessed}, in welcher am Ende des Python-Skripts das Ergebnis steht, wieder ausgelesen.
+Für die Implementierung einiger Komponenten wird Python als Programmiersprache benötigt. Der Webservice wird allerdings mit ASP.NET implementiert. Um die Kommunikation zwischen .NET und Python zu vereinfachen, wird das Nuget-Packet \code{pythonnet} verwendet. Die Bibliothek vereinfacht es, Python-Code aus dem C\#-Code auszuführen und verschiedene Python-Variablen auszulesen oder diesen Werte zuzuweisen. Um den Python-Interop nutzen zu können, muss eine lauffähige Python-Version in der Ausführungsumgebung installiert sein. Der Python-Interop ist in mit dem Interface \code{IKiExecuter} gekapselt und lässt so eine eventuelle C\# Ablösung der Python-Komponenten in der Zukunft einfach integrieren. In \autoref{lst:pythonnet} ist der Python-Code Aufruf für das Preprocessing zu sehen. Nachdem die Python-Engine initialisiert wird, kann der Python-Variable ein Wert zugewiesen werden. Dann wird das Skript \textit{preprocess.py} (\autoref{lst:preprocess}) über den Namen aufgerufen und danach die Python-Variable \code{material\_preprocessed}, in welcher am Ende des Python-Skripts das Ergebnis steht, wieder ausgelesen.\\
 
 \lstinputlisting[language={[Sharp]C}, caption={Python-Interopt Aufruf für das Preprocessing}, style={csharp}, label={lst:pythonnet}]{Pythonnet.cs}
 
