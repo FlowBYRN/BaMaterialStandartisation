@@ -16,69 +16,70 @@
 \contentsline {subsection}{\numberline {2.2.3}Verwendung}{9}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Möglichkeiten für die Materialangabe eines Bauteils}{10}{subsection.2.2.4}%
 \contentsline {section}{\numberline {2.3}Das Format Kostengliederung in der ORCA AVA}{11}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Problemstellung und Anforderungen}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Problemstellung}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Anforderungen}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Funktionale Anforderungen}{13}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Weitere Anforderungen}{14}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}Theoretische Konzeption}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Grundlegende Architektur und Vorgehensweise}{15}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Implementierung als Web-Service}{16}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Konzept der Materialstrukturierung}{17}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Konzept für das Auslesen von Materialien aus einer \ac {ifc} Datei}{19}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Preprocessing der Materialien}{19}{subsection.4.1.4}%
+\contentsline {chapter}{\numberline {3}Problemstellung und Anforderungen}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Problemstellung}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Anforderungen}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Funktionale Anforderungen}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Weitere Anforderungen}{15}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Theoretische Konzeption}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Grundlegende Architektur und Vorgehensweise}{16}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Implementierung als Web-Service}{17}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Konzept der Materialstrukturierung}{18}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Preprocessing der Materialien}{20}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}Algorithmen für die Textklassifizierung}{20}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Ablauf einer Textklassifizierung}{20}{subsection.4.2.1}%
-\contentsline {subsubsection}{\nonumberline Preprocessing}{20}{subsubsection*.43}%
-\contentsline {subsubsection}{\nonumberline Feature Selection}{20}{subsubsection*.45}%
-\contentsline {subsubsection}{\nonumberline Feature Extraction}{21}{subsubsection*.47}%
-\contentsline {subsubsection}{\nonumberline Classification Stages}{21}{subsubsection*.49}%
-\contentsline {subsection}{\numberline {4.2.2}Kriterien der Messbarkeit}{21}{subsection.4.2.2}%
-\contentsline {subsubsection}{\nonumberline Genauigkeit}{22}{subsubsection*.51}%
-\contentsline {subsubsection}{\nonumberline Interpretierbarkeit}{22}{subsubsection*.53}%
-\contentsline {subsubsection}{\nonumberline Robustheit}{22}{subsubsection*.55}%
-\contentsline {subsubsection}{\nonumberline Performance}{22}{subsubsection*.57}%
-\contentsline {subsection}{\numberline {4.2.3}ML.NET Multiclass Classification}{23}{subsection.4.2.3}%
-\contentsline {subsubsection}{\nonumberline Maximum Entropy Model}{23}{subsubsection*.59}%
-\contentsline {subsubsection}{\nonumberline TextclassifcationTrainer}{24}{subsubsection*.62}%
-\contentsline {subsubsection}{\nonumberline One Versus All Ansatz}{25}{subsubsection*.65}%
-\contentsline {section}{\numberline {4.3}Möglichkeiten für die Feinstrukturierung}{25}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Spezifikation und Kriterien der Messbarkeit}{25}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.2.1}Ablauf einer Textklassifizierung}{21}{subsection.4.2.1}%
+\contentsline {subsubsection}{\nonumberline Preprocessing}{21}{subsubsection*.42}%
+\contentsline {subsubsection}{\nonumberline Feature Selection}{21}{subsubsection*.44}%
+\contentsline {subsubsection}{\nonumberline Feature Extraction}{22}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline Classification Stages}{22}{subsubsection*.48}%
+\contentsline {subsection}{\numberline {4.2.2}Kriterien der Messbarkeit}{22}{subsection.4.2.2}%
+\contentsline {subsubsection}{\nonumberline Genauigkeit}{22}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline Interpretierbarkeit}{22}{subsubsection*.52}%
+\contentsline {subsubsection}{\nonumberline Robustheit}{23}{subsubsection*.54}%
+\contentsline {subsubsection}{\nonumberline Performance}{23}{subsubsection*.56}%
+\contentsline {subsubsection}{\nonumberline Spezifische Kriterien}{23}{subsubsection*.58}%
+\contentsline {subsection}{\numberline {4.2.3}ML.NET Multiclass Classification}{24}{subsection.4.2.3}%
+\contentsline {subsubsection}{\nonumberline Maximum Entropy Model}{24}{subsubsection*.60}%
+\contentsline {subsubsection}{\nonumberline TextclassifcationTrainer}{25}{subsubsection*.63}%
+\contentsline {subsubsection}{\nonumberline One Versus All Ansatz}{25}{subsubsection*.66}%
+\contentsline {section}{\numberline {4.3}Möglichkeiten für die Feinstrukturierung}{26}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Spezifikation und Kriterien der Messbarkeit}{26}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}\acf {gpt} Modell von OpenAI}{27}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}fastText mit \acf {dbscan}}{28}{subsection.4.3.3}%
-\contentsline {chapter}{\numberline {5}Gegenüberstellung der möglichen Konzepte}{32}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Vergleich der Textklassifizierung}{32}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Auswertung}{32}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Auswahl eines Algorithmus}{33}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Vergleich der Feinstrukturierung}{34}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Auswertung}{34}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Auswahl eines Algorithmus}{36}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Praktische Umsetzung}{37}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Implementierung des ASP.NET Services}{37}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Python-Interop}{38}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Implementierung der Materialstrukturierung}{39}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Erstellen einer Datengrundlage}{39}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Implementierung des Preprocessings}{40}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Training des Textklassifizierungsmodells}{40}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Training des \textit {fastText} Modells}{42}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}Ausführen der Feinstrukturierung}{42}{subsection.6.3.5}%
-\contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{44}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Clean Code}{44}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Technische Hilfsmittel}{44}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Tests und Abnahme}{45}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Abschluss}{47}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Fazit}{47}{section.8.1}%
-\contentsline {subsubsection}{\nonumberline Zusammenfassung der Ergebnisse}{47}{subsubsection*.75}%
-\contentsline {subsubsection}{\nonumberline Zielerreichung}{48}{subsubsection*.77}%
-\contentsline {subsubsection}{\nonumberline Textklassifizierung}{48}{subsubsection*.79}%
-\contentsline {subsubsection}{\nonumberline Feinstrukturierung}{48}{subsubsection*.81}%
-\contentsline {subsubsection}{\nonumberline Beschränkungen der Arbeit}{48}{subsubsection*.83}%
-\contentsline {section}{\numberline {8.2}Integration in die ORCA AVA}{49}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Ausblick}{49}{section.8.3}%
-\contentsline {chapter}{\numberline {A}Anhang}{51}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{69}{appendix.B}%
-\contentsline {chapter}{C ~~Definitionsverzeichnis}{71}{section*.125}%
-\contentsline {chapter}{D ~~Quellcodeverzeichnis}{72}{section*.127}%
-\contentsline {chapter}{E ~~Tabellenverzeichnis}{73}{section*.129}%
-\contentsline {chapter}{Literaturverzeichnis}{75}{section*.131}%
+\contentsline {subsection}{\numberline {4.3.3}fastText mit \acf {dbscan}}{29}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {5}Gegenüberstellung der möglichen Konzepte}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Vergleich der Textklassifizierung}{33}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Auswertung}{33}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Auswahl eines Algorithmus}{34}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Vergleich der Feinstrukturierung}{35}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Auswertung}{35}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Auswahl eines Algorithmus}{37}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Praktische Umsetzung}{38}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Implementierung des ASP.NET Services}{38}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Python-Interop}{39}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Implementierung der Materialstrukturierung}{40}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Erstellen einer Datengrundlage}{40}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Auslesen von Materialien aus einer \ac {ifc} Datei}{41}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Implementierung des Preprocessings}{41}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Training des Textklassifizierungsmodells}{42}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Training des \textit {fastText} Modells}{43}{subsection.6.3.5}%
+\contentsline {subsection}{\numberline {6.3.6}Ausführen der Feinstrukturierung}{44}{subsection.6.3.6}%
+\contentsline {chapter}{\numberline {7}Maßnahmen zur Qualitätssicherung}{45}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Clean Code}{45}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Technische Hilfsmittel}{45}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Tests und Abnahme}{46}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Abschluss}{48}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Fazit}{48}{section.8.1}%
+\contentsline {subsubsection}{\nonumberline Zusammenfassung der Ergebnisse}{48}{subsubsection*.77}%
+\contentsline {subsubsection}{\nonumberline Zielerreichung}{49}{subsubsection*.79}%
+\contentsline {subsubsection}{\nonumberline Textklassifizierung}{49}{subsubsection*.81}%
+\contentsline {subsubsection}{\nonumberline Feinstrukturierung}{49}{subsubsection*.83}%
+\contentsline {subsubsection}{\nonumberline Beschränkungen der Arbeit}{49}{subsubsection*.85}%
+\contentsline {section}{\numberline {8.2}Integration in die ORCA AVA}{50}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Ausblick}{50}{section.8.3}%
+\contentsline {chapter}{\numberline {A}Anhang}{52}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{70}{appendix.B}%
+\contentsline {chapter}{C ~~Definitionsverzeichnis}{72}{section*.127}%
+\contentsline {chapter}{D ~~Quellcodeverzeichnis}{73}{section*.129}%
+\contentsline {chapter}{E ~~Tabellenverzeichnis}{74}{section*.131}%
+\contentsline {chapter}{Literaturverzeichnis}{76}{section*.133}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
